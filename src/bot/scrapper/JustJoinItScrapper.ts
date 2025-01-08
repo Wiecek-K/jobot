@@ -15,7 +15,7 @@ export class JustJoinItScrapper extends PageScrapper {
     this.options = options
   }
 
-  private async scrapeJobDetails(link: string): Promise<any | null> {
+  private async scrapeJobDetails(link: string): Promise<JobOffer | null> {
     const parseSalary = (
       salaryString: string
     ): {
@@ -55,6 +55,7 @@ export class JustJoinItScrapper extends PageScrapper {
           company: await ScraperUtils.scrapeField(page, 'h2'),
           offerURL: fullLink,
           ...parseSalary(salary),
+          technologies: await ScraperUtils.scrapeMultipleFields(page, 'h4'),
         }
 
         return offer
@@ -104,7 +105,7 @@ export class JustJoinItScrapper extends PageScrapper {
 
       return offers
         .filter(
-          (result): result is PromiseFulfilledResult<any> =>
+          (result): result is PromiseFulfilledResult<JobOffer> =>
             result.status === 'fulfilled' && result.value !== null
         )
         .map((result) => result.value)
