@@ -1,194 +1,171 @@
 import puppeteer, { Browser, Page } from 'puppeteer'
-
 export interface ScrapperOptions {
   searchValue: string
   maxRecords: number
-  viewPort?: { width: number; height: number }
 }
 
-export interface JobOfferScrappedData {
-  title: string
-  description: string
-  company: string
-  salary: string
-  offerURL: string
-  technologies: string[]
-  addedAt: string
-}
+class Semaphore {
+  private counter: number
+  private waiting: Array<(value: void) => void> = []
 
-interface JobOfferSelectors {
-  title: string
-  description: string
-  company: string
-  salary?: string
-  technologies?: string
-  addedAt?: string
-}
-
-export class Scrapper {
-  private browser!: Browser
-  private page!: Page
-  private options: ScrapperOptions
-
-  constructor(options: ScrapperOptions) {
-    this.options = options
+  constructor(private maxCount: number) {
+    this.counter = maxCount
   }
 
-  // Initialize Puppeteer
+  public async acquire(): Promise<void> {
+    if (this.counter > 0) {
+      this.counter--
+      return Promise.resolve()
+    }
+    return new Promise<void>((resolve) => this.waiting.push(resolve))
+  }
+
+  public release(): void {
+    this.counter++
+    if (this.waiting.length > 0 && this.counter > 0) {
+      this.counter--
+      const next = this.waiting.shift()
+      if (next) {
+        next()
+      }
+    }
+  }
+
+  public getAvailableSlots(): number {
+    return this.counter
+  }
+
+  public getWaitingCount(): number {
+    return this.waiting.length
+  }
+}
+
+export class BrowserManager {
+  private browser!: Browser
+  private pages: Set<Page> = new Set()
+  private semaphore: Semaphore
+
+  constructor(maxConcurrentPages: number = 5) {
+    this.semaphore = new Semaphore(maxConcurrentPages)
+  }
+
   public async init(): Promise<void> {
     this.browser = await puppeteer.launch({
-      headless: true, // Run in headless mode
+      headless: true,
       args: ['--no-sandbox', '--disable-gpu', '--mute-audio'],
-    })
-    this.page = await this.browser.newPage()
-    this.page.setUserAgent(
-      'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36'
-    )
-    this.page.setViewport({
-      width: this.options.viewPort.width || 1280,
-      height: this.options.viewPort.height || 800,
     })
     console.log('Browser initialized!')
   }
 
-  // Navigate to a URL
-  public async navigateTo(
-    url: string,
-    selectorWaitFor?: string
-  ): Promise<void> {
-    if (!this.page)
-      throw new Error('Scrapper is not initialized. Call init() first.')
-
-    if (selectorWaitFor) {
-      await this.page.goto(url)
-      await this.page.waitForSelector(selectorWaitFor, {
-        timeout: 30000,
-      })
-    } else {
-      await this.page.goto(url, { waitUntil: 'domcontentloaded' })
+  public async openPage(viewPort: {
+    width: number
+    height: number
+  }): Promise<Page> {
+    if (!this.browser) {
+      throw new Error('Browser is not initialized. Call init() first.')
     }
 
-    console.log(`Navigated to ${url}`)
-  }
-
-  // Perform a search using the searchValue
-  public async performSearch(selector: string): Promise<void> {
-    if (!this.page)
-      throw new Error('Scrapper is not initialized. Call init() first.')
-
-    const inputExists = await this.page.$(selector)
-    if (!inputExists) {
-      console.error(`Input with selector ${selector} not found!`)
-      await this.browser.close()
-      return
-    }
-
-    await this.page.type(selector, this.options.searchValue) // Type the search value
-    await this.page.keyboard.press('Enter') // Press Enter
-    await this.page.waitForNavigation({ waitUntil: 'domcontentloaded' })
-    console.log(`Search performed for: ${this.options.searchValue}`)
-  }
-
-  // Scrape data from the page
-  public async scrapeSingleOfferData(
-    link: string,
-    selectors: JobOfferSelectors
-  ): Promise<JobOfferScrappedData> {
-    if (!this.page)
-      throw new Error('Scrapper is not initialized. Call init() first.')
+    await this.semaphore.acquire()
 
     try {
-      await this.page.goto(link, { waitUntil: 'domcontentloaded' }) // Function to safely scrape data
-      const scrapeField = async (selector?: string): Promise<string> => {
-        if (!selector) return '' // If no selector is provided, return an empty string
-        try {
-          return await this.page.$eval(
-            selector,
-            (el) => el.textContent?.trim() || ''
-          )
-        } catch {
-          return '' // Return an empty string if selector is not found
-        }
-      }
+      const page = await this.browser.newPage()
+      await page.setViewport(viewPort)
+      await page.setUserAgent(
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36'
+      )
 
-      const scrapeMultipleFields = async (
-        selector?: string
-      ): Promise<string[]> => {
-        if (!selector) return [] // If no selector is provided, return an empty array
-        try {
-          return await this.page.$$eval(selector, (elements) =>
-            elements.map((el) => el.textContent?.trim() || '').filter(Boolean)
-          )
-        } catch {
-          return [] // Return an empty array if selector is not found
-        }
-      }
+      this.pages.add(page)
+      console.log(
+        `Page opened. Active pages: ${this.pages.size}. Available slots: ${this.semaphore.getAvailableSlots()}`
+      )
 
-      // Scrape fields based on selectors
-      const title = await scrapeField(selectors.title)
-      const description = await scrapeField(selectors.description)
-      const company = await scrapeField(selectors.company)
-      const salary = await scrapeField(selectors.salary)
-      const technologies = await scrapeMultipleFields(selectors.technologies)
-      const addedAt = await scrapeField(selectors.addedAt)
-
-      return {
-        title,
-        description,
-        company,
-        salary,
-        offerURL: link,
-        technologies,
-        addedAt,
-      }
+      return page
     } catch (error) {
-      console.error(`Error scraping ${link}:`, error)
-      return null
+      this.semaphore.release()
+      throw error
     }
   }
 
-  public async scrapeOffersLinks(recordSelector: string): Promise<string[]> {
-    if (!this.page)
-      throw new Error('Scrapper is not initialized. Call init() first.')
-    await this.page.waitForSelector(recordSelector, {
-      timeout: 30000,
-    })
-    const records = await this.page.$$eval(
-      recordSelector,
-      (elements, maxRecords) => {
-        return elements
-          .slice(0, maxRecords)
-          .map((el) => el.getAttribute('href') || '')
-      },
-      this.options.maxRecords
-    )
-
-    console.log(`Scraped ${records.length} records.`)
-    return records
+  public async closePage(page: Page): Promise<void> {
+    if (this.pages.has(page)) {
+      await page.close()
+      this.pages.delete(page)
+      this.semaphore.release()
+      console.log(
+        `Page closed. Active pages: ${this.pages.size}. Available slots: ${this.semaphore.getAvailableSlots()}`
+      )
+    } else {
+      console.warn('Page not managed by BrowserManager.')
+    }
   }
 
-  public async scrapePageContent(): Promise<string> {
-    if (!this.page)
-      throw new Error('Scrapper is not initialized. Call init() first.')
-
-    const content = await this.page.content()
-    console.log('Page content scraped!')
-    return content
-  }
-
-  public async createPdfScreenshot(): Promise<void> {
-    if (!this.page)
-      throw new Error('Scrapper is not initialized. Call init() first.')
-
-    await this.page.pdf({ path: 'page.pdf', format: 'A4' })
-    console.log('PDF generated!')
-  }
-
-  // Close the browser
   public async close(): Promise<void> {
+    const closePromises = Array.from(this.pages).map((page) => page.close())
+    await Promise.all(closePromises)
+    this.pages.clear()
+
     if (this.browser) {
       await this.browser.close()
-      console.log('Browser closed!')
+      console.log('Browser and all pages closed!')
+    }
+  }
+
+  public getActivePages(): number {
+    return this.pages.size
+  }
+
+  public getWaitingPages(): number {
+    return this.semaphore.getWaitingCount()
+  }
+}
+
+export class ScraperUtils {
+  public static async scrapeField(
+    page: Page,
+    selector?: string
+  ): Promise<string> {
+    if (!selector) return ''
+    try {
+      return await page.$eval(selector, (el) => el.textContent?.trim() || '')
+    } catch {
+      return ''
+    }
+  }
+
+  public static async scrapeMultipleFields(
+    page: Page,
+    selector?: string
+  ): Promise<string[]> {
+    if (!selector) return []
+    try {
+      return await page.$$eval(selector, (elements) =>
+        elements.map((el) => el.textContent?.trim() || '').filter(Boolean)
+      )
+    } catch {
+      return []
+    }
+  }
+}
+
+export abstract class PageScrapper {
+  protected browserManager: BrowserManager
+
+  constructor(browserManager: BrowserManager) {
+    this.browserManager = browserManager
+  }
+
+  public abstract scrape(): Promise<any[]>
+
+  // Helper to manage a single page lifecycle
+  protected async withPage<T>(
+    viewPort: { width: number; height: number },
+    callback: (page: Page) => Promise<T>
+  ): Promise<T> {
+    const page = await this.browserManager.openPage(viewPort)
+    try {
+      return await callback(page)
+    } finally {
+      await this.browserManager.closePage(page)
     }
   }
 }
