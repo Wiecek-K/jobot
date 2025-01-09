@@ -1,4 +1,5 @@
 import puppeteer, { Browser, Page } from 'puppeteer'
+import { JobOffer } from '../../types/types'
 export interface ScrapperOptions {
   searchValue: string
   maxRecords: number
@@ -145,7 +146,7 @@ export class ScraperUtils {
   }
 }
 
-export abstract class PageScrapper<R> {
+export abstract class AbstractPageScrapper<R> {
   protected browserManager: BrowserManager
 
   constructor(browserManager: BrowserManager) {
@@ -165,5 +166,62 @@ export abstract class PageScrapper<R> {
     } finally {
       await this.browserManager.closePage(page)
     }
+  }
+}
+
+export class JobOfferBuilder {
+  private jobOffer: Partial<JobOffer> = {}
+
+  setTitle(title: string): this {
+    this.jobOffer.title = title
+    return this
+  }
+
+  setDescription(description: string): this {
+    this.jobOffer.description = description
+    return this
+  }
+
+  setCompany(company: string): this {
+    this.jobOffer.company = company
+    return this
+  }
+
+  setSalary(salaryFrom: number, salaryTo: number, currency: string): this {
+    this.jobOffer.salaryFrom = salaryFrom
+    this.jobOffer.salaryTo = salaryTo
+    this.jobOffer.currency = currency
+    return this
+  }
+
+  setOfferURL(url: string): this {
+    this.jobOffer.offerURL = url
+    return this
+  }
+
+  setTechnologies(technologies: string[]): this {
+    this.jobOffer.technologies = technologies
+    return this
+  }
+
+  setAddedAt(date: string): this {
+    this.jobOffer.addedAt = date
+    return this
+  }
+
+  build(): JobOffer {
+    const requiredFields = [
+      'title',
+      'description',
+      'company',
+      'offerURL',
+      'addedAt',
+    ]
+    for (const field of requiredFields) {
+      if (!this.jobOffer[field as keyof JobOffer]) {
+        throw new Error(`Missing required field: ${field}`)
+      }
+    }
+    return this.jobOffer as JobOffer
   }
 }

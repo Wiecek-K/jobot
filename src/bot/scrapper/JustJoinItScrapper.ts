@@ -1,12 +1,13 @@
 import { JobOffer } from '../../types/types'
 import {
   BrowserManager,
-  PageScrapper,
+  AbstractPageScrapper,
   ScraperUtils,
   ScrapperOptions,
+  JobOfferBuilder,
 } from './scrapper'
 
-export class JustJoinItScrapper extends PageScrapper<JobOffer> {
+export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
   private readonly baseUrl = 'https://justjoin.it/'
   private options: ScrapperOptions
 
@@ -51,6 +52,7 @@ export class JustJoinItScrapper extends PageScrapper<JobOffer> {
         await page.goto(fullLink, { waitUntil: 'domcontentloaded' })
 
         const salary = await ScraperUtils.scrapeField(page, '.css-1pavfqb')
+
         const offer = {
           title: await ScraperUtils.scrapeField(page, 'h1'),
           description: await ScraperUtils.scrapeField(page, '.css-tbycqp'),
@@ -114,7 +116,21 @@ export class JustJoinItScrapper extends PageScrapper<JobOffer> {
       const offers = await Promise.allSettled(
         jobLinksWithAddedAt.map(async ({ link, addedAt }) => {
           const jobDetails = await this.scrapeJobDetails(link)
-          return jobDetails ? { ...jobDetails, addedAt } : null
+
+          if (!jobDetails) return null
+          return new JobOfferBuilder()
+            .setTitle(jobDetails.title)
+            .setDescription(jobDetails.description)
+            .setCompany(jobDetails.company)
+            .setOfferURL(jobDetails.offerURL)
+            .setSalary(
+              jobDetails.salaryFrom,
+              jobDetails.salaryTo,
+              jobDetails.currency
+            )
+            .setTechnologies(jobDetails.technologies)
+            .setAddedAt(addedAt)
+            .build()
         })
       )
 
