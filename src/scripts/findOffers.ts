@@ -1,10 +1,9 @@
 import { JustJoinItScrapper } from '../bot/scrapper/JustJoinItScrapper'
 import { BrowserManager, ScrapperOptions } from '../bot/scrapper/scrapper'
 
-const findOffers = () => {
+const findOffers = async () => {
   console.log('Scrapping...')
 
-  // Example usage
   const runScraper = async () => {
     const browserManager = new BrowserManager(10)
     const scrapperOptions: ScrapperOptions = {

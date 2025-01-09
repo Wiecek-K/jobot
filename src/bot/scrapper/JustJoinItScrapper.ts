@@ -6,7 +6,7 @@ import {
   ScrapperOptions,
 } from './scrapper'
 
-export class JustJoinItScrapper extends PageScrapper {
+export class JustJoinItScrapper extends PageScrapper<JobOffer> {
   private readonly baseUrl = 'https://justjoin.it/'
   private options: ScrapperOptions
 
@@ -100,7 +100,9 @@ export class JustJoinItScrapper extends PageScrapper {
       )
 
       const offers = await Promise.allSettled(
-        jobLinks.map((link) => this.scrapeJobDetails(link))
+        jobLinks
+          .filter((link) => link && link.trim() !== '')
+          .map((link) => this.scrapeJobDetails(link))
       )
 
       return offers

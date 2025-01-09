@@ -8,7 +8,7 @@ class Semaphore {
   private counter: number
   private waiting: Array<(value: void) => void> = []
 
-  constructor(private maxCount: number) {
+  constructor(maxCount: number) {
     this.counter = maxCount
   }
 
@@ -122,9 +122,8 @@ export class BrowserManager {
 export class ScraperUtils {
   public static async scrapeField(
     page: Page,
-    selector?: string
+    selector: string
   ): Promise<string> {
-    if (!selector) return ''
     try {
       return await page.$eval(selector, (el) => el.textContent?.trim() || '')
     } catch {
@@ -134,9 +133,8 @@ export class ScraperUtils {
 
   public static async scrapeMultipleFields(
     page: Page,
-    selector?: string
+    selector: string
   ): Promise<string[]> {
-    if (!selector) return []
     try {
       return await page.$$eval(selector, (elements) =>
         elements.map((el) => el.textContent?.trim() || '').filter(Boolean)
@@ -147,14 +145,14 @@ export class ScraperUtils {
   }
 }
 
-export abstract class PageScrapper {
+export abstract class PageScrapper<R> {
   protected browserManager: BrowserManager
 
   constructor(browserManager: BrowserManager) {
     this.browserManager = browserManager
   }
 
-  public abstract scrape(): Promise<any[]>
+  public abstract scrape(): Promise<R[]>
 
   // Helper to manage a single page lifecycle
   protected async withPage<T>(
