@@ -15,7 +15,9 @@ export class JustJoinItScrapper extends PageScrapper<JobOffer> {
     this.options = options
   }
 
-  private async scrapeJobDetails(link: string): Promise<JobOffer | null> {
+  private async scrapeJobDetails(
+    link: string
+  ): Promise<Omit<JobOffer, 'addedAt'> | null> {
     const parseSalary = (
       salaryString: string
     ): {
@@ -68,7 +70,7 @@ export class JustJoinItScrapper extends PageScrapper<JobOffer> {
 
   public async scrape(): Promise<JobOffer[]> {
     try {
-      const jobLinks = await this.withPage(
+      const jobLinksWithAddedAt = await this.withPage(
         { width: 1280, height: 800 },
         async (page) => {
           try {
@@ -82,16 +84,26 @@ export class JustJoinItScrapper extends PageScrapper<JobOffer> {
             await page.waitForNavigation({ waitUntil: 'domcontentloaded' })
             await page.waitForSelector(jobLinkSelector)
 
-            const links = await page.$$eval(
+            const linksWithAddedAt = await page.$$eval(
               jobLinkSelector,
               (elements, maxRecords) =>
                 elements
-                  .slice(0, maxRecords)
-                  .map((el) => el.getAttribute('href') || '')
-                  .filter(Boolean),
+                  .map((el) => {
+                    const link = el.getAttribute('href') || ''
+                    if (!link) return null
+
+                    const parent = el.parentElement
+                    const addedAt =
+                      parent
+                        ?.querySelector('.css-jikuwi')
+                        ?.textContent.trim() || ''
+                    return { link, addedAt }
+                  })
+                  .filter(Boolean)
+                  .slice(0, maxRecords),
               this.options.maxRecords
             )
-            return links
+            return linksWithAddedAt
           } catch (error) {
             console.error('Failed to get job links:', error)
             return []
@@ -100,9 +112,10 @@ export class JustJoinItScrapper extends PageScrapper<JobOffer> {
       )
 
       const offers = await Promise.allSettled(
-        jobLinks
-          .filter((link) => link && link.trim() !== '')
-          .map((link) => this.scrapeJobDetails(link))
+        jobLinksWithAddedAt.map(async ({ link, addedAt }) => {
+          const jobDetails = await this.scrapeJobDetails(link)
+          return jobDetails ? { ...jobDetails, addedAt } : null
+        })
       )
 
       return offers

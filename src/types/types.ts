@@ -7,5 +7,5 @@ export interface JobOffer {
   currency: string
   offerURL: string
   technologies: string[]
-  addedAt?: string
+  addedAt: string
 }
