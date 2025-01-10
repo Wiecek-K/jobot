@@ -16,13 +16,19 @@ const args = yargs(hideBin(process.argv))
     describe: 'Limit of records to scrape',
     default: 10,
   })
+  .option('maxTabs', {
+    alias: 't',
+    type: 'number',
+    describe: 'Limit of tabs open at one time',
+    default: 20,
+  })
   .help().argv
 
 const findOffers = async () => {
   console.log('Scrapping...')
 
   const runScraper = async () => {
-    const browserManager = new BrowserManager(10)
+    const browserManager = new BrowserManager(args.maxTabs)
 
     const scrapper = new JustJoinItScrapper(browserManager, {
       searchValue: args.search,
