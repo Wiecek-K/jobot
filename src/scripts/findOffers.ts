@@ -1,17 +1,33 @@
 import { JustJoinItScrapper } from '../bot/scrapper/JustJoinItScrapper'
 import { BrowserManager, ScrapperOptions } from '../bot/scrapper/scrapper'
+import yargs from 'yargs'
+import { hideBin } from 'yargs/helpers'
+
+const args = yargs(hideBin(process.argv))
+  .option('search', {
+    alias: 's',
+    type: 'string',
+    describe: 'Search value for scraping',
+    demandOption: true,
+  })
+  .option('limit', {
+    alias: 'l',
+    type: 'number',
+    describe: 'Limit of records to scrape',
+    default: 10,
+  })
+  .help().argv
 
 const findOffers = async () => {
   console.log('Scrapping...')
 
   const runScraper = async () => {
     const browserManager = new BrowserManager(10)
-    const scrapperOptions: ScrapperOptions = {
-      searchValue: 'Java',
-      maxRecords: 2,
-    }
 
-    const scrapper = new JustJoinItScrapper(browserManager, scrapperOptions)
+    const scrapper = new JustJoinItScrapper(browserManager, {
+      searchValue: args.search,
+      maxRecords: args.limit,
+    })
 
     try {
       await browserManager.init()
