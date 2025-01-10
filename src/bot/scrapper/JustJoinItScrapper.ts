@@ -77,28 +77,27 @@ export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
         async (page) => {
           try {
             const searchSelector = 'input[placeholder="Search"]'
-            const jobLinkSelector = '.offer_list_offer_link'
+            const jobContainerSelector = 'div[data-index]'
+
             await page.goto(this.baseUrl)
-            await page.waitForSelector(searchSelector)
+            await page.waitForSelector(searchSelector, { timeout: 60000 })
 
             await page.type(searchSelector, this.options.searchValue)
             await page.keyboard.press('Enter')
             await page.waitForNavigation({ waitUntil: 'domcontentloaded' })
-            await page.waitForSelector(jobLinkSelector)
+            await page.waitForSelector(jobContainerSelector, { timeout: 60000 })
 
             const linksWithAddedAt = await page.$$eval(
-              jobLinkSelector,
+              jobContainerSelector,
               (elements, maxRecords) =>
                 elements
                   .map((el) => {
-                    const link = el.getAttribute('href') || ''
+                    const link =
+                      el.querySelector('a')?.getAttribute('href') || ''
                     if (!link) return null
 
-                    const parent = el.parentElement
                     const addedAt =
-                      parent
-                        ?.querySelector('.css-jikuwi')
-                        ?.textContent.trim() || ''
+                      el.querySelector('.css-jikuwi')?.textContent.trim() || ''
                     return { link, addedAt }
                   })
                   .filter(Boolean)
