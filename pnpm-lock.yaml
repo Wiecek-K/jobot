@@ -11,6 +11,9 @@ importers:
       puppeteer:
         specifier: ^23.11.1
         version: 23.11.1(typescript@5.7.2)
+      yargs:
+        specifier: ^17.7.2
+        version: 17.7.2
     devDependencies:
       '@types/node':
         specifier: ^18.15.7
