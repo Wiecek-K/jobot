@@ -1,7 +1,10 @@
 import { JustJoinItScrapper } from '../bot/scrapper/JustJoinItScrapper'
-import { BrowserManager, ScrapperOptions } from '../bot/scrapper/scrapper'
+import { BrowserManager } from '../bot/scrapper/scrapper'
 import yargs from 'yargs'
 import { hideBin } from 'yargs/helpers'
+import { JobOffer } from '../types/types'
+import path from 'path'
+import fs from 'fs'
 
 const args = yargs(hideBin(process.argv))
   .option('search', {
@@ -38,8 +41,8 @@ const findOffers = async () => {
     try {
       await browserManager.init()
       const offers = await scrapper.scrape()
-      console.log('Successfully scraped offers:', offers)
-      console.log(`Total offers scraped: ${offers.length}`)
+
+      return offers
     } catch (error) {
       console.error('Fatal error during scraping:', error)
     } finally {
@@ -47,7 +50,22 @@ const findOffers = async () => {
     }
   }
 
-  runScraper()
+  const saveOffersToJson = async (data: JobOffer[]): Promise<void> => {
+    try {
+      const outputPath = path.resolve(
+        __dirname,
+        '../../scrap-results/results.json'
+      )
+      fs.mkdirSync(path.dirname(outputPath), { recursive: true })
+      fs.writeFileSync(outputPath, JSON.stringify(data, null, 2), 'utf-8')
+      console.log(`Results saved to ${outputPath}`)
+    } catch (error) {
+      console.error('Failed to save results to file:', error)
+    }
+  }
+
+  const offersData = await runScraper()
+  saveOffersToJson(offersData)
 }
 
 findOffers()
