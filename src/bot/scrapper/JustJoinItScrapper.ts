@@ -16,6 +16,83 @@ export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
     this.options = options
   }
 
+  private async scrollAndCollect(): Promise<
+    { link: string; addedAt: string }[]
+  > {
+    const listElementSelector = 'div[data-test-id="virtuoso-item-list"]'
+    const offerElementSelector = 'div[data-index]'
+    const searchSelector = 'input[placeholder="Search"]'
+    const maxRecords = this.options.maxRecords
+    const collectedData: { link: string; addedAt: string }[] = []
+    const collectedIndices = new Set<number>()
+
+    try {
+      await this.withPage({ width: 1280, height: 800 }, async (page) => {
+        await page.goto(this.baseUrl)
+        await page.waitForSelector(searchSelector, { timeout: 60000 })
+
+        await page.type(searchSelector, this.options.searchValue)
+        await page.keyboard.press('Enter')
+        await page.waitForNavigation({ waitUntil: 'domcontentloaded' })
+        await page.waitForSelector(offerElementSelector, { timeout: 60000 })
+
+        while (collectedData.length < maxRecords) {
+          const newItems = await page.evaluate((offerSelector) => {
+            const elements = Array.from(
+              document.querySelectorAll(offerSelector)
+            )
+            return elements.map((el) => {
+              const dataIndex = parseInt(
+                el.getAttribute('data-index') || '-1',
+                10
+              )
+              const link = el.querySelector('a')?.getAttribute('href') || ''
+              const addedAt =
+                el.querySelector('.css-jikuwi')?.textContent?.trim() || ''
+              return { dataIndex, link, addedAt }
+            })
+          }, offerElementSelector)
+
+          for (const item of newItems) {
+            if (
+              item.dataIndex !== -1 &&
+              !collectedIndices.has(item.dataIndex)
+            ) {
+              collectedIndices.add(item.dataIndex)
+              collectedData.push({ link: item.link, addedAt: item.addedAt })
+            }
+          }
+
+          if (collectedData.length >= maxRecords) break
+
+          // Checking if further scrolling is possible (padding-bottom != 0)
+          const canScroll = await page.evaluate((listSelector) => {
+            const listElement = document.querySelector(listSelector)
+            if (!listElement) return false
+            const paddingBottom =
+              window.getComputedStyle(listElement).paddingBottom
+            return parseInt(paddingBottom, 10) !== 0
+          }, listElementSelector)
+
+          if (!canScroll) {
+            console.log('Reached the end of the list. Stopping scroll.')
+            break
+          }
+
+          await page.mouse.wheel({
+            deltaY: 1000,
+          })
+
+          await new Promise((resolve) => setTimeout(resolve, 3000))
+        }
+      })
+    } catch (error) {
+      console.error('Error during scroll and collect:', error)
+    }
+
+    return collectedData.slice(0, maxRecords)
+  }
+
   private async scrapeJobDetails(
     link: string
   ): Promise<Omit<JobOffer, 'addedAt'> | null> {
@@ -72,45 +149,7 @@ export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
 
   public async scrape(): Promise<JobOffer[]> {
     try {
-      const jobLinksWithAddedAt = await this.withPage(
-        { width: 1280, height: 800 },
-        async (page) => {
-          try {
-            const searchSelector = 'input[placeholder="Search"]'
-            const jobContainerSelector = 'div[data-index]'
-
-            await page.goto(this.baseUrl)
-            await page.waitForSelector(searchSelector, { timeout: 60000 })
-
-            await page.type(searchSelector, this.options.searchValue)
-            await page.keyboard.press('Enter')
-            await page.waitForNavigation({ waitUntil: 'domcontentloaded' })
-            await page.waitForSelector(jobContainerSelector, { timeout: 60000 })
-
-            const linksWithAddedAt = await page.$$eval(
-              jobContainerSelector,
-              (elements, maxRecords) =>
-                elements
-                  .map((el) => {
-                    const link =
-                      el.querySelector('a')?.getAttribute('href') || ''
-                    if (!link) return null
-
-                    const addedAt =
-                      el.querySelector('.css-jikuwi')?.textContent.trim() || ''
-                    return { link, addedAt }
-                  })
-                  .filter(Boolean)
-                  .slice(0, maxRecords),
-              this.options.maxRecords
-            )
-            return linksWithAddedAt
-          } catch (error) {
-            console.error('Failed to get job links:', error)
-            return []
-          }
-        }
-      )
+      const jobLinksWithAddedAt = await this.scrollAndCollect()
 
       const offers = await Promise.allSettled(
         jobLinksWithAddedAt.map(async ({ link, addedAt }) => {
