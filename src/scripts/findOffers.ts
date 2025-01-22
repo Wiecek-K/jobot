@@ -6,6 +6,7 @@ import { JobOffer } from '../types/types'
 import path from 'path'
 import fs from 'fs'
 import { PracujPlScrapper } from '../bot/scrapper/PracujPlScrapper'
+import { log } from 'console'
 
 const args = yargs(hideBin(process.argv))
   .option('search', {
@@ -95,10 +96,10 @@ const findOffers = async () => {
     }
   }
 
-  // const offersData = await runScraper()
+  const offersData = await runScraper()
   // saveOffersToJson(offersData)
   // saveOffersToCSV(offersData)
-  runScraper()
+  console.log(offersData.length)
 }
 
 findOffers()

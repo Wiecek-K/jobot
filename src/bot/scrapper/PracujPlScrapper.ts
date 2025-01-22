@@ -74,97 +74,65 @@ export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
   > {
     const listElementSelector = 'div[data-test="section-offers"]'
     const offerElementSelector = 'div[data-test-offerid]'
-    // const nextPageButtonSelector =
-    //   'button[data-test="bottom-pagination-button-next"'
+    const nextPageButtonSelector =
+      'button[data-test="bottom-pagination-button-next"]'
+    const cookieButtonSelector = 'button[data-test="button-submitCookie"]'
     const maxRecords = this.options.maxRecords
     const collectedData: { offerId: string; href: string; addedAt: string }[] =
       []
-    // const collectedIndices = new Set<number>()
+    const collectedIndices = new Set<string>()
     const url = this.buildUrl(this.options.searchValue)
 
     try {
-      await this.withPage({ width: 700, height: 1200 }, async (page) => {
+      await this.withPage({ width: 700, height: 600 }, async (page) => {
         await page.goto(url)
-        await page.waitForSelector(offerElementSelector, { timeout: 60000 })
 
-        const offerData = await page.$$eval(
-          `${listElementSelector} ${offerElementSelector}`,
-          (offerDivs) =>
-            offerDivs.map((offerDiv) => {
-              const offerId = offerDiv.getAttribute('data-test-offerid')
-              const anchor = offerDiv.querySelector(
-                'a[data-test="link-offer"]'
-              ) as HTMLAnchorElement
-              const href = anchor ? anchor.href : null
+        while (collectedData.length < maxRecords) {
+          await page.waitForSelector(offerElementSelector, { timeout: 60000 })
 
-              const addedAtDiv = offerDiv.querySelector(
-                'p[data-test="text-added"]'
-              )
-              const addedAtRaw = addedAtDiv
-                ? addedAtDiv.textContent?.trim()
-                : null //
-              const dateRegex = /\b\d{1,2}\s+\w+\s+\d{4}\b/
-              const addedAt = addedAtRaw
-                ? addedAtRaw.match(dateRegex)?.[0] || null
-                : null
-              return { offerId, href, addedAt }
-            })
-        )
-        // await page.waitForSelector('div[data-test-NOTEXIST]', {
-        //   timeout: 1500000,
-        // })
-        offerData.forEach((offer) => {
-          if (offer.href) collectedData.push(offer) //TODO: think how to handle offer with multiple locations, other html structure in this case. At this moment I just skip those offers
-        })
-        // while (collectedData.length < maxRecords) {
-        //   const newItems = await page.evaluate((offerSelector) => {
-        //     const elements = Array.from(
-        //       document.querySelectorAll(offerSelector)
-        //     )
-        //     return elements.map((el) => {
-        //       const dataIndex = parseInt(
-        //         el.getAttribute('data-index') || '-1',
-        //         10
-        //       )
-        //       const link = el.querySelector('a')?.getAttribute('href') || ''
-        //       const addedAt =
-        //         el.querySelector('.css-jikuwi')?.textContent?.trim() || ''
-        //       return { dataIndex, link, addedAt }
-        //     })
-        //   }, offerElementSelector)
+          const offersData = await page.$$eval(
+            `${listElementSelector} ${offerElementSelector}`,
+            (offerDivs) =>
+              offerDivs.map((offerDiv) => {
+                const offerId = offerDiv.getAttribute('data-test-offerid')
+                const anchor = offerDiv.querySelector(
+                  'a[data-test="link-offer"]'
+                ) as HTMLAnchorElement
+                const href = anchor ? anchor.href : null
 
-        //   for (const item of newItems) {
-        //     if (
-        //       item.dataIndex !== -1 &&
-        //       !collectedIndices.has(item.dataIndex)
-        //     ) {
-        //       collectedIndices.add(item.dataIndex)
-        //       collectedData.push({ link: item.link, addedAt: item.addedAt })
-        //     }
-        //   }
+                const addedAtDiv = offerDiv.querySelector(
+                  'p[data-test="text-added"]'
+                )
+                const addedAtRaw = addedAtDiv
+                  ? addedAtDiv.textContent?.trim()
+                  : null //
+                const dateRegex = /\b\d{1,2}\s+\w+\s+\d{4}\b/
+                const addedAt = addedAtRaw
+                  ? addedAtRaw.match(dateRegex)?.[0] || null
+                  : null
+                return { offerId, href, addedAt }
+              })
+          )
+          offersData.forEach((offer) => {
+            if (offer.href && !collectedIndices.has(offer.offerId)) {
+              collectedData.push(offer)
+              collectedIndices.add(offer.offerId)
+            } //TODO: think how to handle offer with multiple locations, other html structure in this case. At this moment I just skip those offers
+          })
 
-        //   if (collectedData.length >= maxRecords) break
+          if (collectedData.length < maxRecords) {
+            const nextButton = await page.$(nextPageButtonSelector)
 
-        //   // Checking if further scrolling is possible (padding-bottom != 0)
-        //   const canScroll = await page.evaluate((listSelector) => {
-        //     const listElement = document.querySelector(listSelector)
-        //     if (!listElement) return false
-        //     const paddingBottom =
-        //       window.getComputedStyle(listElement).paddingBottom
-        //     return parseInt(paddingBottom, 10) !== 0
-        //   }, listElementSelector)
-
-        //   if (!canScroll) {
-        //     console.log('Reached the end of the list. Stopping scroll.')
-        //     break
-        //   }
-
-        //   await page.mouse.wheel({
-        //     deltaY: 1000,
-        //   })
-
-        //   await new Promise((resolve) => setTimeout(resolve, 3000))
-        // }
+            if (nextButton) {
+              const submitCookieButton = await page.$(cookieButtonSelector)
+              if (submitCookieButton) await submitCookieButton.click()
+              await nextButton.click()
+            }
+          } else {
+            console.log('scraped all offers')
+            break
+          }
+        }
       })
     } catch (error) {
       console.error('Error during scroll and collect:', error)
@@ -178,14 +146,13 @@ export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
   ): Promise<Omit<JobOffer, 'addedAt'> | null> {
     try {
       return await this.withPage({ width: 700, height: 1200 }, async (page) => {
-        await page.goto(link, { waitUntil: 'domcontentloaded' })
+        await page.goto(link, { timeout: 60000 })
+        await page.waitForSelector('h1', { timeout: 60000 })
 
         const salary = await ScraperUtils.scrapeField(
           page,
           'div[data-test="text-earningAmount"]'
         )
-
-        console.log(salary)
 
         const offer = {
           title: await ScraperUtils.scrapeField(page, 'h1'),
@@ -198,7 +165,6 @@ export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
             'span[data-test="item-technologies-expected"]'
           ),
         }
-        console.log(offer)
 
         return offer
       })
@@ -211,7 +177,12 @@ export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
   public async scrape(): Promise<JobOffer[]> {
     try {
       const jobBaseData = await this.scrapeLinksAndDate()
-
+      // const jobBaseData = [
+      //   {
+      //     href: 'https://www.pracuj.pl/praca/software-development-engineer-in-test-branza-technologiczna-warszawa,oferta,1003805842?s=499ee8a1&searchId=MTczNzU3NDYwMTU3OS4zOTk=',
+      //     addedAt: '30 styczeń 2020',
+      //   },
+      // ]
       const offers = await Promise.allSettled(
         jobBaseData.map(async ({ href, addedAt }) => {
           const jobDetails = await this.scrapeJobDetails(href)
@@ -237,32 +208,6 @@ export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
             result.status === 'fulfilled' && result.value !== null
         )
         .map((result) => result.value)
-      // const jobLinks = await this.scrapeLinks()
-      // const offers = await Promise.allSettled(
-      //   jobLinksWithAddedAt.map(async ({ link, addedAt }) => {
-      //     const jobDetails = await this.scrapeJobDetails(link)
-      //     if (!jobDetails) return null
-      //     return new JobOfferBuilder()
-      //       .setTitle(jobDetails.title)
-      //       .setDescription(jobDetails.description)
-      //       .setCompany(jobDetails.company)
-      //       .setOfferURL(jobDetails.offerURL)
-      //       .setSalary(
-      //         jobDetails.salaryFrom,
-      //         jobDetails.salaryTo,
-      //         jobDetails.currency
-      //       )
-      //       .setTechnologies(jobDetails.technologies)
-      //       .setAddedAt(addedAt)
-      //       .build()
-      //   })
-      // )
-      // return offers
-      //   .filter(
-      //     (result): result is PromiseFulfilledResult<JobOffer> =>
-      //       result.status === 'fulfilled' && result.value !== null
-      //   )
-      //   .map((result) => result.value)
     } catch (error) {
       console.error('Failed to scrape jobs:', error)
       return []
