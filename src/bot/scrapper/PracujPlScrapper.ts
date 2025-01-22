@@ -85,7 +85,7 @@ export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
 
     try {
       await this.withPage({ width: 700, height: 600 }, async (page) => {
-        await page.goto(url)
+        await page.goto(url, { timeout: 60000 })
 
         while (collectedData.length < maxRecords) {
           await page.waitForSelector(offerElementSelector, { timeout: 60000 })
@@ -146,7 +146,7 @@ export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
   ): Promise<Omit<JobOffer, 'addedAt'> | null> {
     try {
       return await this.withPage({ width: 700, height: 1200 }, async (page) => {
-        await page.goto(link, { timeout: 60000 })
+        await page.goto(link, { waitUntil: 'domcontentloaded', timeout: 60000 })
         await page.waitForSelector('h1', { timeout: 60000 })
 
         const salary = await ScraperUtils.scrapeField(
