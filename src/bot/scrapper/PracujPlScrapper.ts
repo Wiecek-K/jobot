@@ -177,12 +177,7 @@ export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
   public async scrape(): Promise<JobOffer[]> {
     try {
       const jobBaseData = await this.scrapeLinksAndDate()
-      // const jobBaseData = [
-      //   {
-      //     href: 'https://www.pracuj.pl/praca/software-development-engineer-in-test-branza-technologiczna-warszawa,oferta,1003805842?s=499ee8a1&searchId=MTczNzU3NDYwMTU3OS4zOTk=',
-      //     addedAt: '30 styczeń 2020',
-      //   },
-      // ]
+
       const offers = await Promise.allSettled(
         jobBaseData.map(async ({ href, addedAt }) => {
           const jobDetails = await this.scrapeJobDetails(href)
