@@ -5,6 +5,7 @@ import { hideBin } from 'yargs/helpers'
 import { JobOffer } from '../types/types'
 import path from 'path'
 import fs from 'fs'
+import { PracujPlScrapper } from '../bot/scrapper/PracujPlScrapper'
 
 const args = yargs(hideBin(process.argv))
   .option('search', {
@@ -33,7 +34,12 @@ const findOffers = async () => {
   const runScraper = async () => {
     const browserManager = new BrowserManager(args.maxTabs)
 
-    const scrapper = new JustJoinItScrapper(browserManager, {
+    // const scrapper = new JustJoinItScrapper(browserManager, {
+    //   searchValue: args.search,
+    //   maxRecords: args.limit,
+    // })
+
+    const scrapper = new PracujPlScrapper(browserManager, {
       searchValue: args.search,
       maxRecords: args.limit,
     })
@@ -89,9 +95,10 @@ const findOffers = async () => {
     }
   }
 
-  const offersData = await runScraper()
-  saveOffersToJson(offersData)
-  saveOffersToCSV(offersData)
+  // const offersData = await runScraper()
+  // saveOffersToJson(offersData)
+  // saveOffersToCSV(offersData)
+  runScraper()
 }
 
 findOffers()
