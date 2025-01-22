@@ -76,9 +76,9 @@ export class BrowserManager {
       )
 
       this.pages.add(page)
-      console.log(
-        `Page opened. Active pages: ${this.pages.size}. Available slots: ${this.semaphore.getAvailableSlots()}`
-      )
+      // console.log(
+      //   `Page opened. Active pages: ${this.pages.size}. Available slots: ${this.semaphore.getAvailableSlots()}`
+      // )
 
       return page
     } catch (error) {
@@ -92,9 +92,9 @@ export class BrowserManager {
       await page.close()
       this.pages.delete(page)
       this.semaphore.release()
-      console.log(
-        `Page closed. Active pages: ${this.pages.size}. Available slots: ${this.semaphore.getAvailableSlots()}`
-      )
+      // console.log(
+      //   `Page closed. Active pages: ${this.pages.size}. Available slots: ${this.semaphore.getAvailableSlots()}`
+      // )
     } else {
       console.warn('Page not managed by BrowserManager.')
     }
