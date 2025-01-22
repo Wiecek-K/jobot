@@ -7,6 +7,7 @@ import {
   ScrapperOptions,
   JobOfferBuilder,
 } from './scrapper'
+import { Page } from 'puppeteer'
 
 export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
   private readonly baseUrl = 'https://it.pracuj.pl/praca/'
@@ -22,16 +23,63 @@ export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
     return `${this.baseUrl}${encodedSearchValue}`
   }
 
+  private parseSalary(salaryText: string) {
+    const regex = /([\d\s,.]+)[–\-]([\d\s,.]+)([\p{L}\p{Sc}]+)/u
+
+    const match = salaryText.match(regex)
+    if (!match) {
+      return { salaryFrom: 0, salaryTo: 0, currency: '' }
+    }
+
+    const salaryFrom = parseFloat(match[1].replace(/[,\s]/g, ''))
+    const salaryTo = parseFloat(match[2].replace(/[,\s]/g, ''))
+    const currency = match[3]
+
+    return { salaryFrom, salaryTo, currency }
+  }
+
+  private async getCompanyName(page: Page) {
+    const companyName = await page.$eval(
+      'h2[data-test="text-employerName"]',
+      (element) => {
+        return Array.from(element.childNodes)
+          .filter((node) => node.nodeType === Node.TEXT_NODE)
+          .map((node) => node.textContent?.trim())
+          .join('')
+      }
+    )
+    return companyName
+  }
+
+  private async scrapDescription(page: Page) {
+    const aboutProject = await ScraperUtils.scrapeField(
+      page,
+      'section[data-test="section-about-project"]'
+    )
+    const yourResponsibilities = await ScraperUtils.scrapeField(
+      page,
+      'section[data-test="section-responsibilities"]'
+    )
+    const requirements = await ScraperUtils.scrapeField(
+      page,
+      'section[data-test="section-requirements"]'
+    )
+
+    const description = `${aboutProject.replace(/O projekcie(?!:)/, 'O projekcie: ')}\n${yourResponsibilities.replace(/Twój zakres obowiązków(?!:)/, 'Twój zakres obowiązków: ')}\n${requirements.replace(/Nasze wymagania(?!:)/, 'Nasze wymagania: ')}`
+    return description
+  }
+
   private async scrapeLinksAndDate(): Promise<
-    { offerId: string; href: string }[]
+    { offerId: string; href: string; addedAt: string }[]
   > {
     const listElementSelector = 'div[data-test="section-offers"]'
     const offerElementSelector = 'div[data-test-offerid]'
-    const nextPageButtonSelector =
-      'button[data-test="bottom-pagination-button-next"'
+    // const nextPageButtonSelector =
+    //   'button[data-test="bottom-pagination-button-next"'
     const maxRecords = this.options.maxRecords
-    const collectedData: { offerId: string; href: string }[] = []
-    const collectedIndices = new Set<number>()
+    const collectedData: { offerId: string; href: string; addedAt: string }[] =
+      []
+    // const collectedIndices = new Set<number>()
     const url = this.buildUrl(this.options.searchValue)
 
     try {
@@ -43,9 +91,11 @@ export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
           `${listElementSelector} ${offerElementSelector}`,
           (offerDivs) =>
             offerDivs.map((offerDiv) => {
-              const offerId = offerDiv.getAttribute('data-test-offerid') // Pobierz offerid
-              const anchor = offerDiv.querySelector('a') // Znajdź <a> wewnątrz danego div
-              const href = anchor ? anchor.href : null // Pobierz href z <a>
+              const offerId = offerDiv.getAttribute('data-test-offerid')
+              const anchor = offerDiv.querySelector(
+                'a[data-test="link-offer"]'
+              ) as HTMLAnchorElement
+              const href = anchor ? anchor.href : null
 
               const addedAtDiv = offerDiv.querySelector(
                 'p[data-test="text-added"]'
@@ -63,7 +113,9 @@ export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
         // await page.waitForSelector('div[data-test-NOTEXIST]', {
         //   timeout: 1500000,
         // })
-        offerData.forEach((offer) => collectedData.push(offer))
+        offerData.forEach((offer) => {
+          if (offer.href) collectedData.push(offer) //TODO: think how to handle offer with multiple locations, other html structure in this case. At this moment I just skip those offers
+        })
         // while (collectedData.length < maxRecords) {
         //   const newItems = await page.evaluate((offerSelector) => {
         //     const elements = Array.from(
@@ -117,57 +169,36 @@ export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
     } catch (error) {
       console.error('Error during scroll and collect:', error)
     }
-    console.log(collectedData)
 
     return collectedData.slice(0, maxRecords)
-    // return collectedData.slice(0, maxRecords)
   }
 
   private async scrapeJobDetails(
     link: string
   ): Promise<Omit<JobOffer, 'addedAt'> | null> {
-    const parseSalary = (
-      salaryString: string
-    ): {
-      salaryFrom: number
-      salaryTo: number
-      currency: string
-    } => {
-      if (!salaryString) {
-        return { salaryFrom: 0, salaryTo: 0, currency: '' }
-      }
-
-      const salaryRegex = /(\d[\d\s]*)\s*-\s*(\d[\d\s]*)\s*([A-Za-z]+)/
-      const match = salaryString.match(salaryRegex)
-
-      if (!match) {
-        return { salaryFrom: 0, salaryTo: 0, currency: '' }
-      }
-
-      const [_, from, to, currency] = match
-
-      return {
-        salaryFrom: parseInt(from.replace(/\s/g, ''), 10), // Remove spaces and convert to number
-        salaryTo: parseInt(to.replace(/\s/g, ''), 10), // Remove spaces and convert to number
-        currency: currency.trim().toLocaleUpperCase(),
-      }
-    }
-
     try {
-      return await this.withPage({ width: 1024, height: 768 }, async (page) => {
-        const fullLink = new URL(link, this.baseUrl).href
-        await page.goto(fullLink, { waitUntil: 'domcontentloaded' })
+      return await this.withPage({ width: 700, height: 1200 }, async (page) => {
+        await page.goto(link, { waitUntil: 'domcontentloaded' })
 
-        const salary = await ScraperUtils.scrapeField(page, '.css-1pavfqb')
+        const salary = await ScraperUtils.scrapeField(
+          page,
+          'div[data-test="text-earningAmount"]'
+        )
+
+        console.log(salary)
 
         const offer = {
           title: await ScraperUtils.scrapeField(page, 'h1'),
-          description: await ScraperUtils.scrapeField(page, '.css-tbycqp'),
-          company: await ScraperUtils.scrapeField(page, 'h2'),
-          offerURL: fullLink,
-          ...parseSalary(salary),
-          technologies: await ScraperUtils.scrapeMultipleFields(page, 'h4'),
+          description: await this.scrapDescription(page),
+          company: await this.getCompanyName(page),
+          offerURL: link,
+          ...this.parseSalary(salary),
+          technologies: await ScraperUtils.scrapeMultipleFields(
+            page,
+            'span[data-test="item-technologies-expected"]'
+          ),
         }
+        console.log(offer)
 
         return offer
       })
@@ -179,7 +210,33 @@ export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
 
   public async scrape(): Promise<JobOffer[]> {
     try {
-      await this.scrapeLinks()
+      const jobBaseData = await this.scrapeLinksAndDate()
+
+      const offers = await Promise.allSettled(
+        jobBaseData.map(async ({ href, addedAt }) => {
+          const jobDetails = await this.scrapeJobDetails(href)
+          if (!jobDetails) return null
+          return new JobOfferBuilder()
+            .setTitle(jobDetails.title)
+            .setDescription(jobDetails.description)
+            .setCompany(jobDetails.company)
+            .setOfferURL(jobDetails.offerURL)
+            .setSalary(
+              jobDetails.salaryFrom,
+              jobDetails.salaryTo,
+              jobDetails.currency
+            )
+            .setTechnologies(jobDetails.technologies)
+            .setAddedAt(addedAt)
+            .build()
+        })
+      )
+      return offers
+        .filter(
+          (result): result is PromiseFulfilledResult<JobOffer> =>
+            result.status === 'fulfilled' && result.value !== null
+        )
+        .map((result) => result.value)
       // const jobLinks = await this.scrapeLinks()
       // const offers = await Promise.allSettled(
       //   jobLinksWithAddedAt.map(async ({ link, addedAt }) => {
