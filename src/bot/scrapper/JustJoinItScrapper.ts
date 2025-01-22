@@ -126,7 +126,10 @@ export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
     try {
       return await this.withPage({ width: 1024, height: 768 }, async (page) => {
         const fullLink = new URL(link, this.baseUrl).href
-        await page.goto(fullLink, { waitUntil: 'domcontentloaded' })
+        await page.goto(fullLink, {
+          waitUntil: 'domcontentloaded',
+          timeout: 60000,
+        })
 
         const salary = await ScraperUtils.scrapeField(page, '.css-1pavfqb')
 
