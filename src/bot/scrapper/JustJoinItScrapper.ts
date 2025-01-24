@@ -8,7 +8,7 @@ import {
 } from './scrapper'
 
 export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
-  private readonly baseUrl = 'https://justjoin.it/job-offers/all-locations?'
+  private readonly baseUrl = 'https://justjoin.it'
   private options: ScrapperOptions
 
   constructor(browserManager: BrowserManager, options: ScrapperOptions) {
@@ -21,7 +21,6 @@ export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
   > {
     const listElementSelector = 'div[data-test-id="virtuoso-item-list"]'
     const offerElementSelector = 'div[data-index]'
-    const searchSelector = 'input[placeholder="Search"]'
     const maxRecords = this.options.maxRecords
     const collectedData: { link: string; addedAt: string }[] = []
     const collectedIndices = new Set<number>()
@@ -29,7 +28,7 @@ export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
     try {
       await this.withPage({ width: 1280, height: 800 }, async (page) => {
         await page.goto(
-          `${this.baseUrl}?keyword=${encodeURIComponent(this.options.searchValue)}`,
+          `${this.baseUrl}/job-offers/all-locations?keyword=${encodeURIComponent(this.options.searchValue)}`,
           {
             timeout: 70000,
           }
@@ -145,7 +144,10 @@ export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
         return offer
       })
     } catch (error) {
-      console.error(`Failed to scrape job details for ${link}:`, error)
+      console.error(
+        `Failed to scrape job details for ${new URL(link, this.baseUrl).href}:`,
+        error
+      )
       return null
     }
   }
