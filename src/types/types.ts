@@ -9,3 +9,8 @@ export interface JobOffer {
   technologies: string[]
   addedAt: string
 }
+
+export interface ScrappedOffers {
+  serviceName: string
+  data: JobOffer[]
+}
