@@ -3,7 +3,7 @@ import { BrowserManager } from '../bot/scrapper/scrapper'
 import { PracujPlScrapper } from '../bot/scrapper/PracujPlScrapper'
 import { ScrappedOffers } from '../types/types'
 
-const MAX_TABS = 5
+const MAX_TABS = 1
 
 export const findOffers = async (searchValue: string, limit = 10) => {
   const scrappedOffers: ScrappedOffers[] = []
