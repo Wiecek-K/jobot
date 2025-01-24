@@ -145,7 +145,7 @@ export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
       })
     } catch (error) {
       console.error(
-        `Failed to scrape job details for ${new URL(link, this.baseUrl).href}:`,
+        `Failed to scrape job details for ${new URL(link, this.baseUrl).href} :`,
         error
       )
       return null

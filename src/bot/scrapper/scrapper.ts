@@ -59,7 +59,6 @@ export class BrowserManager {
         '--disable-setuid-sandbox',
         '--disable-gpu',
         '--no-zygote',
-        '--single-process',
       ],
     })
     console.log('Browser initialized!')
