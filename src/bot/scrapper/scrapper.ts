@@ -53,7 +53,14 @@ export class BrowserManager {
   public async init(): Promise<void> {
     this.browser = await puppeteer.launch({
       headless: true,
-      args: ['--no-sandbox', '--disable-gpu', '--mute-audio'],
+      args: [
+        '--disable-dev-shm-usage',
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-gpu',
+        '--no-zygote',
+        '--single-process',
+      ],
     })
     console.log('Browser initialized!')
   }
