@@ -127,9 +127,10 @@ export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
               const submitCookieButton = await page.$(cookieButtonSelector)
               if (submitCookieButton) await submitCookieButton.click()
               await nextButton.click()
+            } else {
+              console.log('scraped all offers')
             }
           } else {
-            console.log('scraped all offers')
             break
           }
         }

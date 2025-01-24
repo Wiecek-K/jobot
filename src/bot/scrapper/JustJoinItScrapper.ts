@@ -28,7 +28,7 @@ export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
 
     try {
       await this.withPage({ width: 1280, height: 800 }, async (page) => {
-        await page.goto(this.baseUrl)
+        await page.goto(this.baseUrl, { timeout: 60000 })
         await page.waitForSelector(searchSelector, { timeout: 60000 })
 
         await page.type(searchSelector, this.options.searchValue)
