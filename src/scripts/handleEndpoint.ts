@@ -19,14 +19,14 @@ export const findOffers = async (searchValue: string, limit = 10) => {
         maxRecords: limit,
       }),
     },
-    {
-      name: 'PracujPl',
-      browserManager: pracujPlBrowserManager,
-      scrapper: new PracujPlScrapper(pracujPlBrowserManager, {
-        searchValue,
-        maxRecords: limit,
-      }),
-    },
+    // {
+    //   name: 'PracujPl',
+    //   browserManager: pracujPlBrowserManager,
+    //   scrapper: new PracujPlScrapper(pracujPlBrowserManager, {
+    //     searchValue,
+    //     maxRecords: limit,
+    //   }),
+    // },
   ]
 
   const runScrapers = async () => {
