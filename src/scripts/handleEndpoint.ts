@@ -3,7 +3,7 @@ import { BrowserManager } from '../bot/scrapper/scrapper'
 import { PracujPlScrapper } from '../bot/scrapper/PracujPlScrapper'
 import { ScrappedOffers } from '../types/types'
 
-const MAX_TABS = 1
+const MAX_TABS = 20
 
 export const findOffers = async (searchValue: string, limit = 10) => {
   const scrappedOffers: ScrappedOffers[] = []
@@ -19,14 +19,14 @@ export const findOffers = async (searchValue: string, limit = 10) => {
         maxRecords: limit,
       }),
     },
-    // {
-    //   name: 'PracujPl',
-    //   browserManager: pracujPlBrowserManager,
-    //   scrapper: new PracujPlScrapper(pracujPlBrowserManager, {
-    //     searchValue,
-    //     maxRecords: limit,
-    //   }),
-    // },
+    {
+      name: 'PracujPl',
+      browserManager: pracujPlBrowserManager,
+      scrapper: new PracujPlScrapper(pracujPlBrowserManager, {
+        searchValue,
+        maxRecords: limit,
+      }),
+    },
   ]
 
   const runScrapers = async () => {
