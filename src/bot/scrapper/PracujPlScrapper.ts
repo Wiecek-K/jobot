@@ -136,7 +136,7 @@ export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
         }
       })
     } catch (error) {
-      console.error('Error during scroll and collect:', error)
+      console.error('Error during collect links on Pracuj.Pl:', error)
     }
 
     return collectedData.slice(0, maxRecords)
