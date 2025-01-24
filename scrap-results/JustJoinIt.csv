@@ -1,0 +1,298 @@
+Title,Description,Company,OfferURL,SalaryFrom,SalaryTo,Currency,Technologies,AddedAt
+"Fullstack Java Developer/ Java Developer","Forma zatrudnienia: kontrakt B2BTryb pracy: 100% zdalnie + kilka dni onboardingu w Warszawie (co miesiąc 2 dni warsztatów z biura w Warszawie)Poszukujemy osoby na stanowisko Fullstack Java Developera/ Java Developera która posiada min. 3 lata komercyjnego doświadczenia. Obligatoryjne jest doświadczenie w projektach branży ubezpieczeniowej (mile widziane systemy underwritingowe).Wiodące technologie i rozwiązania: Java, Angular, Camunda, PostgreSQL, Higson, GIT.Projekt dotyczy budowy i rozwoju aplikacji webowej która wspierają proces oceniania ryzyka i ustalania warunków związanych z oferowaniem produktów ubezpieczeniowych. System oparty na silniku konfiguracyjnym (Higson). Ok.75% rozwoju aplikacji, 50:50% frontend/backend lub 100% backend. Wymagania:
+Doświadczenie w projektach branży ubezpieczeniowej (mile widziane systemy underwritingowe).
+Solidna znajomość Javy (mile widziany Angular)
+Bardzo dobra znajomość baz danych PostgreSQL
+Mile widziana znajomość Camundy i Higson
+Komunikatywna znajomość języka polskiego
+W naszej firmie będziesz mógł/mogła liczyć na:
+Pracę w organizacji z ugruntowaną pozycją rynkową
+Projekty, w których będziesz miał/miała wpływ na ich rozwój
+Współpracę z ciekawymi klientami biznesowymi z różnych branż (m.in.: finanse, bankowość, ubezpieczenia, healthcare, robotyzacja, energetyka, media),
+Permanentny mentoring zarówno techniczny jak i biznesowo-menedżerski, np. podczas naszych cyklicznych szkoleń (m.in. Git, Gitflow, Angular, Docker), czy wew. programów rozwojowych (Primaris x TechTalks, Primaris Leadership Academy) oraz zewnętrznych kursów.
+Już na etapie on-boardingu zapewniamy dostęp do naszych wewnętrznych szkoleń, cyklicznych spotkań, które serializujemy na Confluence oraz platformy e-learning
+Świetną atmosferę pracy, wśród zaangażowanych ludzi z pasją w płaskiej strukturze z prostymi procesami
+Kompleksowy pakiet benefitów skrojonych na miarę - prywatna opieka medyczna dla Ciebie oraz dla Twojej rodziny, Multisport dla Ciebie i os. towarzyszącej - Ty decydujesz, co wybierasz!
+ Cały proces rekrutacyjny oraz onboarding prowadzony jest zdalnie.Proces rekrutacyjny składa się z:
+rozmowy telefonicznej z osobą z działu Rekrutacji & HR (do 30 min)
+zdalnej video rozmowy o charakterze techniczno-biznesowym (60-90 min)
+zdalnego video spotkania z Product Ownerem projektu
+finalnej decyzji dotyczącej oferty
+ Primaris Services to ponad 250 ekspertów na pokładzie i 14 lat doświadczenia w branży IT na rynku polskim oraz zagranicznym.Realizujemy ambitne projekty o wysokiej złożoności z różnych obszarów - m.in.bankowości, ubezpieczeń, funduszy inwestycyjnych czy branży logistycznej (mamy ponad 40 aktywnych klientów!). Rośniemy w siłę oraz ciągle poszerzamy portfolio zarówno naszych usług jak i klientów.Zakres naszej działalności obejmuje budowę systemów od zera, ich rozwój oraz utrzymanie, wdrożenia produktowe, alokacje całych Zespołów, a także pojedynczych Ekspertów w strukturach Klienta.Ponadto od kilku lat działamy bardzo intensywnie jako złoty Partner firmy UiPath (obszar Robotic Process Automation) budując roboty i sprzedając licencje u naszych Klientów.Co miesiąc dołącza do nas 7 nowych osób! Wierzymy, że zgrany zespół i ludzie z pasją to klucz do naszego wspólnego sukcesu! Właśnie dlatego ciągle poszukujemy nowych, zdolnych osób, które zasilą nasze szeregi.Tą rolą opiekuję się Kasia i to właśnie z nią spotkasz się podczas pierwszej rozmowy.","Primaris","https://justjoin.it/job-offer/primaris-fullstack-java-developer-java-developer-warszawa-java",15120,20160,PLN,"Git;PostgreSQL;Java;Spring;Angular;Camunda","New"
+"Senior Java Developer","About projectCurrently we are looking for experienced Senior Java Developers. You will join the team which will be responsible for building and maintaining core services in a greenfield project in the e-commerce sector. Possibility of 100% remote work.Tasks
+Design, implementation and testing of high-performance microservices in Java on a cloud-based infrastructure
+Proposing improvements to the current applications
+Advocate an engineering culture of quality, good development principles and innovation from inside your team
+Creation and maintenance of technical documentation, including System Design and RFC documents
+Collaborate with testers and other team members, and be willing to mentor team members when necessary
+Requirements
+ 5+ years of solid commercial experience as Java Developer
+
+Java development experience including knowledge of common tooling such as Spring, MVP.
+
+
+Knowledge of traditional software development processes and tools, including Maven/Gradle, Git, JIRA, Confluence, Code Reviews and CI/CD. 
+
+Hands-on experience developing microservices using modern technologies such as Apache Kafka, REST APIs, containerization (Docker, Kubernetes), and cloud-based infrastructure (GCP preferred).
+Experienced in taking ownership of tasks, commitments, quality, and contributing to a culture of continuous improvement in an Agile/Scrum environment - proactive and supportive attitude
+
+Fluency in English (B2+).
+ Nice to have: Kotlin experience
+﻿We offer
+
+Financial transparency: the salary is: 25 200 - 28 560 (150 - 170 PLN/h) + VAT
+
+
+Clear wage model. 7N Consultants know exactly what’s 7N fee for its agent role on the project.   
+
+Professional development support. We subsidize trainings, technical certificates, conference participation, and foreign language classes. Our Career Development Program offers consultants advisory support in career planning. Additionally, 7N Consultants have the opportunity to participate in interpersonal skills training through the 7N Secret Code. Learn more about it here: 7N: 7N – The Secret Code   
+
+7N Inspiration Team’s support and an opportunity to join their ranks. They are a group of 7N Consultants who consistently and actively share their professional knowledge and expertise.  
+
+Cooperation with real experts – the average professional experience of a 7N consultant is 10 years. Check out one of our discussion panels here: Does a Scrum Master need a background in programming (in Polish) 
+Comprehensive and personal project support from one of a 7N Agent. Priority regarding project continuity and quality. See what one 7N Consultant said about the role of 7N Agents and project opportunities.  
+
+Numerous (10-12 each year) high-end events – both online and offline. See the 7N KickOff 2024 clip here: https://www.youtube.com/watch?v=8MjSywOKZnc
+
+Healthcare, Benefit Multisport and life insurance subsidies regardless of cooperation model. Access to Mindgram, a psychological support and professional development platform.  
+
+Professional and quality-oriented recruitment process led by the most experienced recruiters in the industry. Read more about it in the 7N candidate recruitment satisfaction survey (in Polish).","7N","https://justjoin.it/job-offer/7n-senior-java-developer-warszawa-java-a31f403b",25200,28560,PLN,"Java;MVP;Spring;GCP;Kotlin","New"
+"Java Developer","We are seeking a highly skilled Java Developer to join our dynamic team and contribute to the development of innovative software solutions. The ideal candidate will have a strong foundation in Java programming and experience working with various development frameworks, including Spring. This role will involve both frontend and backend development, working with RESTful APIs, SQL databases, and Agile methodologies.Responsibilities:
+Design, develop, and maintain high-quality Java applications, adhering to best practices and coding standards.
+Collaborate with cross-functional teams to understand business requirements and translate them into technical solutions.
+Develop and maintain RESTful APIs to integrate with other systems.
+Work with SQL databases to design, create, and optimize data structures.
+Contribute to the development and maintenance of frontend interfaces using modern web technologies.
+Participate in Agile development methodologies, such as Scrum or Kanban.
+Troubleshoot and resolve technical issues efficiently.
+Stay up-to-date with the latest Java technologies and industry trends.
+Required Skills:
+Strong proficiency in Java programming language and object-oriented programming principles.
+Experience with Spring framework, including Spring Boot, Spring MVC, and Spring Data.
+Experience in frontend development, using technologies like HTML, CSS, and JavaScript.
+Knowledge of RESTful API design and development.
+Proficiency in SQL and experience working with relational databases.
+Familiarity with Agile development methodologies.
+Experience working in a Linux environment.
+Knowledge of Groovy scripting language (preferred).
+Benefits:
+Competitive day rate. 
+Long-term contract opportunity.
+Opportunity to work on challenging and innovative projects.
+Collaborative and supportive work environment.
+Professional development opportunities.
+If you are a talented Java developer with a passion for creating exceptional software, we encourage you to apply.","Kevin Edward","https://justjoin.it/job-offer/kevin-edward-java-developer-bruksela-java",26000,30000,PLN,"Java;Developer;frontend;RESTful;Backend;SQL;Spring;Agile;Linux;Groovy","4d ago"
+"DevOps Engineer / Java Developer","At our global Digital Document Services (DDS) team, we provide cross-functional services for all Business and Functional Units within Schenker supporting them with our services as backbone for Schenker operations digital creation, distribution, archival and document access processes. Running initiatives and upcoming projects are thriving to further improve and boost our way of digitizing Schenker’s global digital document service management. As “Dev Ops / Java Developer” for Output Management (OM) & Document Management (DM) applications your role plays a critical part in achieving business success through reliable and efficient output & document management systems. You will be part of the Digital Document Services team ensuring high quality, efficiency and reliability for the applications which are used as core interface for Schenker biggest transport management systems e.g., for air & ocean business. You will be part of an international architectural and development focused team located in Warsaw/Poland and Essen & Frankfurt/Germany.Your tasks:
+Act as a bridge between peer developers and the support team, playing a critical role during operational incidents by diagnosing issues and facilitating effective communications.
+Enhance Continuous Integration/Continuous Deployment (CI/CD) workflows by automating build deployment & installing scripts to streamline the development process.
+Improve infrastructure monitoring by focusing on metrics and logs ensuring system health and performance.
+Work closely with developers enhancing application-level log analytics to help identify patterns, troubleshoot issues, and optimize application performance.
+Set up alerts for proactive monitoring of critical system workflows to prevent potential P1 & P2 incidents.
+Support the creation & improvement of dashboards for performance load testing, monitoring non-functional parameters, etc.
+Design, code, test, and maintain Java applications components.
+Contribute to peer code reviews and continuous integration.
+Maintain code quality standards across components.
+Investigate and resolve technical issues along with debugging and fixing defects.
+Our requirements:
+A university degree in computer science, IT, or an equivalent education.
+5-7 years of experience working as a Software Engineer and/or DevOps engineer.
+Good experience with GitLab for version control and CI/CD pipelines administration.
+Good experience at containerization (Docker), orchestration (Kubernetes).
+Experience in setup and configuring metrics monitoring using Prometheus exporters.
+Good experience in creating and maintaining dashboard using Grafana .
+Experience in Elastic stack (ELK) for Log ingestion and analytics using Logstash OpenSearch and Kibana
+Hands on experience in infrastructure as code (Terraform) libraries and scripting like PowerShell, Bash .
+Experience in AWS for cloud-based services such as EC2, RDS, SNS, SQS, S3, EFS.
+Strong in hands-on Java Programming, OOAD, SOLID, Clean coding concepts.
+Good Experience developing RESTful APIs with REST best practices.
+Good knowledge of SQL RDBMS database design, optimization, and query performance.
+Fluency in oral and written communication in English language.","Schenker Technology Center Warsaw","https://justjoin.it/job-offer/schenker-technology-center-warsaw-devops-engineer-java-developer-warszawa-java",17600,22000,PLN,"Java","New"
+"Frontend Mid/Senior JavaScript Developer","Frontend Mid/Senior JavaScript DeveloperSkySnap to firma zajmująca się usługami w zakresie monitoringu infrastruktury (drogi, koleje, sieci energetyczne) na każdym etapie – od planowania poprzez budowę, aż po prace związane z jej utrzymaniem. Budujemy nowoczesne narzędzia analityczne oparte o dane geoprzestrzenne pozyskiwane z dronów, samolotów i satelitów oraz algorytmy ML/AI.Obecnie rozwijamy geoportal, który integruje wizualizację danych przestrzennych, analizy oraz raportowanie. Szukamy Frontend JavaScript Developera, który dołączy do naszego zespołu i pomoże nam w realizacji ambitnych projektów.Czym będziesz się zajmować?
+Rozwojem aplikacji webowej (geoportalu) od implementacji po wdrożenie na środowiska produkcyjne.
+Tworzeniem i wdrażaniem nowych funkcjonalności, w tym zaawansowanych wizualizacji danych przestrzennych.
+Współpracą z zespołem backendowym i projektantami UX/UI w celu integracji usług backendowych z interfejsem użytkownika.
+Utrzymaniem istniejącego kodu oraz wdrażaniem usprawnień i optymalizacji.
+Zapewnieniem wysokiej jakości kodu poprzez stosowanie wzorców projektowych i najlepszych praktyk (DRY, SOLID).
+Rozwiązywaniem problemów w czasie rzeczywistym (np. obsługa websocketów, optymalizacja procesów CI/CD).
+Współtworzeniem środowiska pracy opierającego się na automatyzacji, wydajności i niezawodności.
+Współpracą przy obsłudze dużych zbiorów danych przestrzennych oraz integracji z narzędziami wizualizacyjnymi (np. OpenLayers, Potree, Three.js).
+Nasze oczekiwania
+Biegłość w używaniu języka TypeScript.
+Min. 3 lata doświadczenia komercyjnego w pracy z JavaScript i React.
+Umiejętność samodzielnego rozwiązywania problemów i podejmowania decyzji technicznych.
+Znajomość metodologii wytwarzania oprogramowania oraz zasad pisania czystego kodu.
+Doświadczenie w pracy z systemem kontroli wersji Git
+Doświadczenie z bibliotekami frontendowymi i narzędziami: Material UI, Redux/Redux Saga, styled-components, emotion.
+Płynna znajomość języka polskiego oraz znajomość języka angielskiego na poziomie umożliwiającym czytanie dokumentacji technicznej.
+Mile widziane
+Doświadczenie w pracy z technologiami geoprzestrzennymi: OpenLayers, Potree, Three.js.
+Doświadczenie w projektowaniu i wdrażaniu aplikacji serwerowych Node.js (REST, websocket, SSR).
+Znajomość podstaw procesów CI/CD.
+Znajomość podstaw aplikacji Docker.
+Umiejętność pracy z dużymi zbiorami danych przestrzennych w aplikacjach webowych.
+Znajomość Vite+React oraz innych rozwiązań SSR.
+Co oferujemy?
+Pracę hybrydową – biuro zlokalizowane w Warszawie przy metrze Wilanowska.
+Forma zatrudnienia - umowa o pracę lub umowa zlecenie.
+Możliwość korzystania z dowolnego IDE i systemu operacyjnego.
+Kartę Multisport oraz wsparcie w rozwoju zawodowym.
+Realny wpływ na kierunek rozwoju aplikacji i technologii stosowanych w firmie.
+Więcej informacji o nas znajdziesz na: https://skysnap.pl/Dołącz do nas i pomóż tworzyć rozwiązania, które zmieniają sposób monitorowania infrastruktury!Aplikacje prosimy wysyłać na adres: rekrutacja@skysnap.pl. W temacie wiadomości prosimy wpisać „Frontend Mid/Senior JavaScript Developer”Wynagrodzenie: 15 000 - 21 000 PLN brutto","SkySnap","https://justjoin.it/job-offer/skysnap-frontend-mid-senior-javascript-developer-warszawa-javascript",15000,21000,PLN,"JavaScript;TypeScript;React;Git;Redux;WebSocket","New"
+"Mid Java Developer","About projectCurrently we are looking for experienced Mid Java Developers. You will join the team which will be responsible for building and maintaining core services in a greenfield project in the e-commerce sector. Possibility of 100% remote work.Tasks
+Design, implementation and testing of high-performance microservices in Java on a cloud-based infrastructure
+Proposing improvements to the current applications
+Advocate an engineering culture of quality, good development principles and innovation from inside your team
+Creation and maintenance of technical documentation, including System Design and RFC documents
+Collaborate with testers and other team members, and be willing to mentor team members when necessary
+Requirements
+ 3-4 years of solid commercial experience as Java Developer
+
+Java development experience including knowledge of common tooling such as Spring, MVP.
+
+
+Knowledge of traditional software development processes and tools, including Maven/Gradle, Git, JIRA, Confluence, Code Reviews and CI/CD. 
+
+Hands-on experience developing microservices using modern technologies such as Apache Kafka, REST APIs, containerization (Docker, Kubernetes), and cloud-based infrastructure (GCP preferred).
+Experienced in taking ownership of tasks, commitments, quality, and contributing to a culture of continuous improvement in an Agile/Scrum environment - proactive and supportive attitude
+
+Fluency in English (B2+).
+ Nice to have: Kotlin experience
+﻿We offer
+﻿Financial transparency: the salary is:  21 840 – 25 200 PLN (130-150 PLN/h) + VAT
+
+
+Clear wage model. 7N Consultants know exactly what’s 7N fee for its agent role on the project.   
+
+Professional development support. We subsidize trainings, technical certificates, conference participation, and foreign language classes. Our Career Development Program offers consultants advisory support in career planning. Additionally, 7N Consultants have the opportunity to participate in interpersonal skills training through the 7N Secret Code. Learn more about it here: 7N: 7N – The Secret Code   
+
+7N Inspiration Team’s support and an opportunity to join their ranks. They are a group of 7N Consultants who consistently and actively share their professional knowledge and expertise.  
+
+Cooperation with real experts – the average professional experience of a 7N consultant is 10 years. Check out one of our discussion panels here: Does a Scrum Master need a background in programming (in Polish) 
+Comprehensive and personal project support from one of a 7N Agent. Priority regarding project continuity and quality. See what one 7N Consultant said about the role of 7N Agents and project opportunities.  
+
+Numerous (10-12 each year) high-end events – both online and offline. See the 7N KickOff 2024 clip here: https://www.youtube.com/watch?v=8MjSywOKZnc
+
+Healthcare, Benefit Multisport and life insurance subsidies regardless of cooperation model. Access to Mindgram, a psychological support and professional development platform.  
+
+Professional and quality-oriented recruitment process led by the most experienced recruiters in the industry. Read more about it in the 7N candidate recruitment satisfaction survey (in Polish).","7N","https://justjoin.it/job-offer/7n-mid-java-developer-warszawa-java",21840,25200,PLN,"Java;MVP;Spring;GCP;Kotlin","New"
+"Java Developer","Dołącz do Detable Sp. Z o.o. - prężnie rozwijającej się firmy, która stawia na długofalową współpracę z doświadczonymi profesjonalistami. Od ponad 2 lat jesteśmy partnerem dla instytucji z sektora publicznego, współpracujemy m.in. z Centrum e-zdrowia, Aplikacjami Krytycznymi Ministerstwa Finansów, Głównym Urzędem Nadzoru Budowlanego, Urzędem Do Spraw Cudzoziemców, Narodowym Funduszem Zdrowia i wieloma innymi.Nasi konsultanci pracują nad rozwojem aplikacji i systemów, z których korzystają miliony Polaków! Z sukcesem działamy na rzecz informatyzacji polskiej służby zdrowia. Bierzemy udział w rozwijaniu systemu e-zdrowie -P1 (e-recepty, gabinet gov.pl, KSO – krajowa sieć onkologiczna) a także e-krew oraz RIZM - Centralny Rejestr Osób Uprawnionych do Wykonywania Zawodu Medycznego. Możemy pochwalić się także udziałem w realizacji kluczowych projektów w obszarze finansowym, takich jak KSeF - Krajowy System e-Faktur, JSP - Jednolity System Podatkowy. Jeśli chcesz pracować nad aplikacjami, z których będziesz potem korzystać w codziennym życiu, dołącz do naszego zespołu jako Java Developer.  Ta rola jest właśnie dla Ciebie jeśli:
+Posiadasz co najmniej 5 letnie doświadczenie w roli Java Developera, w projektach dla klienta masowego;
+Dysponujesz wiedzą i doświadczeniem w zakresie  programowania z wykorzystaniem Java (wersja minimum 8) oraz Java EE (wersja minimum 6), Hibernate, Maven, REST API, Spring, Spring Boot, Relacyjnych Baz Danych, Docker, ElasticSearch, SQL, Swagger, serwerów aplikacyjnych;
+Masz okazję uczestniczyć w testach jednostkowych;
+Twoimi codziennymi narzędziami pracy są m.in. JIRA, Confluence;
+ Nie jest Ci obcy standard HL7 CDA/ HL7 FHIR/ IHE (doświadczenie w realizacji systemów przetwarzających dane medyczne);
+Masz doświadczenie w pracy z wykorzystanie architektury mikroserwisowej;
+Posiadasz certyfikat WSO2 Certified Enterprise Integrator 6 Developer- ESB Profile lub równoważny (must have!)
+Posiadasz wykształcenie wyższe (techniczne);
+Biegle posługujesz się językiem polskim;
+ Nice to have:
+Miałeś okazję pracować z narzędziami statycznej analizy kodu np. SonarQube;
+Posiadasz doświadczenie w delegowaniu i rozliczaniu zadań developerskich oraz szacowaniu pracochłonności zadań developerskich;
+  Jeśli dołączysz do naszego zespołu Twoim zadaniem będzie:
+Wytwarzanie wydajnego, skalowanego oraz stabilnego oprogramowania; 
+Uczestnictwo w projektowaniu i wytwarzaniu nowych funkcjonalności pokrytych testami jednostkowymi oraz integracyjnymi;
+Wsparcie w diagnozie problemów i optymalizacji działania produkcyjnego systemu, który operuje na bardzo dużych wolumenach danych; 
+Udział w optymalizacji procesu wytwarzania oprogramowania: Continous Integration, zapewnienie jakości, dobór technologii; 
+Praca zgodna z metodyką SCRUM (udział w spotkaniach: Daily SCRUM, Sprint Review Meeting, Sprint Retrospective, Sprint Planning Meeting); 
+Wykonywanie code review na pull-requestach; 
+Wsparcie dla procesu – git-flow; 
+Szacowanie pracy w ramach przyszłych projektów; 
+Aktywny udział w wewnątrz-zespołowej wymianie wiedzy; 
+Udział w szkoleniach technicznych; 
+Opisywanie tips&trics na Confluence. 
+Z naszej strony możesz liczyć na :
+Konkurencyjne wynagrodzenie w oparciu o kontrakt B2B (120- 140 netto/h);
+Długofalową współpracę opartą o wzajemny szacunek i partnerstwo;
+Dedykowanego opiekuna kontraktu po stronie Detable;
+Możliwość 100% pracy zdalnej lub z naszego biura w Białymstoku;
+Możliwość podnoszenia swoich kwalifikacji poprzez skorzystanie z budżetu szkoleniowego;
+Realny wpływ na rozwój projektu;
+Atrakcyjny program poleceń pracowniczych;
+Zdalny proces rekrutacji.
+ Jak wygląda u nas proces rekrutacji?
+Rozmowa HR z naszą IT Rekruterką;
+Weryfikacja umiejętności technicznych przez naszego Lidera technicznego;
+Spotkanie z klientem;
+Decyzja i rozpoczęcie współpracy 😊","Detable","https://justjoin.it/job-offer/detable-java-developer-warszawa-java",20160,23520,PLN,"Docker;Java EE;REST API;Java;Java 8;Spring;Maven;Hibernate","New"
+"Senior Java Developer with Hadoop","Are you an experienced Java Developer skilled in the Hadoop ecosystem, and do you have experience with Cloud?Join our team as a Senior Java Developer, where you'll be at the forefront of an exciting project in the Client's Data Management division. We are interested in Senior Engineers with expertise and passion for solving difficult problems in distributed systems and highly available services to join the Client team.In this role, you will be instrumental in building, maintaining, and enhancing our managed, cloud-native Big Data service focused on large-scale data processing and analytics. With the Client team, you can help shape, design, and build innovative new systems from the ground up. Engineers at any level can have significant technical and business impact.If you're ready to make an impact in a dynamic environment, we want to hear from you!Responsibilities
+Participate in the design, development, and maintenance of a scalable and secure Hadoop-based data lake service
+Code, integrate, and operationalize open and closed source data ecosystem components for cloud service offerings
+Collaborate with cross-functional teams, including DevOps, Security, and Product Management, to define and execute product roadmaps, service updates, and feature enhancements
+Becoming an active member of the Apache open-source community when working on open-source components
+Implement high availability strategies and design patterns to manage system failures and ensure uninterrupted service during planned or unplanned infrastructure downtimes
+Ensure compliance with security protocols and industry best practices when handling large-scale data processing in the cloud
+Requirements
+Minimum of 4 years of experience in software development, with a focus on large-scale distributed systems, cloud services, or Big Data technologies
+Expertise in coding in Java, Python, Scala with emphasis on tuning/optimization
+Hands-on experience with the Hadoop ecosystem (HDFS, MapReduce, YARN), Spark, Kafka, Flink and other big data technologies
+Hands-on experience with Cloud (Azure/AWS/GCP)
+Experience with Linux systems administration, troubleshooting, and security best practices in cloud environments
+Familiarity with containerization and orchestration technologies like Docker and Kubernetes
+Experience with automation tools and techniques for deployment, patching, and service monitoring
+Experience with open-source software in the Big Data ecosystem
+Experience at an organization with a strong operational/dev-ops culture
+Solid understanding of networking, storage, and security components related to cloud infrastructure
+Solid foundation in data structures, algorithms, and software design with strong analytical and debugging skills
+We offer
+We gather like-minded people:
+Engineering community of industry professionals
+Friendly team and enjoyable working environment
+Flexible schedule and opportunity to work remotely within Poland
+Chance to work abroad for up to 60 days annually
+Relocation within our 50+ offices
+We provide growth opportunities:
+Outstanding career roadmap
+Leadership development, career advising, soft skills, and well-being programs
+Certification (GCP, Azure, AWS)
+Unlimited access to LinkedIn Learning, Get Abstract, O’Reilly, Cloud Guru
+Language classes in English and Polish for foreigners
+We cover it all:
+Stable income (Employment Contract or B2B)
+Participation in the Employee Stock Purchase Plan
+Benefits package (health insurance, multisport, shopping vouchers)
+Strategically located offices featuring entertainment and relaxation zones, table tennis and football, free snacks, fantastic coffee, and more
+Referral bonuses
+Corporate, social and well-being events
+Please, note:
+The set of bonuses might vary based on the role you apply for – specifics will be discussed with our recruiter during the general interview
+We will reach out to selected candidates exclusively
+EPAM is a leading global provider of digital platform engineering and development services. We are committed to having a positive impact on our customers, our employees, and our communities. We embrace a dynamic and inclusive culture. Here you will collaborate with multi-national teams, contribute to a myriad of innovative projects that deliver the most creative and cutting-edge solutions, and have an opportunity to continuously learn and grow. No matter where you are located, you will join a dedicated, creative, and diverse community that will help you discover your fullest potential.","EPAM Systems","https://justjoin.it/job-offer/epam-systems-senior-java-developer-with-hadoop-krakow-java",0,0,,"Software Development;Java;Hadoop;Spark;Flink;Cloud;Linux;Kubernetes;Docker;Big Data","New"
+"Java Developer","Role: Java DeveloperLocation: hybrid model 1 day office (Gdańsk, Gdynia, Łódź or Warszawa) / 4 days remote.Industry: bankingType of contract: B2BRemuneration: up to 110 zl/h netto+vat (B2B)Duration: long-term cooperationStart: ASAPRequirements:
+At least 2+ years of experience in Java (as a Developer)
+Spark
+Spring Boot
+Nice to have (not mandatory):
+Oracle
+Git
+Bamboo as CI/CD
+Kafka as Communication Layer
+Cloudera
+Ansible
+k8s
+Docker
+Project:The input events are stored in Kafka. We are processing and enriching using other sources (again using Kafka, or gRPC, or direct DB access for legacy systems, and other solutions).As data persistence storage, for now, we use OracleDB + Flyway however it is very probable that we will change it.Since there are a lot of events to process we using Spark to process them. Right now we are using our own Spark Cluster, but we are in transition to Cloudera Data Platform. To create a code we are using Java. For testing we are using a lot Cucumber / Gherkin.For CI/CD (CD to test environments) we are using Atlassian solution: Bitbucket / Bamboo. To keep infrastructure as code we are using Ansible. To provide us the input, business is using Jupyter Notebooks, that uses Python and again Spark.We are also responsible for a few other Java services, that are using Spring (spring-batch / spring-kafka / spring-data) to process the data, those are hosted using Kubernetes.We are using SAFe as our agile framework. Tasks are stored in JIRA and documents are located in Confluence.","emagine Polska","https://justjoin.it/job-offer/emagine-polska-java-developer-warszawa-java-8585b2d4",16800,18480,PLN,"Spark;Java;Spring Boot","New"
+"Senior Java Developer","Directio is a global IT services company. We consult, code, test, deploy, and manage mainly cloud-based and mobile applications, providing around-the-clock support from our offices in Poland, the Philippines, Mexico, and the USA. We prepare our FMCG, retail, automotive, and SaaS clients for the future by accelerating their digital transformation. Operating under the “We Code Success” principle, we prioritize the success of our clients, consultants, and partners. About project:We are looking for a Java Developer for our Swedish client who will participate in developing a product to automate business processes, ensuring they run smoothly and eliminating the need to spend time on recalculating various product configurations during business negotiations.Responsibility:
+As a Java Developer, you will be developing the core CPQ software for an international software company, building scalable solutions that will become part of the company’s standard product offering;
+You will be implementing feature requirements to enhance the functionality, usability, and performance of the company’s core software, ensuring it meets evolving business needs;
+You will be working on an innovative framework designed by the client, written in Java. And if you want to, you could have an active impact on its development process. 
+You will be working within an agile methodology, participating in sprints and adapting to iterative development processes for continuous improvement.
+ Requirements:
+5+ years of professional software development experience, demonstrating a strong background in building and maintaining software systems;
+Strong experience with Java (17+) language, enabling you to develop robust and efficient backend solutions;
+Openness to working with frontend technologies, showing flexibility to adapt and contribute across the stack as needed;
+Strong experience with Java language, enabling you to develop robust and efficient backend solutions;
+Ability to interpret and transform functional specifications into intuitive, non-complex, and creative software solutions, ensuring user satisfaction;
+Experience with designing software solutions, showcasing your ability to architect and implement high-quality features;
+Ability to describe and document solutions, ensuring clarity and ease of understanding for team members and stakeholders;
+Ability to work independently, managing tasks and responsibilities with minimal supervision;
+Strong communication skills in English, both written and spoken, enabling effective collaboration within an international team.
+Nice to have:
+Hands-on experience with front-end technologies, demonstrating your capability to contribute to the user interface and bridge the gap between backend functionality and user-facing features;
+Familiarity with automated testing practices and tools, demonstrating your ability to write and execute automated tests that improve software reliability and quality.
+We offer:
+Salary for work amounting to 23 500 PLN - 27 500 PLN on B2B or 17 500 PLN - 21 000 PLN on Employment contract;
+Professional trainings;
+Flexible working conditions;
+Stable employment (employment contract or B2B);
+Private healthcare and Multisport card.
+ Please be advised that we will only contact selected candidates","Directio","https://justjoin.it/job-offer/directio-java-developer-warszawa-java",23500,27500,PLN,"Backend;Java;Automated Testing;Front-End","5d ago"
