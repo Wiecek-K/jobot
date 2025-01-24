@@ -1,12 +1,12 @@
 import { JustJoinItScrapper } from '../bot/scrapper/JustJoinItScrapper'
 import { BrowserManager } from '../bot/scrapper/scrapper'
 import { PracujPlScrapper } from '../bot/scrapper/PracujPlScrapper'
-import { JobOffer } from '../types/types'
+import { ScrappedOffers } from '../types/types'
 
 const MAX_TABS = 20
 
 export const findOffers = async (searchValue: string, limit = 10) => {
-  const scrappedOffers: JobOffer[] = []
+  const scrappedOffers: ScrappedOffers[] = []
   const justJoinItBrowserManager = new BrowserManager(MAX_TABS)
   const pracujPlBrowserManager = new BrowserManager(MAX_TABS)
 
@@ -31,11 +31,11 @@ export const findOffers = async (searchValue: string, limit = 10) => {
 
   const runScrapers = async () => {
     return Promise.all(
-      scrappers.map(async ({ browserManager, scrapper }) => {
+      scrappers.map(async ({ browserManager, scrapper, name }) => {
         try {
           await browserManager.init()
           const offersData = await scrapper.scrape()
-          offersData.forEach((offer) => scrappedOffers.push(offer))
+          scrappedOffers.push({ serviceName: name, data: offersData })
         } catch (error) {
           console.error('Fatal error during scraping:', error)
         } finally {
@@ -44,19 +44,6 @@ export const findOffers = async (searchValue: string, limit = 10) => {
       })
     )
   }
-  // const runScrapers = async () => {
-  //   scrappers.forEach(async ({ browserManager, name, scrapper }) => {
-  //     try {
-  //       await browserManager.init()
-  //       const offersData = await scrapper.scrape()
-  //       offersData.forEach((offer) => scrappedOffers.push(offer))
-  //     } catch (error) {
-  //       console.error('Fatal error during scraping:', error)
-  //     } finally {
-  //       await browserManager.close()
-  //     }
-  //   })
-  // }
 
   await runScrapers()
   return scrappedOffers

@@ -2,7 +2,7 @@
   "scripts": {
     "build": "tsc",
     "start:dev": "ts-node ./src/server.ts",
-    "start:server": "node dist/server.js",
+    "start:prod": "node dist/server.js",
     "scrap:offers": "ts-node ./src/scripts/findOffers.ts",
     "scrap:offers:prod": "node dist/scripts/findOffers.ts"
   },
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "express": "^4.21.2",
+    "node-cache": "^5.1.2",
     "node-schedule": "^2.1.1",
     "puppeteer": "^23.11.1",
     "yargs": "^17.7.2"
