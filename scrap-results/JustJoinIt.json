@@ -1,0 +1,178 @@
+[
+  {
+    "title": "Java Developer (1 dzień z biura)",
+    "description": "Cześć!Dla naszego klienta z branży telco poszukujemy Java Developera, którego zadaniem będzie tworzenie i rozwijanie aplikacji klasy Enterprise, projektowanie oraz implementacja nowych funkcjonalności w Java i Angular, integracja z bazami danych, rozwijaniem API REST, a także współpraca w zespole Scrum, dbając o jakość kodu i procesy CI/CD.Stawka: 100 – 135 PLN/h netto na B2BLokalizacja: Praca hybrydowa – minimum 1 dzień w tygodniu w biurze w WarszawieStart: ASAP lub początek marcaZakres obowiązków:\nTworzenie i rozwój oprogramowania klasy Enterprise wspierającego procesy planowania i utrzymania sieci.\nProjektowanie, implementację i wdrażanie nowych funkcjonalności z wykorzystaniem technologii Java, Spring Boot oraz Angular.\nProjektowanie i optymalizację zapytań do baz danych (Oracle, PostgreSQL) oraz ich integrację z aplikacjami.\nBudowę i rozwój interfejsów API zgodnie z wymaganiami projektowymi (REST, Swagger).\nTworzenie oraz utrzymywanie procesów automatyzacji (CI/CD) przy użyciu narzędzi takich jak Maven i Jenkins.\nUdział w przeglądach kodu oraz wdrażanie najlepszych praktyk w zakresie programowania.\nPracę w zespole projektowym w metodyce Scrum, współpracując z analitykami, testerami oraz innymi programistami.\nWykorzystanie wiedzy z zakresu Event-Driven Architecture oraz, w miarę możliwości, modelowania procesów w BPMN (Camunda).\nWymagania podstawowe:\nMinimum 3-letnie doświadczenie w tworzeniu oprogramowania klasy Enterprise.\nBardzo dobra znajomość technologii: Java, Spring Boot, Angular 2+, Bootstrap.\nZaawansowana znajomość baz danych (Oracle, PostgreSQL) oraz języka SQL.\nPraktyczne doświadczenie w pracy z API REST oraz narzędziami takimi jak Swagger.\nDoświadczenie w procesach CI/CD (Maven, Jenkins).\nZnajomość koncepcji Event-Driven Architecture.\nZnajomość języka angielskiego na poziomie umożliwiającym pracę w środowisku międzynarodowym oraz analizę dokumentacji technicznej.\nZdolności analityczne, komunikatywność oraz umiejętność pracy zespołowej.\nDodatkowe atuty:\nUmiejętność programowania w języku Python.\nZnajomość modelowania procesów w BPMN (Camunda).\n\nDoświadczenie w pracy w branży telekomunikacyjnej, w tym znajomość systemów: CRM, Order Management, Billing, a także standardów TMF.\nZapraszamy do aplikowania!",
+    "company": "Crestt",
+    "offerURL": "https://justjoin.it/job-offer/crestt-java-developer-1-dzien-z-biura--warszawa-java",
+    "salaryFrom": 16800,
+    "salaryTo": 22600,
+    "currency": "PLN",
+    "technologies": [
+      "CI/CD",
+      "Angular",
+      "REST API",
+      "Swagger",
+      "Java",
+      "SQL",
+      "Spring Boot",
+      "Telco",
+      "Camunda",
+      "Python"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Java Developer",
+    "description": "Responsibilities\nYou are working on a new project.\n\nYou are a member of a team developing Java / Jakarta EE applications for a dedicated customer in the German financial industry.\nYou are responsible for the product you build.\nYou proactively bring in ideas to create solutions using the Java Tech Stack.\n\nYou work in an Agile environment.\nYou take responsibility in a self-organized Scrum team.\nYou meet with your team in the office once a month to plan your work and discuss progress.\nBenefits\n\nMotivizer Benefits Platform to choose and manage all your benefits in one place. You receive a budget (550 PLN monthly). You can choose medical care package, meal tickets, sports cards (we have Multisport and on preferential terms, we have membership cards to one of the most popular Gyms), cinema tickets, shop vouchers, discounts and many more. \n\nLanguage Courses – you'll have access to a multi-language learning platform enabling you to practice you language skills and learn new ones! \nRegular and systematic further training opportunities - both internally and from external providers. We support your ongoing learning and development. \nCooperation within  an internal community is our everyday reality. We have networking events, coding challenges, and company parties for different occasions. \nQualifications\nVery good communication skills in English.\nCommunication skills in German is a plus.\nSuccessful completion of higher education as a qualified IT specialist or university degree in computer science.\nAt least 2 Years of experience with Java Tech Stack, ideally with a subset of the following technologies and frameworks: Java 11+, Rest, Spring Batch, JBoss Wildfly, Jenkins, Git, Maven, Hibernate, SQL.\nYou understand agile methodologies.\nYou are proactive, responsible, and you know how to work as a team.\nAbout Fincon ReplyFincon Reply is a business and IT consultancy specializing in the financial services industry. Fincon Reply proactively advises banks, the Sparkassen Finance Group, insurance companies and near-financial companies as well as their suppliers on their digital transformation. The company provides on-site support with specialised teams of consultants and developers and delivers turnkey solutions. www.fincon.eu",
+    "company": "Reply Polska Sp. z o. o.",
+    "offerURL": "https://justjoin.it/job-offer/reply-polska-sp-z-o-o--java-developer-katowice-java-32d17a99",
+    "salaryFrom": 9000,
+    "salaryTo": 19000,
+    "currency": "PLN",
+    "technologies": [
+      "Jenkins",
+      "Agile",
+      "Java",
+      "REST"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Frontend Developer (Blazor WebAssembly)",
+    "description": "Jako firma rekrutacyjna jesteśmy świadomi, że każdy solidny biznes napędzają ludzie z odpowiednio dopasowanymi kompetencjami. Nasz styl zarządzania i partnerskie podejście pozwalają nam na elastyczne dostosowanie się do Twoich potrzeb i zapewniają pełne wsparcie podczas współpracy. W związku z ciągłym rozwojem i dużą liczbą projektów rekrutacyjnych, jakie prowadzimy dla naszych Partnerów, szukamy osoby na stanowisko:Frontend Developer (Blazor WebAssembly)Zakres obowiązków:\nTworzenie i rozwój aplikacji frontendowych w technologii Blazor WebAssembly\nWspółpraca z backend developerami przy integracji systemów opartych na MS SQL Server oraz BigQuery (GCP)\nOptymalizacja kodu pod kątem wydajności, dostępności i najlepszych praktyk UX\nUtrzymanie wysokiej jakości kodu (przeglądy kodu, testy jednostkowe)\nUdział w planowaniu nowych funkcji i architektury aplikacji\n Wymagania:\nMinimum 2 lata doświadczenia w pracy z Blazor WebAssembly\nBardzo dobra znajomość C# 8+ oraz .NET\nUmiejętność pracy w środowisku Visual Studio\nZnajomość technologii frontendowych: HTML5, CSS3, JavaScript (podstawy)\nDoświadczenie w pracy z bazami danych, w szczególności MS SQL Server\nZrozumienie zasad projektowania REST API oraz integracji z backendem\nMile widziane:\nZnajomość Google Cloud Platform (BigQuery)\nDoświadczenie w projektowaniu interfejsów zgodnych z zasadami Material Design lub podobnymi frameworkami\nZnajomość narzędzi do zarządzania projektami, np. Jira, Azure DevOps\nZnajomość wzorców projektowych w aplikacjach webowych\n Oferujemy:\nPracę hybrydową (2 dni z biura w Piasecznie + 3 dni z domu)\nPrywatną opiekę medyczną\nDofinansowanie karty sportowej\nStałe wsparcie konsultanta\nProgram rekomendacji pracowników",
+    "company": "DCG",
+    "offerURL": "https://justjoin.it/job-offer/dcg-frontend-developer-blazor-webassembly--warszawa-html",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "Blazor",
+      "C#",
+      ".NET C#",
+      "HTML",
+      "Visual Studio",
+      "English",
+      "CSS3",
+      "REST API"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Release Manager",
+    "description": "We are seeking a highly experienced and motivated Release Manager with a proven track record in the automotive industry for one of our clients in Brussels. The Release Manager will be responsible for planning, coordinating, and executing software and hardware releases across multiple projects, ensuring timely and high-quality delivery. This role requires strong leadership, communication, and organizational skills, as well as experience managing diverse vendor relationships across the globe.Responsibilities:Manage the end-to-end release lifecycle, from planning and scheduling to deployment and post-release support.Collaborate with cross-functional teams (development, testing, operations, product management) to define release scope, timelines, and dependencies.Develop and maintain release plans, schedules, and communication plans.Coordinate and manage multiple vendors across different time zones, ensuring adherence to project timelines and quality standards.Identify and mitigate risks and issues that could impact release timelines or quality.Implement and maintain release management processes and best practices.Oversee the build, integration, and testing of software and hardware releases.Manage release environments and infrastructure.Communicate release status and updates to stakeholders at all levels.Conduct post-release reviews and identify areas for improvement.Track and report on key release metrics.Ensure compliance with relevant industry standards and regulations (e.g., ISO 26262).Manage release documentation.Qualifications:Bachelor's degree in Computer Science, Engineering, or a related field.Minimum 8+ years of experience in release management, preferably in the automotive industry.Proven experience managing complex software and/or hardware releases.Strong understanding of software development lifecycle (SDLC) methodologies (Agile, Waterfall).Experience with release management tools and automation.Excellent communication, interpersonal, and leadership skills.Ability to work effectively in a fast-paced, global environment.Strong analytical and problem-solving skills.Excellent organizational and time management skills.Fluency in English (written and spoken) is mandatory.Fluency in Dutch (DU) and/or French (FR) is a strong advantage.Experience managing global vendors and remote teams is highly preferred.Familiarity with automotive software development processes and standards (e.g., ASPICE) is a plus",
+    "company": "Kevin Edward",
+    "offerURL": "https://justjoin.it/job-offer/kevin-edward-release-manager-bruksela-other",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "SDLC",
+      "ASPICE"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Software Engineer (PHP)",
+    "description": "About Us:Ikonik VXP Video Experience Platform is the ultimate end-to-end OTT solution for discerning media content owners and digital publishers. We provide the tools and human-powered support needed to help our clients stand out and win in the exciting video streaming and OTT growth market. Our platform seamlessly delivers video applications on web, Roku, Apple TV, Fire TV, Android TV, iOS and Android mobile, LG, Samsung, and more.Job Description:We are seeking an experienced Software Engineer (PHP) with over 5 years of experience to join our dynamic team. The ideal candidate is proactive, responsible, and eager to participate actively in project processes. Proficiency in Russian, Belarusian, or Ukrainian is a mandatory requirement.Key Responsibilities:\nDesign, develop, and optimize RESTful APIs using Symfony.\nConnect, configure, and maintain third-party services and APIs to extend platform capabilities.\nContinuously analyze and optimize system performance, including database queries, API responses, and overall infrastructure.\nEnsure clean, maintainable, and scalable code by adhering to SOLID principles and best practices.\nIdentify and resolve performance bottlenecks, bugs, and production issues\nMaintain clear documentation for APIs, integrations, and processes.\nRequired Competencies:\n\nPHP Expertise: Minimum 5 years of hands-on PHP development experience.\n\nSymfony Framework: Strong knowledge of Symfony, including Symfony Messenger for messaging.\n\nDatabase Management: Proficient with MySQL and Redis for data storage, caching, and optimization.\n\nMessage Brokers: Experience with RabbitMQ and Amazon SQS.\n\nAPI Development: Skilled in designing and developing RESTful APIs.\n\nSearch Technologies: Hands-on experience with Elasticsearch for search implementation.\n\nThird-Party Integration: Expertise in integrating external services and APIs.\n\nSoftware Design Principles: Strong understanding of SOLID principles and common design patterns.\nOptional Competencies:\n\nCloud Services: Familiarity with AWS, including EC2, S3, RDS, and DynamoDB.\n\nContainerization: Experience with Docker for application deployment.\n\nVideo Processing: Knowledge of FFmpeg for video encoding and transcoding.\n\nAdditional Language: Experience with Python as a secondary programming language.\n\nServerless Architectures: Experience with AWS Lambda and API Gateway for building serverless applications.\n\nDevOps: Understanding of CI/CD pipelines and related practices.\nLanguages:\n\nEnglish: B1\n\nRussian: Fluent\nWhat we Offer:\nCompetitive salary and benefits package.\nOpportunity to work with cutting-edge technologies in the OTT space.\nCollaborative and dynamic work environment.\nTechnology update available.",
+    "company": "Ikonik Media, Inc.",
+    "offerURL": "https://justjoin.it/job-offer/ikonik-media-inc--software-engineer-php--warszawa-php",
+    "salaryFrom": 21849,
+    "salaryTo": 25896,
+    "currency": "PLN",
+    "technologies": [
+      "Symfony",
+      "PHP 8",
+      "MySQL",
+      "RESTful API",
+      "Redis",
+      "Docker",
+      "Amazon AWS",
+      "Elasticsearch",
+      "RabbitMQ"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Fullstack Developer (Python + React)",
+    "description": "Shape the Future of Healthcare TechnologyWarsaw-based opportunity with the possibility to work fully remote!As a Fullstack Engineer, you will be working for our client, a leader in advancing healthcare innovation. You will collaborate with cross-functional teams to design and implement cutting-edge software solutions that support the optimization of clinical trials, streamline execution processes, and improve risk management.Your main responsibilities: Design and develop scalable full-stack applications using Python and React\nImplement secure, reliable, and efficient cloud-based solutions\nDebug, test, and maintain software to ensure optimal performance\nCollaborate with cross-functional teams to gather and define requirements\nOptimize application functionality and usability to improve user experience\nCreate detailed system documentation and installation procedures\nPerform code reviews and mentor junior developers to uphold best practices\nEvaluate project schedules and allocate resources effectively\nStay up-to-date with emerging technologies to integrate into the development process\nYou’re ideal for this role if you have:\n5+ years of experience in full-stack development with Python and React\nExpertise in cloud environments such as AWS, Azure, or Google Cloud\nStrong understanding of software development lifecycle and methodologies\nProficiency in debugging, testing, and optimizing applications\nFamiliarity with database technologies and data modeling\nExcellent problem-solving skills and a proactive approach to challenges\nStrong communication and teamwork skills to collaborate across departments\nA Master’s degree in Machine Learning, Computer Science, or a related field",
+    "company": "ITDS",
+    "offerURL": "https://justjoin.it/job-offer/itds-fullstack-developer-python-react--warszawa-python",
+    "salaryFrom": 20000,
+    "salaryTo": 24150,
+    "currency": "PLN",
+    "technologies": [
+      "Python",
+      "React",
+      "Cloud",
+      "Kubernetes"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Software Engineering Team Lead",
+    "description": "At airSlate, our journey began in Boston, USA, in 2008. What started as a single product with 3,000 customers has grown into an influential tech company with 1000+ team members across six offices worldwide. In 2022, airSlate reached a total valuation of $1.25 billion and became a 'Unicorn 🦄'. But even as we scale, team members remain our most valuable asset. That's why we've built a company that excites people about their work.We develop products that serve over 100 million users with no-code workflow automation, electronic signature, and document management solutions. The company's portfolio of award-winning products, signNow, pdfFiller, DocHub, WorkFlow, Instapage, and US Legal Forms, empower teams to digitally transform the way their organizations run.About pdfFiller team:We are a passionate and ambitious team of 120+ people on a mission to succeed with our online PDF creator and editor –  pdfFiller.pdfFiller empowers over 10 million users every month to create and edit PDFs, send them for signing, and securely store documents within a single application. Offering unlimited storage, unlimited templates, and cross-platform integration, pdfFiller is the only PDF editor needed to get your document done.And now, we are looking for a Software Engineering Team Lead who is prepared to contribute to the next chapter of our company's growth. Our Editor Unit focuses on delivering seamless and efficient document editing capabilities within the pdfFiller product. The team enhances user experiences related to document creation, editing, and collaboration, ensuring reliability, speed, and scalability.Tech StackFrontend: React, Redux, Webpack, WebsocketBackend: Node.JS, PHPInfrastructure: AWS (EKS, Elasticache, RDS, S3 and others)Tools: Atlassian products, Github + Github Action, Grafana & OpenSearch, Argo CDWhat you'll be working on:\nLead and manage a cross-functional team, including frontend, backend, and QA specialists\nDefine the technical direction and ensure alignment with product and business goals\nOversee the development and delivery of new features and enhancements\nEnsure high-quality code through best practices and regular code reviews\nMentor and support the professional growth of team members\nOptimize workflows, adjusting team schedules to improve efficiency\nMonitor application and infrastructure performance, driving continuous improvement\nWhat we expect from you:\n5+ years of experience in software development, focusing on web applications\n2+ years of leadership experience managing cross-functional engineering teams (from 4-5 people)\nProven expertise in frontend (React, Redux) or backend (Node, Redis, Go) technologies\nHands-on experience with infrastructure tools like Kubernetes (K8S)\nTrack record of delivering high-quality, scalable, and performant applications\nStrong knowledge of modern development practices, including CI/CD, testing, and monitoring\nExceptional problem-solving and decision-making skills\nExperience in mentoring and developing engineers at different levels of seniority\nProficiency in English (B2 or higher), both written and spoken\nKnowledge of Ukrainian or Russian\nNice to have:\nExperience in SaaS\nKnowledge of PHP\nIf you’re passionate about leading teams to build world-class document editing tools, we’d love to hear from you!What we offer:— Flexible work environment — We value the advantages of in-person collaboration and prioritize work from our offices in Wroclaw or Bialystok. However, we also provide flexible work arrangements to accommodate remote or hybrid options and flexible scheduling.— Bonuses and compensation — On top of a competitive base salary, we reward our team members' performance with a quarterly bonus to recognize achievements, time, and effort.— Professional growth opportunities — We are committed to ongoing improvement and welcome those passionate about learning. We cover professional development courses, conferences, literature, English classes, and more for each team member.— Health and well-being — We prioritize the health and well-being of our team. This is why we provide a Luxmed subscription, a multisport card for every team member, access to the office's massage room, free lunches, and healthy in-office snacks to sustain your energy.— Stock options — At airSlate, our team members are more than employees; they're business partners. We issue stock options that grant ownership in the company, allowing everyone to share in its growth.— Open communication — We encourage transparent communication from all team members at airSlate. Feel free to share your thoughts, ideas, and concerns with our management team, CEO, any member of our leadership team, or any team lead at any time. We are proud of: — airSlate Care for Ukraine — With a significant number of our team members in Ukraine, our foremost concern was ensuring their safety by providing both financial and logistical assistance to them and their families. What started as an immediate response has evolved into a cornerstone of the airSlate charity program. We match donations contributed by our team members, offer humanitarian aid to those affected by the conflict, distribute food packages to seniors, and support animal shelters. Our commitment remains steadfast in working towards restoring peace to Ukraine.— airSlate Junior Club — Our sense of family extends beyond our team. All team members with children gain access to the airSlate Junior Club, featuring engaging events such as cooking classes, creative activities, and educational online games.",
+    "company": "airSlate",
+    "offerURL": "https://justjoin.it/job-offer/airslate-software-engineering-team-lead-wroclaw-javascript",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "Node.js",
+      "React Native",
+      "AWS",
+      "PHP"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Software Maintenance Engineer",
+    "description": "Join a forward-thinking team shaping the future of rendering technology with SKY ENGINE AI, a pioneering Artificial Intelligence company, founded in the UK with a global presence. We are passionate about building world-class rendering libraries and delivering high-performance software solutions in CGI, AI, and computer vision. SKY ENGINE AI is a Synthetic Data Cloud for deep learning in vision AI – a cutting-edge developer platform for data scientists and computer vision engineers.As a Software Maintenance Engineer, you will ensure the highest code quality of our rendering engine and play a key role in the continuous improvement of our software. This is your chance to join an exciting AI venture at the ground floor and tackle new challenges in Vision AI every day. If you're meticulous, detail-oriented, and dedicated to quality, this role is perfect for you!Key Responsibilities:\nEnhance code quality and maintain the core functionality of the company’s rendering engine.\nRefactor and optimize existing codebases in C++ and Python to improve performance, readability, and maintainability.\nDesign and automate tests using Pytest and other tools to ensure robust and error-free software.\nImprove software documentation, ensuring it remains clear, precise, and comprehensive.\nCollaborate with a multidisciplinary team of Developers, Product Owners, and Administrators working in the fields of CGI, Data Science, AI, and Computer Vision.\nParticipate in CI/CD processes, focusing on maintaining and improving the pipeline’s efficiency.\n\nMain daily task: Implementing code refactoring, new feature development, test automation, and quality control as part of the next release increment.\nRequired qualifications:\n\n3+ years of experience in C++ and Python programming.\nFamiliarity with Sphinx for documentation and Pytest for test automation.\nProven experience in QA and ensuring code quality in large-scale projects.\nSolid understanding of CI/CD pipelines and automation practices.\nStrong knowledge of data structures and design patterns at both high and low levels.\nAbility to collaborate effectively in a team-oriented setting.\nExperience in GIT version control and SCRUM project management.\nDemonstrated experience working on commercial projects and maintaining complex codebases.\nNice to have:\nExperience with Blender, Houdini, and related scripting environments.\nA detail-oriented approach with a drive for perfection.\nProficiency in English at C1 level.\nExperience in the gaming or CG industry.\nFamiliarity with automation pipelines and process improvement.\nWork Methodology:\nAgile SCRUM\nContinuous delivery – GitLab\nGit/Bitbucket/JIRA/Confluence\nOperating System – Linux\nProgramming IDE: PyCharm/CLion\nOur Office & Benefits:\nSport subscription\nHealth insurance\nTraining budget\nModern office & young team\nBonus policy\nIf you're passionate about rendering and ready for a new challenge, send your CV and cover letter to: career@skyengine.aiThis role is ideal for software engineers passionate about QA, code maintenance, and continuous improvement, who thrive in dynamic environments where attention to detail and high standards are rewarded.",
+    "company": "Sky Engine Sp. z o. o.",
+    "offerURL": "https://justjoin.it/job-offer/sky-engine-sp-z-o-o--software-maintenance-engineer-warszawa-python",
+    "salaryFrom": 18000,
+    "salaryTo": 20000,
+    "currency": "PLN",
+    "technologies": [
+      "C++",
+      "Python"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Rendering Engineer",
+    "description": "SKY ENGINE AI, an Artificial Intelligence company founded in the UK with international presence, helps enterprises transform into greater AI companies. SKY ENGINE AI is a Synthetic Data Cloud for deep learning in vision AI – a developer platform for data scientists and computer vision engineers. This is a chance for you to get in on the ground floor of an exciting AI venture. We are exploring many new challenges in Vision AI every day. We are currently seeking a Mid-Level Rendering Engineer to support our Rendering Team.Key Responsibilities:\nDeveloping and maintaining advanced rendering-related libraries.\nResearching and implementing mathematical models for sensors, surfaces, lighting, and other physical phenomena.\nDesigning and conducting experiments to validate the accuracy and quality of simulations.\nCollaborating with cross-functional teams of developers, administrators, product owners, and experts in CGI, data science, AI, and computer vision.\nContributing to the full development cycle, from conducting research on simulation methods to evaluating and refining existing solutions in our Sky Engine rendering library.\nDocumenting technical designs, experiments, and improvements made throughout the project life cycle.\nRequired qualifications:\n\n3+ years of programming experience in C++ and Python.\nProven track record of problem-solving skills in complex environments.\nAbility to collaborate effectively in a team-oriented setting.\nProfessional experience in computer graphics (CG), rendering, 3D measurements, or physical simulation.\nFamiliarity with GIT version control and working in SCRUM environments.\nHands-on experience in commercial projects involving rendering or simulation.\nProven ability to work within multidisciplinary pipelines and handle complex workflows.\nEnglish B2 level or higher.\nExperience with libraries: numpy, scipy, opencv.\nNice to have:\nExperience with Blender, Houdini for CG or VFX production.\nFamiliarity with VFX or CG pipelines and data processing flows.\nA deep passion for rendering, VFX, and computer graphics, constantly staying updated with industry trends and developments.\nWork Methodology:\nAgile SCRUM\nContinuous delivery – GitLab\nGit/Bitbucket/JIRA/Confluence\nOperating System – Linux\nProgramming IDE: PyCharm/CLion\nOur Office & Benefits:\nSport subscription\nHealth insurance\nTraining budget\nModern office & young team\nBonus policy\nIf you're passionate about rendering and ready for a new challenge, send your CV and coverletter to: career@skyengine.ai",
+    "company": "Sky Engine Sp. z o. o.",
+    "offerURL": "https://justjoin.it/job-offer/sky-engine-sp-z-o-o--rendering-engineer-warszawa-python",
+    "salaryFrom": 20000,
+    "salaryTo": 25000,
+    "currency": "PLN",
+    "technologies": [
+      "C++",
+      "Python",
+      "Rendering"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Site Reliability Engineer",
+    "description": "Tworzymy XTB – globalną firmę inwestycyjną, oferującą innowacyjne rozwiązania technologiczne, które pozwalają naszym klientom skutecznie zarządzać swoimi finansami na wiele sposobów. Wszystko to w jednej intuicyjnej aplikacji XTB, z której korzysta już ponad milion użytkowników na całym świecie!Obowiązki:\nKonfiguracja, zarządzanie i utrzymanie narzędzi do monitorowania, alertowania oraz diagnozowania awarii,\nUdział w zarządzaniu incydentami oraz analizie problemów poawaryjnych (w tym pełnienie roli Incydent Managera w systemie dyżurowym),\nZapewnienie stabilności i niezawodności systemów produkcyjnych,\nMonitorowanie, konfiguracja alertowania, analiza i optymalizacja wydajności aplikacji i infrastruktury,\nWspółpraca z zespołami produktowymi w celu poprawy dostępności usług,\nRozwiązywanie problemów związanych z wydajnością i dostępnością systemów,\nPisanie własnych narzędzi do integracji systemów. \nWymagania:\n2-5 lat doświadczenia w roli SRE, DevOps lub pokrewnym stanowisku,\nZnajomość narzędzi monitorowania i zarządzania incydentami (np. Prometheus, Grafana, ELK, Opsgenie/Pagerduty),\nZnajomość technologii do zarządzania infrastrukturą i konfiguracją: Ansible, Terraform, Helm,\nZrozumienie koncepcji CI/CD oraz automatyzacji wdrożeń (Gitlab),\nZnajomość języków skryptowych (Python, Go),\nDoświadczenie w zarządzaniu infrastrukturą opartą na kontenerach (Docker, Kubernetes)\nDoświadczenie w zarządzaniu infrastrukturą on-prem,\nUmiejętność rozwiązywania problemów i analityczne podejście do zadań,\nUmiejętność samodzielnego rozwiązywania zagadnień,\nWysoka kultura osobista i umiejętność komunikacji.\nMile widziane:\nZnajomość praktyk ITIL w zakresie zarządzania incydentami i problemami (JSM),\nDoświadczenie pracy na stanowisku Software Engineer\nChcemy Ci zaoferować: \nRealny wpływ na rozwój firmy i produktu\nPracę w doświadczonym zespole, który chętnie dzieli się wiedzą \nJasną wizję rozwoju dzięki regularnym feedbackom i klarownym ścieżkom karier \nBudżet szkoleniowy na interesujące Cię kursy i konferencje \nDodatkowy dzień wolny z okazji Twoich urodzin \nDodatkowy dzień wolny dla rodziców \nSprzęt dopasowany do Twoich potrzeb \nPrywatną opiekę medyczną i ubezpieczenie grupowe\nDostęp do platformy e-learningowa do nauki języka angielskiego oraz platformy benefitowej \nDostęp do platformy wellbeingowej i możliwość skorzystania z warsztatów oraz prywatnych sesji terapeutycznych \nPracę zdalną, z biura w Warszawie lub z coworku w Twoim mieście\nRegularne spotkania integracyjne \nO Dziale Produktu i Technologii Dział Produktu i Technologii to zespół blisko 500 ekspertów i ekspertek. Tworzymy zaawansowane rozwiązania technologiczne, z których korzysta ponad milion użytkowników na całym świecie. Aplikacja XTB ma już ponad 5 milionów pobrań oraz ocenę 4,7 w App Store.  Na co stawiamy w naszej codziennej pracy? \n\nInnowacyjność - Odważnie wprowadzamy nowe rozwiązania, które przyczyniają się do zadowolenia klientów na całym świecie i sukcesu naszej aplikacji.\n\nSprawczość - Rozumiemy, że nasza praca ma wpływ na innych, dlatego każdy z nas bierze pełną odpowiedzialność za swoje zadania. Nie boimy się zadawać pytań ani prosić o pomoc, gdy napotkamy trudności.\n\nDeterminacja - Stawiamy sobie ambitne cele i konsekwentnie dążymy do ich realizacji i osiągnięcia jak najlepszych rezultatów. \n\nWspółpraca - Wierzymy, że najlepsze pomysły powstają dzięki pracy zespołowej. Regularnie organizujemy warsztaty, które dają nam przestrzeń do wspólnego omawiania wyzwań, przed którymi stoimy, oraz wymiany cennych doświadczeń i wiedzy.\n\nElastyczność - Większość z nas pracuje zdalnie, ale mamy także biuro w Warszawie (nasze HQ) oraz coworki w największych polskich miastach (Kraków, Wrocław, Poznań, Gdańsk), dzięki czemu możemy wybrać model pracy, który najlepiej nam odpowiada.\nRozwijamy super aplikację inwestycyjną, która pozwala naszym klientom efektywne zarządzać swoimi finansami. Dołącz do nas i razem kształtujmy przyszłość finansów!",
+    "company": "XTB",
+    "offerURL": "https://justjoin.it/job-offer/xtb-site-reliability-engineer-warszawa-other",
+    "salaryFrom": 21000,
+    "salaryTo": 27000,
+    "currency": "PLN",
+    "technologies": [
+      "SRE",
+      "Prometheus",
+      "Grafana",
+      "ELK",
+      "OpsGenie",
+      "Ansible",
+      "Terraform",
+      "Helm",
+      "CI/CD",
+      "Python"
+    ],
+    "addedAt": "New"
+  }
+]

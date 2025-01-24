@@ -3,7 +3,7 @@ import { BrowserManager } from '../bot/scrapper/scrapper'
 import { PracujPlScrapper } from '../bot/scrapper/PracujPlScrapper'
 import { ScrappedOffers } from '../types/types'
 
-const MAX_TABS = 20
+const MAX_TABS = 1
 
 export const findOffers = async (searchValue: string, limit = 10) => {
   const scrappedOffers: ScrappedOffers[] = []
@@ -29,22 +29,18 @@ export const findOffers = async (searchValue: string, limit = 10) => {
     },
   ]
 
-  const runScrapers = async () => {
-    return Promise.all(
-      scrappers.map(async ({ browserManager, scrapper, name }) => {
-        try {
-          await browserManager.init()
-          const offersData = await scrapper.scrape()
-          scrappedOffers.push({ serviceName: name, data: offersData })
-        } catch (error) {
-          console.error('Fatal error during scraping:', error)
-        } finally {
-          await browserManager.close()
-        }
-      })
-    )
+  for (const { browserManager, scrapper, name } of scrappers) {
+    try {
+      console.log(`Starting scraper: ${name}`)
+      await browserManager.init()
+      const offersData = await scrapper.scrape()
+      scrappedOffers.push({ serviceName: name, data: offersData })
+    } catch (error) {
+      console.error(`Error during scraping for ${name}:`, error)
+    } finally {
+      await browserManager.close()
+    }
   }
 
-  await runScrapers()
   return scrappedOffers
 }

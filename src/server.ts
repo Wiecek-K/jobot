@@ -95,6 +95,25 @@ schedule.scheduleJob('0 9 * * 1-5', () => {
   )
 })
 
+// schedule.scheduleJob('*/2 * * * *', () => {
+//   console.log('Running scheduled job: run-cron-job')
+
+//   exec(
+//     'pnpm scrap:offers:prod -s "Javascript Developer" -l 5 -t 30',
+//     (error, stdout, stderr) => {
+//       if (error) {
+//         console.error(`Error executing script: ${error.message}`)
+//         return
+//       }
+//       if (stderr) {
+//         console.error(`Script error output: ${stderr}`)
+//         return
+//       }
+//       console.log(`Script output: ${stdout}`)
+//     }
+//   )
+// })
+
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}/`)
 })
