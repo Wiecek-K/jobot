@@ -42,14 +42,14 @@ const findOffers = async () => {
         maxRecords: args.limit,
       }),
     },
-    {
-      name: 'PracujPl',
-      browserManager: pracujPlBrowserManager,
-      scrapper: new PracujPlScrapper(pracujPlBrowserManager, {
-        searchValue: args.search,
-        maxRecords: args.limit,
-      }),
-    },
+    // {
+    //   name: 'PracujPl',
+    //   browserManager: pracujPlBrowserManager,
+    //   scrapper: new PracujPlScrapper(pracujPlBrowserManager, {
+    //     searchValue: args.search,
+    //     maxRecords: args.limit,
+    //   }),
+    // },
   ]
 
   const runScrapers = async () => {
