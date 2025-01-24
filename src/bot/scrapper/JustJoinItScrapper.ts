@@ -8,7 +8,7 @@ import {
 } from './scrapper'
 
 export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
-  private readonly baseUrl = 'https://justjoin.it/'
+  private readonly baseUrl = 'https://justjoin.it/job-offers/all-locations?'
   private options: ScrapperOptions
 
   constructor(browserManager: BrowserManager, options: ScrapperOptions) {
@@ -28,16 +28,13 @@ export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
 
     try {
       await this.withPage({ width: 1280, height: 800 }, async (page) => {
-        await page.goto(this.baseUrl, {
-          timeout: 70000,
-          waitUntil: 'networkidle0',
-        })
-        await page.waitForSelector(searchSelector, { timeout: 70000 })
-
-        await page.type(searchSelector, this.options.searchValue)
-        await page.keyboard.press('Enter')
-        await page.waitForNavigation({ waitUntil: 'domcontentloaded' })
-        await page.waitForSelector(offerElementSelector, { timeout: 60000 })
+        await page.goto(
+          `${this.baseUrl}?keyword=${encodeURIComponent(this.options.searchValue)}`,
+          {
+            timeout: 70000,
+          }
+        )
+        await page.waitForSelector(offerElementSelector, { timeout: 70000 })
 
         while (collectedData.length < maxRecords) {
           const newItems = await page.evaluate((offerSelector) => {
