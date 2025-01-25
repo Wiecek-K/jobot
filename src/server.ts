@@ -38,7 +38,7 @@ app.get('/offers/:searchValue', async (req: Request, res: Response) => {
   const searchValue = req.params.searchValue
   const requestedLimit = req.query.limit
     ? parseInt(req.query.limit as string, 10)
-    : 10
+    : 5
 
   if (!searchValue) {
     return res.status(400).send('Search value is required')
