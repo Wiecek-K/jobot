@@ -10,7 +10,7 @@ export interface JobOffer {
   addedAt: string
 }
 
-export interface ScrappedOffers {
+export interface ScrapedOffers {
   serviceName: string
   data: JobOffer[]
 }

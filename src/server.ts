@@ -5,7 +5,7 @@ import schedule from 'node-schedule'
 import fs from 'fs'
 import path from 'path'
 import NodeCache from 'node-cache'
-import { ScrappedOffers } from './types/types'
+import { ScrapedOffers } from './types/types'
 
 const app = express()
 const PORT = process.env.PORT || 4200
@@ -38,7 +38,7 @@ app.get('/offers/:searchValue', async (req: Request, res: Response) => {
   const searchValue = req.params.searchValue
   const requestedLimit = req.query.limit
     ? parseInt(req.query.limit as string, 10)
-    : 10
+    : 5
 
   if (!searchValue) {
     return res.status(400).send('Search value is required')
@@ -47,28 +47,28 @@ app.get('/offers/:searchValue', async (req: Request, res: Response) => {
     const cacheKey = `offers-${searchValue}`
 
     if (offersCache.has(cacheKey)) {
-      const cachedOffers = offersCache.get<ScrappedOffers[]>(
+      const cachedOffers = offersCache.get<ScrapedOffers[]>(
         cacheKey
-      ) as ScrappedOffers[]
+      ) as ScrapedOffers[]
 
       const hasEnoughData = cachedOffers.every(
-        (scrapped) => scrapped.data.length >= requestedLimit
+        (scraped) => scraped.data.length >= requestedLimit
       )
 
       if (hasEnoughData) {
-        const limitedOffers = cachedOffers.map((scrapped) => ({
-          serviceName: scrapped.serviceName,
-          data: scrapped.data.slice(0, requestedLimit),
+        const limitedOffers = cachedOffers.map((scraped) => ({
+          serviceName: scraped.serviceName,
+          data: scraped.data.slice(0, requestedLimit),
         }))
         return res.status(200).json(limitedOffers)
       }
     }
 
-    const scrappedOffers = await findOffers(searchValue, requestedLimit)
+    const scrapedOffers = await findOffers(searchValue, requestedLimit)
 
-    offersCache.set(cacheKey, scrappedOffers)
+    offersCache.set(cacheKey, scrapedOffers)
 
-    return res.status(200).json(scrappedOffers)
+    return res.status(200).json(scrapedOffers)
   } catch (error) {
     return res
       .status(500)
@@ -76,11 +76,31 @@ app.get('/offers/:searchValue', async (req: Request, res: Response) => {
   }
 })
 
-schedule.scheduleJob('0 9 * * 1-5', () => {
-  console.log('Running scheduled job: run-cron-job')
+if (process.env.NODE_ENV === 'production') {
+  console.log('Running in production mode')
+  console.log('Initial data scraping is starting.')
+
+  schedule.scheduleJob('0 9 * * 1-5', () => {
+    console.log('Running scheduled job: run-cron-job')
+
+    exec(
+      'pnpm scrap:offers:prod -s "Javascript Developer" -l 40 -t 1',
+      (error, stdout, stderr) => {
+        if (error) {
+          console.error(`Error executing script: ${error.message}`)
+          return
+        }
+        if (stderr) {
+          console.error(`Script error output: ${stderr}`)
+          return
+        }
+        console.log(`Script output: ${stdout}`)
+      }
+    )
+  })
 
   exec(
-    'pnpm scrap:offers:prod -s "Javascript Developer" -l 5 -t 30',
+    'pnpm scrap:offers:prod -s "Javascript Developer" -l 40 -t 1',
     (error, stdout, stderr) => {
       if (error) {
         console.error(`Error executing script: ${error.message}`)
@@ -93,7 +113,7 @@ schedule.scheduleJob('0 9 * * 1-5', () => {
       console.log(`Script output: ${stdout}`)
     }
   )
-})
+}
 
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}/`)

@@ -4,7 +4,7 @@
     "start:dev": "ts-node ./src/server.ts",
     "start:prod": "node dist/server.js",
     "scrap:offers": "ts-node ./src/scripts/findOffers.ts",
-    "scrap:offers:prod": "node dist/scripts/findOffers.ts"
+    "scrap:offers:prod": "node ./dist/scripts/findOffers.js"
   },
   "devDependencies": {
     "@types/node": "^18.15.7",

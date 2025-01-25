@@ -1,6 +1,7 @@
 import puppeteer, { Browser, Page } from 'puppeteer'
 import { JobOffer } from '../../types/types'
-export interface ScrapperOptions {
+
+export interface ScraperOptions {
   searchValue: string
   maxRecords: number
 }
@@ -52,8 +53,14 @@ export class BrowserManager {
 
   public async init(): Promise<void> {
     this.browser = await puppeteer.launch({
-      headless: true,
-      args: ['--no-sandbox', '--disable-gpu', '--mute-audio'],
+      headless: false,
+      args: [
+        '--disable-dev-shm-usage',
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-gpu',
+        '--no-zygote',
+      ],
     })
     console.log('Browser initialized!')
   }
@@ -146,7 +153,7 @@ export class ScraperUtils {
   }
 }
 
-export abstract class AbstractPageScrapper<R> {
+export abstract class AbstractPageScraper<R> {
   protected browserManager: BrowserManager
 
   constructor(browserManager: BrowserManager) {

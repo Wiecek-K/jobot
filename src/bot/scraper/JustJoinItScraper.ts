@@ -1,17 +1,17 @@
 import { JobOffer } from '../../types/types'
 import {
   BrowserManager,
-  AbstractPageScrapper,
+  AbstractPageScraper,
   ScraperUtils,
-  ScrapperOptions,
+  ScraperOptions,
   JobOfferBuilder,
-} from './scrapper'
+} from './scraper'
 
-export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
-  private readonly baseUrl = 'https://justjoin.it/'
-  private options: ScrapperOptions
+export class JustJoinItScraper extends AbstractPageScraper<JobOffer> {
+  private readonly baseUrl = 'https://justjoin.it'
+  private options: ScraperOptions
 
-  constructor(browserManager: BrowserManager, options: ScrapperOptions) {
+  constructor(browserManager: BrowserManager, options: ScraperOptions) {
     super(browserManager)
     this.options = options
   }
@@ -21,20 +21,19 @@ export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
   > {
     const listElementSelector = 'div[data-test-id="virtuoso-item-list"]'
     const offerElementSelector = 'div[data-index]'
-    const searchSelector = 'input[placeholder="Search"]'
     const maxRecords = this.options.maxRecords
     const collectedData: { link: string; addedAt: string }[] = []
     const collectedIndices = new Set<number>()
 
     try {
       await this.withPage({ width: 1280, height: 800 }, async (page) => {
-        await page.goto(this.baseUrl)
-        await page.waitForSelector(searchSelector, { timeout: 60000 })
-
-        await page.type(searchSelector, this.options.searchValue)
-        await page.keyboard.press('Enter')
-        await page.waitForNavigation({ waitUntil: 'domcontentloaded' })
-        await page.waitForSelector(offerElementSelector, { timeout: 60000 })
+        await page.goto(
+          `${this.baseUrl}/job-offers/all-locations?keyword=${encodeURIComponent(this.options.searchValue)}`,
+          {
+            timeout: 120000,
+          }
+        )
+        await page.waitForSelector(offerElementSelector, { timeout: 120000 })
 
         while (collectedData.length < maxRecords) {
           const newItems = await page.evaluate((offerSelector) => {
@@ -128,7 +127,7 @@ export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
         const fullLink = new URL(link, this.baseUrl).href
         await page.goto(fullLink, {
           waitUntil: 'domcontentloaded',
-          timeout: 60000,
+          timeout: 120000,
         })
 
         const salary = await ScraperUtils.scrapeField(page, '.css-1pavfqb')
@@ -145,7 +144,10 @@ export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
         return offer
       })
     } catch (error) {
-      console.error(`Failed to scrape job details for ${link}:`, error)
+      console.error(
+        `Failed to scrape job details for ${new URL(link, this.baseUrl).href} :`,
+        error
+      )
       return null
     }
   }
