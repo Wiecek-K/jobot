@@ -2,7 +2,7 @@
   🤖 Jobot
 </h1>
 
-This project is a bot for scrapping tech job boards.
+This project is a bot for scraping tech job boards.
 
 ---
 

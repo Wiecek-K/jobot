@@ -1,190 +1,884 @@
 [
   {
-    "title": "Java Developer",
-    "description": "About the projectWe are looking for a Java Developer who will join the product development team to implement new and continue improving existing features of the trading platform.\nYour responsibilitiesDesign, develop, and maintain Java-based application.Optimize performance and ensure scalability of applications.Write clean, maintainable, and efficient code, following best practices.Debug and resolve technical issues in a timely manner.Stay updated on emerging trends and technologies in the Java ecosystem.\nOur requirementsSolid knowledge of Core Java (3+ years hands-on experience).Good understanding of OOP/D principles.Good understanding of unit testing, CI practices.Experience with Swing framework is desirable.Very good knowledge of English (at least B2 level).",
-    "company": "Tap.Talent",
-    "offerURL": "https://www.pracuj.pl/praca/java-developer-wroclaw,oferta,1003804074?s=dd1f2146&searchId=MTczNzc0NTQ2MTc0OS40MjQ=",
-    "salaryFrom": 15000,
-    "salaryTo": 18000,
+    "title": "Programista PHP/JS",
+    "description": "\nTwój zakres obowiązków: tworzenie oprogramowania,rozwój istniejących w firmie aplikacji,tworzenie testów jednostkowych i automatycznych,rozwijanie własnych umiejętności.\nNasze wymagania: znajomość języków PHP, JavaScript,  HTML,znajomość języka SQL,znajomość co najmniej podstaw CSS,znajomość języka angielskiego w stopniu umożliwiającym czytanie dokumentacji,doświadczenie w programowaniu.Mile widzianeznajomość: C#, C++, Android, Kotlin, Laravel, Bootstrap, jQuery, Twig.",
+    "company": "Enadis Sp. z o.o.",
+    "offerURL": "https://www.pracuj.pl/praca/programista-php-js-gdynia,oferta,1003826925?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "PHP",
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "SQL"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Frontend Developer",
+    "description": "O projekcie: Prowadzimy projekty zarówno wewnętrzne jak i zewnętrzne, głównie dla klientów z sektora finansowego - współpracujemy z liderami rynku finansowego: bankami, towarzystwami ubezpieczeniowymi i pośrednikami finansowymi. Dostarczamy również usługi i oprogramowanie dla przedsiębiorstw z branż transportu i Consumer Goods.Jeśli Twoją pasją jest programowanie, chcesz pracować przy ciekawych wdrożeniach dla znanych marek z użyciem najnowszych technologii, a wszystko to w ramach niekorporacyjnej struktury to zapraszamy do naszego zespołu!Poszukujemy osób, które chcą współtworzyć z nami innowacyjne rozwiązania, wesprą nasz zespół developerski oraz potrzeby projektowe naszych klientów.Prowadzimy rekrutację zarówno dla doświadczonych specjalistów i menadżerów , jak również dla studentów ostatnich lat i świeżych absolwentów IT.\nTwój zakres obowiązków: aktywny udział w projektowaniu rozwiązań i wyborze technologiiimplementacja modułów funkcjonalnych z różnych warstw dostarczanego oprogramowania w oparciu o wymagania biznesowe (frontend, backend, integracja)dbanie o jakość i czystość kodu oraz architektury aplikacjipoprawa błędów produkcyjnychbieżąca współpraca z całym zespołem projektowym\nNasze wymagania: bardzo dobra znajomość i doświadczenie z JavaScriptbardzo dobra znajomość i doświadczenie Reactbardzo dobra znajomość i doświadcznie TypeScriptznajomość React Hooks/Reduxznajomość systemu kontroli wersji GITznajomość wzorców projektowych (SOLID, DRY)język angielski na poziomie komunikatywnymMile widzianeznajomość silnika e-commerce Magentodoświadczenie z zakresu testów automatycznych (Jest, React Testing Library)wyczucie estetyczne z zakresu UI/UXznajomość SSR (NextJS, Gatsby)znajomość budowania aplikacji typu CRUD w NodeJSznajomość GraphQLumiejętność budowy aplikacji w oparciu o metodologię Atomic Design",
+    "company": "QUERCUS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "offerURL": "https://www.pracuj.pl/praca/frontend-developer-lodz-prezydenta-gabriela-narutowicza-34,oferta,1003836317?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "React.js",
+      "JavaScript",
+      "TypeScript",
+      "Git",
+      "npm"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Frontend Developer",
+    "description": "About the projectAs a Front-end Developer, you will be working for our client, a leading financial institution, on diverse and challenging projects aimed at enhancing user experience and functionality. You will collaborate closely with key stakeholders, UX Designers, and other development teams to translate requirements into innovative solutions. Your role will involve continuous learning and adaptation to new technologies to ensure our products remain competitive in the industry.Seeking a Front-End Dynamo to Shape Tomorrow’s Financial Solutions!Warsaw-based opportunity with the possibility to work 40% remotely!\nYour responsibilitiesDevelop and implement front-end solutions using technologies like React, Angular, and TypeScriptCollaborate with UX Designers and other teams to ensure seamless integration of designs and functionalitiesUphold clean code standards and implement effective testing methodologiesManage multiple projects simultaneously within a fast-paced, collaborative environmentInnovate and tackle technical challenges with a focus on long-term vision\nOur requirements5+ years of hands-on experience with modern front-end technologies, particularly ReactBachelor’s degree in Computer Science is preferredStrong proficiency in clean code practices and testing methodologiesExcellent interpersonal, communication, and organizational skillsSelf-motivation and a high level of analytical ability and innovationExperience with delivery-driven agile SDLCFamiliarity with micro front ends and Reactive programming methodologiesKnowledge of front-end build tools and testing librariesExperience with CSS-in-JS and server-side rendering (SSR)Adaptability to learn new languages and technologies as required",
+    "company": "ITDS Polska Sp. z o.o.",
+    "offerURL": "https://www.pracuj.pl/praca/frontend-developer-warszawa,oferta,1003853226?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 23100,
+    "salaryTo": 29400,
     "currency": "zł",
     "technologies": [
-      "Java",
-      "XML",
-      "SQL",
-      "Swing",
-      "Jenkins",
-      "Confluence",
+      "React.js"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Frontend Developer React",
+    "description": "O projekcie: Wspólnie z naszym Partnerem, największą grupą energetyczną specjalizującą się w produkcji, dystrybucji i sprzedaży energii elektrycznej, poszukujemy osoby na stanowisko Frontend Developer (React) 🍀Nasz Partner skupia się na trzech kluczowych obszarach: rozwoju energetyki odnawialnej - wdrażanie Programu Rozwoju Energetyki Odnawialnej, rozwoju energetyki jądrowej - realizacja Programu Rozwoju Energetyki Jądrowej, oraz modernizacji sieci elektroenergetycznych. Specjalista będzie odpowiedzialny za rozwój i utrzymanie aplikacji.📌 model hybrydowy - WARSZAWA (4 dni zdalnie, 1 dzień z biura / tyg.)\nTwój zakres obowiązków: Budowa nowych szablonów frontend aplikacji webowej według zgłoszonych potrzeb biznesowych,Ustalanie zakresu biznesowego z Product Ownerem i analitykiem, planowanie i estymacja zadań,Wsparcie procesu produkcji aplikacji w zakresie przygotowywania szablonów frontend,Projektowanie i programowanie baz danych na potrzeby implementowanej aplikacji,Stosowanie dobrych praktyk i wzorców programistycznych,Tworzenie dokumentacji technicznej i powykonawczej.\nNasze wymagania: Minimum 5-letnie doświadczenie w programowaniu aplikacji jako frontend developer z wykorzystaniem React,Umiejętność pracy w środowisku Windows 10, znajomość systemu kontroli wersji Git, znajomość Jenkins oraz Gerrit,Dbałość o dokumentowanie kodu za pomocą testów lub poprzez aktualizację dokumentacji technicznej,Umiejętność wykorzystania technologii Ajax, JSON,Bardzo dobra znajomość HTML, CSS, TypeScript,Znajomość zagadnień z związana z Rest API.",
+    "company": "Connectis_",
+    "offerURL": "https://www.pracuj.pl/praca/frontend-developer-react-warszawa,oferta,1003804584?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 21000,
+    "salaryTo": 24000,
+    "currency": "zł",
+    "technologies": [
+      "React Native",
       "Git",
-      "Jira"
-    ],
-    "addedAt": "24 stycznia 2025"
-  },
-  {
-    "title": "Programista Java",
-    "description": "O projekcie: Rozwiązania dla transportu publicznego.\nTwój zakres obowiązków: Rozwijanie obecnego oprogramowania centralnegoTworzenie nowych modułów aplikacji centralekAnaliza występujących błędów\nNasze wymagania: Znajomość języka Java SE w wersji co najmniej 11Znajomość relacyjnych baz danychMotywacja do pracy, komunikatywność, samodzielność oraz umiejętność pracy w zespoleMile widzianeAngularKotlinznajomość Java EE – Spring + Hibernatedoświadczenie w tworzeniu systemów opartych o webservice’y (JAX – RS, Jersey)PostgreSQLGitJęzyk skryptowyZnajomość DockerOsoby z doświadczeniem oraz osoby w trakcie studiów",
-    "company": "Zakład Elektroniczny SiMS spółka z o.o. spółka komandytowa",
-    "offerURL": "https://www.pracuj.pl/praca/programista-java-bydgoszcz-pod-skarpa-51a,oferta,1003808437?s=dd1f2146&searchId=MTczNzc0NTQ2MTc0OS40MjQ=",
-    "salaryFrom": 0,
-    "salaryTo": 0,
-    "currency": "",
-    "technologies": [
-      "Java"
-    ],
-    "addedAt": "24 stycznia 2025"
-  },
-  {
-    "title": "Java Developer",
-    "description": "\nTwój zakres obowiązków: uczestnictwo w projektach z branży logistycznej, mających na celu rozwój systemów m.in do rezerwacji biletów,dbanie o utrzymanie platformy, rozwiązywanie bieżących problemów i tworzenie nowych funkcjonalności,bieżąca współpraca z zespołem developerskim,praca w modelu 100% zdalnym,\nNasze wymagania: posiadasz co najmniej 3- letnie doświadczenie komercyjne (min. Java 8),na co dzień wykorzystujesz Spring/Hibernate,szybka analiza kodu nie sprawia Ci żadnych problemów,chcesz pracować w dynamicznie rozwijającym się środowisku,swobodnie komunikujesz się w języku angielskim,na co dzień pracujesz z: Docker, Kafka, Jenkins, Kubernetes, Maven, Microservices, AWS lub GCP.",
-    "company": "Scalo Sp. z o.o.",
-    "offerURL": "https://www.pracuj.pl/praca/java-developer-krakow,oferta,1003810962?s=dd1f2146&searchId=MTczNzc0NTQ2MTc0OS40MjQ=",
-    "salaryFrom": 0,
-    "salaryTo": 0,
-    "currency": "",
-    "technologies": [
-      "Docker",
-      "Kafka",
       "Jenkins",
-      "Kubernetes",
-      "Maven",
-      "AWS"
+      "Gerrit",
+      "Ajax",
+      "JSON",
+      "HTML",
+      "CSS",
+      "TypeScript",
+      "Rest API"
     ],
-    "addedAt": "24 stycznia 2025"
+    "addedAt": "25 stycznia 2025"
   },
   {
-    "title": "Java Developer",
-    "description": "\nTwój zakres obowiązków: udział w projektach dotyczących wdrażania procesów bankowości elektronicznej i mobilnej dla klientów z sektora małych i średnich przedsiębiorstw,udział w pełnym cyklu wytwarzania oprogramowania w zespole Scrumowym,implementacja rozwiązań backendowych zgodnie z wymaganiami biznesowymi i technologicznymi,współpraca z zespołem w zakresie analizy wymagań i projektowania architektury systemów,testowanie rozwiązań (w tym testy jednostkowe i integracyjne),wspomaganie procesu rozwoju produktu, dzielenie się wiedzą i doświadczeniem z członkami zespołu,optymalizacja istniejących rozwiązań i dbanie o jakość kodu,praca hybrydowa - spotkania zespołowe w biurze 2 razy w miesiącu (Poznań lub Wrocław),\nNasze wymagania: masz doświadczenie w programowaniu w języku Java na poziomie Mid+ lub Senior,znasz Javę 17-21, Spring, Spring Boot,znasz PostgreSQL, Oracle, Hibernate, Maven,znasz RabbitMQ, Kafka,znasz GitLab, Jenkins, Feign, OpenShift, Elastic,potrafisz proponować i przedstawiać rozwiązania techniczne wraz z planem ich wdrożenia,masz doświadczenie w pracy w metodyce Agile (praca w sprintach),charakteryzują Cię dobre umiejętności komunikacyjne, umiesz pracować w zespole,masz wykształcenie wyższe w obszarze wytwarzania oprogramowania lub pokrewnym.",
-    "company": "Scalo Sp. z o.o.",
-    "offerURL": "https://www.pracuj.pl/praca/java-developer-wroclaw,oferta,1003863090?s=dd1f2146&searchId=MTczNzc0NTQ2MTc0OS40MjQ=",
+    "title": "Senior Frontend Developer (1/2 etatu)",
+    "description": "O projekcie: Dołącz do zespołu naszego klienta jako Senior Frontend Developer (Vue.js)!Celem jest pełna digitalizacja i usprawnienie procesów w sektorze budowlanym. W ramach projektu powstanie kompleksowy system integrujący istniejące rozwiązania administracji budowlanej. Głównym założeniem jest wyeliminowanie konieczności indywidualnego kontaktu inwestora z różnymi urzędami, dzięki jednemu centralnemu interfejsowi.\nTwój zakres obowiązków: Tworzenie wydajnych, skalowalnych i stabilnych aplikacji frontendowych.Projektowanie i implementacja nowych funkcjonalności interfejsów użytkownika, w tym integracja z backendem przez REST i SOAP.Optymalizacja wydajności aplikacji frontendowych, w tym ładowania stron, renderowania i responsywności.Tworzenie testów jednostkowych i testów integracyjnych dla aplikacji frontendowych.Wsparcie procesu git-flow i aktywna współpraca z zespołem w zakresie wersjonowania kodu i zarządzania repozytoriami.Code review – przeglądanie kodu i zapewnianie jego wysokiej jakości w ramach współpracy z zespołem.Optymalizacja procesu wytwarzania oprogramowania w kontekście Continuous Integration (CI), automatyzacja procesów frontendowych.\nNasze wymagania: Minimum 5 lat doświadczenia w pracy komercyjnej na stanowisku Frontend Developera.Bardzo dobra znajomość technologii frontendowych, w tym Vue.js.Znajomość web serwisów REST i SOAP.Umiejętność tworzenia testów frontendowych.Doświadczenie w pracy z systemami kontroli wersji (Git).Mile widzianeDoświadczenie w pracy z Dockerem w kontekście aplikacji frontendowych.Znajomość środowisk chmurowych AWS lub Azure.Doświadczenie z narzędziami CI/CD (np. Jenkins, GitLab CI).",
+    "company": "ITHOUSE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "offerURL": "https://www.pracuj.pl/praca/senior-frontend-developer-1-2-etatu-warszawa-grzybowska-49,oferta,1003857529?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
     "salaryFrom": 12000,
     "salaryTo": 14000,
     "currency": "zł",
     "technologies": [
-      "Java",
-      "Spring Boot",
-      "PostgreSQL",
-      "Oracle",
-      "Hibernate",
-      "Maven",
-      "RabbitMQ",
-      "Kafka",
-      "GitLab",
-      "Jenkins",
-      "OpenShift"
+      "Vue.js",
+      "TypeScript",
+      "JavaScript",
+      "HTML"
     ],
-    "addedAt": "24 stycznia 2025"
+    "addedAt": "25 stycznia 2025"
   },
   {
-    "title": "Java Developer",
-    "description": "About the projectAs a Java Developer you will be at the heart of our client's scalable technology platforms and be accountable for delivering common banking functionalities used in most of the propositions that the bank offers to its customers.Help Develop a Next-Generation Financial Services Platform That Extends Beyond Banking.On-Site, Netherlands.\nYour responsibilitiesWorking in a squad responsible for the end-to-end customer journey. You own the stack and the journey!Collaborate with the Product Owner and Engineers to interpret business requirements and deliver features with real business valueBe precise and accurate in your delivered workFoster a collaborative team environment and actively learn from your colleaguesTo share and teach your knowledge to other team members as wellEnsure software security by applying timely updates and aiming for zero IT riskInfluence technology choices and contribute to the architecture of newly developed components and servicesDesign and develop automated unit, integration, and regression tests\nOur requirementsAt least 5 years experience with Java 17 and above, and Spring BootExperience with infrastructure and DevOps tasks (e.g. Azure, pipelines, certificates)Experience with Domain Driven DesignExperience with Unit and Integration testingGood to have experience with observability technologies and approaches (Prometheus/Grafana/ELK)Code quality matters for you and writing good code excites youYou value collaboration, and have strong inter-personal and communication skillsYou have a growth mindset, you are actively looking for feedback from your colleaguesYou are looking for opportunities to learn new technologies and techniquesYou take ownership of refining, coding, testing, and deploying your workYou help others be successful Fluent in English (written and verbal)OptionalGood to have experience with Kafka & Cassandra",
-    "company": "ITDS Polska Sp. z o.o.",
-    "offerURL": "https://www.pracuj.pl/praca/java-developer-netherlands,oferta,11086579?s=dd1f2146&searchId=MTczNzc0NTQ2MTc0OS40MjQ=",
-    "salaryFrom": 0,
-    "salaryTo": 0,
-    "currency": "",
-    "technologies": [
-      "Java",
-      "Spring Boot",
-      "Prometheus",
-      "Grafana",
-      "ELK"
-    ],
-    "addedAt": "24 stycznia 2025"
-  },
-  {
-    "title": "Java Developer",
-    "description": "O projekcie: Our client needs suport of an experienced Java Developer. As a Senior Software Developer, you will play a key role within the development team, leveraging your expertise to create exceptional IT solutions (CCTT - Customer Climate Tracking Tool). We are looking for skilled professionals to join the Large Corporates and Institutions (LC&I) and Environmental Social and Governance (ESG) Data Tools teams.\nTwój zakres obowiązków: Collaborate with the development team to design, develop, and implement IT solutions, including the Customer Climate Tracking Tool (CCTT).Utilize Java (including Spring Boot) and React to build and maintain high-quality software applications.Integrate systems using technologies like REST and Kafka to ensure seamless data flow.Manage and optimize containerized environments using Docker and Kubernetes.Actively participate in code reviews, providing and receiving constructive feedback to enhance code quality.Work closely with cross-functional teams in an agile environment, ensuring alignment with project goals.Continuously i\nNasze wymagania: Advanced Java development expertise (including Spring Boot) with 5+ years of experience.Strong web development skills in React, with 3+ years of experience.Hands-on experience integrating systems using technologies like REST and Kafka.Practical experience with Docker and Kubernetes in a professional setting.",
-    "company": "KUBO",
-    "offerURL": "https://www.pracuj.pl/praca/java-developer-gdansk,oferta,1003862260?s=dd1f2146&searchId=MTczNzc0NTQ2MTc0OS40MjQ=",
-    "salaryFrom": 12000,
-    "salaryTo": 15000,
+    "title": "Fullstack TypeScript Developer (Node.js & React)",
+    "description": "About the projectAs a Fullstack TypeScript Developer at Deltologic, you will design and develop innovative products and features for a variety of exciting international projects. Our clients range from leading companies in the USA, Germany, Korea, Mexico, and France. We are seeking skilled developers who are passionate about crafting clean, efficient solutions and continuously refining their expertise.This is an opportunity to contribute to impactful projects, grow your skills, and take ownership of new initiatives in a collaborative and supportive environment.Payment Details:●\tHourly Rate: 65 PLN - 130 PLN●\tEstimated Monthly: 10,920 PLN - 21,840 PLN●\tOptional: Paid overtime availableOur Stack:●\tBackend: Node.js or NextJS with TypeScript●\tFrontend: React or NextJS●\tOccasionally Python●\tDeployment: AWS (Lambda or ECS) with CDK●\tCI/CD: GitHub Actions\nYour responsibilitiesDevelop new systems and automations.Design and implement new solutions and features.Maintain and improve existing deployments.Share knowledge and mentor team members.\nOur requirementsAt least 2 years of commercial experience in software development.Degree in Informatics, Computer Science, Data Science, or a related field.Experience with: Node.js, TypeScript, React, Tailwind CSS, REST, Git, SQL, and NoSQL databases.Fluency in English.OptionalProficiency in AWS technologies (Lambda, DynamoDB, S3, CDK).Experience creating REST APIs.Background in BI, data engineering, or e-commerce projects.Fluency in German or Spanish.",
+    "company": "DELTOLOGIC SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "offerURL": "https://www.pracuj.pl/praca/fullstack-typescript-developer-node-js-react-poznan-murawa-12,oferta,1003826566?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 10920,
+    "salaryTo": 21840,
     "currency": "zł",
     "technologies": [
-      "Java",
-      "Spring Boot",
-      "React Native",
-      "REST",
-      "Kafka",
+      "Node.js",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
       "Docker",
-      "Kubernetes"
-    ],
-    "addedAt": "24 stycznia 2025"
-  },
-  {
-    "title": "Programista Java",
-    "description": "\nTwój zakres obowiązków: uczestniczysz w procesie dewelopmentu backendowych modułów aplikacji webowych\nNasze wymagania: masz minimum kilkuletnie komercyjne doświadczenie zawodowe w charakterze programisty JAVAmasz doświadczenie w pracy w otoczeniu technologicznym, takim jak: Spring/Spring Boot, Kotlin, Hibernate, Groovy, SOAP, REST APImasz doświadczenie w tworzeniu aplikacji webowych oraz ugruntowaną wiedzę z zakresu inżynierii oprogramowaniaposługujesz się językiem SQL oraz masz doświadczenie w projektowaniu, implementacji i optymalizacji relacyjnych baz danychMile widzianeznajomość frameworku Angular w przypadku kandydatów o profilu fullstackznajomość MSSQL, PostgreSQLznajomość platformy testowej Spock",
-    "company": "PKO Ubezpieczenia",
-    "offerURL": "https://www.pracuj.pl/praca/programista-java-warszawa-swietokrzyska-36,oferta,1003824600?s=dd1f2146&searchId=MTczNzc0NTQ2MTc0OS40MjQ=",
-    "salaryFrom": 0,
-    "salaryTo": 0,
-    "currency": "",
-    "technologies": [
-      "Java",
-      "Spring Boot",
-      "Spring Framework",
-      "Kotlin",
-      "Hibernate",
-      "Groovy",
-      "SOAP",
-      "REST API",
+      "AWS",
+      "PostgreSQL",
+      "Git",
       "SQL"
     ],
-    "addedAt": "24 stycznia 2025"
+    "addedAt": "25 stycznia 2025"
   },
   {
-    "title": "Java Developer",
-    "description": "About the projectAs a Java Developer, you'll be a key player in our innovative projects.\nYour responsibilitiesDesigning, developing, and maintaining Java-based applications.Collaborating with cross-functional teams to define, design, and ship new features.Ensuring the best possible performance, quality, and responsiveness of applications.Identifying and correcting bottlenecks and fixing bugs.Helping to maintain code quality, organization, and automation.\nOur requirementsProven experience as a Java Developer.Familiarity with Spring Framework, Hibernate, Microservices, API, Kafka, AWS/GCP/AzureStrong problem-solving skills.Excellent communication and teamwork abilities.Bachelor's degree in Computer Science or a related field.",
-    "company": "Mindbox S.A.",
-    "offerURL": "https://www.pracuj.pl/praca/java-developer-warszawa-zlota-59,oferta,1003832064?s=dd1f2146&searchId=MTczNzc0NTQ2MTc0OS40MjQ=",
-    "salaryFrom": 22000,
-    "salaryTo": 26000,
+    "title": "Vue.js Developer",
+    "description": "O projekcie: Zespół, do którego szukamy, zajmuje się rozwojem oraz utrzymaniem Reporting Data Repository. Jest to rozwiązanie do integracji danych zewnętrznych dostarczanych przez zarządzających instrumentami finansowymi z całego świata opartym na platformie Azure. Narzędzie to umożliwia ocenę danych przed ich integracją do dowolnego systemu, a jednocześnie przechowuje dane i zapewnia przyjazne dla użytkownika raportowanie i analitykę. Ważnym elementem tego rozwiązania jest tworzenie widoków za pomocą vue.js, dlatego aktualnie szukamy osoby, która posiada znajomość tej technologii.Zespół składa się z 5 osób: 3 Developerów BI oraz 2 Frontend Developer. Codzienna praca będzie opierać się na bezpośrednia współpracy z Product Ownerem i użytkownikami biznesowymi nad ulepszaniem samej platformy oraz narzędzi i rozwiązań BI. Aktualnie poszukujemy osoby, która zastąpi odchodzącego z zespołu Frontend Developera.\nTwój zakres obowiązków: Utrzymanie i rozwój frontendu we Vue.jsPraca z komponentami MS Azure Cloud, głównie: SQL Server Database, Azure DevOps, Azure Blob Storage, Azure FunctionsUczestnictwo i prowadzenie sesji testowych z klientamiUczestnictwo w spotkaniach zespołowych dotyczących kierunku rozwoju platformy\nNasze wymagania: Doświadczenie w technologiach front-end (vue.js)Znajomość Node.jsUmiejętność rozwiązywania problemów i chęć nauki nowych technologiiDoświadczenie w pracy bezpośrednio z biznesemBiegłe posługiwanie się językiem angielskimPodstawowa znajomość T-SQL (SQL Server)Zainteresowanie branżą finansowąMile widzianeDoświadczenie w pracy z MS AzureKomercyjne doświadczenia w pracy z danymi (analiza, transformacje, wizualizacje, migracje, ETL)Znajomość PythonDoświadczenie w pisaniu testów i weryfikacji koduCV w języku angielskim",
+    "company": "AXA Avanssur SA Oddział II w Polsce",
+    "offerURL": "https://www.pracuj.pl/praca/vue-js-developer-warszawa-chlodna-51,oferta,1003851144?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 7000,
+    "salaryTo": 12000,
     "currency": "zł",
     "technologies": [
-      "Spring Framework",
-      "Hibernate",
-      "Microservices",
-      "API",
-      "Kafka"
+      "Vue.js",
+      "T-SQL",
+      "Node.js"
     ],
-    "addedAt": "24 stycznia 2025"
+    "addedAt": "25 stycznia 2025"
   },
   {
-    "title": "Java Developer",
-    "description": "About the projectWe are seeking a skilled Java Developer to join our development team. The ideal candidate will have a strong background in building scalable and efficient backend systems using Java. This role involves working on various stages of the software development lifecycle, including design, development, testing, and deployment.This is an excellent opportunity to work on cutting-edge backend systems and contribute to innovative projects. If you are passionate about Java development and enjoy solving complex problems in a collaborative environment, we encourage you to apply.MD rate: 200 - 240 EUR\nYour responsibilitiesDevelop, test, and maintain backend applications using Java.Design and implement scalable and secure backend solutions.Collaborate with front-end teams to integrate APIs and services.Write clean, efficient, and reusable code.Troubleshoot, debug, and optimize applications.Participate in code reviews and ensure adherence to best practices.\nOur requirementsStrong proficiency in Java (8 or newer).Experience with Spring Framework (Spring Boot, Spring MVC).Solid understanding of object-oriented programming (OOP) and design patterns.Experience with RESTful APIs and microservices architecture.Familiarity with relational databases such as PostgreSQL, MySQL, or Oracle.Knowledge of version control systems, particularly Git.Understanding of CI/CD pipelines and build tools like Maven or Gradle.Strong problem-solving skills and attention to detail.OptionalExperience with Kubernetes and Docker for containerization.Familiarity with NoSQL databases such as MongoDB or Cassandra.Knowledge of messaging systems like RabbitMQ or Apache Kafka.Experience with JUnit, Mockito, or other testing frameworks.Familiarity with front-end technologies such as JavaScript or TypeScript.Exposure to Agile/Scrum development methodologies.Experience with GraphQL APIs.",
-    "company": "EndySoft",
-    "offerURL": "https://www.pracuj.pl/praca/java-developer-warszawa,oferta,1003853564?s=dd1f2146&searchId=MTczNzc0NTQ2MTc0OS40MjQ=",
-    "salaryFrom": 17400,
-    "salaryTo": 20900,
+    "title": "Frontend Web Developer (Wordpress/Joomla)",
+    "description": "O projekcie: W związku z dynamicznym rozwojem w obszarze „smart city” do swojego zespołu w Poznaniu poszukujemy osoby na stanowisko Frontend Web Developer (Wordpress/Joomla). Osobie zatrudnionej na tym stanowisku zapewniamy pracę nad ciekawymi i innowacyjnymi projektami dla użytkowników typu B2C lub B2B realizowanymi w ramach projektów samorządowych smart city i komercyjnych zleceń. Oferujemy pracę w młodym zespole o dużym potencjale rozwoju z możliwością realizowania własnych pomysłów.\nTwój zakres obowiązków: Tworzenie i dostosowywanie szablonów WordPress zgodnie z wymaganiami projektu, wykorzystując narzędzia takie jak Elementor oraz ACF, a także Joomla.Tworzenie responsywnych stron internetowych, integracja szablonów z systemem CMS WordPress i Joomla, rozwój istniejących serwisów, bieżące wsparcie, kontakt z klientem,Migracja stron internetowych i poczty na inne serwery oraz kontakt z Klientem (support).Debugowanie i naprawianie błędów na stronach WWW,Identyfikacja i likwidacja podatności na ataki hakerskie,Testowanie funkcjonalności,Zapewnienie supportu dla realizowanych projektów IT,Współpraca z zespołem produktowym.Konfigurowanie i administrowanie serwerami dla stron WWW, zapewniając ich stabilność i wydajność, w tym zarządzanie z linii poleceń.Zapewnianie zgodności tworzonych stron z wytycznymi dostępności dla użytkowników z różnymi potrzebami zgodnie z WCAG 2.1 lub WCAG 2.2.\nNasze wymagania: Minimum 3 lata komercyjnego doświadczenia przy budowie stron WWW.Doświadczenie w tworzeniu własnych szablonów WordPress/Joomla.Min. wykształcenie: Wyższe, preferowane kierunkowe w obszarze ITUmiejętność tworzenia stron WordPress/Joomla korzystając z kreatora (np. Elementor) i z wykorzystaniem ACF,Przynajmniej podstawowa znajomość środowiska Linux, Ubuntu, Centos lub podobnego, w tym łączenie przez SSH i wykorzystanie popularnych komend służących konfiguracji pod strony WWW,Samodzielność i dobra organizacja pracy,Umiejętność realizacji projektów w oparciu o dostępne na rynku rozwiązania.‒\twiedza w zakresie „User Accessiblity” i praktyczne zastosowanie. (Nasze strony  muszą być zgodne z WCAG 2.1 lub WCAG 2.2),Wysoka samodzielność, terminowość i odpowiedzialność.Mile widzianeZnajomość innych technologii internetowych, w tym HTML5/CSS (SASS/SCSS) / JavaScript, PHP 7+,Znajomość nowych technologii i trendów w zakresie „smart city”,Doświadczenie w programowaniu aplikacji webowych w Vue,Umiejętność programowania aplikacji mobilnych we Flutter.",
+    "company": "Wielkopolskie Centrum Wspierania Inwestycji Sp. z o.o.",
+    "offerURL": "https://www.pracuj.pl/praca/frontend-web-developer-wordpress-joomla-poznan-28-czerwca-1956-r-406,oferta,1003808878?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "WordPress",
+      "Joomla",
+      "Linux",
+      "Ubuntu",
+      "Centos"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Node.js Developer",
+    "description": "O projekcie: Prowadzimy projekty zarówno wewnętrzne jak i zewnętrzne, głównie dla klientów z sektora finansowego - współpracujemy z liderami rynku finansowego: bankami, towarzystwami ubezpieczeniowymi i pośrednikami finansowymi. Dostarczamy również usługi i oprogramowanie dla przedsiębiorstw z branż transportu i Consumer Goods.Jeśli Twoją pasją jest programowanie, chcesz pracować przy ciekawych wdrożeniach dla znanych marek z użyciem najnowszych technologii, a wszystko to w ramach niekorporacyjnej struktury to zapraszamy do naszego zespołu!Poszukujemy osób, które chcą współtworzyć z nami innowacyjne rozwiązania, wesprą nasz zespół developerski oraz potrzeby projektowe naszych klientów.Prowadzimy rekrutację zarówno dla doświadczonych specjalistów i menadżerów , jak również dla studentów ostatnich lat i świeżych absolwentów IT.\nTwój zakres obowiązków: aktywny udział w projektowaniu rozwiązań i wyborze technologiiimplementacja modułów funkcjonalnych z różnych warstw dostarczanego oprogramowania w oparciu o wymagania biznesowe (frontend, backend, integracja)dbanie o jakość i czystość kodu oraz architektury aplikacjipoprawa błędów produkcyjnychbieżąca współpraca z całym zespołem projektowym\nNasze wymagania: bardzo dobra znajomość i doświadczenie z Node.jsbardzo dobra znajomość JavaScript lub TypeScriptpraktyczne doświadczenie w budowaniu złożonych aplikacji serwerowych za pomocą Express lub NestJSznajomość baz danych: MongoDB i/lub MySQL oraz umiejętność integracji z Node.js np. przy użyciu Mongoosedoświadczenie w projektowaniu i budowaniu API (w oparciu o RESTful i/lub GraphQL),znajomość Gitaumiejętność pisania testów jednostkowychumiejętność debugowania koduumiejętność pracy z terminalemumiejętność pracy w IDE np. VS Codeumiejętność czytania dokumentacji technicznejjęzyk angielski na poziomie komunikatywnymMile widzianeznajomość architektury mikroserwisowejdoświadczenie z Dockerempraktyczne doświadczenie z popularnymi frameworkami front-end (React/Angular)",
+    "company": "QUERCUS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "offerURL": "https://www.pracuj.pl/praca/node-js-developer-lodz-prezydenta-gabriela-narutowicza-34,oferta,1003836322?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "Node.js",
+      "npm",
+      "Git"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Angular Developer",
+    "description": "O projekcie: Wspólnie z naszym Partnerem, wiodącym liderem w branży energetycznej w Europie, poszukujemy doświadczonej osoby na stanowisko Angular Developer. ✨Nasz Partner to skandynawska firma, specjalizująca się w rozwijaniu innowacyjnych projektów z obszaru energii odnawialnej. Realizują projekty obejmujące różnorodne obszary, takie jak stacje ładowania dla samochodów elektrycznych (aplikacja mobilna i platforma webowa), farmy wiatrowe oraz nowoczesne rozwiązania wewnętrzne.Projekt obejmuje kompleksową restrukturyzację sposobu, w jaki organizowane są komponenty interfejsu użytkownika (UI). Osoba, która dołączy do zespołu będzie zaangażowana w wiele projektów związanych z tym obszarem.\nTwój zakres obowiązków: Praca nad integracją i wdrożeniem systemu projektowania w celu zapewnienia spójności i skalowalności na całej platformie.Identyfikowanie i rozwiązywanie obszarów długu technicznego w celu poprawy efektywności rozwoju i stabilności systemu.Praca nad usprawnieniami platformy oraz dostarczanie nowych funkcji w celu poprawy doświadczenia użytkownika.Prowadzenie i realizacja wielu refaktoryzacji w celu optymalizacji bazy kodu.\nNasze wymagania: Minimum 4 letnie doświadczenie komercyjne na stanowisku Angular Developera.Biegłość w pisaniu kodu w najnowszych wersjach frameworku Angular.Zdolność do zarządzania monorepo za pomocą narzędzia Nx.Doświadczenie w pracy z framoworkiem Tailwind.Bardzo dobra znajomość języka angielskiego.",
+    "company": "Connectis_",
+    "offerURL": "https://www.pracuj.pl/praca/angular-developer-warszawa,oferta,1003856667?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 24000,
+    "salaryTo": 28000,
+    "currency": "zł",
+    "technologies": [
+      "Angular",
+      "Nx",
+      "Tailwind"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Front-End Lead Engineer for Samsung Ads Project",
+    "description": "About the projectWe seek a highly skilled and motivated Front-End Lead Engineer to join our growing Samsung Ads team. As Front-End Lead Engineer, you will contribute to development and buildout of components of Samsung’s DSP platform.You will be closely working with local team in Warsaw, having also many opportunities of collaboration with Samsung’s remote teams across the globe (US, Korea, India, UK) to help implement and deploy services.Expertise you bring to the team, will play a crucial role in building modern, well performing, services which we will use to deliver targeted ads to our users. On daily basis, you will be collaborating with other professionals around design, implementation, and review of the source code, followed by delivery of proper documentation and quality.Samsung Ads is a highly successful and fast-growing business for over last six years. This business and its continued future success depend on the products, technologies, and tools owned by Samsung. Hundreds of people strong, with a substantial presence in five countries, Samsung Ads team is a dynamic and complex organization operating across a broad spectrum of product and strategic domains.Join our team and play a key role in shaping the future of our ad tech platform.Technologies in useFE•\tTypeScript•\tSCSS•\tReact•\tJest•\tCypress•\tGraphQLBE•\tRuby on Rails•\tAWS\nYour responsibilitiesDesign and implement scalable and maintainable front-end architectures, ensuring high performance and reliability.Lead the development of responsive, user-friendly, and visually appealing complex front-end applications and components. Establish and follow best coding practices.Set and maintain high standards for code quality, code reviews, and best practices within the front-end team.Identify and resolve performance bottlenecks, improve loading times, and optimize user experiences.Collaborate with product managers, UX/UI designers, back-end engineers, and data scientists to define requirements and implement effective solutions.Collaborate with peers and leaders across the various sites of Samsung Ads, driving cross-site efforts to improve Samsung Ads' capabilities.Maintain comprehensive documentation for front-end systems and processes.Ensure robust testing procedures and continuous integration to guarantee the reliability of our front-end applications.Plan and oversee development of new features. Prepare technical requirements.Being a mentor for younger developers.Prepare solutions, initiatives to improve quality and improve team performance.\nOur requirementsAt least 8 years of experience in creating web applications (Front-End or Full-Stack)At least 5 years of experience with React and TypescriptGood practical knowledge of CSS, SCSSGood practical knowledge of performing meaningful code reviewsExperience with leading team of engineersExperience with writing and maintaining documentationExperience in test-driven development and ability to write automated tests (Jest)Experience with performance optimization, responsive design, and cross-browsercompatibilityFluency in EnglishUniversity degree in Computer Sciences, Telecommunication and/ or similarOptionalKnowledge of ad tech concepts, ad exchanges, and programmatic advertising is a plusPractical experience in graphic design and/or User Experience designKnowledge of Back-End technologies: Java, SpringKnowledge of other frameworks, like Angular, VueExperience with writing E2E tests using CypressExperience building Micro Front-End applications with Module FederationExperience with Jira and JQLExperience building a library of reusable componentsExperience with Material UIExperience with StorybookExperience with Figma",
+    "company": "Samsung R&D Institute Poland",
+    "offerURL": "https://www.pracuj.pl/praca/front-end-lead-engineer-for-samsung-ads-project-warszawa-plac-europejski-1,oferta,1003813840?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4&ref=between_offers_boosterAI_L2_9_1_1",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "TypeScript",
+      "SCSS",
+      "React",
+      "Jest",
+      "Cypress",
+      "GraphQL"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Senior Frontend Developer",
+    "description": "\nYour responsibilitiesUI Development: Create high-quality, modern user interfaces for developers, support teams, quants and finance staffAgile Participation: Actively engage in an Agile development process to deliver rapid and effective solutionsCode Quality: Develop clean, maintainable, and reusable code while ensuring simplicity and high performanceCode Reviews: Participate in thorough code and design reviews to maintain high standardsInnovative Problem Solving: Proactively work on diverse and forward-thinking technical solutionsRequirement Analysis: Collaborate closely with business teams to capture and define technical solutions aligned with requirementsCross-Team Collaboration: Maintain clear communication with support, development, and infrastructure teamsTesting: Ensure rigorous automated testing through unit and integration testsStandards and Best Practices: Contribute to the establishment and adherence to architectural standards and development best practicesFramework Evolution: Support the architectural and technical advancement of frameworks and APIsTeam Mentorship: Influence team strategy and mentor junior developers\nEmployer requirementsMinimum 6 years of commercial experience, including 3+ years working with ReactAt least 2 years of experience with TypeScriptSolid understanding of data structures and computer science fundamentalsStrong technical writing skills for documentationA high-quality, precise, and collaborative approach to developmentVery good command of English (oral and written).In-depth knowledge of modern JavaScript tooling, HTML, and CSSExperience publishing npm librariesFamiliarity with RESTful web services and API designOptionalProficiency with Node.js and npmExperience with GraphQLKnowledge of micro-frontendsExpertise in building developer toolingUnderstanding of messaging systems and event-driven architecturesBackground in Investment Banking or finance",
+    "company": "DCG",
+    "offerURL": "https://www.pracuj.pl/praca/senior-frontend-developer-warszawa,oferta,1003818534?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4&ref=between_offers_boosterAI_L0_10_1_1",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "React Native",
+      "TypeScript"
+    ],
+    "addedAt": "23 stycznia 2025"
+  },
+  {
+    "title": "Software Developer",
+    "description": "O projekcie: Osoba zatrudniona na tym stanowisku będzie rozwijać system IIoT (Industrial Internet of Things) służący do monitorowania stanu maszyn przemysłowych w oparciu o zaawansowaną analizę danych i zdalne zarządzanie urządzeniami.Praca będzie realizowana w Polskim zespole przy częściowej współpracy z oddziałem w Anglii.Poszukujemy utalentowanych osób, które z pasją podchodzą do swojej pracy. Idealny kandydat na to stanowisko powinien posiadać intuicję do rozwiązywania problemów oraz umiejętności pracy w zespole.\nTwój zakres obowiązków: Tworzenie oprogramowania bramki dostępowej komunikującej się z węzłami pomiarowymi (np. PANDAS-V®, Smart Bugs®);Implementacja algorytmów automatycznej aktualizacji oprogramowania urządzeń w terenie (OTA);Zapewnienie bezpiecznej i niezawodnej komunikacji z serwerem w chmurze;Praca w multidyscyplinarnym zespole nad nowoczesnymi rozwiązaniami wspierającymi przemysł 4.0.\nNasze wymagania: Wykształcenie wyższe na kierunku Informatyka, Telekomunikacja lub pokrewne;Minimum dwa lata doświadczenia w programowaniu w JavaScript / TypeScript;Znajomość zagadnień związanych z bazami danych (SQL/NoSQL);Doświadczenie w pracy z systemami operacyjnymi Linux;Znajomość zasad SOLID i dobrych praktyk programistycznych;Dobra znajomość języka angielskiego umożliwiającą swobodną komunikację.Umiejętność analitycznego myślenia i rozwiązywania problemów.Mile widzianeZnajomość technologii Bluetooth Low Energy (BLE), w tym tworzenia profili BLE;Doświadczenie w technologiach takich jak MySQL, MongoDB, AWS;Podstawowa znajomość elektroniki cyfrowej i jej zastosowania w systemach IoT.",
+    "company": "Transmission Dynamics Poland Sp. z o.o.",
+    "offerURL": "https://www.pracuj.pl/praca/software-developer-krakow-henryka-pachonskiego-9,oferta,1003814242?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "JavaScript",
+      "TypeScript",
+      "Linux"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Vue.js Developer (MID/Senior)",
+    "description": "O projekcie: Jesteś ogarniętym Front-end developerem/ką z dobrymi manierami w e-commerce i kodowaniu? Jeśli bez mrugnięcia okiem potrafisz przenosić góry Vue.js (min. 2,5 roku expa), bardzo dobrze znasz się na CSS i nie lękasz się komunikacji w języku angielskim oraz polskim (min. B2) - śmiało czytaj dalej. Potrafisz zmierzyć i zinterpretować podstawowe metryki wydajności strony internetowej oraz umiesz korzystać z narzędzi deweloperskich przeglądarki w celu debugowania problemów? Do tego masz otwartą głowę, myślisz nieszablonowo i chcesz tworzyć soft dobrze, a nie jako tako. Brzmi znajomo? Czujesz, że to o Tobie? Może się dogadamy. Masz szansę zostać jednym z naszych Cyber Sailors!Lokalizacja: Kraków - 100% stacjonarnie lub hybrydowo (2-3x w tygodniu praca z biura)\nTwój zakres obowiązków: Rozwijanie i utrzymywanie frontendu sklepu internetowego napisanego w VueOpracowywanie warstwy prezentacji / interface’u z użyciem HTML, CSS i JavaScript (Vue)Programowanie nowych funkcjonalności, modułów, rozszerzeńUtrzymywanie i rozwój istniejących projektówKomunikacja i współpraca z zespołem, partnerską agencją oraz klientem, w tym udział w spotkaniach, również po angielskuOptymalizacja projektów pod kątem Web Performance, Core Web Vitals, Usability, SEO i AccessibilityImplementacja Google Tag Managera i innych narzędzi do trackowania i monitoringuPisanie schludnego kodu i dokumentacja własnej pracy\nNasze wymagania: Jesteś doświadczonym/ną Front End Developerem (masz min. 2-3 lata doświadczenia w programowaniu komercyjnym)Masz doświadczenie z Vue.js (inne frameworki mile widziane)Wiesz jak stosować HTML, CSS (bardzo dobra znajomość) aby całość działała zgodnie z założeniami oraz znasz jeden z preprocesorów CSS (min. dobra znajomość). My pracujemy na SCSSPotrafisz zmierzyć i zinterpretować podstawowe metryki wydajności strony internetowej oraz umiesz korzystać z narzędzi deweloperskich przeglądarki w celu debugowania problemówMasz poczucie estetykiWiesz co to WCAGJesteś programistą z dobrą znajomością JavaScript (ES6+) i umiejętnością programowania (wiesz czym jest referencja, obiekt, klasa, interfejs, jak działa map/reduce)Wiesz jak pracować z asynchronicznością w JavascriptWiesz co to SOLID, DRY i KISSZnasz podstawy Node.js, wiesz co to jest Webpack i potrafisz korzystać z NPMPotrafisz utrzymać porządek w branchach Git, commitach i podążać za zdefiniowanym workflow w GitLab/JiraMasz doświadczenie w pracy przy projektach e-commerce i/lub chcesz w takich projektach pracowaćSwobodnie posługujesz się językiem angielskim i nie masz oporów przed mówieniem (kontakt z zagranicznym zespołem i partnerami wymaga codziennych rozmów w tym języku)Potrafisz pracować samodzielnie, cechujesz się odpowiedzialnością za powierzone zadania i jesteś gotowy/gotowa pracować w zespole (częściowi) zdalnymDodatkowym atutem będzie znajomość języka niemieckiego, Tailwind CSS oraz Nuxt.js",
+    "company": "Creativestyle Polska Sp. z o.o.",
+    "offerURL": "https://www.pracuj.pl/praca/vue-js-developer-mid-senior-krakow-zablocie-25,oferta,1003829505?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 12500,
+    "salaryTo": 21000,
+    "currency": "zł",
+    "technologies": [
+      "Vue.js",
+      "JavaScript",
+      "Pinia",
+      "SCSS",
+      "English",
+      "Polish"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Angular Developer (Digital Hangar)",
+    "description": "About the projectDigital Hangar (DH) is a cooperation between Lufthansa Systems Poland (located in Gdańsk) and Lufthansa Group directly. Our teams build Applications (Frontend and Backend) exclusively for the Lufthansa Group digitalization initiatives.The DH aims to upgrade the LH Group to new digital business models, innovative product ideas and digital technologies for a digital future. As Hangar, we must research new technologies and solutions from IT market which will also be your responsibility.We are focused on the continuous development of our software engineers and therefore you can expect:•\tNewest technologies to work on,•\tExperienced developers to learn from,•\tWeekly dev talks,•\tTime for refactoring and improvements,•\tFreedom to choose frameworks/libraries,•\tIndividual development plan with trainings.\nYour responsibilitiesYou will work with the latest technologies, collaborate with experienced developers, and enjoy a supportive environment focused on continuous learning and development.\nOur requirementsAt least 3 years of experience on a similar position,Strong understanding of Angular 17+ features, including components, services, modules, and routing,Expertise in TypeScript, including advanced types and interfaces.Solid knowledge of web technologies - HTTP (status codes, headers, cookies, cache), HTML5, CSS3, RestAPI,Good knowledge of Frontend frameworks (Angular reactive programming, NgRx), single page application,Experience in RWD approach,Understanding of accessibility standards and best practices to ensure the application is accessible to all users,Coding using design patterns and actively writing unit tests,Understanding of core design principles,Ability to create intuitive and user-friendly interfaces by focusing on user needs and behaviors,Skills in building responsive designs that work seamlessly across different devices and screen sizes using CSS frameworks,Experience with CI/CD (Azure DevOps),Good knowledge of English and Polish in speaking and writing (C1+),Excellent verbal and written communication skills for effectively conveying technical concepts and collaborating with cross-functional teams,Confidently propose new ideas and improvements, backed by data and research,Proven ability to work effectively within a Scrum team, participating in sprint planning, daily stand-ups, and retrospectives,Strong analytical and problem-solving abilities to troubleshoot and resolve issues efficiently,Ability to understand user needs and pain points to create intuitive and user-friendly interfaces,Readiness to work in a hybrid model - 2 days in the office in Gdańsk.OptionalExperience with Java and Spring Framework.",
+    "company": "Lufthansa Systems",
+    "offerURL": "https://www.pracuj.pl/praca/angular-developer-digital-hangar-gdansk-aleja-grunwaldzka-415,oferta,1003851504?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 8000,
+    "salaryTo": 21000,
+    "currency": "zł",
+    "technologies": [
+      "Angular",
+      "HTTP",
+      "TypeScript",
+      "HTML"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Senior Node.js Developer",
+    "description": "O projekcie: Prowadzimy projekty zarówno wewnętrzne jak i zewnętrzne, głównie dla klientów z sektora finansowego - współpracujemy z liderami rynku finansowego: bankami, towarzystwami ubezpieczeniowymi i pośrednikami finansowymi. Dostarczamy również usługi i oprogramowanie dla przedsiębiorstw z branż transportu i Consumer Goods.Jeśli Twoją pasją jest programowanie, chcesz pracować przy ciekawych wdrożeniach dla znanych marek z użyciem najnowszych technologii, a wszystko to w ramach niekorporacyjnej struktury to zapraszamy do naszego zespołu!Poszukujemy osób, które chcą współtworzyć z nami innowacyjne rozwiązania, wesprą nasz zespół developerski oraz potrzeby projektowe naszych klientów.Prowadzimy rekrutację zarówno dla doświadczonych specjalistów i menadżerów , jak również dla studentów ostatnich lat i świeżych absolwentów IT.\nTwój zakres obowiązków: aktywny udział w projektowaniu rozwiązań i wyborze technologiiutrzymanie i rozwój istniejącego kodu oraz wdrażanie zupełnie nowych projektów w oparciu o technologie weboweimplementacja modułów funkcjonalnych z różnych warstw dostarczanego oprogramowania w oparciu o wymagania biznesowe (frontend, backend, integracja)bycie mentorem i partnerem dla zespołu projektowegodbanie o jakość i czystość kodu oraz architektury aplikacjipoprawa błędów produkcyjnych\nNasze wymagania: biegła znajomość i  kilkuletnie doświadczenie w Node.js i frameworkach: Express, NestJS, PassportJSbiegła znajomość i kilkuletnie doświadczenie z JavaScript, TypeScriptdobre zrozumienie architektury opartej na Async/Await i Promisesdoświadczenie z JWT/OAuth/OpenID Connectprojektowanie i dokumentowanie REST API (Swagger)dobra znajomość baz danych NoSQL (np. MongoDB)doświadczenie z rozproszonymi bazami danych opartymi na pamięci RAM (np. Redis)doświadczenie we wdrażaniu rozproszonej architektury mikroserwisowej (Docker, systemy kolejkowe)narzędzia do zarządzania projektami: GIT, JIRA, Confluencedoświadczenie w projektach prowadzonych przy użyciu zwinnych metodyk wytwarzania oprogramowaniadoświadczenie w implementacji mechanizmów integracyjnych przy użyciu REST, JMS APIumiejętność pisania testów jednostkowychjęzyk angielski na poziomie komunikatywnymMile widzianeznajomość RabbitMQ i ELKznajomość AWS SMS, S3doświadczenie z popularnymi frameworkami front-end (React/Angular)",
+    "company": "QUERCUS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "offerURL": "https://www.pracuj.pl/praca/senior-node-js-developer-lodz-prezydenta-gabriela-narutowicza-34,oferta,1003836320?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "Node.js",
+      "JavaScript",
+      "npm",
+      "Git",
+      "Express",
+      "NestJS",
+      "MongoDB",
+      "MySQL",
+      "REST",
+      "Jira",
+      "Confluence"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Fullstack Developer (Node.js and React)",
+    "description": "About the projectProject: AI-driven solution for the fin-tech sector.Project Overview:This project focuses on developing a disruptive SaaS platform that leverages cutting-edge AI to enhance efficiency, compliance, and productivity for financial services companies. The platform harnesses advanced natural language processing (NLP) to deliver innovative solutions, transforming the way businesses operate by automating processes and enabling enterprise-wide productivity.Key Technologies:•\tTypescript, Node.js, and React•\tAWS Architecture: Lambda, API Gateway, Step Functions, DynamoDB, EventBridge, SQS, SNS, S3, CloudWatch•\tElasticSearch and Postgres•\tAutomated Testing: Jest, Vitest•\tInfrastructure as Code: Terraform, CloudFormation, Serverless Framework, SST, CDKContract: B2BSalary: up to 130 PLN/h net/B2B; or 14k PLN gross/UoPLocation: Remote within Poland\nYour responsibilitiesDevelop and deploy robust, scalable applications using Node.js and React.Collaborate with software engineers, NLP engineers, product managers, business analysts, and designers.Work at the intersection of GenAI, LLM, and proprietary NLP models.Conduct code reviews and enhance development processes.Integrate APIs and third-party services for seamless connectivity.Stay current with technologies and propose innovative solutions.\nOur requirements4+ years of experience developing applications in Node.js.Experience with TypeScript.Experience with React.Experience working with AWS cloud-native services, specifically in serverless architectures.Familiarity with API integrations and best practices for building reliable APIs.Experience working with cloud-native NoSQL databases.Understanding of cloud infrastructure automation tools (e.g., Terraform, CloudFormation, Serverless Framework).Fluency in Polish and advanced level of English (B2/C1).OptionalExperience with the Mantime design library.",
+    "company": "Rite NRG sp. z o.o.",
+    "offerURL": "https://www.pracuj.pl/praca/fullstack-developer-node-js-and-react-wroclaw-ksawerego-liskego-7,oferta,1003857502?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "Node.js",
+      "TypeScript",
+      "React.js",
+      "AWS"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Mobile Developer (Android/TypeScript)",
+    "description": "O projekcie: W E Net Production pracujemy nad rozwojem i wsparciem jednego z największych systemów e-commerce, który powstał w Polsce i dziennie obsługuje miliony użytkowników internetowych, a swoje udane działania on-line prowadzą na tym systemie takie marki jak: Media Expert, Salony Agata, KROSS i wielu innych.Pracując z nami, masz realny wpływ na działanie i rozwój naszego produktu. Możesz zarówno uczyć się od najlepszych, jak i uczyć najlepszych - jesteśmy otwarci na ludzi i ich pomysły.Jeśli posiadasz doświadczenie z rozwiązaniami webowymi oraz mobilnymi, jesteś zainteresowany pracą z rozbudowaną platformą e-commerce, lubisz dzielić się pomysłami, a praca zespołowa jest dla Ciebie ważna, aplikuj!\nTwój zakres obowiązków: Rozwój aplikacji hybrydowej opartej o technologię Capacitor/Ionic oraz Vue.js.Tworzenie i rozwój natywnych modułów dla Androida w formie pluginów do Capacitor.Rozwój frontendu strony web e-commerce w technologiach Vue + TypeScript.Rozwiązywanie błędów oraz optymalizacja platformy e-commerce - Web oraz Aplikacji mobilnej.Wychodzenie z inicjatywą w tematach nowych rozwiązań, technologii.Przeprowadzanie Code Review.Udział w spotkaniach zespołów technicznych i biznesowych.\nNasze wymagania: Doświadczenie w tworzeniu, testowaniu oraz wydawaniu aplikacji mobilnych na platformę Android oraz ich testowaniu.Znajomość języka Java (lub Kotlin).Znajomość narzędzia Android Studio.Praktyczna znajomość procesu deploymentu aplikacji mobilnych.Znajomość TypeScript oraz Object-oriented programming.Znajomość SASS/SCSS.Znajomość Vue.js lub innego frameworka (np. React, Angular).Znajomość Git.Znajomość języka angielskiego na poziomie dokumentacji technicznej.Komunikatywność i chęć dzielenia się wiedzą.Doskonała organizacja pracy własnej, dokładność i samodzielność.Mile widzianeDoświadczenie w pracy z hybrydowymi aplikacjami mobilnymi, np. Capacitor, Ionic, React Native, Vue Native, Phonegap lub Apache Cordova.Znajomość tematyki izomorficznych aplikacji frontendowych.Wiedza z zakresu optymalizacji frontendu.Podstawowa znajomość Docker.Doświadczenie w pracy w zespołach scrumowych.Znajomość branży e-commerce.",
+    "company": "E NET PRODUCTION",
+    "offerURL": "https://www.pracuj.pl/praca/mobile-developer-android-typescript-katowice-bracka-28a,oferta,1003809843?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 12000,
+    "salaryTo": 18000,
     "currency": "zł",
     "technologies": [
       "Java",
-      "Spring Boot",
-      "Spring Framework",
-      "PostgreSQL",
-      "MySQL",
-      "Oracle",
-      "Maven",
-      "Gradle",
-      "Git"
+      "TypeScript",
+      "Android Studio"
     ],
-    "addedAt": "24 stycznia 2025"
+    "addedAt": "25 stycznia 2025"
   },
   {
-    "title": "Senior Java Developer for IoT Solutions",
-    "description": "About the projectAbout our TeamSamsung R&D Institute Poland is looking for Java Backend Developer, for the team working on SmartThings Pro and EHS projects - building IoT solution development. If you would like to work on innovative solutions from ideation, through proof of concept, to the commercialization phase, come and join us.We're highly specialized team in developing of modern tools for buildings environment control. Our solutions provide convenient and highly advance IoT technology for controlling human comfort and energy consumption efficiency of commercial and residential buildings. Our products are implemented globally and local business support team provides instantaneous contact with the market and excellence of our solutions.We’re looking for a Software Engineer passionate not only about software development but also about innovative solutions, which can change our everyday life. If want to search for new solutions and have motivation to learn and develop, we also strongly encourage you to apply. Due to rapid growth of our team we will consider candidates on different experience levels.Technologies in use●\tJava 11, Spring-Boot●\tPostgreSQL, Redis, RabbitMQ●\tAzure, Docker, Kubernetes●\tGit, Jira, Confluence\nYour responsibilitiesDevelopment of backend commercial solutions and PoC in IoT areaParticipate in code reviews and contribute to the development of software engineering best practicesSupporting full software development lifecycle of backend solutionsParticipate in international meetings and workshopsResearch about innovative solutions\nOur requirementsMinimum 5 years of professional experience as a Java/Spring developerMinimum 2 years of professional experience  with Microservice ArchitectureMinimum 2 years of professional experience with cloud platforms (preferable Azure)Very good knowledge of Spring, REST API, SQLKnowledge of frontend technologies at least good knowledge of HTML, CSS, JavaScriptKnowledge of the Linux environmentExcellent problem-solving and critical thinking skillsAbility to write clean and high quality codeB.Sc. or M.Sc. degree in: preferably computer science, telecommunication, other STEM fieldGood English and Polish - communication levelOptionalPrevious experience in commercial projectsFamiliarity with related technologies Redis, RabbitMQ,Familiarity with CI/CD based on: Docker, KubernetesFamiliarity with Spring Security and OAuth",
-    "company": "Samsung R&D Institute Poland",
-    "offerURL": "https://www.pracuj.pl/praca/senior-java-developer-for-iot-solutions-warszawa-plac-europejski-1,oferta,1003781995?s=dd1f2146&searchId=MTczNzc0NTQ2MTc0OS40MjQ=&ref=between_offers_boosterAI_L2_8_1_1",
+    "title": "Mobile Developer (iOS/TypeScript)",
+    "description": "O projekcie: W E Net Production pracujemy nad rozwojem i wsparciem jednego z największych systemów e-commerce, który powstał w Polsce i dziennie obsługuje miliony użytkowników internetowych, a swoje udane działania on-line prowadzą na tym systemie takie marki jak: Media Expert, Salony Agata, KROSS i wielu innych.Pracując z nami, masz realny wpływ na działanie i rozwój naszego produktu. Możesz zarówno uczyć się od najlepszych, jak i uczyć najlepszych - jesteśmy otwarci na ludzi i ich pomysły.Jeśli posiadasz doświadczenie z rozwiązaniami webowymi oraz mobilnymi, jesteś zainteresowany pracą z rozbudowaną platformą e-commerce, lubisz dzielić się pomysłami, a praca zespołowa jest dla Ciebie ważna, aplikuj!\nTwój zakres obowiązków: Rozwój aplikacji hybrydowej opartej o technologię Capacitor/Ionic oraz Vue.js.Tworzenie i rozwój natywnych modułów dla iOS w formie pluginów do Capacitor.Rozwój frontendu strony web e-commerce w technologiach Vue + TypeScript.Rozwiązywanie błędów oraz optymalizacja platformy e-commerce - Web oraz Aplikacji mobilnej.Wychodzenie z inicjatywą w tematach nowych rozwiązań, technologii.Przeprowadzanie Code Review.Udział w spotkaniach zespołów technicznych i biznesowych.\nNasze wymagania: Doświadczenie w tworzeniu, testowaniu oraz wydawaniu aplikacji mobilnych na platformę iOS oraz ich testowaniu.Znajomość języka Swift.Znajomość narzędzia Xcode.Praktyczna znajomość procesu deploymentu aplikacji mobilnych.Znajomość TypeScript oraz Object-oriented programming.Znajomość SASS/SCSS.Znajomość Vue.js lub innego frameworka (np. React, Angular).Znajomość Git.Znajomość języka angielskiego na poziomie dokumentacji technicznej.Komunikatywność i chęć dzielenia się wiedzą.Doskonała organizacja pracy własnej, dokładność i samodzielność.Mile widzianeDoświadczenie w pracy z hybrydowymi aplikacjami mobilnymi, np. Capacitor, Ionic, React Native, Vue Native, Phonegap lub Apache Cordova.Znajomość tematyki izomorficznych aplikacji frontendowych.Wiedza z zakresu optymalizacji frontendu.Podstawowa znajomość Docker.Doświadczenie w pracy w zespołach scrumowych.Znajomość branży e-commerce.",
+    "company": "E NET PRODUCTION",
+    "offerURL": "https://www.pracuj.pl/praca/mobile-developer-ios-typescript-katowice-bracka-28a,oferta,1003809747?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 12000,
+    "salaryTo": 18000,
+    "currency": "zł",
+    "technologies": [
+      "Swift",
+      "TypeScript",
+      "Xcode"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Fullstack Developer (Java, Angular)",
+    "description": "About the projectWe develop and support software platform composed of numerous modules and features to cover the entire corporate credit chain process used to serve corporate clients and large institutions. System is used worldwide in 50 countries internally by thousands of employees since 2019. We run interesting projects including programs covering Net-Zero Banking Alliance and Environment, Social & Governance.We use Scrum with monthly deployments to few worldwide production sites. System is developed by several feature teams with 5-10 members each cooperating from France, India, Poland.  New Polish tech hub started operations in 2023, launching interesting new projects. We provide good environment for technical skill development as we have talents within local and global teams who share knowledge and provide support to others.\nYour responsibilitiesDevelop software as per project requirements within a multiyear defined roadmapWork with the team on shaping the software to match user expectations as best as possibleMaintain good quality solutions by focusing on the needs, software quality with good test coverage and code reviewsPerform estimation and planning and proactive status reportingBe friendly, supportive and share knowledge with other team membersHybrid work with min 1 day a week at the Warsaw office\nOur requirementsExperience with our technologies at solid mid-levelsBack-end technologies: Java 8/17, Spring Boot, Swagger, IBM MQ, Feign, vavr, JUnit, Hibernate -> Oracle PL/SQL, Liquibase, MavenFront-end technologies: Angular 15, nx, micro front-end, Jest, NgRx.DevOps principles & tools - Continuous Integration & Continuous Deployment: Bitbucket, Jenkins, sonar, Kubernetes, ELKGood understanding and expertise with either front-end or back-end with basic, i.e. 1Y+ commercial experience with the “weaker side”Willingness to work as full stack, with specialization on one side and decent command of the other, we have experts to teach the gapsTeam player attitudeFluency in English",
+    "company": "BNP Paribas S.A. Oddział w Polsce",
+    "offerURL": "https://www.pracuj.pl/praca/fullstack-developer-java-angular-krakow-armii-krajowej-28,oferta,1003838521?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "Java",
+      "Angular",
+      "Spring Boot",
+      "Jenkins",
+      "Kubernetes"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Web Developer",
+    "description": "\nYour responsibilitiesWork in a fun and fast-paced environment.Ability to work independently.Participate in requirements gathering, design, development, QA, and support.\nEmployer requirements2-4 years of experience in Roku app development using BrightScript.Experience in web development with React/JavaScript/TypeScript etc.Strong working knowledge of Roku Api’s and libraries.Experience with consuming REST APIs in Roku ApplicationsUnderstanding of video streaming content delivery protocols such as HLS, DASHExperience in using media players on various Roku platformsUnderstanding of distributed multi-tier infrastructure.Practical use of design patterns.OptionalKnowledge of cloud-based services like AWS and GCP.",
+    "company": "dotLinkers Sp. z o.o.",
+    "offerURL": "https://www.pracuj.pl/praca/web-developer-katowice,oferta,1003811032?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 19000,
+    "salaryTo": 25000,
+    "currency": "zł",
+    "technologies": [
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "AWS",
+      "Google Cloud Platform"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Programista / Programistka PHP",
+    "description": "\nTwój zakres obowiązków: Rozwój i utrzymanie systemu CRMTworzenie i modyfikowanie zapytań SQLIntegracja z zewnętrznymi systemamiDebugowanie i rozwiązywanie problemówWspółpraca z zespołem projektowymDokumentowanie kodu i procesów\nNasze wymagania: Doświadczenie w programowaniu w PHP - Minimum 2 lataZnajomość MySQL/PostgreSQLZnajomość technologi frontend HTML, CSS, JavaScriptZnajomość systemów kontroli wersji (Git, Gerrit)",
+    "company": "AGRO-TRANSHANDEL sp. z o.o.",
+    "offerURL": "https://www.pracuj.pl/praca/programista-programistka-php-buk-mylna-12,oferta,1003826591?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 5000,
+    "salaryTo": 8000,
+    "currency": "zł",
+    "technologies": [
+      "PHP",
+      "Visual Studio Code",
+      "PostgreSQL",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "MySQL"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "PowerApps Developer",
+    "description": "About the projectJoin us and take part in the digital transformation.Warsaw-based opportunity with the possibility of hybrid work!As a PowerApps Developer, you will be working for our client, a leading provider of insurance and financial services, on a critical project to modernize their business processes. You will play a key role in designing and developing innovative solutions on the Microsoft Power Platform to enhance efficiency, improve customer experience, and drive digital transformation across the organization.\nYour responsibilitiesDesign and develop advanced Power Apps applications tailored to specific business needs and processesImplement and configure Power Automate workflows to automate business operations and streamline tasksIntegrate Power Apps with various data sources such as SQL Server, SharePoint, and APIsAnalyze user requirements and provide expert consulting to ensure solutions meet business objectivesConduct thorough testing and optimization of Power Apps applications to guarantee high quality and performanceProvide training and support to end-users, including creating comprehensive user documentation\nOur requirementsProven experience in designing and developing Power Apps applicationsStrong understanding of Power Automate and its capabilities for workflow automationExperience integrating Power Apps with various data sources (e.g., SQL Server, SharePoint, APIs)Proficiency in PowerFX and at least one other programming language (e.g., .NET, C#, JavaScript)Experience with Microsoft Azure and O365 cloud servicesExcellent analytical and problem-solving skillsStrong communication and interpersonal skillsAbility to work independently and as part of a teamMicrosoft Certifications: PL-200, PL-300, PL-400, PL-600 (preferred)Experience with agile development methodologies (e.g., Scrum, Kanban)Understanding of data modeling and database design principlesPassion for learning new technologies and staying current with industry trends",
+    "company": "ITDS Polska Sp. z o.o.",
+    "offerURL": "https://www.pracuj.pl/praca/powerapps-developer-warszawa,oferta,1003853235?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 10000,
+    "salaryTo": 14000,
+    "currency": "zł",
+    "technologies": [
+      "SQL",
+      "SharePoint",
+      ".NET",
+      "C#",
+      "JavaScript",
+      "Microsoft Azure"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "PHP Developer",
+    "description": "About the projectIn collaboration with one of our partners (German company repeatedly awarded for its products domestically and internationally), we are expanding our team to work on the implementation, integration, and development of the product for HR departments, used widely by public sector and corporations from various industries: major airlines, leading global technology and engineering firms, recognizable luxury fashion brands, sport brands, telecoms, cosmetics, retail and many more.The products offer: talent acquisition and talent management solutions, software products for applicant, talent and job advertisement management, excellent candidate experience and fully automated HR processes.The Team is working remotely within scrum methodology.\nYour responsibilitiesParticipate in new projects involving the design, implementation, and deployment of innovative solutions for the large and innovative HR platformDevelop and maintain web applications in PHP technology, including fixing bugs in systems maintained for large clientsIntegrate internal applications with client systemsWork in Scrum with international project teamTest and optimize code and maintain proper technical documentationApply the best practices in programming, optimization, and testing\nOur requirementsMinimum of 3 years of experience in developing web applications based on PHPProficiency in: PHP, HTML/CSS, JavaScript, Bootstrap, Laminas or Symfony, MySQL, PostgreSQL, Git, DockerEnglish language proficiency at B2 level minimum (international project team)OptionalPimcore, WordPress, Angular / Vue",
+    "company": "Support Online Sp. z o.o.",
+    "offerURL": "https://www.pracuj.pl/praca/php-developer-warszawa,oferta,1003839211?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 14000,
+    "salaryTo": 18000,
+    "currency": "zł",
+    "technologies": [
+      "PHP",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "MySQL",
+      "PostgreSQL",
+      "Git",
+      "Docker",
+      "Laminas",
+      "Symfony"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Fullstack .NET developer",
+    "description": "About the projectOur Client (based in the USA) is dedicated to developing integrated software solutions for stop-loss insurance, catering to various stakeholders such as brokers. The project is an entirely new system implementation built using Blazor and ABP.IO frameworks, while maintaining integration with an older system developed in ASP.NET MVC. Client has a set of web applications (multi-tenant architecture).\nYour responsibilitiesJoin our team as a Senior .net developer and participate in an exciting project developing applications for the insurance industry.\nOur requirementsDevelopment and Maintenance: Designing, coding, testing, debugging, and maintaining software applications using .NET technologies (ASP.NET MVC)Full-stack Development: Developing both front-end and back-end components of web applicationsDesigning and implementing database schemas, writing SQL queries, and optimizing database performanceCreating user-friendly and responsive web interfaces using HTML, CSS, and JavaScript,JQuery, Razor (CSHTML) and BootstrapDesigning and implementing RESTful APIs to facilitate communication between the front-end and back-end systemsWriting and executing unit tests, performing code reviews, and ensuring software quality and reliability.Creating technical documentation and specifications for software components and systems.Working closely with cross-functional teams including designers, product managers, and other developers to deliver high-quality software solutions.Technologies: C#, .net, Blazor, ABP.IO, ASP.Net MVC, Razor (CSHTML, Bootstrap),JQuery / Javascript / JSON, ASP.NET (current DS9 Account Management application),Aspose (Cells, Email, Words),Owin, Azure Storage",
+    "company": "CLEVER GRAPES sp. z o.o.",
+    "offerURL": "https://www.pracuj.pl/praca/fullstack-net-developer-wroclaw,oferta,1003804590?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 12000,
+    "salaryTo": 14000,
+    "currency": "zł",
+    "technologies": [
+      ".NET",
+      "ASP.NET MVC",
+      "SQL",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "JQuery",
+      "Razor",
+      "C#",
+      "Blazor",
+      "ABP.IO",
+      "Azure DevOps"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "React Developer",
+    "description": "O projekcie: Prowadzimy projekty zarówno wewnętrzne jak i zewnętrzne, głównie dla klientów z sektora finansowego - współpracujemy z liderami rynku finansowego: bankami, towarzystwami ubezpieczeniowymi i pośrednikami finansowymi. Dostarczamy również usługi i oprogramowanie dla przedsiębiorstw z branż transportu i Consumer Goods.Jeśli Twoją pasją jest programowanie, chcesz pracować przy ciekawych wdrożeniach dla znanych marek z użyciem najnowszych technologii, a wszystko to w ramach niekorporacyjnej struktury to zapraszamy do naszego zespołu!Poszukujemy osób, które chcą współtworzyć z nami innowacyjne rozwiązania, wesprą nasz zespół developerski oraz potrzeby projektowe naszych klientów.Prowadzimy rekrutację zarówno dla doświadczonych specjalistów i menadżerów , jak również dla studentów ostatnich lat i świeżych absolwentów IT.\nTwój zakres obowiązków: aktywny udział w projektowaniu rozwiązań i wyborze technologiiimplementacja modułów funkcjonalnych z różnych warstw dostarczanego oprogramowania w oparciu o wymagania biznesowe (frontend, backend, integracja)dbanie o jakość i czystość kodu oraz architektury aplikacjipoprawa błędów produkcyjnychbieżąca współpraca z całym zespołem projektowym\nNasze wymagania: bardzo dobra znajomość i doświadczenie z JavaScriptbardzo dobra znajomość i doświadczenie Reactbardzo dobra znajomość i doświadcznie TypeScriptznajomość React Hooks/Reduxznajomość systemu kontroli wersji GITznajomość wzorców projektowych (SOLID, DRY)język angielski na poziomie komunikatywnymMile widzianedoświadczenie z zakresu testów automatycznych (Jest, React Testing Library)wyczucie estetyczne z zakresu UI/UXznajomość SSR (NextJS, Gatsby)znajomość budowania aplikacji typu CRUD w NodeJSznajomość GraphQLumiejętność budowy aplikacji w oparciu o metodologię Atomic Design",
+    "company": "QUERCUS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "offerURL": "https://www.pracuj.pl/praca/react-developer-lodz-prezydenta-gabriela-narutowicza-34,oferta,1003836345?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "React.js",
+      "JavaScript",
+      "TypeScript",
+      "Git",
+      "npm"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Fullstack Developer",
+    "description": "O projekcie: Prowadzimy projekty zarówno wewnętrzne jak i zewnętrzne, głównie dla klientów z sektora finansowego - współpracujemy z liderami rynku finansowego: bankami, towarzystwami ubezpieczeniowymi i pośrednikami finansowymi. Dostarczamy również usługi i oprogramowanie dla przedsiębiorstw z branż transportu i Consumer Goods.Jeśli Twoją pasją jest programowanie, chcesz pracować przy ciekawych wdrożeniach dla znanych marek z użyciem najnowszych technologii, a wszystko to w ramach niekorporacyjnej struktury to zapraszamy do naszego zespołu!Poszukujemy osób, które chcą współtworzyć z nami innowacyjne rozwiązania, wesprą nasz zespół developerski oraz potrzeby projektowe naszych klientów.Prowadzimy rekrutację zarówno dla doświadczonych specjalistów i menadżerów , jak również dla studentów ostatnich lat i świeżych absolwentów IT.\nTwój zakres obowiązków: realizacja zadań developerskich w oparciu o technologie: Node.js, React/Angular, TypeScript, mikroserwisyutrzymanie i rozwój istniejącego kodu oraz wdrażanie zupełnie nowych projektów w oparciu o technologie webowebieżąca współpraca z całym zespołem projektowymimplementacja modułów funkcjonalnych z różnych warstw dostarczanego oprogramowania w oparciu o wymagania biznesowe (frontend, backend, integracja)dbanie o jakość i czystość kodu oraz architektury aplikacjipoprawa błędów produkcyjnych\nNasze wymagania: kilkuletnie doświadczenia w pracy z JSkilkuletnie doświadczenia w pracy z React/Angular i Node.jszrozumienie relacyjnych i/lub nierelacyjnych baz danych przy użyciu TypeORM, Mongoose itp.doświadczenie w projektowaniu i budowaniu API (w oparciu o RESTful i/lub GraphQL)biegłość w korzystaniu z Gitdoświadczenie w tworzeniu aplikacji internetowych od podstawsilne umiejętności techniczne i zamiłowanie do tworzenia kompleksowych funkcji (klient i serwer)umiejętność pracy w zespolebardzo dobra znajomość języka angielskiegoMile widzianeznajomość AWSznajomość Google/FB Ad/Analytics APIsznajomość GCP (Firebase, Functions, API Gateway, Google App Engine, BigQuery)",
+    "company": "QUERCUS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "offerURL": "https://www.pracuj.pl/praca/fullstack-developer-lodz-prezydenta-gabriela-narutowicza-34,oferta,1003836318?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "TypeScript",
+      "Spring Framework",
+      "Spring Boot",
+      "JPA",
+      "Hibernate",
+      "REST",
+      "JMS API",
+      "Kubernetes",
+      "Docker",
+      "npm",
+      "Git"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Java Developer",
+    "description": "O projekcie: Platforma CRM dla branży insurance, ułatwiająca sprzedaż pełnego wachlarza produktów ubezpieczeniowych + porównywarka OC/AC.Kluczowe kierunki rozwoju: poszerzanie portfolio obsługiwanych towarzystw ubezpieczeniowych oraz migracja technologii front-end do najnowszych, długofalowo wspieranych rozwiązań.\nTwój zakres obowiązków: Utrzymanie i rozwój oprogramowania.Migracja technologii front-end.Udział w wypracowaniu nowych rozwiązań technologicznych.Udział w wypracowywaniu koncepcji naszych produktów.Przygotowywanie dokumentacji technicznej.Pielęgnacja oprogramowania.\nNasze wymagania: Komercyjne doświadczenie w pracy na stanowisku Java Developera.Teoretyczna i praktyczna znajomość technologii wymienionych w sekcji „Technologie – wymagane”.Umiejętność tworzenia kodu zgodnie z zasadami SOLID, DRY.Umiejętność tworzenia optymalnych kwerend PostgreSQL.Komunikatywność i umiejętność pracy w zespole.Chęć doskonalenia kompetencji i proponowania nowatorskich rozwiązań.Samodzielność w rozwiązywaniu problemów.",
+    "company": "UNITY-T GROUP sp. z o.o. sp.k.",
+    "offerURL": "https://www.pracuj.pl/praca/java-developer-krakow,oferta,1003848877?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "Java 17",
+      "Spring",
+      "JavaScript",
+      "MongoDB",
+      "VueJS 3",
+      "REST",
+      "Soap",
+      "GitLab"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "IBM Maximo Developer",
+    "description": "About the projectWe are seeking experienced IBM Maximo Developers to collaborate on impactful U.S.-based projects. If you are passionate about leveraging your Maximo expertise to deliver innovative solutions and support critical projects, we encourage you to apply. This role is perfect for professionals with a strong background in Maximo configuration, customization, and administration who are eager to translate business requirements into tailored technical solutions.Our Client is a U.S.-based company with nearly 30 years of experience in delivering IT solutions and services. They specialize in serving the government sector and a wide range of industries, including manufacturing, utilities, finance, oil & gas, and more.\nYour responsibilitiesConfigure and customize IBM Maximo to align with client business processes and requirements.Translate customer requirements into technical specifications, designs, and implementations.Manage all phases of the Maximo implementation lifecycle, including testing, deployment, and post-deployment support.Develop and maintain Maximo integrations using the Maximo Integration Framework (MIF).Analyze existing workflows and identify opportunities for optimization or enhancement within Maximo.Create and execute comprehensive Maximo testing plans to ensure functionality meets client requirements.Provide training and develop documentation on Maximo features, best practices, and user processes.Troubleshoot technical issues related to Maximo or its integrations, ensuring timely resolution.Design and implement custom solutions, reports, or modules to address unique client needs.Support system upgrades, apply patches, and manage ongoing Maximo system maintenance.\nOur requirementsMinimum of 5 years of experience with IBM Maximo, particularly in Supply Chain and/or Nuclear environments.Proficiency in configuring, customizing, and administering Maximo systems.Expertise in Maximo Integration Framework, Maximo Object Structures, and Rules configurations.Strong programming skills in Java, JavaScript, XML, SQL, and related languages.Deep knowledge of WebSphere Architecture and Maximo data structures, application designer, security, and workflow development.Exceptional problem-solving skills for identifying and resolving complex technical issues.Effective communication skills, with the ability to convey technical concepts to diverse audiences.Highly organized, detail-oriented, and capable of working independently.Familiarity with best practices for system upgrades, patches, and user training.Fluent English language skills",
+    "company": "Maxima Europe Sp. z.o.o.",
+    "offerURL": "https://www.pracuj.pl/praca/ibm-maximo-developer-krakow,oferta,1003846171?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "IBM Maximo",
+      "Java",
+      "JavaScript",
+      "XML",
+      "SQL",
+      "WebSphere"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Programista Java (Fullstack)",
+    "description": "O projekcie: Tworzymy i dostarczamy rozwiązania informatyczne wspierające ochronę zdrowia: systemy informatyczne oraz oprogramowanie, z których każdego dnia korzystają miliony użytkowników: od pacjentów, lekarzy i farmaceutów, aż po sieci szpitali i największe firmy farmaceutyczne. Jesteśmy także wiodącym dostawcą w dziedzinie e-zdrowia. Oferujemy rozwiązania chmurowe i stacjonarne, aplikacje mobilne, a także rozbudowane systemy dedykowane na szeroko pojęty rynek ochrony zdrowia, zwłaszcza dla sektorów medycyny i farmacji. W skład Twoich obowiązków wchodzić będzie rozwój i utrzymanie platformy komunikacyjnej dla medycyny, farmacji i pacjentów, projektowanie i rozwój serwisów (backend, frontend).\nTwój zakres obowiązków: Rozwój i utrzymanie platformy komunikacyjnej dla medycyny, farmacji i pacjentówProjektowanie i rozwój serwisów (backend, frontend)Analiza błędów i rozwiązywanie problemów w funkcjonowaniu serwisów i przepływach danychWeryfikacja i dbanie o jakość oprogramowaniaWsparcie zespołu deweloperskiego w rozwoju aplikacjiWdrażanie rozwiązań wspierających automatyzację procesów rozwoju i wdrażania (CI/CD)Współpraca z innymi zespołami w procesie wytwarzania oprogramowania\nNasze wymagania: Co najmniej 3 letnie doświadczenie komercyjne w programowaniu w JavieBardzo dobra znajomość Spring FrameworkBardzo dobra znajomość SQL oraz baz danych PostgreSQL, OracleZnajomość REST API, JSONZnajomość SVN lub GIT, Maven, JenkinsZnajomość wzorców projektowychWiedza praktyczna z zakresu programowania frontend – node.js, React.js, JavaScript, TypeScript, HTML/CSSMile widzianeDoświadczenie w pracy z wykorzystaniem rozwiązań chmurowych (Microsoft Azure), Docker, KubernetesZnajomość zagadnień związanych z monitorowaniem i optymalizacją usług o dużym obciążeniu i wysokim poziomie dostępności",
+    "company": "Kamsoft S.A",
+    "offerURL": "https://www.pracuj.pl/praca/programista-java-fullstack-katowice-1-maja-133,oferta,1003849188?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
     "salaryFrom": 0,
     "salaryTo": 0,
     "currency": "",
     "technologies": [
       "Java",
       "Spring Framework",
+      "SQL",
+      "PostgreSQL",
+      "Oracle",
       "REST API",
+      "JSON",
+      "SVN",
+      "GIT",
+      "Maven",
+      "Jenkins",
+      "node.js",
+      "React.js",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Programista / Programistka Java",
+    "description": "O projekcie: Na tym stanowisku będziesz odpowiedzialny za rozwój i utrzymanie platformy redGrid – jest to największy w Polsce system do zarządzania inteligentnymi licznikami energii w nowoczesnych sieciach Smart Grid. Platforma pozwala na zdalny odczyt danych, monitorowanie stanu sieci niskiego napięcia, parametryzację urządzeń i udostępnianie danych pomiarowych do systemów bilingowych oraz na Rynek Energii. Projekt AMI realizowany jest od podstaw w naszej firmie, w oparciu o technologię Java EE.Wykorzystywane technologie:●\tJava,●\tSpring Boot,●\tRabbitMQ,●\tOracle SQL,●\tJava EE (EJB3.0, Servlets, JPA, JDBC, WebServices),●\tOracle Weblogic.●\tHibernate,●\tPostgreSQL.W codziennej pracy wykorzystujemy:●\tJira,●\tConfluence,●\tGit,●\tRedmine,●\tJenkins,●\tNagios,●\tcheckmk,●\tEnterprise Architect,●\tSlack.\nTwój zakres obowiązków: wytwarzanie nowych funkcji oraz modyfikacje istniejących komponentów platformy redGrid,opracowanie algorytmów usprawniających działanie systemu,udział w dyskusjach dotyczących rozwoju systemu,optymalizacja oraz utrzymanie istniejących komponentów systemu redGrid.\nNasze wymagania: wykształcenie wyższe – kierunek informatyka lub pokrewny (matematyka, fizyka itp.),min. dwuletnie doświadczenie komercyjne w programowaniu w języku Java,znajomość platformy Spring Boot,znajomość zagadnień związanych z wykorzystaniem relacyjnych baz danych,znajomość narzędzi Maven oraz GIT,otwarty umysł, chęć nauki i rozwoju zawodowego.Mile widzianedoświadczenie z wykorzystaniem architektury mikroserwisowej,znajomość technologii Java EE i serwerów aplikacyjnych (np.: WebLogic),podstawowa znajomość języka JavaScript i HTML.",
+    "company": "ATENDE INDUSTRIES SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "offerURL": "https://www.pracuj.pl/praca/programista-programistka-java-warszawa-ostrobramska-86,oferta,1003851046?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 10000,
+    "salaryTo": 18000,
+    "currency": "zł",
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "Git",
+      "Maven"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": ".Net Developer",
+    "description": "About the projectHi, we're glad you're here! We are hiring to our Aviva Services Excellence Centre! Take a look at our job description - maybe it suits you or one of your friends?Why are we looking for you?Project is growing and the team needs you.\nYour responsibilitiesNET Framework / .NET CoreASP.NET / ASP.NET CoreC# ProgrammingSQLHTML, CSS, JavaScriptUnit / Integration tests - we write the tests for our advantage, not just because we shouldGit flowCode review (we are strict but helpful)Pair coding (when needed)Agile methodologyCloud platformsKubernetesAgile/Scrum Methodology\nOur requirementsKnowledge of C#Fluent EnglishExperience in web app development (frontend/backend)Experience with REST API",
+    "company": "Aviva Services Excellence Centre",
+    "offerURL": "https://www.pracuj.pl/praca/net-developer-warszawa,oferta,1003828654?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "C#",
+      ".NET",
+      ".NET Core",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Senior .NET Developer",
+    "description": "O projekcie: Projekt dotyczący budowy od podstaw nowego rozwiązania, wspierającego handel elektroniczny w obszarze bankowości.\nTwój zakres obowiązków: tworzenie wysokiej jakości oprogramowania, wykorzystując najlepsze praktyki w zakresie zarządzania kodem, testowania i CI/CD,przejęcie odpowiedzialności za projekt oraz zapewnienie, że wszystkie aspekty architektury systemu są dobrze udokumentowane,ścisła współpraca z partnerskimi zespołami i efektywne współdziałanie,praca hybrydowa, 2 x w miesiącu z biura w Warszawie,\nNasze wymagania: posiadasz licencjat z informatyki lub pokrewnej dziedziny,masz minimum 7-letnie, komercyjne doświadczenie z wykorzystaniem .Net.posiadasz głębokie zrozumienie . Net/.Net Core i solidne zrozumienie zasad zorientowanych obiektowo,masz doświadczenie w ASP.NET Core Web API i technikach RESTful API,bardzo dobrze rozumiesz programowanie wielowątkowe i asynchroniczne,znasz bazy danych SQL i NOSql,posiadasz doświadczenie z rozwiązaniami konteneryzacji, takimi jak Docker,projektowałeś/aś i budowałeś/aś Api oparte na architekturze zorientowanej na usługi lub mikrousługi,testujesz automatycznie z użyciem Nunit, Moq lub Cucumber,masz doświadczenie z usługami przesyłania komunikatów, takimi jak: Rabbit MQ, TIBCO, SignalR,pracowałeś/aś z narzędziami ciągłej integracji i ciągłego dostarczania, takimi jak: Git, TeamCity,posiadasz doświadczenie w całym cyklu życia oprogramowania,masz wysokie umiejętności komunikacyjne w mowie i piśmie  oraz w efektywnej współpracy z członkami zespołu z różnych środowisk,bardzo dobrze znasz język angielski, na poziomie min. B2+.Mile widzianedoświadczenie w branży bankowej lub innych usługach finansowych,doświadczenie z platformami przetwarzania w chmurze (najlepiej AWS),znajomość jednego lub więcej frameworków Javascript.",
+    "company": "Scalo Sp. z o.o.",
+    "offerURL": "https://www.pracuj.pl/praca/senior-net-developer-warszawa,oferta,1003833690?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "SQL",
+      ".NET",
+      "Git",
+      "TeamCity",
+      "RabbitMQ",
+      ".NET Core"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "PHP Developer",
+    "description": "O projekcie: Prowadzimy projekty zarówno wewnętrzne jak i zewnętrzne, głównie dla klientów z sektora finansowego - współpracujemy z liderami rynku finansowego: bankami, towarzystwami ubezpieczeniowymi i pośrednikami finansowymi. Dostarczamy również usługi i oprogramowanie dla przedsiębiorstw z branż transportu i Consumer Goods.Jeśli Twoją pasją jest programowanie, chcesz pracować przy ciekawych wdrożeniach dla znanych marek z użyciem najnowszych technologii, a wszystko to w ramach niekorporacyjnej struktury to zapraszamy do naszego zespołu!Poszukujemy osób, które chcą współtworzyć z nami innowacyjne rozwiązania, wesprą nasz zespół developerski oraz potrzeby projektowe naszych klientów.Prowadzimy rekrutację zarówno dla doświadczonych specjalistów i menadżerów , jak również dla studentów ostatnich lat i świeżych absolwentów IT.\nTwój zakres obowiązków: aktywny udział w projektowaniu rozwiązań i wyborze technologiiimplementacja modułów funkcjonalnych z różnych warstw dostarczanego oprogramowania w oparciu o wymagania biznesowe (frontend, backend, integracja)dbanie o jakość i czystość kodu oraz architektury aplikacjipoprawa błędów produkcyjnychbieżąca współpraca z całym zespołem projektowym\nNasze wymagania: bardzo dobra znajomość i doświadczenie w PHPbardzo dobra znajomość JavaScript lub TypeScriptpraktyczne doświadczenie w budowaniu złożonych aplikacji serwerowych za pomocą Express lub NestJSznajomość baz danych: MongoDB i/lub MySQL oraz umiejętność integracji z Node.js np. przy użyciu Mongoosedoświadczenie w projektowaniu i budowaniu API (w oparciu o RESTful i/lub GraphQL),znajomość Gitaumiejętność pisania testów jednostkowychumiejętność debugowania koduumiejętność pracy z terminalemumiejętność pracy w IDE np. VS Codeumiejętność czytania dokumentacji technicznejjęzyk angielski na poziomie komunikatywnymMile widzianeznajomość i doświadczenie w Node.jsznajomość platformy Magento2znajomość architektury mikroserwisowejdoświadczenie z Dockerempraktyczne doświadczenie z popularnymi frameworkami front-end (React/Angular)",
+    "company": "QUERCUS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "offerURL": "https://www.pracuj.pl/praca/php-developer-lodz-prezydenta-gabriela-narutowicza-34,oferta,1003836316?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "npm",
+      "Git",
+      "PHP"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Game Developer",
+    "description": "\nYour responsibilitiesJoin Aristocrat in Bringing Joy to Life Through the Power of Play. Be part of our growing global team where people come first because they fuel our success. Here, it’s All About the Player and we create a world of its own for everyone, everywhere with premium casino and world-class digital and mobile products. Our value of Good Business, Good Citizen ensures that corporate growth and responsible gameplay go hand in hand to help our industry remain sustainable.Aristocrat offers a highly diverse, inclusive, and equitable culture as well as the professional tools and resources to ensure your Talent is Unleashed. We achieve success through Collective Brilliance. Individually, we are great, but together, we are unstoppable. Aristocrat enhances the player experience—and careers—with opportunities featuring meaningful challenges, strong advancement potential, and global exposure.Explore a Career with Our Team: Aristocrat InteractiveWhat You'll Do•Developing mobile and web games on HTML platforms, web applications, and infrastructures in JavaScript programming language.\nOur requirements•At least 3 years' proven experience developing games for HTML mobile / web Must•At least 3 years' experience in JavaScript development – Must•Experience with PIXI framework – Big Advantage•Experience with TypeScript programming - Big Advantage•Experience with Spine animations - Big Advantage•Experience working in agile methodology with Scrum framework•Responsible, initiator, team-player and great communication skills",
+    "company": "Aristocrat",
+    "offerURL": "https://www.pracuj.pl/praca/game-developer-warszawa,oferta,1003852289?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "HTML",
+      "TypeScript"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Fullstack Developer",
+    "description": "About the projectWe seek a team of experienced Fullstack Developers and Tech Leads to establish a dedicated team for a company operating in the medical software industry. The primary objective is to support migrating legacy systems to modern technologies while ensuring high-quality, maintainable, and scalable solutions. This team will contribute to building a nearshore development centre. The team will be part of an agile organization, working collaboratively to drive the modernization process, strongly emphasising quality, agility, and DevOps practices.\nYour responsibilitiesFor our client, we build two new teams of Fullstack Developers (Java+Angular/Vue) ready to develop internal projects in the health service industry. We are looking for mid and senior Developers, and more experienced Technical Leads as well.If you’re looking to grow and work on exciting projects, we’d love to hear from you!Recruitment process:Call with our Recruiter -> Call with our Business Manager -> Call with the Client and/or internal technical verification___Location: Hybrid Warsaw (2 days remote/3 from the office - close to the metro station, center of the city)\nOur requirementsProficiency in Java (J2EE, Microservices, REST APIs, Hexagonal Architecture).Experience in Domain-Driven Design (DDD) and Test-Driven Development (TDD).Expertise in frontend development using Angular or Vue.js (30% of workload).Knowledge of E2E UI testing tools (Cypress, Selenium) and E2E API testing (RestAssured, Contract Testing).Experience with DevSecOps practices and CI/CD tools such as GitLab and ArgoCD.Proficiency in containerization and orchestration tools (Docker, Openshift).Strong understanding of Infrastructure as Code tools (Terraform, Puppet, Helm).Hands-on experience with observability and monitoring tools (Grafana, Thanos, Prometheus).Familiarity with Linux system administration (Red Hat, Apache, Tomcat) and automation (Bash, Ruby).Agile mindset with experience in Scrum and agile ceremonies.Strong collaboration and communication skills with sensitivity to application functionality.Proficiency in French (optional, nice to have)",
+    "company": "ASTEK Polska",
+    "offerURL": "https://www.pracuj.pl/praca/fullstack-developer-warszawa,oferta,1003828297?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 12500,
+    "salaryTo": 18500,
+    "currency": "zł",
+    "technologies": [
+      "Java",
+      "JavaScript"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Rust Developer",
+    "description": "About the projectProject - Gapopa.devTech Stack:•\tLanguage - Rust;•\tActix-web - web-framework;•\tCockroachDB - database;•\tBaza - file storage;•\tMedea - media server;•\tFirebase - push notifications;•\tGraphQL - API;•\tCucumber - E2E testing.\nYour responsibilitiesThe responsibilities for the role will include developing a cross-platform messenger application, which can be found at https://gapopa.dev.\nOur requirementsKnowledge of Rust;Understanding FFl and UB;Skill in optimising pragrams and ability to use a code profiler;Understanding the principles of client-server web applications.Understanding the principles of designing database structures.Understanding the principles of DDD and layered architecture.Skill in writing unit and functional tests;Skill working with Git;Skill in using Unix-like operating systems.OptionalSkill in programming languages: C, C++Skill in CQRS+ES principle;Skill in Memcached technologies;Redis, RabbitMQ, MongoDB, Cassandra, Kafka, CockroachDB;Skill in other programming languages Java, Go,Python, Ruby, TypeScript, JavaScript.",
+    "company": "Pebble Invest s.r.o.",
+    "offerURL": "https://www.pracuj.pl/praca/rust-developer-czech-republic,oferta,11065176?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "Rust",
+      "Git",
+      "Unix"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Fullstack Developer (Java+Angular) with German",
+    "description": "About the projectProject: Development and maintenance of a key part of the platform for security management and access control in critical infrastructure sectors.Project Overview:Join our Rite NRG team as a Fullstack Developer and contribute to the core parts of a security & access control system, by continuously developing new features and maintaining key parts of the entire solution. Our team has over a decade of experience developing and evolving robust systems trusted by Germany's largest state-owned enterprises across critical infrastructure sectors, including hospitals, nuclear power plants, airports, and the military.Key Technologies:•\tGerman (Fluent), communicative level of English and Polish•\tJavaScript, Angular 17•\tJava 17 (Core Java, Servlets, Java-based web applications)•\tSpring Framework (Spring Core, Spring Security, etc.)•\tSQL Databases (e.g., MS SQL, Oracle)•\tTomcat - nice to have•\tHibernate - nice to have•\tVersion Control Systems (e.g., Git)•\tTesting Frameworks (e.g., JUnit, Mockito)•\tAPI Design and IntegrationContract: B2B or Contract of EmploymentLocation: Remote within Poland\nYour responsibilitiesDevelop frontend components and applications using Angular 17 and other modern web technologies.Develop and maintain Java applications using the Spring framework (Spring Core, Spring Security).Optimize frontend performance to ensure smooth, high-quality user experiences.Create clean, efficient, and well-documented code following best practices.Participate in code reviews and offer feedback to improve team code quality.Troubleshoot and resolve bugs and performance issues.Provide technical support to product management and sales during requirement analysis.\nOur requirementsExperience developing backend, Java-based web applications, preferably using the Spring framework (Spring Core, Spring Security, etc.)Proficiency in JavaScript, TypeScript, HTML, and CSS.Experience with frontend development using Angular 17 or similar frameworks.Strong knowledge of SQL databases (e.g., MS SQL Server, Oracle) and NoSQL databases.Experience with Hibernate.Familiarity with building responsive, user-friendly, and accessible web interfaces.Knowledge of frontend tools and libraries, such as RxJS, Webpack, or Node Package Manager (npm/yarn).Understanding of modern frontend architecture and design patterns.Hands-on experience with version control systems (e.g., Git).Proficiency in API design and integration.Familiarity with testing frameworks (e.g., JUnit, Mockito).Strong problem-solving skills and attention to detail.Fluency in German (min. C1), and communicative level of English, and Polish.",
+    "company": "Rite NRG sp. z o.o.",
+    "offerURL": "https://www.pracuj.pl/praca/fullstack-developer-java%2bangular-with-german-wroclaw-ksawerego-liskego-7,oferta,1003857507?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "Java",
+      "Spring Framework",
+      "JavaScript",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "Angular",
+      "SQL",
+      "Hibernate"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Senior Adobe AEM Developer",
+    "description": "\nTwój zakres obowiązków: uczestnictwo w projekcie dot. branży automotive. Wykorzystywany stos technologiczny: Adobe Experience Manager (AEM), HTML, CSS, JavaScript, React, Angular, Docker, Adobe Clouds (Marketing Cloud, Experience Cloud),tworzenie platformy dla dostawców, która umożliwi centralizację wymiany danych oraz współpracę w jednym systemie,tworzenie i rozwijanie komponentów w Adobe AEM,integracja z innymi systemami,optymalizacja istniejących funkcji,współpraca z zespołem w procesie analizy i rozwiązywania problemów,praca w modelu hybrydowym: 1 raz w miesiącu praca z biura we Wrocławiu,\nNasze wymagania: masz minimum 5 lat doświadczenia w pracy z Adobe AEM,znasz Adobe Clouds (Marketing Cloud, Experience Cloud),pracujesz z JavaScript, CSS, HTML,korzystasz z Dockera,biegle komunikujesz się w języku angielskim (min. B2),Mile widzianedoświadczenie z React lub Angular.",
+    "company": "Scalo Sp. z o.o.",
+    "offerURL": "https://www.pracuj.pl/praca/senior-adobe-aem-developer-wroclaw,oferta,1003847902?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "CSS",
+      "JavaScript",
+      "HTML",
+      "Docker"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Senior React Developer",
+    "description": "O projekcie: Prowadzimy projekty zarówno wewnętrzne jak i zewnętrzne, głównie dla klientów z sektora finansowego - współpracujemy z liderami rynku finansowego: bankami, towarzystwami ubezpieczeniowymi i pośrednikami finansowymi. Dostarczamy również usługi i oprogramowanie dla przedsiębiorstw z branż transportu i Consumer Goods.Jeśli Twoją pasją jest programowanie, chcesz pracować przy ciekawych wdrożeniach dla znanych marek z użyciem najnowszych technologii, a wszystko to w ramach niekorporacyjnej struktury to zapraszamy do naszego zespołu!Poszukujemy osób, które chcą współtworzyć z nami innowacyjne rozwiązania, wesprą nasz zespół developerski oraz potrzeby projektowe naszych klientów.Prowadzimy rekrutację zarówno dla doświadczonych specjalistów i menadżerów , jak również dla studentów ostatnich lat i świeżych absolwentów IT.\nTwój zakres obowiązków: aktywny udział w projektowaniu rozwiązań i wyborze technologiiutrzymanie i rozwój istniejącego kodu oraz wdrażanie zupełnie nowych projektów w oparciu o technologie weboweimplementacja modułów funkcjonalnych z różnych warstw dostarczanego oprogramowania w oparciu o wymagania biznesowe (frontend, backend, integracja)bycie mentorem i partnerem dla zespołu projektowegodbanie o jakość i czystość kodu oraz architektury aplikacjipoprawa błędów produkcyjnych\nNasze wymagania: biegła znajomość i kilkuletnie doświadczenie w React, JavaScript oraz TypeScriptbardzo dobra znajomość GITdoświadczenie w projektowaniu i korzystaniu z REST APIdoświadczenie w tworzeniu testów automatycznychwyczucie estetyczne z zakresu UI/UXznajomość wzorców projektowych (SOLID, DRY)chęć rozwijania umiejętności mentorskichjęzyk angielski na poziomie komunikatywnymMile widzianedoświadczenie w tworzeniu aplikacji mobilnych (React Native)doświadczenie z narzędziami do ciągłej integracji, zwłaszcza CircleCI",
+    "company": "QUERCUS SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+    "offerURL": "https://www.pracuj.pl/praca/senior-react-developer-lodz-prezydenta-gabriela-narutowicza-34,oferta,1003836342?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "React.js",
+      "JavaScript",
+      "TypeScript",
+      "Git",
+      "npm"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Bioinformatician / R Shiny Developer 0,5 FTE",
+    "description": "About the projectApplications providing analyses for in vivo researchers. First app provides study-level analysis of longitudinal data (e.g., Body Weight, Tumor Volume, Response Type, Signal Intensity from Image Analysis ROIs). Second app provides meta-analysis to estimate antitumor effects across multiple studies.  For the coming year, we would like to expand the output of existing analyses as well as launch analysis of new endpoints.\nYour responsibilitiesBe technically opinionated, with demonstrated adherence to best practices in software engineering including appropriate use of abstraction, testing, usability, and version control to create sustainable and reusable software.Collaboratively and pragmatically solve scientific software engineering challenges encountered at the forefront of quantifying test article effects, particularly those related to the interactive visualization.Collaborate with local and off-shore engineering teams to support your software development efforts.\nOur requirementsBS or higher in bioinformatics, computer science or related field.5+ years experience (including any graduate school) developing tools for data analysis.Expertise with R Shiny to develop effective interactive data analysis tools.MongoDB practical experience is required.Experience supporting data science activities using FAIR data management and reproducible practices.OptionalExperience with ggplot2, R6 and dplyr are not required but nice to have as well as basics of JavaScript and jQuery.Biological domain knowledge and basic data analysis skills are desirable but not required.Familiarity with Docker, Kubernetes and shinyproxy technologies is a plus.Familiarity with formal build/release/deploy and continuous integration frameworks (e.g., GitLab CI/CD) is a plus.",
+    "company": "SQUARE ONE RESOURCES sp. z o.o.",
+    "offerURL": "https://www.pracuj.pl/praca/bioinformatician-r-shiny-developer-0-5-fte-warszawa-pulawska-2,oferta,1003823405?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 13000,
+    "salaryTo": 16000,
+    "currency": "zł",
+    "technologies": [
+      "R",
+      "MongoDB"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Programista / Programistka Delphi",
+    "description": "O projekcie: Rozwijaj i ulepszaj nasz wielomodułowy system SPEDTRANS, wspierający firmy transportowo-spedycyjno-logistyczne (TSL).\nTwój zakres obowiązków: Programowanie nowych i rozwijanie istniejących funkcjonalności systemu SPEDTRANS w oparciu o Delphi.Tworzenie raportów i analiz danych z wykorzystaniem MS SQL, FastReport czy FastScript.Udział w projektach wdrożeniowych – współpraca z konsultantami i działem wdrożeń przy dostosowywaniu oprogramowania do potrzeb Klientów.Analiza wymagań funkcjonalnych – zarówno obecnych, jak i przyszłych, we współpracy z zespołem projektowym.\nNasze wymagania: Znajomość Embarcadero DelphiBiegłość w MS SQL (tworzenie zapytań, procedur, funkcji).Umiejętność pracy z komponentami FastReport, DevExpressWysokie standardy pracy: sumienność, odpowiedzialność, a jednocześnie otwartość na nowe pomysły.Mile widzianeMile widziane doświadczenie z UNIGUI, FireMonkey.Mile widziana znajomość HTML, CSS, JavaScript, jeśli masz ambicję rozwijać się w projektach webowych.",
+    "company": "MACIOSOFT",
+    "offerURL": "https://www.pracuj.pl/praca/programista-programistka-delphi-musuly-pow-grodziski-grodziska-21,oferta,1003829589?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 8000,
+    "salaryTo": 16000,
+    "currency": "zł",
+    "technologies": [
+      "Delphi",
+      "Microsoft SQL Server"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Blockchain Developer",
+    "description": "About the projectDAC.digital, a leading software and hardware company rapidly expanding across Europe, seeks talented Blockchain Developers to join our growing team. We specialize in providing top-tier engineering teams and developing innovative products that address complex business challenges. With over 14 years of experience in R&D projects for startups, scaleups, and enterprises, we bring unparalleled technical expertise to every project we undertake.Salary:•\t25 000 – 30 000 PLN net/month- pure B2B contract•\t22 000 – 26 000 PLN net/month – B2B contract (days off included)\nYour responsibilitiesdesigning and implementing blockchain solutions by applying your knowledge of blockchain fundamentals, including block architecture, consensus mechanisms, and token standards (ERC-20, ERC-721, ERC-1155, CW20);developing and deploying smart contracts using Solidity for Ethereum/EVM-based platforms and optionally Rust for Solana or Cosmos;conducting smart contract testing using tools such as Hardhat, Foundry, Truffle (EVM), and Anchor (Solana) to ensure robust and secure code;integrating wallets like Metamask, Phantom, and Keplr into decentralized applications (dApps), enabling smooth user interactions with blockchain networks;contributing to developing front-end dApp interfaces using JavaScript/TypeScript, React, and libraries like web3.js or ethers.js for Ethereum-based solutions;developing backend services using Node.js (optionally NestJS) and building APIs that facilitate blockchain interactions and data retrieval;supporting the creation and customization of blockchain chains with Golang, utilizing the Cosmos SDK for scalable solutions;implementing DevOps practices, including containerization with Docker and maintaining CI/CD pipelines for automated deployments and updates;collaborating with the team to optimize performance, improve security, and enhance the efficiency of blockchain-based systems.\nOur requirementsblockchain fundamentals: block architecture, consensus mechanisms, and token standards (ERC-20, ERC-721, ERC-1155, CW20);smart contract development: Solidity (Ethereum/EVM) and optionally Rust (Solana, Cosmos);smart contract testing: Hardhat, Foundry, Truffle (EVM), and Anchor (Solana);wallet Integrations: integrating Metamask, Phantom, and Keplr into dApps;dApp Front-End Development: JavaScript/TypeScript, React, and web3.js or ethers.js for EVM;backend Development: Node.js (optionally NestJS) and API development for blockchain interactions;Golang Development: Golang for creating and customizing new chains using Cosmos SDK;DevOps: Docker, optionally Kubernetes and CI/CD pipelines for deployment.solid experience with block architecture, consensus mechanisms, and token standards;strong experience with Solidity;proficiency in using Hardhat, Foundry, Truffle (EVM), and Anchor (Solana);knowledge of English (min. B2);working in agile methodologies (Scrum, Kanban);good communication skills;eager to learn and share knowledge;willing to travel if necessary (conferences, coworking events, etc.)Optionalinteroperability protocols: bridges (e.g., LayerZero, Wormhole) and IBC (Cosmos);Indexing and Querying solutions;node Operations: deploying and maintaining Ethereum nodes (Geth/Infura), Solana validators, and Cosmos full nodes;tokenomics implementation: the ability to design and implement token models, staking, and governance mechanisms;blockchain security: understanding vulnerabilities (e.g., reentrancy, overflow) and using tools like MythX, Slither, or Tenderly;gas optimization: techniques for minimizing transaction costs on EVM-based chains;Oracles and External Data: Integration with Chainlink, Band Protocol, and other Oracle solutions.",
+    "company": "DAC SA",
+    "offerURL": "https://www.pracuj.pl/praca/blockchain-developer-gdansk-aleja-grunwaldzka-472,oferta,1003827595?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 25000,
+    "salaryTo": 30000,
+    "currency": "zł",
+    "technologies": [
+      "Solidity",
+      "Hardhat",
+      "Node.js",
+      "React",
+      "Golang (Cosmos SDK)"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Fullstack Developer with Cloud (.NET and React)",
+    "description": "\nYour responsibilitiesBuilding and enhancing custom solutions for clients using .NET and Logic Apps,Improving internal infrastructure processes for developers,Developing internal and custom applications,Write clean, scalable, and efficient code,Troubleshoot, debug, and upgrade existing software,Implement new features and improve existing functionalities.\nOur requirementsHas at least 3-4 years of experience working with .NET Core (currently .NET 8+),Is proficient in Azure Cloud, particularly with Logic Apps, CosmosDB, Key Vault, and Azure Functions,Has worked with CI/CD pipelines, ideally using GitLab,Is independent, reliable, and proactive-someone who keeps us updated on progress,Can solve problems creatively and efficiently,Experience with JavaScript frameworks like React, Angular, or Vue will be an asset,Knowledge of Terraform or Kubernetes will be an asset.",
+    "company": "eConsulting Sp. z o. o.",
+    "offerURL": "https://www.pracuj.pl/praca/fullstack-developer-with-cloud-net-and-react-warszawa,oferta,1003829315?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      ".NET",
+      ".NET Core",
+      "GitLab",
+      "Microsoft Azure",
+      "JavaScript",
+      "React",
+      "Angular",
+      "Vue.js",
+      "Terraform",
+      "Kubernetes"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Senior Software Developer (AI/ML)",
+    "description": "\nYour responsibilitiesDevelop and fine-tune AI models for semantic search and image analysis.Process travel-related datasets to extract insights.Integrate AI solutions into Node.js platforms.Use AWS services for model deployment.Create RESTful APIs for AI-driven features.Contribute to AI strategy and identify innovation opportunities.\nOur requirements4+ years of software development, including 2+ years in AI/ML.Proficiency in Python and frameworks like TensorFlow or PyTorch.Experience with NLP, embeddings, and image processing.Knowledge of AWS tools and CI/CD pipelines.Independent, proactive, and a strong communicator.OptionalExposure to Node.js",
+    "company": "BRAVER IT SPÓŁKA AKCYJNA",
+    "offerURL": "https://www.pracuj.pl/praca/senior-software-developer-ai-ml-krakow,oferta,1003837460?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 19000,
+    "salaryTo": 29000,
+    "currency": "zł",
+    "technologies": [
+      "TensorFlow",
+      "PyTorch",
+      "AWS"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Full-Stack Developer (Python/Django, Vue.js)",
+    "description": "O projekcie: Do zespołu naszego klienta poszukujemy programisty Python/Django z doświadczeniem w pracy z Vue.js. Osoba na tym stanowisku będzie odpowiedzialna za rozwój i optymalizację systemów wspierających procesy inwestycyjne, dzierżawy zasobów oraz zarządzanie budżetami w projektach B2B.\nTwój zakres obowiązków: Rozbudowa i optymalizacja systemów SIP i SIMS, wykorzystywanych do zarządzania procesami inwestycyjnymi i budżetowymi.Projektowanie i wdrażanie rozwiązań wizualnych (Front End) zgodnych z zasadami UX/UI oraz optymalizacja pod kątem przeglądarek.Tworzenie i rozwój algorytmów wspomagających podejmowanie decyzji biznesowych w obszarze rozwoju sieci mobilnych.Integracja systemów z aplikacjami zewnętrznymi (np. Navio).Praca z bazami danych (Postgres, SQL) oraz hurtowniami danych (DWH).Utrzymanie i rozwój systemów Python/Django oraz Vue.js, a także wprowadzanie nowych technologii (NestJS).\nNasze wymagania: Bardzo dobra znajomość Python i Django.Doświadczenie w pracy z Vue.js.Znajomość API/REST i SQL.Umiejętność pracy z systemami rozproszonymi i integracją aplikacji zewnętrznych.Mile widzianeJavaScript.Apache.Linux.Link do profilu na GitHub",
+    "company": "IT CONNECT Sp. z o.o. Sp. k.",
+    "offerURL": "https://www.pracuj.pl/praca/full-stack-developer-python-django-vue-js-warszawa,oferta,1003827367?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "Python",
+      "Django",
+      "Vue.js",
+      "SQL",
+      "API",
+      "REST"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Fullstack Developer",
+    "description": "About the projectAt DAC.digital, we are constantly growing our business. By joining our cross-functional Engineering team you will have significant involvement in the continual evolution of products, working collaboratively with the team to improve and develop a truly disruptive SaaS platform that uses advanced AI to enable scalable efficiency for financial services companies, combining world-leading NLP (natural language processing) expertise with deep nancial services domain experience to drive enterprise-wide productivity.Salary:•\t20 000 – 23 500 PLN net/month – pure B2B contract•\t18 000 – 20 000 PLN net/month – B2B contract (days off included)\nYour responsibilitiesTechnology stack:Typescript, Node.js and React;AWS Architecture (Lambda, API Gateway, Step Functions, DynamoDB, EventBridge, SQS, SNS, S3, Cloudwatch);ElasticSearch and Postgres;Automated Testing using Jest and Vitest;Infrastructure as code using Terraform and Cloud Formation, Serverless Framework, SST and CDK.\nOur requirementsexperience using React together with NodeJS and Typescript to build robust and secure serverless services and APIs;proven experience working with AWS cloud-native services with a specic focus on building for Serverless;proven experience working with monitoring tools and an appreciation for the benets of a highly observable platform;experience working with cloud-native NoSQL databases;good knowledge of English.",
+    "company": "DAC SA",
+    "offerURL": "https://www.pracuj.pl/praca/fullstack-developer-gdansk-aleja-grunwaldzka-472,oferta,1003827591?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 20000,
+    "salaryTo": 23500,
+    "currency": "zł",
+    "technologies": [
+      "React.js",
+      "Node.js",
+      "AWS",
+      "TypeScript"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Fullstack (Golang + Python) Developer",
+    "description": "About the projectAs a Fullstack (Golang + Python) Developer, you will be working for our client, a global leader in financial services. You will be part of their Cybersecurity Assessment and Testing (CSAT) function, tasked with developing and maintaining critical software solutions that protect the organization’s digital infrastructure. Your role involves collaborating with cybersecurity experts to design, build, and optimize secure services, leveraging open-source technologies, and contributing to a secure, scalable, and efficient banking experience.Join us, and empower cybersecurity through exceptional software engineering!Krakow-based opportunity with the possibility to work 70% remote.\nYour responsibilitiesSupporting and maintaining GoLang-based open-source softwareDesigning and developing REST API services for internal useCollaborating with cybersecurity experts to refine and deliver software solutionsAdhering to design patterns and proposing new technologies to enhance securityAutomating processes to improve software development efficienciesEnsuring operability by troubleshooting, debugging, and documenting servicesDeveloping automated test cases and conducting peer reviewsLeading junior developers and contributing to team governanceBuilding and deploying services using Docker, Kubernetes, and CICD pipelinesWriting data pipelines using Python frameworks like FastAPI, Pandas, and Airflow\nOur requirementsDemonstrable experience with GoLang and open-source softwareStrong skills in debugging, root cause analysis, and writing technical documentationProficiency in Python with frameworks such as FastAPI, Flask, or DjangoExperience in microservice architectures and related concepts like CQRS and SAGAHands-on expertise with Docker, Kubernetes, Jenkins, and GitStrong Linux system administration and networking knowledgeSolid SQL skills for constructing complex queriesFamiliarity with frontend development (HTML, CSS, JavaScript)Experience with agile and DevSecOps processes in regulated environmentsExcellent communication skills and a proactive, collaborative mindsetOptionalCybersecurity experience, such as SAST, DAST, or penetration testingExpertise in deploying infrastructure on cloud platforms (AWS, GCP, Azure)Advanced frontend development skills, particularly with ReactDatabase administration experience with relational and non-relational systemsKnowledge of operational monitoring tools like Prometheus and service mesh tools like Anthos",
+    "company": "ITDS Polska Sp. z o.o.",
+    "offerURL": "https://www.pracuj.pl/praca/fullstack-golang-%2b-python-developer-krakow,oferta,1003847685?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 21000,
+    "salaryTo": 25200,
+    "currency": "zł",
+    "technologies": [
+      "Go",
+      "Python",
+      "FastAPI",
+      "Flask",
+      "Django",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "Git",
+      "Linux",
       "SQL",
       "HTML",
       "CSS",
       "JavaScript"
     ],
-    "addedAt": "24 stycznia 2025"
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Programista ERP",
+    "description": "\nTwój zakres obowiązków: Tworzenie, rozwijanie i modyfikowanie funkcjonalności systemu Enova365 w technologii C#.Integracja systemu z innymi aplikacjami i platformami (API, web services).Współpraca z zespołem wdrożeniowym przy analizie wymagań i projektowaniu rozwiązań.Optymalizacja istniejących modułów oraz rozwiązywanie problemów technicznych.Testowanie i dokumentowanie stworzonych rozwiązań.\nNasze wymagania: Praktyczna znajomość języka C# i platformy .NET.Doświadczenie w pracy z systemem Enova365 (mile widziana znajomość SDK Enova365).Znajomość relacyjnych baz danych (np. SQL Server) oraz języka T-SQL.Umiejętność analitycznego myślenia i rozwiązywania problemów.Samodzielność w realizacji powierzonych zadań oraz dobra organizacja pracy.Komunikatywność i umiejętność pracy zespołowej.Mile widzianeDoświadczenie w pracy z innymi systemami ERP.Znajomość HTML, CSS, JavaScript oraz technologii webowych.Certyfikaty związane z systemem Enova365.Znajomość języka angielskiego na poziomie umożliwiającym pracę z dokumentacją techniczną.",
+    "company": "DPS systems",
+    "offerURL": "https://www.pracuj.pl/praca/programista-erp-warszawa,oferta,1003848951?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "C#",
+      ".NET",
+      "SQL",
+      "T-SQL"
+    ],
+    "addedAt": "25 stycznia 2025"
+  },
+  {
+    "title": "Symfony Developer (Senior)",
+    "description": "O projekcie: Jeżeli jesteś Developerem Seniorem z certem Symfony - jesteś naszym księciem z bajki (lub księżniczką!). Do tego znasz język angielski i polski na poziomie min. B2? Śmiało scrolluj dalej. Jesteś już prawie jedną nogą na naszym okręcie! 😄Lokalizacja: Kraków - 100% stacjonarnie lub hybrydowo (2-3x w tygodniu praca z biura)\nTwój zakres obowiązków: Montowanie e-sklepów, w oparciu o SymfonyWspółpraca z ogarniętymi front-endowcami, mało upierdliwymi PM-ami, natchnionymi designerami, a także DevOpsami, którym nie trzeba przypominać co pół rokuPisanie testów zautomatyzowanych - jednostkowych i integracyjnych\nNasze wymagania: Przeczytaj pytania poniżej. Im więcej znasz odpowiedzi, tym lepszą pensję możesz dostać.•\tJaka jest różnica pomiędzy testami jednostkowymi a integracyjnymi?•\tPo co w Symfony stosuje się podejście controller as a service?•\tDo czego można wykorzystać tagi w services.yml?•\tJak umieścić klasę poza Bundlem?•\tCo to jest feature branch i merge request (pull request)?•\tCo to znaczy 'zrobić rebase do mastera'?•\tJak zrobić szybką poprawkę na produkcji (hotfix), jeśli używamy gita?•\tJak się tworzy validator, który sprawdzi zależności pomiędzy dwoma polami w obiekcie?•\tCo zmienia setMaxAge() w Response?•\tDo formularza podpinamy bezpośrednio encję. Jak zmodyfikować dane z formularza, zanim zostaną przepisane do encji?•\tMamy serwis, który zależy od innego serwisu. Jak definiuje się taką zależność?•\tJak zrobić w Symfony customową stronę błędu 404?•\tCzy Sub Zero był w każdej części gry Mortal Kombat?•\tJak rozumiesz przestrzeganie zasady SRP?•\tCo to za skróty: SOLID, CRUD, DRY, PSR, YAGNI, KISS?•\tCzy polecenie rm katalog w bashu skasuje folder katalog, na którym wcześniej root zrobił chmod 777 katalog?•\tCzy często trzeba pisać własne rozszerzenia Twig?•\tCzy programista PHP powinien znać JavaScript?•\tNa czym polega code review?•\tCo to jest Continous Integration?•\tIloma spacjami wcinasz kod?•\tCzy composer.lock się commituje?•\tJak w Symfony wykonać zapytanie w SQL?•\tJak w SQL obliczyć średnią ocen dla każdego studenta, jeśli mamy tabelkę z polami INT id_studenta, INT ocena?•\tJak wygląda wyrażenie regularne, sprawdzające poprawność adresu email?•\tJak ograniczyć edycję postu na forum tylko do jego autora lub moderatora forum?•\tCo to jest Voter?•\tJeśli nie var_dump() to co?•\tJak w Symfony zrobić stronę w wielu językach?•\tNa farmie są kury i koty. Razem mają 72 głowy i 200 nóg. Ile jest kur a ile kotów?•\tKolor #AA00AA lepiej prezentuje się na tle #AA0000 czy #00AAAA?Czy potrafisz odpowiedzieć na powyższe pytania po angielsku?",
+    "company": "Creativestyle Polska Sp. z o.o.",
+    "offerURL": "https://www.pracuj.pl/praca/symfony-developer-senior-krakow-zablocie-25,oferta,1003829509?s=346594&searchId=MTczNzgyODE5NTg5OS42NDQ4",
+    "salaryFrom": 15200,
+    "salaryTo": 20000,
+    "currency": "zł",
+    "technologies": [
+      "Symfony"
+    ],
+    "addedAt": "25 stycznia 2025"
   }
 ]

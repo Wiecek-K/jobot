@@ -1,177 +1,868 @@
 [
   {
-    "title": "Java Developer (1 dzień z biura)",
-    "description": "Cześć!Dla naszego klienta z branży telco poszukujemy Java Developera, którego zadaniem będzie tworzenie i rozwijanie aplikacji klasy Enterprise, projektowanie oraz implementacja nowych funkcjonalności w Java i Angular, integracja z bazami danych, rozwijaniem API REST, a także współpraca w zespole Scrum, dbając o jakość kodu i procesy CI/CD.Stawka: 100 – 135 PLN/h netto na B2BLokalizacja: Praca hybrydowa – minimum 1 dzień w tygodniu w biurze w WarszawieStart: ASAP lub początek marcaZakres obowiązków:\nTworzenie i rozwój oprogramowania klasy Enterprise wspierającego procesy planowania i utrzymania sieci.\nProjektowanie, implementację i wdrażanie nowych funkcjonalności z wykorzystaniem technologii Java, Spring Boot oraz Angular.\nProjektowanie i optymalizację zapytań do baz danych (Oracle, PostgreSQL) oraz ich integrację z aplikacjami.\nBudowę i rozwój interfejsów API zgodnie z wymaganiami projektowymi (REST, Swagger).\nTworzenie oraz utrzymywanie procesów automatyzacji (CI/CD) przy użyciu narzędzi takich jak Maven i Jenkins.\nUdział w przeglądach kodu oraz wdrażanie najlepszych praktyk w zakresie programowania.\nPracę w zespole projektowym w metodyce Scrum, współpracując z analitykami, testerami oraz innymi programistami.\nWykorzystanie wiedzy z zakresu Event-Driven Architecture oraz, w miarę możliwości, modelowania procesów w BPMN (Camunda).\nWymagania podstawowe:\nMinimum 3-letnie doświadczenie w tworzeniu oprogramowania klasy Enterprise.\nBardzo dobra znajomość technologii: Java, Spring Boot, Angular 2+, Bootstrap.\nZaawansowana znajomość baz danych (Oracle, PostgreSQL) oraz języka SQL.\nPraktyczne doświadczenie w pracy z API REST oraz narzędziami takimi jak Swagger.\nDoświadczenie w procesach CI/CD (Maven, Jenkins).\nZnajomość koncepcji Event-Driven Architecture.\nZnajomość języka angielskiego na poziomie umożliwiającym pracę w środowisku międzynarodowym oraz analizę dokumentacji technicznej.\nZdolności analityczne, komunikatywność oraz umiejętność pracy zespołowej.\nDodatkowe atuty:\nUmiejętność programowania w języku Python.\nZnajomość modelowania procesów w BPMN (Camunda).\n\nDoświadczenie w pracy w branży telekomunikacyjnej, w tym znajomość systemów: CRM, Order Management, Billing, a także standardów TMF.\nZapraszamy do aplikowania!",
-    "company": "Crestt",
-    "offerURL": "https://justjoin.it/job-offer/crestt-java-developer-1-dzien-z-biura--warszawa-java",
-    "salaryFrom": 16800,
-    "salaryTo": 22600,
+    "title": "Frontend Mid/Senior JavaScript Developer",
+    "description": "Frontend Mid/Senior JavaScript DeveloperSkySnap to firma zajmująca się usługami w zakresie monitoringu infrastruktury (drogi, koleje, sieci energetyczne) na każdym etapie – od planowania poprzez budowę, aż po prace związane z jej utrzymaniem. Budujemy nowoczesne narzędzia analityczne oparte o dane geoprzestrzenne pozyskiwane z dronów, samolotów i satelitów oraz algorytmy ML/AI.Obecnie rozwijamy geoportal, który integruje wizualizację danych przestrzennych, analizy oraz raportowanie. Szukamy Frontend JavaScript Developera, który dołączy do naszego zespołu i pomoże nam w realizacji ambitnych projektów.Czym będziesz się zajmować?\nRozwojem aplikacji webowej (geoportalu) od implementacji po wdrożenie na środowiska produkcyjne.\nTworzeniem i wdrażaniem nowych funkcjonalności, w tym zaawansowanych wizualizacji danych przestrzennych.\nWspółpracą z zespołem backendowym i projektantami UX/UI w celu integracji usług backendowych z interfejsem użytkownika.\nUtrzymaniem istniejącego kodu oraz wdrażaniem usprawnień i optymalizacji.\nZapewnieniem wysokiej jakości kodu poprzez stosowanie wzorców projektowych i najlepszych praktyk (DRY, SOLID).\nRozwiązywaniem problemów w czasie rzeczywistym (np. obsługa websocketów, optymalizacja procesów CI/CD).\nWspółtworzeniem środowiska pracy opierającego się na automatyzacji, wydajności i niezawodności.\nWspółpracą przy obsłudze dużych zbiorów danych przestrzennych oraz integracji z narzędziami wizualizacyjnymi (np. OpenLayers, Potree, Three.js).\nNasze oczekiwania\nBiegłość w używaniu języka TypeScript.\nMin. 3 lata doświadczenia komercyjnego w pracy z JavaScript i React.\nUmiejętność samodzielnego rozwiązywania problemów i podejmowania decyzji technicznych.\nZnajomość metodologii wytwarzania oprogramowania oraz zasad pisania czystego kodu.\nDoświadczenie w pracy z systemem kontroli wersji Git\nDoświadczenie z bibliotekami frontendowymi i narzędziami: Material UI, Redux/Redux Saga, styled-components, emotion.\nPłynna znajomość języka polskiego oraz znajomość języka angielskiego na poziomie umożliwiającym czytanie dokumentacji technicznej.\nMile widziane\nDoświadczenie w pracy z technologiami geoprzestrzennymi: OpenLayers, Potree, Three.js.\nDoświadczenie w projektowaniu i wdrażaniu aplikacji serwerowych Node.js (REST, websocket, SSR).\nZnajomość podstaw procesów CI/CD.\nZnajomość podstaw aplikacji Docker.\nUmiejętność pracy z dużymi zbiorami danych przestrzennych w aplikacjach webowych.\nZnajomość Vite+React oraz innych rozwiązań SSR.\nCo oferujemy?\nPracę hybrydową – biuro zlokalizowane w Warszawie przy metrze Wilanowska.\nForma zatrudnienia - umowa o pracę lub umowa zlecenie.\nMożliwość korzystania z dowolnego IDE i systemu operacyjnego.\nKartę Multisport oraz wsparcie w rozwoju zawodowym.\nRealny wpływ na kierunek rozwoju aplikacji i technologii stosowanych w firmie.\nWięcej informacji o nas znajdziesz na: https://skysnap.pl/Dołącz do nas i pomóż tworzyć rozwiązania, które zmieniają sposób monitorowania infrastruktury!Aplikacje prosimy wysyłać na adres: rekrutacja@skysnap.pl. W temacie wiadomości prosimy wpisać „Frontend Mid/Senior JavaScript Developer”Wynagrodzenie: 15 000 - 21 000 PLN brutto",
+    "company": "SkySnap",
+    "offerURL": "https://justjoin.it/job-offer/skysnap-frontend-mid-senior-javascript-developer-warszawa-javascript",
+    "salaryFrom": 15000,
+    "salaryTo": 21000,
     "currency": "PLN",
     "technologies": [
-      "CI/CD",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Git",
+      "Redux",
+      "WebSocket"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Expert Full Stack JavaScript Developer",
+    "description": "Salary range: B2B 47-50 E/h + VAT 💰Ciklum is looking for a Expert Full Stack JavaScript Developer to join our team full-time in Poland.We are a custom product engineering company that supports both multinational organizations and scaling startups to solve their most complex business challenges. With a global team of over 4,000 highly skilled developers, consultants, analysts and product owners, we engineer technology that redefines industries and shapes the way people live.About the role:As a Expert Full Stack JavaScript Developer, become a part of a cross-functional development team engineering experiences of tomorrow.Responsibilities:\nDesign and implement complex web applications using the established approaches and best practices\nCollaborate with developers and other team members to design, implement, and provide a performant, scalable, reliable, and flexible solution\nOpen to learning and working with various programming languages, frameworks, and concepts including Rust, Python, Java, React, open source\nRequirements:\n6+ years of software engineering experience, preferably across a variety of languages, technologies, and tools – Mostly NodeJS, ReactJS, and TypeScript\nStrong proficiency in TypeScript, NodeJS, ReactJS\nExperience in using NodeJS advanced features and building high-performance applications\nExperience and a versatile approach to software engineering, including a diverse tech stack (Rust, C#, Python + tell us what you can do) is a big advantage\nExperience in using complex queries and aggregations to databases (Postgres, Redis)\nHands-on experience with application deployment patterns and tools (Docker, Kubernetes)\nExperience with a prior record in infrastructure configuration using popular cloud providers (like AWS, GCP, Azure) or Virtual Private Cloud is a big advantage\nExperience in R&D and LLMs API development will be a plus\nSolid understanding of software development principles and design patterns\nPractical experience with testing approaches and tools\nSupporting code quality metrics\nFamiliar with monitoring and logging tools\nExperience working in an Agile development environment\nDesirable:\nAdvanced fluent English is a must\nAbility to express ideas, thoughts, and questions simply, concisely, and in a structured way\nA go-getter that needs very little guidance to “conquer the mountain”\nAll-around team player, fast, self-learning individual\nWhat's in it for you?\nCare: your mental and physical health is our priority. We ensure comprehensive company-paid medical insurance, life insurance and Multisport card\nTailored education path: boost your skills and knowledge with our regular internal events (meetups, conferences, workshops), Udemy license, language courses and company-paid certifications\nGrowth environment: share your experience and level up your expertise with a community of skilled professionals, locally and globally\nFlexibility: Own your schedule – you are the one to decide when to start your working day. Just dont miss your regular team stand-up\nOpportunities: we value our specialists and always find the best options for them. Our Internal Mobility Program helps change a project if needed to help you grow, excel professionally and fulfill your potential\nGlobal impact: work on large-scale projects that redefine industries with international and fast-growing clients\nWelcoming environment: feel empowered with a friendly team, open-door policy, informal atmosphere within the company and regular team-building events\nAbout us:Join a well-established company and a strong team of professionals. Seize the perks of global opportunities, local approach and start-up spirit. Boost your skills with modern stacks and industry-leading clients!Enjoy what you do, do what you enjoy!Be bold, not bored!",
+    "company": "Ciklum",
+    "offerURL": "https://justjoin.it/job-offer/ciklum-expert-full-stack-javascript-developer-gdansk-javascript-b2275c46",
+    "salaryFrom": 28680,
+    "salaryTo": 30368,
+    "currency": "PLN",
+    "technologies": [
+      "TypeScript",
+      "Node.js",
+      "React"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "JavaScript Developer (Angular)",
+    "description": "Hi there! We are STX Next, a global IT consulting company specializing in customer-focused software services. Join a group of 500 professionals dedicated to helping customers build outstanding products. Leveraging the latest advancements in the field, and a passion for innovation, we're shaping the future of technology one project at a time.Are you the NEXT one?Job descriptionWhat it’s like to be a JavaScript Angular Developer at STX NextAt STX Next, our JavaScript Technology Department is driven by a growing community of JavaScript enthusiasts. We collaborate across various technologies such as Angular, React, React Native, Node.js, and more. We work remotely and actively participate in meetups as attendees, speakers, and organizers—nurturing the development community and sharing our passion for technology.We pride ourselves on holistic development—continuously expanding our expertise in frameworks like Angular while staying up-to-date with the latest trends in front-end and back-end development. We take advantage of emerging frameworks and libraries, adopting AI solutions to enhance efficiency and deliver better results.As a JavaScript Developer with a focus on Angular, you will be part of a dynamic team that encourages collaboration, learning, and professional growth. Whether it’s through in-person meetups or virtual interactions, we foster a culture of continuous improvement, both in technical and soft skills. Responsibilities\nDesign, develop, and maintain web applications using Angular.\nWrite clean, maintainable, and scalable code that adheres to best practices.\nTroubleshoot and debug applications to ensure smooth performance.\nImplement security and data protection features to ensure application safety.\nIdentify performance bottlenecks and fix bugs in a timely manner.\nCollaborate with cross-functional teams for continuous improvement.\nStay informed about emerging technologies and trends to keep your skills sharp.\nShare your knowledge of new technologies with the team to foster a culture of learning.\nParticipate in code reviews and mentor less experienced team members.\nTest and document your code to ensure reliability and maintainability.\nRequirements\n\nCommercial experience with Angular (9+) in building enterprise-level applications.\nExcellent understanding of Object-Oriented Programming in TypeScript.\nA solid grasp of key software design patterns used within Angular.\nExperience with Angular SPA\nExperience with NPM and Knowledge of dependency and build management systems like Webpack or Babel.\nExperience with responsive web design and building applications that perform well across various devices.\nFamiliarity with CSS preprocessors like Sass or Less.\nExperience with Test-Driven Development and Behavior-Driven Development using frameworks such as Cypress, Jest, Jasmine, Mocha, Chai, Protractor, and Karma.\nGood communication skills in English (minimum B2).\nKnowledge of Cloud technologies and experience in high-traffic, high-volume cloud applications.\nStrong problem-solving, critical thinking, and communication skills.\nProven experience in designing and implementing robust, scalable, performant, and secure technical solutions.\nThe ability to assess the impact of decisions made during the design and implementation process.\n Ideally proven experience:\n.Net / C#\nWeb API definition and documentation using OpenAPI/Swagger\nAuthorisation and Authentication methodology\nClean Architecture concept\nTesting with xUnit\n Nice to have:\nFamiliarity with additional frameworks and tools such as React, Next.js, Node.js, Python\nExperience with HATEOAS/Hypermedia APIs.\nXML, XML schemas and XSLT\nCloud Foundry and Concourse pipelines",
+    "company": "STX Next",
+    "offerURL": "https://justjoin.it/job-offer/stx-next-javascript-developer-angular--warszawa-javascript",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "TypeScript",
       "Angular",
-      "REST API",
-      "Swagger",
-      "Java",
-      "SQL",
-      "Spring Boot",
-      "Telco",
-      "Camunda",
+      "Webpack",
+      "SaaS",
+      "Cypress",
+      "Node.js",
+      ".Net",
+      "React",
       "Python"
     ],
     "addedAt": "New"
   },
   {
-    "title": "Java Developer",
-    "description": "Responsibilities\nYou are working on a new project.\n\nYou are a member of a team developing Java / Jakarta EE applications for a dedicated customer in the German financial industry.\nYou are responsible for the product you build.\nYou proactively bring in ideas to create solutions using the Java Tech Stack.\n\nYou work in an Agile environment.\nYou take responsibility in a self-organized Scrum team.\nYou meet with your team in the office once a month to plan your work and discuss progress.\nBenefits\n\nMotivizer Benefits Platform to choose and manage all your benefits in one place. You receive a budget (550 PLN monthly). You can choose medical care package, meal tickets, sports cards (we have Multisport and on preferential terms, we have membership cards to one of the most popular Gyms), cinema tickets, shop vouchers, discounts and many more. \n\nLanguage Courses – you'll have access to a multi-language learning platform enabling you to practice you language skills and learn new ones! \nRegular and systematic further training opportunities - both internally and from external providers. We support your ongoing learning and development. \nCooperation within  an internal community is our everyday reality. We have networking events, coding challenges, and company parties for different occasions. \nQualifications\nVery good communication skills in English.\nCommunication skills in German is a plus.\nSuccessful completion of higher education as a qualified IT specialist or university degree in computer science.\nAt least 2 Years of experience with Java Tech Stack, ideally with a subset of the following technologies and frameworks: Java 11+, Rest, Spring Batch, JBoss Wildfly, Jenkins, Git, Maven, Hibernate, SQL.\nYou understand agile methodologies.\nYou are proactive, responsible, and you know how to work as a team.\nAbout Fincon ReplyFincon Reply is a business and IT consultancy specializing in the financial services industry. Fincon Reply proactively advises banks, the Sparkassen Finance Group, insurance companies and near-financial companies as well as their suppliers on their digital transformation. The company provides on-site support with specialised teams of consultants and developers and delivers turnkey solutions. www.fincon.eu",
-    "company": "Reply Polska Sp. z o. o.",
-    "offerURL": "https://justjoin.it/job-offer/reply-polska-sp-z-o-o--java-developer-katowice-java-32d17a99",
-    "salaryFrom": 9000,
-    "salaryTo": 19000,
+    "title": "JavaScript Fullstack Developer",
+    "description": "We are seeking a talented JavaScript Fullstack Developer to join our dynamic team. As a Fullstack Developer, you will work on creating scalable and robust web applications using JavaScript technologies for both backend and frontend development. This role offers the opportunity to work on challenging projects in a collaborative environment where innovation and quality are key.Responsibilities:\nDesign, develop, and maintain web applications using JavaScript for both backend and frontend development\nBuild and optimize scalable backend services using Node.js\nCreate responsive and intuitive user interfaces using modern JavaScript frameworks like React, Angular, or Vue.js\nDevelop and consume RESTful APIs or GraphQL services\nEnsure the performance, security, and scalability of applications\nWrite clean, efficient, and well-documented code adhering to best practices\nCollaborate with cross-functional teams, including designers, product managers, and other developers, to define and implement new features\nTroubleshoot, debug, and resolve technical issues across the stack\nParticipate in code reviews and contribute to improving the team's coding standards\nStay updated with the latest trends and best practices in JavaScript and web development\nRequirements:\nProven experience as a Fullstack Developer with a strong focus on JavaScript\nProficiency in backend development using Node.js and frameworks like Express.js or Nest.js\nExpertise in frontend frameworks such as React, Angular, or Vue.js\nSolid understanding of JavaScript (ES6+), TypeScript, HTML5, and CSS3\nExperience with databases such as MongoDB, PostgreSQL, or MySQL\nFamiliarity with version control systems, particularly Git\nKnowledge of containerization tools like Docker and deployment pipelines (CI/CD)\nStrong understanding of software design principles and architecture patterns\nAbility to write unit and integration tests to ensure application reliability\nExcellent problem-solving skills and attention to detail\nBachelor’s degree in Computer Science, Software Engineering, or a related field (or equivalent work experience)\nOffer: \n100% remote work \nMultiSport Puls \nGroup insurance \nMedicover Premium \ne-learning platform",
+    "company": "Experis Manpower Group",
+    "offerURL": "https://justjoin.it/job-offer/experis-manpower-group-javascript-fullstack-developer-warszawa-javascript",
+    "salaryFrom": 25200,
+    "salaryTo": 33600,
     "currency": "PLN",
     "technologies": [
-      "Jenkins",
-      "Agile",
-      "Java",
-      "REST"
+      "JavaScript"
     ],
     "addedAt": "New"
   },
   {
-    "title": "Frontend Developer (Blazor WebAssembly)",
-    "description": "Jako firma rekrutacyjna jesteśmy świadomi, że każdy solidny biznes napędzają ludzie z odpowiednio dopasowanymi kompetencjami. Nasz styl zarządzania i partnerskie podejście pozwalają nam na elastyczne dostosowanie się do Twoich potrzeb i zapewniają pełne wsparcie podczas współpracy. W związku z ciągłym rozwojem i dużą liczbą projektów rekrutacyjnych, jakie prowadzimy dla naszych Partnerów, szukamy osoby na stanowisko:Frontend Developer (Blazor WebAssembly)Zakres obowiązków:\nTworzenie i rozwój aplikacji frontendowych w technologii Blazor WebAssembly\nWspółpraca z backend developerami przy integracji systemów opartych na MS SQL Server oraz BigQuery (GCP)\nOptymalizacja kodu pod kątem wydajności, dostępności i najlepszych praktyk UX\nUtrzymanie wysokiej jakości kodu (przeglądy kodu, testy jednostkowe)\nUdział w planowaniu nowych funkcji i architektury aplikacji\n Wymagania:\nMinimum 2 lata doświadczenia w pracy z Blazor WebAssembly\nBardzo dobra znajomość C# 8+ oraz .NET\nUmiejętność pracy w środowisku Visual Studio\nZnajomość technologii frontendowych: HTML5, CSS3, JavaScript (podstawy)\nDoświadczenie w pracy z bazami danych, w szczególności MS SQL Server\nZrozumienie zasad projektowania REST API oraz integracji z backendem\nMile widziane:\nZnajomość Google Cloud Platform (BigQuery)\nDoświadczenie w projektowaniu interfejsów zgodnych z zasadami Material Design lub podobnymi frameworkami\nZnajomość narzędzi do zarządzania projektami, np. Jira, Azure DevOps\nZnajomość wzorców projektowych w aplikacjach webowych\n Oferujemy:\nPracę hybrydową (2 dni z biura w Piasecznie + 3 dni z domu)\nPrywatną opiekę medyczną\nDofinansowanie karty sportowej\nStałe wsparcie konsultanta\nProgram rekomendacji pracowników",
-    "company": "DCG",
-    "offerURL": "https://justjoin.it/job-offer/dcg-frontend-developer-blazor-webassembly--warszawa-html",
-    "salaryFrom": 0,
-    "salaryTo": 0,
-    "currency": "",
-    "technologies": [
-      "Blazor",
-      "C#",
-      ".NET C#",
-      "HTML",
-      "Visual Studio",
-      "English",
-      "CSS3",
-      "REST API"
-    ],
-    "addedAt": "New"
-  },
-  {
-    "title": "Release Manager",
-    "description": "We are seeking a highly experienced and motivated Release Manager with a proven track record in the automotive industry for one of our clients in Brussels. The Release Manager will be responsible for planning, coordinating, and executing software and hardware releases across multiple projects, ensuring timely and high-quality delivery. This role requires strong leadership, communication, and organizational skills, as well as experience managing diverse vendor relationships across the globe.Responsibilities:Manage the end-to-end release lifecycle, from planning and scheduling to deployment and post-release support.Collaborate with cross-functional teams (development, testing, operations, product management) to define release scope, timelines, and dependencies.Develop and maintain release plans, schedules, and communication plans.Coordinate and manage multiple vendors across different time zones, ensuring adherence to project timelines and quality standards.Identify and mitigate risks and issues that could impact release timelines or quality.Implement and maintain release management processes and best practices.Oversee the build, integration, and testing of software and hardware releases.Manage release environments and infrastructure.Communicate release status and updates to stakeholders at all levels.Conduct post-release reviews and identify areas for improvement.Track and report on key release metrics.Ensure compliance with relevant industry standards and regulations (e.g., ISO 26262).Manage release documentation.Qualifications:Bachelor's degree in Computer Science, Engineering, or a related field.Minimum 8+ years of experience in release management, preferably in the automotive industry.Proven experience managing complex software and/or hardware releases.Strong understanding of software development lifecycle (SDLC) methodologies (Agile, Waterfall).Experience with release management tools and automation.Excellent communication, interpersonal, and leadership skills.Ability to work effectively in a fast-paced, global environment.Strong analytical and problem-solving skills.Excellent organizational and time management skills.Fluency in English (written and spoken) is mandatory.Fluency in Dutch (DU) and/or French (FR) is a strong advantage.Experience managing global vendors and remote teams is highly preferred.Familiarity with automotive software development processes and standards (e.g., ASPICE) is a plus",
-    "company": "Kevin Edward",
-    "offerURL": "https://justjoin.it/job-offer/kevin-edward-release-manager-bruksela-other",
-    "salaryFrom": 0,
-    "salaryTo": 0,
-    "currency": "",
-    "technologies": [
-      "SDLC",
-      "ASPICE"
-    ],
-    "addedAt": "New"
-  },
-  {
-    "title": "Software Engineer (PHP)",
-    "description": "About Us:Ikonik VXP Video Experience Platform is the ultimate end-to-end OTT solution for discerning media content owners and digital publishers. We provide the tools and human-powered support needed to help our clients stand out and win in the exciting video streaming and OTT growth market. Our platform seamlessly delivers video applications on web, Roku, Apple TV, Fire TV, Android TV, iOS and Android mobile, LG, Samsung, and more.Job Description:We are seeking an experienced Software Engineer (PHP) with over 5 years of experience to join our dynamic team. The ideal candidate is proactive, responsible, and eager to participate actively in project processes. Proficiency in Russian, Belarusian, or Ukrainian is a mandatory requirement.Key Responsibilities:\nDesign, develop, and optimize RESTful APIs using Symfony.\nConnect, configure, and maintain third-party services and APIs to extend platform capabilities.\nContinuously analyze and optimize system performance, including database queries, API responses, and overall infrastructure.\nEnsure clean, maintainable, and scalable code by adhering to SOLID principles and best practices.\nIdentify and resolve performance bottlenecks, bugs, and production issues\nMaintain clear documentation for APIs, integrations, and processes.\nRequired Competencies:\n\nPHP Expertise: Minimum 5 years of hands-on PHP development experience.\n\nSymfony Framework: Strong knowledge of Symfony, including Symfony Messenger for messaging.\n\nDatabase Management: Proficient with MySQL and Redis for data storage, caching, and optimization.\n\nMessage Brokers: Experience with RabbitMQ and Amazon SQS.\n\nAPI Development: Skilled in designing and developing RESTful APIs.\n\nSearch Technologies: Hands-on experience with Elasticsearch for search implementation.\n\nThird-Party Integration: Expertise in integrating external services and APIs.\n\nSoftware Design Principles: Strong understanding of SOLID principles and common design patterns.\nOptional Competencies:\n\nCloud Services: Familiarity with AWS, including EC2, S3, RDS, and DynamoDB.\n\nContainerization: Experience with Docker for application deployment.\n\nVideo Processing: Knowledge of FFmpeg for video encoding and transcoding.\n\nAdditional Language: Experience with Python as a secondary programming language.\n\nServerless Architectures: Experience with AWS Lambda and API Gateway for building serverless applications.\n\nDevOps: Understanding of CI/CD pipelines and related practices.\nLanguages:\n\nEnglish: B1\n\nRussian: Fluent\nWhat we Offer:\nCompetitive salary and benefits package.\nOpportunity to work with cutting-edge technologies in the OTT space.\nCollaborative and dynamic work environment.\nTechnology update available.",
-    "company": "Ikonik Media, Inc.",
-    "offerURL": "https://justjoin.it/job-offer/ikonik-media-inc--software-engineer-php--warszawa-php",
-    "salaryFrom": 21849,
-    "salaryTo": 25896,
+    "title": "Senior Javascript Developer",
+    "description": "Project =The event platform for high-touch industries. It is mature software that has been on the market for some years now, but is nevertheless constantly being developed. Old solutions are constantly being rewritten and replaced, so the vast majority of actively maintained and developed code is relatively neat. The whole thing is rounded off by a respected test writing practice.Project duration = around 1 yearYou + Miquido =Join a team of 5-6 Full-stack engineers with a focus on web frontend development using JavaScript, Vue.js, Angular.js and Node.js.You can be the perfect match for us, if you have:\nExtensive experience in JavaScript\nExperience in Vue.js 2\nOr other frameworks while being open to work in Vue 2\nExperience with SaaS solutions that require high availability and scalability\nExperience navigating or understanding complexities of large codebases of already established systems\nFinding your way around large collections of shared components and utils - with a keen eye for keeping the codebase consistent with conventions\nWriting and building new features with reusable generic code. With a space to create new components from the ground up\nFollowing the code conventions established in the project\nGood to have TypeScript experience\nGood to have Node.js experience\nGrasp of software architecture patterns\nAt ease with GitHub\nStrong analytical and problem solving skills\nGood level of English proficiency required as all communications will be conducted in English.\nNice to have backend development skills\nNice to have Angular.js experience\nWhat do we offer?\nambitious, creative, talented & highly experienced team\ncontributing to projects for clients all over the world\nflexible working hours and a possibility to work remotely\nWe value your trust in providing us your data, thus we are striving to use commercially acceptable means of protecting it. Below you will find the necessary information about the data we collect and process when you send us your CV.The controller of your personal data is Miquido Spółka z ograniczoną odpowiedzialnością sp. k. with its seat in Krakow, Zabłocie 43a, 30-701 Kraków, Poland (“Miquido”, “We”, “Our” or “Us”). See more",
+    "company": "Miquido",
+    "offerURL": "https://justjoin.it/job-offer/miquido-senior-javascript-developer-krakow-javascript",
+    "salaryFrom": 20160,
+    "salaryTo": 26040,
     "currency": "PLN",
     "technologies": [
-      "Symfony",
-      "PHP 8",
-      "MySQL",
-      "RESTful API",
-      "Redis",
-      "Docker",
-      "Amazon AWS",
-      "Elasticsearch",
-      "RabbitMQ"
+      "Vue",
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "AngularJS"
     ],
     "addedAt": "New"
   },
   {
-    "title": "Fullstack Developer (Python + React)",
-    "description": "Shape the Future of Healthcare TechnologyWarsaw-based opportunity with the possibility to work fully remote!As a Fullstack Engineer, you will be working for our client, a leader in advancing healthcare innovation. You will collaborate with cross-functional teams to design and implement cutting-edge software solutions that support the optimization of clinical trials, streamline execution processes, and improve risk management.Your main responsibilities: Design and develop scalable full-stack applications using Python and React\nImplement secure, reliable, and efficient cloud-based solutions\nDebug, test, and maintain software to ensure optimal performance\nCollaborate with cross-functional teams to gather and define requirements\nOptimize application functionality and usability to improve user experience\nCreate detailed system documentation and installation procedures\nPerform code reviews and mentor junior developers to uphold best practices\nEvaluate project schedules and allocate resources effectively\nStay up-to-date with emerging technologies to integrate into the development process\nYou’re ideal for this role if you have:\n5+ years of experience in full-stack development with Python and React\nExpertise in cloud environments such as AWS, Azure, or Google Cloud\nStrong understanding of software development lifecycle and methodologies\nProficiency in debugging, testing, and optimizing applications\nFamiliarity with database technologies and data modeling\nExcellent problem-solving skills and a proactive approach to challenges\nStrong communication and teamwork skills to collaborate across departments\nA Master’s degree in Machine Learning, Computer Science, or a related field",
-    "company": "ITDS",
-    "offerURL": "https://justjoin.it/job-offer/itds-fullstack-developer-python-react--warszawa-python",
-    "salaryFrom": 20000,
-    "salaryTo": 24150,
+    "title": "Senior/Lead JavaScript Developer",
+    "description": "Join our team in Warsaw, where we’re collaborating on a cutting-edge fintech venture with a global industry leader. Together with our Partner – Klarna, we’re building an IT hub designed to drive innovation in digital payment solutions. We’re on the lookout for top-tier engineers who thrive in dynamic, forward-thinking environments. Spyrosoft is leading the recruitment process, facilitating a seamless experience for candidates who are ready to shape the future of online shopping and payments.This opportunity is ideal for engineers who value independence, proactiveness, and flexibility. Our engagement begins with a B2B contract through Spyrosoft, transitioning to a direct contract with our Partner.We offer a hybrid work model in Warsaw’s vibrant Wola district. English fluency and eligibility to work in Poland are essential, as is the successful completion of a background check to meet the rigorous standards of the financial domain.Our process:\nCV selection\nInitial recruitment screening\nTechnical interview\nOnline logic test\nCultural fit interview\nRequirements:\nMinimum 5 years of experience in JavaScript/TypeScript\nProficiency with React.js (front-end) or Node.js (back-end), Redux (state management), Context API, Hooks\nCI/CD experience, experience with npm or yarn, familiarity with Webpack, Babel\nExperience with NoSQL databases (MongoDB, Firebase), SQL, handling databases in backend systems using Node.js\nFamiliarity with serverless architecture (e.g. AWS)\nFrontend: Focus on scalability, performance, state management, and API integration in React.js\nBackend: Focus on designing scalable, event-driven systems with Node.js\nDiscuss approach to debugging, refactoring, and writing clean, testable code\nExperience with AWS services and cloud infrastructure",
+    "company": "Spyrosoft",
+    "offerURL": "https://justjoin.it/job-offer/spyrosoft-senior-lead-javascript-developer-warszawa-javascript",
+    "salaryFrom": 27720,
+    "salaryTo": 32760,
     "currency": "PLN",
     "technologies": [
-      "Python",
+      "TypeScript",
+      "Node.js",
+      "Redux",
       "React",
-      "Cloud",
-      "Kubernetes"
+      "JavaScript",
+      "AWS",
+      "SQL",
+      "Webpack",
+      "Yarn",
+      "NoSQL"
     ],
     "addedAt": "New"
   },
   {
-    "title": "Software Engineering Team Lead",
-    "description": "At airSlate, our journey began in Boston, USA, in 2008. What started as a single product with 3,000 customers has grown into an influential tech company with 1000+ team members across six offices worldwide. In 2022, airSlate reached a total valuation of $1.25 billion and became a 'Unicorn 🦄'. But even as we scale, team members remain our most valuable asset. That's why we've built a company that excites people about their work.We develop products that serve over 100 million users with no-code workflow automation, electronic signature, and document management solutions. The company's portfolio of award-winning products, signNow, pdfFiller, DocHub, WorkFlow, Instapage, and US Legal Forms, empower teams to digitally transform the way their organizations run.About pdfFiller team:We are a passionate and ambitious team of 120+ people on a mission to succeed with our online PDF creator and editor –  pdfFiller.pdfFiller empowers over 10 million users every month to create and edit PDFs, send them for signing, and securely store documents within a single application. Offering unlimited storage, unlimited templates, and cross-platform integration, pdfFiller is the only PDF editor needed to get your document done.And now, we are looking for a Software Engineering Team Lead who is prepared to contribute to the next chapter of our company's growth. Our Editor Unit focuses on delivering seamless and efficient document editing capabilities within the pdfFiller product. The team enhances user experiences related to document creation, editing, and collaboration, ensuring reliability, speed, and scalability.Tech StackFrontend: React, Redux, Webpack, WebsocketBackend: Node.JS, PHPInfrastructure: AWS (EKS, Elasticache, RDS, S3 and others)Tools: Atlassian products, Github + Github Action, Grafana & OpenSearch, Argo CDWhat you'll be working on:\nLead and manage a cross-functional team, including frontend, backend, and QA specialists\nDefine the technical direction and ensure alignment with product and business goals\nOversee the development and delivery of new features and enhancements\nEnsure high-quality code through best practices and regular code reviews\nMentor and support the professional growth of team members\nOptimize workflows, adjusting team schedules to improve efficiency\nMonitor application and infrastructure performance, driving continuous improvement\nWhat we expect from you:\n5+ years of experience in software development, focusing on web applications\n2+ years of leadership experience managing cross-functional engineering teams (from 4-5 people)\nProven expertise in frontend (React, Redux) or backend (Node, Redis, Go) technologies\nHands-on experience with infrastructure tools like Kubernetes (K8S)\nTrack record of delivering high-quality, scalable, and performant applications\nStrong knowledge of modern development practices, including CI/CD, testing, and monitoring\nExceptional problem-solving and decision-making skills\nExperience in mentoring and developing engineers at different levels of seniority\nProficiency in English (B2 or higher), both written and spoken\nKnowledge of Ukrainian or Russian\nNice to have:\nExperience in SaaS\nKnowledge of PHP\nIf you’re passionate about leading teams to build world-class document editing tools, we’d love to hear from you!What we offer:— Flexible work environment — We value the advantages of in-person collaboration and prioritize work from our offices in Wroclaw or Bialystok. However, we also provide flexible work arrangements to accommodate remote or hybrid options and flexible scheduling.— Bonuses and compensation — On top of a competitive base salary, we reward our team members' performance with a quarterly bonus to recognize achievements, time, and effort.— Professional growth opportunities — We are committed to ongoing improvement and welcome those passionate about learning. We cover professional development courses, conferences, literature, English classes, and more for each team member.— Health and well-being — We prioritize the health and well-being of our team. This is why we provide a Luxmed subscription, a multisport card for every team member, access to the office's massage room, free lunches, and healthy in-office snacks to sustain your energy.— Stock options — At airSlate, our team members are more than employees; they're business partners. We issue stock options that grant ownership in the company, allowing everyone to share in its growth.— Open communication — We encourage transparent communication from all team members at airSlate. Feel free to share your thoughts, ideas, and concerns with our management team, CEO, any member of our leadership team, or any team lead at any time. We are proud of: — airSlate Care for Ukraine — With a significant number of our team members in Ukraine, our foremost concern was ensuring their safety by providing both financial and logistical assistance to them and their families. What started as an immediate response has evolved into a cornerstone of the airSlate charity program. We match donations contributed by our team members, offer humanitarian aid to those affected by the conflict, distribute food packages to seniors, and support animal shelters. Our commitment remains steadfast in working towards restoring peace to Ukraine.— airSlate Junior Club — Our sense of family extends beyond our team. All team members with children gain access to the airSlate Junior Club, featuring engaging events such as cooking classes, creative activities, and educational online games.",
-    "company": "airSlate",
-    "offerURL": "https://justjoin.it/job-offer/airslate-software-engineering-team-lead-wroclaw-javascript",
+    "title": "Javascript Developer",
+    "description": "Are you an experienced JavaScript Developer with a passion for building high-quality data visualization tools and improving widely-used libraries? Join our team and help shape the future of the world-renowned Highcharts library! We're looking for someone to bring their expertise in front-end technologies and contribute to improving one of the most popular data visualization solutions on the web.About Black Label:Black Label is a specialized IT services consultancy that helps people make better decisions by developing innovative dataviz-rich interfaces and apps. For almost two decades Black Label has worked with over 150 clients and IT Partners from around the world as consultants and developers of dataviz-rich interfaces and apps. We are built on community and our superpower is building small, close-knit teams. Now, you can join one of them!Tech Stack: Must-have: JavaScript (ES6+), TypeScript, React, Angular, HTML5, CSS3Nice-to-have: Flutter, React Native, Vue, Data Analysis, Design Patterns and Architectural Principles, Node.jsAbout You:\nYou have 3+ years of experience working with JavaScript/TypeScript and front-end technologies.\nYou are familiar with unit testing frameworks and understand the importance of writing maintainable code.\nYou’re comfortable working with GIT and managing repositories in a team environment.\nYou understand how to refactor code, improve architecture, and write efficient solutions that scale.\nDon’t speak Norwegian? No worries. But English is a must (B2+/C1) - you’ll be working with clients from all over the globe.\nYou’re proactive, detail-oriented, and excited to contribute to data visualization projects for customers from all around the world.\nAre you an open, friendly person who gets along with people effortlessly? At Black Label, we thrive on an enjoyable work atmosphere.\nWhat you’ll do at Black Label:\nTogether with other developers on the team, you will help our global customers achieve their goals and make better data-driven decisions by developing a variety of projects, from short, hour-long tasks to long-term, agile-driven partnerships. We have several projects in the pipeline, and we will tailor them to match your skills and preferences.\nYour responsibilities will include developing custom functionalities and collaborating with clients to support the integration of Highcharts into their projects.\nYou will implement new functionalities and refactor existing solutions to improve performance and maintainability,\nYou will perform code reviews to ensure high-quality standards across the team.\nYou will write unit tests and ensure coverage for new and existing functionalities.\nYou will create and maintain technical documentation for both internal and external use.\nYou will assist external users of Highcharts by implementing custom functionalities tailored to their needs.\nYou’ll be part of a team of dataviz enthusiasts who value openness and collaboration.\nWhat You’ll get in Return:\n13500 - 16000 net (+vat) - B2B contract.\nFlexible working hours, which we will jointly adjust to your individual and personal needs.\nModern office space located on the 16th floor, offering breathtaking, panoramic views of Krakow that will inspire your work every day.\nTrust. At Black Label, everyone does their own thing, and that's why they do it well. \n20 days vacation.\nWe are committed to promoting an active lifestyle and keeping our team healthy which is why you’ll get Luxmed private medical care, a Multisport card, yoga classes and more!\nNew friends who will help you with your computer, make the best home-office pizza in town, teach you sailing or climbing.\nIndividual in-house English lessons with Native Speakers as well as regular conversation groups. We are quickly becoming a two-language company (PL/EN) and good communication in both languages is foundational.\nWe have a company apartment in Spain. You go when you want, and you feel at home. \nEquipment of your choice: you can have MacOS, monitors, comfortable chair, noise-canceling headphones and even a footrest. \nHybrid model: Our optimal setup is 3 days in the office and 2 days working remotely per week, especially during the first few months. Please note that while we may explore more flexibility in the future, fully remote work is not an option.",
+    "company": "Black Label",
+    "offerURL": "https://justjoin.it/job-offer/black-label-javascript-developer-krakow-javascript",
+    "salaryFrom": 13500,
+    "salaryTo": 16000,
+    "currency": "PLN",
+    "technologies": [
+      "JS ES6",
+      "TypeScript",
+      "Angular",
+      "CSS3",
+      "HTML5",
+      "React",
+      "Node.js",
+      "Vue",
+      "React Native",
+      "Flutter"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Remote JavaScript Developer - Research.com",
+    "description": "Research.com, globalny lider w rankingach dla społeczności naukowej oraz rankingach edukacyjnych, zaprasza Cię do udziału w wyjątkowym i przełomowym projekcie! Razem z nami możesz wpłynąć na oblicze “naukowego internetu”, realizując innowacyjny projekt oparty na sztucznej inteligencji i machine learningu. Chcesz dowiedzieć się więcej? Sprawdź szczegóły!Opis stanowiska:Wsparcie zespołu w budowaniu i rozwoju architektury aplikacji webowychUdział w podejmowaniu decyzji i rozwiązywaniu problemów w określonych obszarach projektuProwadzenie zespołu developerskiegoDzielenie się wiedzą i doświadczeniami z resztą zespołuPisanie czystego, wydajnego koduProwadzenie procesu Code Review oraz podejmowanie decyzji na poziomie koduTech stack projektu: JavaScript/TypeScript, Nest, Node.js/ClaudFlare Pages, Vue.js, MariaDB, Algolia, Docker, mikroserwisy, AWSWiedza i umiejętności potrzebne w tej roli:\nMinimum 3-letnie doświadczenie w pisaniu aplikacji Javascript\nZnajomość Nest.js\nZnajomość popularnych frameworków JavaScript owych (np. Vue, React)\nMile widziane doświadczenie z Astro\nUmiejętność tworzenia architektury oprogramowania\nDoświadczenie w technologii SSR\nTworzenie czytelnego kodu zgodnego z zasadami SOLID, umiejętność wykorzystywania Design Patterns w codziennej pracy\nUmiejętność pisania testów jednostkowych, funkcjonalnych oraz e2e (playwright)\nJęzyk angielski na poziomie umożliwiającym swobodne czytanie i pisanie dokumentacji oraz porozumiewanie się z współpracownikami (min. B2)\nPoczucie odpowiedzialności za rozwijany produkt\nMile widziane: \nDoświadczenie w prowadzeniu zespołu\nPraktyczne doświadczenie w pracy z monorepo\nZnajomość ekosystemu CloudFlare\nZnajomość zasad SEO technicznego\nZainteresowanie nowościami ekosystemu js (vite etc.)",
+    "company": "Research.com",
+    "offerURL": "https://justjoin.it/job-offer/research-com-remote-javascript-developer---research-com-warszawa-javascript",
+    "salaryFrom": 18000,
+    "salaryTo": 22000,
+    "currency": "PLN",
+    "technologies": [
+      "AWS",
+      "TypeScript",
+      "Node.js",
+      "Express.js",
+      "Vue.js",
+      "JavaScript",
+      "Nest.js",
+      "PHP",
+      "Python",
+      "Cloudflare"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Senior JavaScript Developer for a navigation platform",
+    "description": "The product we are working on is the biggest community-based navigation app, complex web-services and other solutions related to it. The web and mobile apps handle information at massive scale and extend well beyond the search giving people and companies a lot of new useful options. Here you’ll be a part of a skilled international team, working on an app with >100 mln users!Requirements:\nLocation in Warsaw\n7+ years experience as a Front-End/Full-Stack developer\nStrong in JavaScript and toolkits (Gulp/Webpack/Karma/Jasmine, etc.);\nGood grasp of at least one frontend framework (preferably React, or Angular/Vue.js);\nExperience with one of BE technologies (Node.JS/Ruby/Python/Java/.Net)\nExperience with distributed version control systems (Git/Mercurial/Fossil, etc.);\nExperience with implementing pixel-perfect designs over HTML/CSS;\nExperience in working with a Linux-based server environment, solid Linux/Unix skills;\nExperience of work in a distributed team;\nUpper-intermediate level of English\nNice to have:\nExperience in building, maintaining, and optimizing responsive web apps;\nCloud technologies;\nDeveloping high load / high traffic user-facing software;\nWriting unit tests;\nTypeScript and other frameworks (Angular/Backbone/Vue);\nMobile-specific sites, and mobile-web/native app integrations;\nSetup and continuous improvement of development and multi-stage production environment;\nOpen source contributions\nWe offer:\nGreat international team of professionals (Kyiv, Warsaw, Tel Aviv, New York);\nCompensation package (20 paid vacation days, paid sick leaves), flexible working hours;\nWork with cutting edge technologies;\nMedical Insurance;\nEnglish courses with a native speaker, yoga, paid tech training and other activities for professional growth;\nHybrid work mode (∼3 days in the office);\nInternational business trips;\nComfortable office",
+    "company": "Synergetica",
+    "offerURL": "https://justjoin.it/job-offer/synergetica-senior-javascript-developer-for-a-navigation-platform-warszawa-javascript-1af5497c",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "React",
+      "JavaScript",
+      "Backend",
+      "HTML",
+      "CSS",
+      "Angular",
+      "Vue"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Frontend Developer (JavaScript)",
+    "description": "W Scalo zajmujemy się dostarczaniem projektów software'owych i wspieraniem naszych partnerów w rozwijaniu ich biznesu. Tworzymy oprogramowanie, które umożliwia ludziom dokonywanie zmian, działanie w szybszym tempie oraz osiąganie lepszych rezultatów. Jesteśmy firmą, która wykorzystuje szerokie spektrum usług IT, żeby pomagać klientom. Obszary naszego działania to m.in.: doradztwo technologiczne, tworzenie oprogramowania, systemy wbudowane, rozwiązania chmurowe, zarządzanie danymi, dedykowane zespoły developerskie. Cześć! U nas znajdziesz to, czego szukasz - przekonaj się! W Scalo czeka na Ciebie:\nprojekt z branży bankowej, dotyczący procesów oszczędnościowych,\nrozwijanie aplikacji,\nintegracja rozwiązań z wewnętrznymi systemami banku oraz zewnętrznymi systemami dostawcy usługi,\noptymalizacja aplikacji w szczególności pod kątem zapewnienia wysokiej dostępności i minimalnych opóźnień,\ntworzenie oprogramowania uwzględniającego aspekty technologiczne, wydajnościowe i bezpieczeństwa,\ntworzenie dokumentacji technicznej,\nuczestniczenie we wszystkich fazach cyklu rozwojowego produktu,\nprzeprowadzanie testów autorskich wytworzonego oprogramowania oraz wzajemnego przeglądu oprogramowania stworzonego w zespole,\ntworzenie testów jednostkowych\npraca 100% zdalna,\nstawka do 140 zł/h przy B2B.\nTa oferta jest dla Ciebie, jeśli:\nposiadasz bardzo dobrą znajomość JavaScript (ES6, Vanilla JS) i min. 4 lata doświadczenia komercyjnego, \nbardzo dobrze znasz: HTML5 i CSS 3.0, REST API,\ndobrze znasz standardy WCAG,\nposiadasz dobrą znajomość narzędzi: NodeJS, Webpack, Redux,\nmasz kilkuletnie doświadczenie w tworzeniu aplikacji internetowych SPA, tworzonych w oparciu o responsywne projektowanie stron internetowych RWD,\nmasz doświadczenie w pracy z technologią Web Components,\npracujesz z systemem kontroli wersji (GIT),\npotrafisz pisać testy jednostkowe w Karma lub Jasmine,\ndodatkowym atutem będzie znajomość: wzorców projektowych, LitElement, Storybook, Figma, Azure Pipelines, TDD, BDD, DDD, Mobile first.\nCo dla Ciebie mamy:\ndługofalową współpracę - różnorodne projekty (działamy w ramach Software Services, Embedded Services, Data Services, Cloud Services), \nmożliwość rozwoju kompetencji we współpracy z naszym Center of Excellence, \ndostęp do technologicznej platformy e-learningowej - Udemy,    \nkafeteryjny system benefitów – Motivizer, \nprywatną opiekę medyczną – Luxmed, \nmożliwość wystąpień na naszych autorskich eventach IT- ProMEET. \n Brzmi interesująco? Aplikuj – czekamy na Twoje CV!",
+    "company": "SCALO",
+    "offerURL": "https://justjoin.it/job-offer/scalo-frontend-developer-javascript--warszawa-javascript",
+    "salaryFrom": 22000,
+    "salaryTo": 23500,
+    "currency": "PLN",
+    "technologies": [
+      "JavaScript"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Senior Backend JavaScript Developer",
+    "description": "Hi! We're on the lookout for a Senior Backend JS Developer for our fantastic client, a product company based in the USA and UK. Their product makes the life of hundreds of thousands of people around the globe a breeze! :)Experienced full-stacks or developers of other technologies are also welcome to apply!Your main task will be to work with the product and design department, taking full responsibility for the project from concept to implementation of end-to-end features – from design, database, coding to security.The offer:📄 CoE (FTE)💲 Total compensation up to 60.000 pln gross/month (incl. up to 40,000 pln gross base + company shares + an annual bonus), 🏢 Hybrid work⚽️ Sport Card🩺  Healthcare (family package)",
+    "company": "Yard Corporate",
+    "offerURL": "https://justjoin.it/job-offer/yard-corporate-senior-backend-javascript-developer-warszawa-javascript-65906aa9",
+    "salaryFrom": 34000,
+    "salaryTo": 40000,
+    "currency": "PLN",
+    "technologies": [
+      "Node.js",
+      "AWS",
+      "MySQL",
+      "TypeScript",
+      "React"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Fullstack Developer",
+    "description": "Fullstack Developer👋 We’re Hiring: 3x Fullstack Developer(s) *Javascript 📍 Location: Remote (EU)💸 Salary: Competitive (Open to both permanent salaried, or 6 month contract day-rate)At Alliants, we're on a mission to transform every customer engagement into something exceptional. We believe in working smart together to push the boundaries of company culture and create future-proof customer experiences.Are you passionate about creating meaningful customer experiences and helping organisations deliver on their brand promises?Join us as a Fullstack Developer in our growing product and services team! 🚀The Role:As a Fullstack Developer at Alliants, you will be crucial in developing and maintaining our guest experience platform using Javascript, React, Node.js (and Ruby on Rails is advantageous). Collaborating with a multidisciplinary team, you will transform business requirements into reliable, scalable, and user-friendly applications that meet our clients' needs.You will engage in all phases of the software development lifecycle, including planning, coding, testing, and deployment, to ensure the delivery of high-quality software. Your commitment to continuous learning and professional growth will contribute to a productive and collaborative team environment.Your contributions will directly enhance client experiences in the luxury hotel, travel, and retail sectors by delivering solutions that elevate customer engagement and satisfaction. Important To Have: \nProficiency in Full Stack Development with JavaScript, React, and Node.js.\nSolid understanding of Object-Oriented Programming (OOP) principles and design patterns. S.O.L.I.D. principles.\nExperience with relational databases, particularly PostgreSQL, including database schema design.\nFamiliarity with developing, deploying, and maintaining SaaS applications for enterprise customers.\nKnowledge of API design, development, and integration. GraphQL and RESTful\nExperience with testing tools and methodologies (e.g., RSpec) and a commitment to writing tests to ensure code quality and reliability.\nNice To Have:\nRuby on Rails Development experience\nBFF design pattern (Backend for Frontend)\nAbility to collaborate with clients to design technical solutions addressing business challenges.\nFamiliarity with modern deployment and containerisation technologies, such as Docker.\nExperience with cloud platforms like AWS, including services for computing, storage, databases, and deployment.\nUnderstanding of DevOps principles and experience with CI/CD pipelines using tools like Jenkins, Travis CI, or GitLab CI.\nWho are Alliants and what’s in it for you?Alliants, established in 2009, is dedicated to producing customer engagement technologies and services that pave the way for a more human, sustainable, and promising future for hospitality. At Alliants, we are all in for our people and our industry.We know we all work better in an autonomous, collaborative, diverse and equitable space. To support you in becoming the best version of yourself, we offer you:💷 A competitive salary🎁 Up to 10% annual bonus⚖️ Remote & flexible working🏖️ 25 days holiday + public holidays✈️ Digital Nomad: travel abroad while working for 30 days a year🥡 Monthly takeaway allowance🛍️ Customised onboarding kit🎒 £1,500 training and development budget each year🌳 To celebrate you joining the team we will plant a Great Oak treeAlliants celebrate diversity and are committed to creating an inclusive environment for all employees.",
+    "company": "Alliants Ltd",
+    "offerURL": "https://justjoin.it/job-offer/alliants-ltd-fullstack-developer-sarisbury-green-javascript",
     "salaryFrom": 0,
     "salaryTo": 0,
     "currency": "",
     "technologies": [
       "Node.js",
-      "React Native",
+      "React",
+      "JavaScript",
+      "Ruby on Rails"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Shopify Developer",
+    "description": "We are Brand Active - Shopify & eCommerce agency existing on the market since 2016.We create and implement stores adapting them to the current trends and needs of our clients. We focus our activities on Shopify and Shopify Plus platform, we also provide integrations with systems such as PIM, ERP,CRM or POS. The MACH approach, which we practice, allows our clients to implement innovative projects with multi-level architecture. We focus on dynamic development, which is confirmed, among others, by our distinction in the Delloite Technology Fast 50 ranking (Raising Stars).Your daily tasks will include☁️ implementation of custom templates in Shopify ☁️ creation of customizations based on Liquid Shopify ☁️ cooperation in the implementation of custom applications in Shopify ☁️ implementation of projects for Polish and global brandsThe following will make you succeed in this role⭐️ more than two years of commercial experience as a Frontend Developer ⭐️ min. one year experience as a Shopify developer ⭐️ experience with JavaScript, CSS, SASS ⭐️ knowledge of Figma,REST API (basics)Git, ⭐️ experience with Liquid or other template ⭐️ knowledge of spoken and written English at B2 level⭐️ Knowledge of React/jQuery/GraphQL/Node.js/MySql/TypeScript (nice to have)⭐️ Experience in application configuration with Shopify app store (nice to have) We are an equal opportunity employer. We strive to create an inclusive environment where everyone can thrive regardless of their background and circumstances. All applicants receive equal opportunity regardless of age, gender identity or expression, language, disability, ethnicity, national origin, religion, or sexual orientation.We will go through your application and come back with feedback.",
+    "company": "Cloudflight",
+    "offerURL": "https://justjoin.it/job-offer/cloudflight-shopify-developer-wroclaw-html",
+    "salaryFrom": 10080,
+    "salaryTo": 14280,
+    "currency": "PLN",
+    "technologies": [
+      "TypeScript",
+      "Figma",
+      "SASS",
+      "MySQL",
+      "Shopify",
+      "CSS",
+      "JavaScript",
+      "REST API"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "React Developer",
+    "description": "The best ReactJs talents should be part of the best industry initiatives!Gdansk/Warsaw-based opportunity with hybrid work model (1 days in the office/week)As a Front-End Developer (ReactJS), you will be working for our client, an industry leader in corporate banking technology. You will contribute to the design and development of a cutting-edge loan collateral management system, which will be part of the first fully online bank in Poland. This initiative is setting trends in mobile and online banking while strengthening one of the most recognized financial brands in the market. Join a dynamic team dedicated to delivering innovative solutions and shaping the future of digital banking.Your main responsibilities:\nCollaborate with designers to create innovative user interfaces and data visualizations\nDevelop and maintain scalable applications with clean, efficient code\nIntegrate applications into various platforms and environments\nBuild responsive designs for web, mobile, and tablet applications\nWrite and maintain tests to ensure code quality and reliability\nEnsure cross-browser compatibility and performance optimization\nCode with ReactJS, HTML5, JavaScript, CSS3, and related front-end technologies\nWork collaboratively with developers to deliver seamless solutions\nResearch and implement new technologies to enhance user experiences\nContribute to creating secure and high-performance web platforms\nYou're ideal for this role if you have:\n4+ years of software engineering experience with a focus on front-end development\nStrong expertise in ReactJS, React Native, and Redux\nProficiency in JavaScript, including ES6 standards\nKnowledge of responsive design principles and solutions\nExperience with GIT version control\nUnderstanding of Domain-Driven Design, Microservices Development, and Distributed Architecture\nAn eye for detail and a passion for delivering polished user experiences\nGood command of the English language\nA commitment to continuous learning and professional growth\nWe offer you:ITDS Business Consultants is involved in many various, innovative and professional IT projects for international companies in the financial industry in Europe. We offer an environment for professional, ambitious, and driven people. The offer includes:\nStable and long-term cooperation with very good conditions \nEnhance your skills and develop your expertise in the financial industry\nWork on the most strategic projects available in the market\nDefine your career roadmap and develop yourself in the best and fastest possible way by delivering strategic projects for different clients of ITDS over several years\nParticipate in Social Events, training, and work in an international environment\nAccess to attractive Medical Package\nAccess to Multisport Program\nAccess to Pluralsight\nFlexible hours & remote work\nInternal job number #6239",
+    "company": "ITDS",
+    "offerURL": "https://justjoin.it/job-offer/itds-react-developer-gdansk-javascript",
+    "salaryFrom": 18000,
+    "salaryTo": 21000,
+    "currency": "PLN",
+    "technologies": [
+      "React",
+      "JavaScript",
+      "Git",
+      "ES6+",
+      "Redux",
+      "React Native"
+    ],
+    "addedAt": "7d ago"
+  },
+  {
+    "title": "Power Apps Developer",
+    "description": "We are seeking an experienced and proactive Enterprise Portal Application Developer to join our team. The successful candidate will play a critical role in maintaining and enhancing our Microsoft Power Pages application, which is integral for our largest customers to access company information and analytics dashboards from PowerBI.Responsibilities\nImplement and manage all changes to the Enterprise Portal application\nCollaborate with the team to ensure the application meets business needs and user expectations\nMaintain and improve front-end components using JavaScript, CSS, and HTML\nEnhance user experience through effective use of jQuery and other front-end technologies\nIntegrate changes within opinionated frameworks to ensure consistency and reliability\nUtilize Microsoft tools, particularly Power Pages, for application maintenance and development\nUnderstand and apply server-side programming concepts similar to ASP.NET or Jakarta EE for backend operations\nRequirements\n2+ years of relevant professional experience\nProficiency in front-end development, including JavaScript, CSS, and HTML\nFamiliarity with integrating changes within opinionated frameworks\nProficiency with Microsoft tools, especially Power Pages. Alternatively, a strong understanding of server-side programming similar to ASP.NET or Jakarta EE\nProven ability to quickly learn and adapt to new technologies independently\nB2+ English level proficiency\nNice to haveExperience with jQuery is a strong plusWe offer\nWe gather like-minded people:\nEngineering community of industry professionals\nFriendly team and enjoyable working environment\nFlexible schedule and opportunity to work remotely within Poland\nChance to work abroad for up to 60 days annually\nRelocation within our 50+ offices\nWe provide growth opportunities:\nOutstanding career roadmap\nLeadership development, career advising, soft skills, and well-being programs\nCertification (GCP, Azure, AWS)\nUnlimited access to LinkedIn Learning, Get Abstract, O’Reilly, Cloud Guru\nLanguage classes in English and Polish for foreigners\nWe cover it all:\nStable income (Employment Contract or B2B)\nParticipation in the Employee Stock Purchase Plan\nBenefits package (health insurance, multisport, shopping vouchers)\nStrategically located offices featuring entertainment and relaxation zones, table tennis and football, free snacks, fantastic coffee, and more\nReferral bonuses\nCorporate, social and well-being events\nPlease, note:\nThe set of bonuses might vary based on the role you apply for – specifics will be discussed with our recruiter during the general interview\nWe will reach out to selected candidates exclusively\nEPAM is a leading global provider of digital platform engineering and development services. We are committed to having a positive impact on our customers, our employees, and our communities. We embrace a dynamic and inclusive culture. Here you will collaborate with multi-national teams, contribute to a myriad of innovative projects that deliver the most creative and cutting-edge solutions, and have an opportunity to continuously learn and grow. No matter where you are located, you will join a dedicated, creative, and diverse community that will help you discover your fullest potential.",
+    "company": "EPAM Systems",
+    "offerURL": "https://justjoin.it/job-offer/epam-systems-power-apps-developer-poland-remote--other",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "Front-End",
+      "JavaScript",
+      "CSS",
+      "HTML",
+      "Power Pages",
+      "jQuery"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Senior Angular Developer",
+    "description": "We are searching for a skilled and experienced Senior Angular Developer to be a driving force behind our web applications for our esteemed client.In this role, you will design and implement web applications using Angular, collaborating closely with other Senior Developers. Your code will be well-documented, efficient, and easily maintainable, ensuring top-notch functionality and quality.If you're ready to make an impact in a dynamic environment, we want to hear from you!This role offers a hybrid model, with 3 days per week working from the client's office in Krakow, Wroclaw, or Gdansk.Responsibilities\nDesign and implement web applications using Angular, collaborating closely with other Senior Developers\nEnsure that the code is well-documented, efficient, and easily maintainable, ensuring top-notch functionality and quality\nStay up to date with the latest trends and technologies in web development\nFoster flexibility and adaptability in an Agile work environment, encouraging creativity and ingenuity\nBe a driving force in shaping the future of web development\nRequirements\nAt least 4 years of proven track record in frontend development\nStrong programming ability and proficiency in TypeScript and JavaScript as well as hands-on experience with Angular\nWorking proficiency and communication skills in verbal and written English\nFundamental knowledge of UX/UI\nAgile and proactive, possessing a team-first approach to challenges\nNice to haveHands-on experience in one or more of the following programming languages: Java, Python or Kotlin would be considered as a huge advantageWe offer\nWe gather like-minded people:\nEngineering community of industry professionals\nFriendly team and enjoyable working environment\nFlexible schedule and opportunity to work remotely within Poland\nChance to work abroad for up to 60 days annually\nRelocation within our 50+ offices\nWe provide growth opportunities:\nOutstanding career roadmap\nLeadership development, career advising, soft skills, and well-being programs\nCertification (GCP, Azure, AWS)\nUnlimited access to LinkedIn Learning, Get Abstract, O’Reilly, Cloud Guru\nLanguage classes in English and Polish for foreigners\nWe cover it all:\nStable income (Employment Contract or B2B)\nParticipation in the Employee Stock Purchase Plan\nBenefits package (health insurance, multisport, shopping vouchers)\nStrategically located offices featuring entertainment and relaxation zones, table tennis and football, free snacks, fantastic coffee, and more\nReferral bonuses\nCorporate, social and well-being events\nPlease, note:\nThe set of bonuses might vary based on the role you apply for – specifics will be discussed with our recruiter during the general interview\nWe will reach out to selected candidates exclusively",
+    "company": "EPAM Systems",
+    "offerURL": "https://justjoin.it/job-offer/epam-systems-senior-angular-developer-krakow-javascript",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "Front-End",
+      "TypeScript",
+      "JavaScript",
+      "Angular",
+      "Agile",
+      "UX/UI",
+      "Java",
+      "Python",
+      "Kotlin"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "UI Developer",
+    "description": "Strategic Staffing Solutions International customer is a leading global investment banking, securities and investment management company.We are currently looking for a skilled UI Developer for a 12 month contract to join the international team.Please note, it's a hybrid work model with 3 days working from the Warsaw's based office. Required Skills and Experience:\n3-4 years of experience in commercial frontend development.\nStrong knowledge of React JS (including Hooks and Context API) and standard JavaScript.\nFamiliarity with modern CSS techniques and tools, such as CSS-in-JS or SCSS.\nUnderstanding of sound programming principles, including design patterns and unit testing (e.g., Jest).\nHands-on experience with frontend workflows, package managers (npm), and CI/CD tools (e.g., GitLab).\nPreferred Skills:\nExperience with the Ag-grid library.\nKnowledge of good UX design principles.\nFamiliarity with Cypress for end-to-end testing.\nYour responsibilities:\nWork in a front-office role as part of the Systematic Trading Strategies Engineering team.\nDevelop user interfaces for complex trading systems that involve derivatives like FX, Commodities, Rates, and Single Stock.\nCollaborate with full-stack developers to maintain and improve a low-latency system handling significant daily trade volumes.",
+    "company": "Strategic Staffing Solutions",
+    "offerURL": "https://justjoin.it/job-offer/strategic-staffing-solutions-ui-developer-warszawa-javascript",
+    "salaryFrom": 25400,
+    "salaryTo": 28800,
+    "currency": "PLN",
+    "technologies": [
+      "React",
+      "JavaScript",
+      "UX/UI",
+      "UX"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Senior Fullstack Developer",
+    "description": "Do Twoich zadań należeć będzie:\nTworzenie aplikacji w ramach platform wykorzystywanych przez NN\nRozwój aplikacji w technologii Java i Angular\nBudowanie rozwiązań na podstawie rynkowych praktyk developerskich\nDbanie o jakość kodu, wykonywanie code review, tworzenie testów jednostkowych i integracyjnych\nUdział we wdrożeniach\nNasza oferta jest dla Ciebie jeśli:\nPosiadasz co najmniej 5 lat komercyjnego doświadczenia\nWykazujesz praktyczną znajomość Angular 12, Spring Boot, Java 17, GIT, Maven / Gradle, SQL, REST, SOAP\nZnasz HTML, CSS, JavaScript, TypeScript\nMasz doświadczenie z RabbitMQ lub Kafka\nZnasz narzędzia do monitoringu aplikacji takie jak Grafana, Elasticsearch, Prometheus\nArchitektura mikroserwisowa nie jest Ci obca\nChcesz uczestniczyć w całym procesie wytwarzania oprogramowania (od analizy, przez development, aż do utrzymania / wsparcia swojej aplikacji)\nMasz poczucie odpowiedzialności za swoje aplikacje / prace zespołu\nJesteś zorientowany/-a na pracę w zwinnym środowisku Scrum/Kanban\nJesteś samodzielny/-a, komunikatywny/-a, szybko adaptujesz się do nowych warunków i zmian technologicznych\nMile widziane:\nDoświadczenie w pracy z Jira i Confluence\nDoświadczenie w pracy z React\nChęć współpracy nad rozwojem wspólnych narzędzi wewnątrz organizacji (CI/CD, biblioteki)\nDoświadczenie w pracy z narzędziami: Docker, OpenShift / Kubernetes, Gitlab, Artifactory, Helm, Gitops\nWidzisz te benefity i się szeroko uśmiechasz:\nZ nami będziesz pracował/a w trybie hybrydowym i w elastycznych godzinach pracy\nZależy Ci na kompleksowym wdrożeniu do pracy? Nasi inżynierowie otrzymują dedykowany onboarding jak poruszać się w obszarze Technologii Biznesowych w NN\nJak będzie wyglądała nasza współpraca? Stawiamy na technologie Open Source, będziemy współpracować w metodyce Agile i kulturze DevOps, wesprzemy Cię w rozwoju dzięki Technology Day 4 You oraz Hackathonach\nDla Ciebie obniżymy ceny produktów firmy Samsung\nTrenujesz? Dbasz o siebie? to dobrze się składa możesz dołączyć do sekcji sportowej\nChcesz przyjeżdżać do biura na rowerze? Zapraszamy czeka na Ciebie świetnie przygotowana infrastruktura dla rowerzystów",
+    "company": "Nationale-Nederlanden",
+    "offerURL": "https://justjoin.it/job-offer/nationale-nederlanden-senior-fullstack-developer-warszawa-java",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "Java",
+      "Angular",
+      "JavaScript",
+      "Spring Boot",
+      "RabbitMQ",
+      "Kafka",
+      "React",
+      "Docker"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Senior Adobe AEM Developer",
+    "description": "W Scalo zajmujemy się dostarczaniem projektów software'owych i wspieraniem naszych partnerów w rozwijaniu ich biznesu. Tworzymy oprogramowanie, które umożliwia ludziom dokonywanie zmian, działanie w szybszym tempie oraz osiąganie lepszych rezultatów. Jesteśmy firmą, która wykorzystuje szerokie spektrum usług IT, żeby pomagać klientom. Obszary naszego działania to m.in.: doradztwo technologiczne, tworzenie oprogramowania, systemy wbudowane, rozwiązania chmurowe, zarządzanie danymi, dedykowane zespoły developerskie. Cześć! U nas znajdziesz to, czego szukasz - przekonaj się! W Scalo czeka na Ciebie:\nuczestnictwo w projekcie dot. branży automotive. Wykorzystywany stos technologiczny: Adobe Experience Manager (AEM), HTML, CSS, JavaScript, React, Angular, Docker, Adobe Clouds (Marketing Cloud, Experience Cloud),\ntworzenie platformy dla dostawców, która umożliwi centralizację wymiany danych oraz współpracę w jednym systemie,\ntworzenie i rozwijanie komponentów w Adobe AEM,\n integracja z innymi systemami,\n optymalizacja istniejących funkcji,\n współpraca z zespołem w procesie analizy i rozwiązywania problemów,\npraca w modelu hybrydowym: 1 raz w miesiącu praca z biura we Wrocławiu,\nstawka do 150 zł/h przy B2B w zależności od doświadczenia.\n Ta oferta jest dla Ciebie, jeśli:\nmasz minimum 5 lat doświadczenia w pracy z Adobe AEM,\nznasz Adobe Clouds (Marketing Cloud, Experience Cloud),\npracujesz z JavaScript, CSS, HTML,\nkorzystasz z Dockera,\nbiegle komunikujesz się w języku angielskim (min. B2),\nmile widziane doświadczenie z React lub Angular.\nCo dla Ciebie mamy:\ndługofalową współpracę - różnorodne projekty (działamy w ramach Software Services, Embedded Services, Data Services, Cloud Services), \nmożliwość rozwoju kompetencji we współpracy z naszym Center of Excellence, \ndostęp do technologicznej platformy e-learningowej - Udemy,    \nkafeteryjny system benefitów – Motivizer, \nprywatną opiekę medyczną – Luxmed, \nmożliwość wystąpień na naszych autorskich eventach IT- ProMEET. \n Brzmi interesująco? Aplikuj – czekamy na Twoje CV!",
+    "company": "SCALO",
+    "offerURL": "https://justjoin.it/job-offer/scalo-senior-adobe-aem-developer-wroclaw-other",
+    "salaryFrom": 20160,
+    "salaryTo": 25200,
+    "currency": "PLN",
+    "technologies": [
+      "JavaScript"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Full Stack Java/ React Developer",
+    "description": "For a global shipping company, we are looking for:  Senior Full Stack Developer (Java + React)Workplace: 100% remoteResponsibilities:\nDesign and develop Web applications.\nDevelop from specifications supplied or create your own specifications based on requirements.\nReports progress on a regular basis to the Team Leader.\nResponsible for planning daily schedules and efficient use of time to ensure deliverables are met.\nResponsible for unit testing of own code to a level acceptable for Quality Assurance testing, where basic functions work per the requirements\nRole requirements:\nBSc in Software Engineering or BS degree in Computer Science.\n5+ years of experience in the following technologies: Java, Spring (must have)\nExperience with Functional Programming and Java Streams.\n4+ years of experience in FE, mainly React (must have), and other modern java script Framework/libraries.\nExperience with developing a reactive UI (Reactive JS).\n2+ years of experience in TDD/BDD development in the following frameworks: Junit, Jasmin, Mockito, Protractor/Selenium\n2+ years of experience in micro-services-based architecture and tools (Spring Boot/Cloud)\nExperience in DevOps development and Jenkins.\nExperience in development in Kotlin – an advantage.\nExperience in designing, developing, and deploying cloud/hybrid-based solutions.\nExperience in developing and deploying in Container based environments (Kubernetes, Cloud foundry).\nFamiliarity with the following design concepts: micro-services, service discovery, circuit breaker.\nSelf-starter with the ability to appropriately priorities and plan complex work in a rapidly changing environment.\nVersatility and capability to switch easily between different tasks and technologies.\nExperience in assessing a broad range of information solutions and products.\nStrong critical thinker with problem solving aptitude.\nGood English - verbal and written.",
+    "company": "Integral Services",
+    "offerURL": "https://justjoin.it/job-offer/integral-services-senior-full-stack-java-developer-remote--warszawa-javascript",
+    "salaryFrom": 29524,
+    "salaryTo": 42177,
+    "currency": "PLN",
+    "technologies": [
+      "Java",
+      "JavaScript",
+      "ReactJS",
+      "Spring Cloud",
+      "React",
+      "Spring",
+      "Spring Boot",
+      "Jenkins",
+      "Java Streams"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Angular Developer",
+    "description": "Join us and help develop a system with the data of millions of customersWarsaw-based opportunity with the possibility to hybrid work!As an Angular Developer, you will be working for our client, a leading provider of financial services, on a critical project to modernize their customer relationship management (CRM) systems. You will be responsible for developing and maintaining high-quality, user-friendly Angular applications that enhance customer experience and improve business efficiency.Your main responsibilities:\nDevelop and implement new features and functionalities within the Angular framework\nWrite clean, well-documented, and maintainable code\nCollaborate with cross-functional teams (e.g., designers, product managers, QA) to ensure successful project delivery\nParticipate in code reviews and provide constructive feedback to other developers\nTroubleshoot and resolve technical issues\nContribute to the continuous improvement of development processes and best practices\nMaintain and update technical documentation\nYou're ideal for this role if you have:\nStrong programming skills in TypeScript\nIn-depth knowledge of Angular 18+ framework, including components, services, modules, and routing\nKnowledge of Bootstrap 5 framework.\nExperience in building responsive and user-friendly web applications\nProficiency in HTML, CSS, and JavaScript\nExperience with unit testing and test-driven development (TDD)\nExcellent problem-solving and debugging skills\nExperience working in Agile development environments (e.g., Scrum)\nA passion for learning new technologies and staying updated with industry trends\nWe offer you:ITDS Business Consultants is involved in many various, innovative and professional IT projects for international companies in the financial industry in Europe. We offer an environment for professional, ambitious, and driven people. The offer includes:\nStable and long-term cooperation with very good conditions \nEnhance your skills and develop your expertise in the financial industry\nWork on the most strategic projects available in the market\nDefine your career roadmap and develop yourself in the best and fastest possible way by delivering strategic projects for different clients of ITDS over several years\nParticipate in Social Events, training, and work in an international environment\nAccess to attractive Medical Package\nAccess to Multisport Program\nAccess to Pluralsight\nFlexible hours & remote work\nInternal job number #6346",
+    "company": "ITDS",
+    "offerURL": "https://justjoin.it/job-offer/itds-angular-developer-warszawa-javascript",
+    "salaryFrom": 16800,
+    "salaryTo": 21000,
+    "currency": "PLN",
+    "technologies": [
+      "TypeScript",
+      "Angular",
+      "JavaScript",
+      "Bootstrap",
+      "PHP",
+      "HTML",
+      "CSS"
+    ],
+    "addedAt": "5d ago"
+  },
+  {
+    "title": "Node.js Developer",
+    "description": "📊 OverviewFounded in 2011, Cleeng is the Subscriber Retention Management® Company. Focusing on the Media & Entertainment industry, we help our clients create a long-lasting relationship with their subscribers by providing the best D2C operational tools as well as predictive analytics. Our solutions are used by many leading broadcasters worldwide including NFL, CBC, NHL, CHL, Big10Network, MXGP, Nordisk Film, Optus Sport & Sinclair Broadcasting. Cleeng’s fully SaaS solution is built for scalability, flexibility, robustness and innovation.Working at Cleeng is rewarding, fun and challenging. We thrive on innovation, are fast growing & generate a profitable business. Come join our team, make a real contribution, and help shape the future of video consumption.🚀 Your missionCleeng is seeking an experienced and highly skilled Node.js Developer to join our dynamic and innovative development team. As a Node.js Developer, you will be responsible for designing, developing, and maintaining scalable and high-performance applications using Node.js. You will collaborate with cross-functional teams to deliver cutting-edge solutions that meet business requirements.🛠️ Your responsibilities\nDesign, develop, and implement robust and efficient server-side applications using Node.js\nWrite reusable, testable, and efficient code for complex software components\nCollaborate with product owners, designers, and other stakeholders to understand business requirements and translate them into technical specifications\nDevelop and maintain RESTful APIs for seamless integration with 3rd party integrations and front-end applications\nOptimize application performance by conducting thorough code reviews, identifying bottlenecks, and implementing performance enhancements\nTroubleshoot and resolve software defects and production issues in a timely manner\nConduct thorough testing to ensure the reliability and stability of the developed applications\nStay up to date with industry trends and best practices in Node.js development\nMentor and guide junior developers, providing technical leadership and promoting a collaborative work environment\nParticipate in Agile development processes, including sprint planning, daily stand-ups, and retrospective meetings\n🌟 The ideal candidate will have the following Competencies\nBachelor's or Master's degree in Computer Science, Software Engineering, or a related field\nProven experience as a Node.js Developer, with at least 3 years of professional experience in designing and developing scalable web applications\nStrong proficiency in Node.js and frameworks such as Serverless or nest.js\nProficiency in JavaScript, TypeScript, and related backend technologies\nExperience with building and consuming RESTful APIs\nSolid understanding of asynchronous programming and Event-Driven architectures\nFamiliarity with serverless architectures and cloud platforms such as AWS or Azure\nAbility to work with high-level technical designs in order to precise details\nKnowledge of containerization technologies like Docker and orchestration tools like Terraform\nExperience with databases such as MongoDB, PostgreSQL, or MySQL, and proficiency in writing optimized SQL queries\nStrong debugging, problem-solving, and analytical skills\nExcellent collaboration and communication skills, with the ability to work effectively in a team environment\nDemonstrated ability to work on multiple projects and deliver high-quality results within deadlines\nA strong passion for technology and a desire to stay updated with the latest advancements\n🤲 What we offer\nFlexible working hours and form of employment;\nPossibility to work 100% remotely;\n100 % paid sick leave within the agreed limits;\nEvents, celebrations\nWork with an international team of well - rounded experts in Amsterdam (HQ), Poznan, Manila, NYC. 16 nationalities and counting!\nWork on unique, market-leading, SaaS products, with clients all over the world, from New Zealand, Japan, Europe, US, and Latam;\nWork closely with people who value diversity, hard work, friendly relationships and love their jobs, and get all together to the next level!",
+    "company": "Cleeng sp. z o.o.",
+    "offerURL": "https://justjoin.it/job-offer/cleeng-sp-z-o-o--node-js-developer-gdansk-javascript",
+    "salaryFrom": 11700,
+    "salaryTo": 19000,
+    "currency": "PLN",
+    "technologies": [
+      "TypeScript",
+      "Node.js",
+      "Serverless",
+      "JavaScript",
       "AWS",
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Senior Node.js Developer",
+    "description": "Hej! Jesteśmy Angry Nerds i zapraszamy Cię do naszego świata apek mobilnych i webowych!  O Angry Nerds słów kilka:  Software House | 9 lat na rynku | ok. 100 osób na pokładzie | 545 zrealizowanych projektów Obecnie poszukujemy osoby na stanowisko Senior Node.js Developera :)Opis projektu:Projekt dotyczy stworzenia platformy wspierającej sprzedaż samochodów oraz zarządzanie wynajmem długoterminowym dla klienta z Niemiec. Aplikacja tworzona będzie z wykorzystaniem technologii React i Node.js.Twój zakres obowiązków:\nTworzenie wysokiej jakości kodu oraz współpraca z doświadczonym zespołem projektowym,\nTworzenie nowych funkcjonalności zgodnie z wymaganiami,\nAktywna współpraca z klientem w celu doprecyzowania wymagań oraz rozwiązywania problemów technicznych.\nNasze oczekiwania:\nMin. 5-letnie komercyjne doświadczenie, w tym min. 2 lata w roli seniora,\nZaawansowana znajomość TypeScript, Javascript, Node.js,\nDobra znajomość narzędzi i technologii chmurowych, takich jak AWS,\nDoświadczenie z systemami zarządzania zadaniami (Jira, Azure DevOps) oraz narzędziami do pracy zespołowej (Slack, Confluence),\nUmiejętność pracy w środowiskach Agile/Scrum,\nZaawansowana znajomość GIT,\nZnajomość CI/CD,\nBardzo dobra znajomość języka angielskiego w mowie i piśmie, umożliwiająca swobodną współpracę z klientem.\nMile widziane:\nDoświadczenie w projektach związanych z branżą sprzedaży lub wynajmu samochodów,\nZnajomość React.\n Zapewnimy Tobie: \nPracę w pełni zdalną,\nElastyczne godziny pracy, dobre dla rannych ptaszków i nocnych marków,\nSłużbowy sprzęt i budżet na akcesoria,\nRoczny budżet szkoleniowy, \nDofinansowanie do pakietu sportowego i opieki medycznej, \nBudżet integracyjny, \nPracę w firmie o płaskiej strukturze w zgranym zespole Nerdów :)  \n Proces rekrutacji: \nRozmowa z działem HR: ok. 40 min – chcemy poznać się lepiej!    \nWeryfikacja techniczna w formie videocalla z naszymi specjalistami: ok. 1.5 h. \nDecyzja i feedback z przebiegu rekrutacji.",
+    "company": "Angry Nerds",
+    "offerURL": "https://justjoin.it/job-offer/angry-nerds-senior-node-js-developer-warszawa-javascript",
+    "salaryFrom": 16800,
+    "salaryTo": 20000,
+    "currency": "PLN",
+    "technologies": [
+      "Git",
+      "TypeScript",
+      "Node.js",
+      "JavaScript",
+      "CI/CD"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Senior ReactJS Developer",
+    "description": "At USEO, we work on start-ups from different parts of the world. We choose projects carefully because we want to do what we believe in. And when we believe, we build long lasting and friendly relationships with our clients. We are a team - we value openness, commitment, good working atmosphere and job satisfaction.Right now we are looking for developers who could join our team working on the largest platform in Switzerland supporting young students in their first career choices. Over the years we’ve built a fantastic relationship with that customer and we have a lot of fun working together.A few words about the projectyousty.ch is the largest platform in Switzerland which supports young people in their first career steps. It helps students to find their first apprenticeship as well as the profession which they will feel passionate about. We develop useful and up-to-date tools for apprenticeship seekers and apprenticeship companies.The whole tech stack: Ruby (backend), ReactJS (front-end), Kubernetes (Google Cloud), Event Sourcing, DDD.The TeamMost of the development team is located in Poland (12 people). 3 other developers from other countries. The whole business and product team is in Zürich, Switzerland. We plan to extend our dev team by another 1-2 people.You make us betterAs a passionate, ambitious person you complement our team. You work on exciting projects with your senior-level experience in ReactJS.But there is more... you:\nHave excellent programming skills in Javascript based technologies,\nHave solid know-how in ReactJS, Typescript, NextJS, HTML, CSS\nHave solid experience working with JavaScript in a backend\nCommunicate smoothly in English (both written and spoken)\nHave good code practices.\nDeeply care about your work and see it as more than just code, you want to learn and improve every day.\nBe inspired by what we offer\nWork with experts who have more than 10 years of experience.\nWe follow modern agile principles with pair programming, extreme programming, code reviews, and continuous refactoring.\nOur international and diverse team will look after you, value and recognize your work, and inspire you every day.\nBe involved in every stage of the development process and make a real impact on the final product\nFlexible work remotely and in our office in Wroclaw, Poland\nCheery atmosphere, a good team, great coffee, and regular get-togethers – hitting the party together for those who want!\nif you live in another country, we can help you move to Poland\n\nLook forward to exciting jobs\nBuild meaningful features and software with purpose and positive impact on the world\nBe part of an outstanding team; let's build and run it together!\nWe use state of the art, modern tools, and processes with Git, DevOps, Docker/Kubernetes\nBe early involved in our very own Product Design Process\nBe happy and stay focused with our agile workflows and Scrum\nWe ...... are a bit crazy, but 150% focused at work. We work closely together, and you will be thoroughly trained by us. We are like a family with fantastic events and offices next to Zurich's central train station and in the pulsing center of Wroclaw, Poland. The Job demands a lot from you but brings unlimited opportunities and a feeling of making a difference. That's why we ♥️ Mondays! Still, reading? Go ahead and apply!",
+    "company": "USEO Sp. z o.o.",
+    "offerURL": "https://justjoin.it/job-offer/useo-sp-z-o-o--senior-reactjs-developer-with-backend-experience--wroclaw-javascript-1de6e8af",
+    "salaryFrom": 19200,
+    "salaryTo": 22400,
+    "currency": "PLN",
+    "technologies": [
+      "ReactJS",
+      "TypeScript",
+      "Next.js",
+      "CSS3",
+      "HTML5",
+      "Redux",
+      "JavaScript",
+      "Git",
+      "Cypress"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Full-Stack Developer",
+    "description": "Getint to rozwijająca się firma, w której pracuje 12 utalentowanych profesjonalistów, skupionych na tworzeniu zaawansowanych rozwiązań integracyjnych. Specjalizujemy się w budowaniu narzędzi, które płynnie łączą platformy, umożliwiając naszym klientom lepsze zarządzanie danymi i przepływami pracy. Jako niewielki, ale dynamiczny zespół, cenimy współpracę, innowacyjność i umiejętność szybkiego reagowania na wyzwania.Niedawno powiększyliśmy nasz zespół developerski i obecnie szukamy doświadczonego Full-Stack Developera na poziomie mid lub senior, albo Developera Java/React, który jest otwarty na rozwój w kierunku full-stack, aby dołączył do nas. Będziesz pracować nad naszym flagowym produktem – Getint – i mieć bezpośredni wpływ na jego sukces.O Getint:Getint (Atlassian Platinum Marketplace Partner) to dynamiczny startup rewolucjonizujący obszar synchronizacji danych (jedno z najszybciej rosnących rozwiązań w całym ecosystemie Atlassiana). Nasza platforma łączy różne aplikacje, takie jak Jira, ServiceNow, Azure DevOps i wiele innych, czyniąc nas doskonałą alternatywą dla takich narzędzi jak Zapier czy Unito. Nasze rozwiązanie o wysokiej dostępności jest bardzo poszukiwane na całym świecie, a nasza solidna baza klientów liczy ponad 5 000 firm, w tym prestiżowe marki takie jak Airbus, Deloitte, Starbucks, Lufthansa, Skoda i Apple. Naszym celem jest dostarczanie nowoczesnego oprogramowania, które usprawnia i upraszcza przepływ danych dla zespołów pracujących na różnych platformach.Kluczowe obowiązki:\nRozwój i utrzymanie kluczowych funkcji produktu Getint z wykorzystaniem Java (backend) i JavaScript/React (frontend).\nWspółpraca z zespołem wsparcia w celu rozwiązywania złożonych problemów technicznych.\nUdział w projektowaniu produktu i dyskusjach nad roadmapą, oferując perspektywę techniczną.\nPisanie czystego, łatwego do utrzymania i dobrze udokumentowanego kodu zgodnie z branżowymi standardami.\nOptymalizacja wydajności aplikacji i zapewnienie skalowalności, aby sprostać rosnącym potrzebom klientów.\nPrzeprowadzanie code review w razie potrzeby.\nWymagania:\nMinimum 4-letnie doświadczenie w programowaniu full-stack lub specjalizacja w Java lub JavaScript/React z gotowością do pracy jako full-stack.\nDobra znajomość RESTful API, architektury mikroserwisów i relacyjnych baz danych.\nDoświadczenie z systemami kontroli wersji (Git) i pipeline’ami CI/CD.\nDoskonałe umiejętności rozwiązywania problemów i dbałość o szczegóły.\nSilne umiejętności komunikacyjne i zdolność efektywnej współpracy z zespołami interdyscyplinarnymi.\nZnajomość języka angielskiego pozwalająca na efektywną pracę w międzynarodowym zespole.\nGotowość do wspierania zespołu wsparcia w rozwiązywaniu problemów technicznych i zgłoszeń klientów.\nMile widziane:\nZnajomość wzorców projektowych oprogramowania i ich zastosowania.\nDoświadczenie z frameworkiem testowym Selenium.\nDoświadczenie w pracy z platformami integracyjnymi lub API, takimi jak Jira, Power BI czy podobne.\nZnajomość platform chmurowych (AWS, Azure lub Google Cloud).\nDlaczego warto do nas dołączyć?Będziesz częścią dynamicznego zespołu, który ceni innowacje i efektywność. Oferujemy konkurencyjne wynagrodzenie, elastyczne warunki pracy oraz możliwość podejmowania różnorodnych ról w zespole, w tym obowiązków DevOps.Proces aplikacji:\nCV review\nInterview\nTask\nOkres próbny\nZainteresowane osoby prosimy o przesłanie CV w języku angielskim, podkreślając istotne doświadczenie i umiejętności, na adres radek@getint.io. Czekamy na odkrycie, jak możesz przyczynić się do naszego zespołu!",
+    "company": "Getint - Fastest growing Jira integration tool",
+    "offerURL": "https://justjoin.it/job-offer/getint---fastest-growing-jira-integration-tool-full-stack-developer-gdansk-java",
+    "salaryFrom": 13000,
+    "salaryTo": 16000,
+    "currency": "PLN",
+    "technologies": [
+      "REST API",
+      "Java",
+      "JavaScript",
+      "DevOps"
+    ],
+    "addedAt": "7d ago"
+  },
+  {
+    "title": "Web Developer",
+    "description": "Jesteśmy 100-osobowym zespołem, który tworzy własne oprogramowanie na platformy Microsoft Azure, Office 365, Exchange i SharePoint. Nasze programy wykorzystywane są w ponad 120 000 przedsiębiorstw w 170+ krajach świata, a wśród naszych klientów są takie firmy jak Shell, Facebook czy Sąd Najwyższy Stanów Zjednoczonych. Mamy grupę krwi C++, nasze biura znajdują się we Wrocławiu i Jeleniej Górze, a nasi małżonkowie są zmuszani do oglądania kanału HRejterzy (bo to nasz kanał).Aktualnie prowadzimy rekrutację na stanowisko:Programista - Web Developer Miejsce pracy: Wrocław lub Jelenia Góra lub praca zdalnaPracując na tym stanowisku, będziesz zajmować się następującymi rzeczami:\nTworzyć nowe i rozwijać istniejące oprogramowanie CodeTwo.\nProjektować i realizować interfejs użytkownika naszych produktów według najnowszych standardów.\nPracować w jednym z kilkuosobowych zespołów przy projektach prowadzonych według metodologii SCRUM/Agile z wykorzystaniem między innymi Azure DevOps.\nUczestniczyć we wszystkich fazach tworzenia oprogramowania (opracowanie koncepcji, analiza + research, projektowanie, implementacja).\nProgramować z użyciem nowoczesnych technologii: m.in. React, JavaScript, CSS, Typescript, C#, Less.\nProgramować w środowisku Azure.\nTworzyć dokumentację techniczną implementowanego oprogramowania.\nCzego wymagamy?\nZnajomości biblioteki i technologii React, JavaScript, CSS, Typescript, C#, Less. Mile widziana będzie znajomość: ASP.NET, Blazor.\nZnajomości standardów i reguł tworzenia interfejsu użytkownika.\nZnajomości środowiska Visual Studio.\nPrzynajmniej dwuletniego doświadczenia w tworzeniu interfejsu użytkownika w wyżej wymienionych technologiach, popartego zrealizowanymi projektami.\nZaangażowania i profesjonalnego podejścia do pracy.\nZnajomości języka angielskiego w stopniu pozwalającym na swobodne czytanie dokumentacji.\nCo oferujemy?\nMożliwość wyboru pomiędzy pracą zdalną, pracą w biurze we Wrocławiu lub Jeleniej Górze.\nPracę z wykorzystaniem najnowszych systemów, narzędzi i technologii Microsoft.\nCiekawe i pełne wyzwań zadania.\nRealny wpływ na rozwój firmy i jej produktów.\nMożliwość rozwoju, ciągłego poszerzania i doskonalenia swoich kompetencji.\nRuchome godziny pracy.\nAtrakcyjne wynagrodzenie.\nJeśli nie jesteś fanem zgiełku korporacji, to praca w naszej kilkudziesięcioosobowej firmie, która zachowała swoją bezpośrednią i życzliwą kulturę pracy, może być wyjątkowo atrakcyjna.\nJeśli nie jesteś fanem zgiełku wielkich miast i korków, to wybierając pracę w naszym biurze w Jeleniej Górze, będziesz pracować w jednym z najpiękniejszych miejsc w Polsce (a według wielu z nas, nie tylko w Polsce), które pozwala na uprawianie różnorodnych sportów i aktywności.\nPakiet relokacyjny dla osób chcących przeprowadzić się do Jeleniej Góry.\nInne apanaże: dopłatę do karty Multisport, grupowego ubezpieczenia pracowniczego, pakietu medycznego, darmowe polskie jabłka, kolumbijskie banany i cukierki, imprezy integracyjne, pizza days, pasztetowe czwartki, życiowa rola w filmie #HRejterów.\nDwa monitory 14” z kartą 256 kolorów lub Hercules 16 mln odcieni szarości.\nPrześlij do nas swoje CV wraz z krótkim opisem najważniejszych zrealizowanych projektów.﻿Z uwagi na dużą liczbę otrzymywanych aplikacji, o powodach niezaakceptowania kandydatury informujemy tylko tych kandydatów, których CV zostało zakwalifikowane do kolejnych etapów rekrutacji. Niezależnie od tego, jeśli Twoje CV nie zostanie zakwalifikowane do kolejnych etapów, otrzymasz od nas powiadomienie mailowe.",
+    "company": "CodeTwo sp. z o.o. sp. k.",
+    "offerURL": "https://justjoin.it/job-offer/codetwo-sp-z-o-o-sp-k--web-developer-jelenia-gora-javascript",
+    "salaryFrom": 10000,
+    "salaryTo": 17000,
+    "currency": "PLN",
+    "technologies": [
+      "C#",
+      "Visual Studio",
+      "React",
+      "CSS",
+      "JavaScript",
+      "ASP.NET",
+      "Azure"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "React Native Developer",
+    "description": "Our ClientJoin one of Europe’s fastest-growing EdTech startups which provides a leading platform for math education in the K-12 space. By leveraging handwritten solutions in a digital format, our client allows teachers to place emphasis on creativity in math, while gaining key insights on student progression. This creates a more engaging, inclusive and pedagogical math class for all students.Math remains the largest challenge for schools, where one in five students in year 8 are low performers. Math is one of the core pillars on which careers are built, and K-12 math represents one of the largest opportunities at improving educational outcomes and career prospects for children and young adults.Originally founded in Stockholm, Sweden, our client is now growing rapidly in the US. They are an ambitious team on a meaningful mission of improving math education for millions of children.Role\nDevelop and maintain our React Native app using best practices\nWork with React Native in mobile and web for internal libraries used across all platforms\nDevelop native modules written in Swift\nPublishing mobile app in AppStore, managing TestFlight\nTaking active part in the Frontend team’s code review and collaboration activities\nCollaborate with other developers, Product managers, QAs and designers to create the best product helping kids all over the world succeed in math.\nKey competences\nmin. 4 years of experience in Software development\nmin. 3 years of experience of React Native development\nExperience of deployment and publishing process in app stores\nExperience of iOS infrastructure\nStrong knowledge of Typescript and Javascript\nKnowledge of native modules\nNice to have\nExperience in Swift\nSalary and conditions\n19.000-24.000 PLN\nB2B agreement\nHybrid setup with at least 3 days in office in Warsaw\n\nBenefits\nPaid sick leave\nVisit Head Office in Stockholm County Sweden\nPaid Vacation Time\nFamily Access to leading Math's Education platform\nCompany Laptop\nGreat career growth within an International Company",
+    "company": "Optiveum",
+    "offerURL": "https://justjoin.it/job-offer/optiveum-react-native-developer-warszawa-javascript",
+    "salaryFrom": 19000,
+    "salaryTo": 24000,
+    "currency": "PLN",
+    "technologies": [
+      "TypeScript",
+      "JavaScript",
+      "iOS",
+      "native modules",
+      "React Native",
+      "Swift"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Full Stack Developer",
+    "description": "Who we are:4Semantics is a rapidly growing technology firm specializing in Intelligent Document Processing (IDP) with a strong focus on the financial sector. Using our proprietary cognitive AI technology, we transform large volumes of complex documents into structured data, enhancing efficiency and accuracy in financial operations globally. We work with top banks, leasing companies, and other reputable institutions in Poland. Backed by a leading Polish-Israeli technology fund, Full Speed Ventures.Responsibilities:As a Full Stack Developer at 4Semantics, you’ll join us at an exciting phase of our journey, contributing directly to the development of web applications that drive our Intelligent Document Processing solutions. You’ll work on designing, developing, and maintaining both the backend and frontend components of our applications, ensuring scalability, functionality, and performance. This role offers the chance to collaborate closely with cross-functional teams, influencing project outcomes and refining the user experience of our customers.Key Requirements:\n\nJava Development: Proficiency in Java 8+ with experience in developing web applications, Spring Boot, and REST API.\n\nRelational Databases: Knowledge of relational databases (PostgreSQL/ MS SQL).\n\nFrontend Development with Angular: Proficiency in creating UI components using Angular 10+ (TypeScript) and Angular Material.\n\nCore Web Technologies: Basic knowledge of JavaScript, HTML5 and CSS3.\n\nVersion Control: Experience with GIT for version control and collaboration.\nNice to Have:\n\nAdditional Frameworks: Familiarity with Apache Camel and NgRX Store.\n\nBrowser Extensions: Knowledge of building extensions for Chromium-based browsers.\n\nLinux and Docker: Experience with Linux and containerization using Docker.\n\nDatabase Migration Tools: Familiarity with database migration tools like Liquibase.\n\nRPA Experience: Understanding of Robotic Process Automation (RPA) technologies.\nWhat We Offer:\nCompetitive salary and comprehensive benefits.\nA dynamic and supportive work environment where innovation and initiative are encouraged.\nFlexible working options (remote, hybrid, or on-site).\nOpportunities for personal and professional growth.\nWide individual or family medical package with Medicover (including Damian Medical Centers).\nSubsidy for a sports card.",
+    "company": "4semantics",
+    "offerURL": "https://justjoin.it/job-offer/4semantics-full-stack-developer-warszawa-java-1813b31c",
+    "salaryFrom": 14000,
+    "salaryTo": 22000,
+    "currency": "PLN",
+    "technologies": [
+      "Angular",
+      "Java",
+      "JavaScript",
+      "Git",
+      "Relational Databases",
+      "Spring Boot"
+    ],
+    "addedAt": "4d ago"
+  },
+  {
+    "title": "Senior React Developer",
+    "description": "About Momentum:Momentum is a full-stack digital agency from the city of a hundred bridges. Our DNA is to work on technologies for the most dynamic and recognizable start-ups on the national and global markets.Role overview:At Momentum, we follow a collaborative, impact-driven approach to building digital health solutions. We aim to create a world where no one feels helpless because of a lack of medical information or diagnostics access. Every day, we work towards making people feel more empowered and safe regarding their health. We are looking for someone who:\nis a team player and has got problem solving attitude \nsupport the idea that clean code is the most important to building maintainable software\nhas got a business sense: you are able to balance between technical perfection and business needs/ priorities\nhas no problems with communication in English\nRequirements:\nExpert in JavaScript (4+ years of experience)\nStrong knowledge of TypeScript\nStrong knowledge of React and Redux\nKnowledge of React framework like Next.js / Remix / Gatsby\nPractical knowledge of Git\nProficiency in HTML and CSS\nAdherence to Clean Code principles\nFluent written and spoken English\nFluent written and spoken Polish\nNice to have:\nExperience with testing\nFamiliarity with CI/CD pipelines\nReact Native experience\nRefactoring skills\nProactivity and problem-solving attitude\nResponsibilities:\nDevelop high-performance, multi-threaded software, following architectural guidelines for APIs and services\nSupport the project in all aspects of development by working closely with developers and testers\nEnsuring high code quality and performance\nSelection of architecture and methodologies for the project\nIndependently build applications from zero to publication\nPerform code review\nWhat we offer:\nModern Workspace: We provide a modern and comfortable office environment, located in the heart of Wrocław.\nWork-Life Harmony: Enjoy flexible working hours, allowing you to achieve the perfect balance between work and life.\nStay Active: Our company Multisport benefit encourages you to stay fit and prioritize your well-being.\nYour Health Matters: Access to private healthcare ensures you’re taken care of when you need it most.\nRemote Support: For our remote team members, we offer reimbursement for necessary and non-necessary office visits.\nFreedom of Choice: We understand that everyone has different lifestyles and needs. That’s why the Worksmile Cafeteria System gives you access to hundreds of non-wage benefits to choose from.\nSecurity and Peace of Mind: We provide the option to join our comprehensive insurance plan, ensuring security for you and your loved ones.\nTeam Building & Development Fun(d): We believe in the power of fun and development. Microfunds are available to bring excitement to your work-life or to help you develop your skills and gain knowledge.\nIf you have any questions, get in touch with us! Send us your CV, we will schedule a meeting.",
+    "company": "Momentum",
+    "offerURL": "https://justjoin.it/job-offer/momentum-senior-react-developer-wroclaw-javascript",
+    "salaryFrom": 16000,
+    "salaryTo": 20000,
+    "currency": "PLN",
+    "technologies": [
+      "JavaScript",
+      "Git",
+      "TypeScript",
+      "Next.js",
+      "HTML",
+      "React",
+      "CSS"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Angular Developer",
+    "description": "Nexio Management to polska firma technologiczna z blisko 20-letnim doświadczeniem na rynku. Obecnie w naszych centrach kompetencyjnych zatrudniamy ponad 500 konsultantów, którzy świadczą usługi IT dla Klientów na całym świecie. Siedziba Nexio Management mieści się w Warszawie, a Nasze biura zlokalizowane są także w Rumunii oraz Wielkiej Brytanii. W ramach naszego portfolio tworzymy szyte na miarę rozwiązania, utrzymujemy i rozwijamy nawet najbardziej wymagające systemy IT. Dostarczamy własne produkty oraz wspieramy zespoły naszych klientów w modelach scale up the team. Naszymi klientami są firmy z całego świata szukające wsparcia najwyższej klasy ekspertów.Aktualnie do naszych projektów poszukujemy osób zainteresowanych rolą Programisty Angular, otwartych na pracę w trybie hybrydowym (Warszawa).ZADANIA:\nAktywny udział w projektowaniu i rozwoju oprogramowania w obszarze front-endu (Angular)\nTworzenie responsywnych aplikacji/mobile first\nZapewnienie wysokiej jakości kodu, tworzenie testów jednostkowych i wykonywanie CodeReview\nUtrzymywanie i aktualizacja repozytorium dokumentacji technicznej systemów informatycznych\nŚcisła współpraca z zespołem projektowym - pracujemy w metodykach zwinnych\nWYMAGANIA:\nMinimum 4-letnie doświadczenie w programowaniu frontendu, w tym minimum roczne z wykorzystaniem Angulara\nBardzo dobra znajomość Angular 18+, TypeScript, RxJS\nPraktyczna znajomość JavaScript (ES6/ES7) / NgRx / NgXs, NX\nZnajomość i doświadczenie HTML5, CSS3, SCSS, Bootstrap 5+, REST API, JSON/XML\nUmiejętność budowania aplikacji zgodnie z techniką RWD\nDoświadczenie w pisaniu testów jednostkowych, e2e\nZnajomość podejścia test-driven development (TDD)\nRozwinięte umiejętności analityczne i pracy zespołowej\nMile widziane także:\nDoświadczenie w pracy z systemami klasy CRM\nZnajomość technologii backendowych (PHP, Java)\nZnajomość biblioteki jQuery\nZnajomość języka angielskiego na poziomie min. B2\nOFERUJEMY:\nSzeroki wachlarz ciekawych, różnorodnych, zaawansowanych projektów realizowanych w najnowszych technologiach dla największych polskich i międzynarodowych firm\nRóżnorodne formy współpracy – umowa o pracę, kontrakt B2B lub umowa zlecenie\nStabilność zatrudnienia – długofalowe projekty, współpracę z wiodącymi firmami z branży, możliwości zmiany projektu\nBenefity: pakiet Medicover (rozszerzony o stomatologię), kartę FitProfit, lekcje języka angielskiego\nFinansowanie certyfikatów technicznych\nUnikalną atmosferę pracy w zgranych zespołach oraz udział w cyklicznych integracjach\nUdział w różnorodnych inicjatywach charytatywnych oraz sportowych (np. biegi firmowe, turnieje szachowe, rozgrywki piłki nożnej)",
+    "company": "Nexio Management",
+    "offerURL": "https://justjoin.it/job-offer/nexio-management-angular-developer-warszawa-javascript",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "TypeScript",
+      "JavaScript",
+      "Angular",
+      "Bootstrap"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Node.js Developer",
+    "description": "OPPORTUNITIES:\nExcellent working environment: the company is big enough to be reliable, yet small enough to be person-oriented.\nFull-cycle projects and product development.\nTraining & development-focused approach: clear roadmap for training employees to sustain and enhance the productivity of the organization as a whole, internal technical meetups, free English classes.\nCollaboration with the teams from the European Union and United States both on-site and remotely.\nWork-life balance to suit everyone: flexible working hours, loyal sick-leave policy, student-exam-session-friendly approach, corporate events and sport activities.\nYOU WILL:\nDesign and develop large scale web applications using Node.js.\nFocus on backend software development and interface with third party APIs.\nContribute to the overall software development life-cycle including requirements gathering/analysis, design, development, release/version control, testing, deployment and support.\nBe a part of an agile-based and globally distributed team.\nNEED TO HAVE:\nStrong Node.js development skills;\nStrong TypeScript and JavaScript experience;\nExperience in designing and developing API’s using REST API or GraphQL;\nExperience with distributed source control systems (e.g. Git, Mercurial);\nKnowledge of frameworks available for Node.js (such as Nest.js, Express, SAP CAP, LoopBack);\nExperience in relational (MySQL, PostgreSQL, etc.), document-oriented databases (MongoDB) and KV-storage (Redis);\nExperience with AWS (EC2, S3, etc.), Microsoft Azure, and other related cloud technologies;\nExperience in writing unit, integration tests (Jest, Mocha, Chai, Supertest);\nExperience with Docker, Podman or other container management tool;\nStrong understanding of software best practices, data structures, algorithms, databases, and networks;\nFluent English (Intermediate, Upper-Intermediate, Advanced).\nNICE TO HAVE:\nFamiliarity with message passing technology such as AMQP and ZeroMQ.\nPractical experience in Agile development methodologies.\nKnowledge of design patterns.\nKnowledge of distributed system approaches and patterns.\nExperience with SAP CAP/BTP.\nFamiliarity with Domain-Driven Design.\nGood communication skills.",
+    "company": "LeverX",
+    "offerURL": "https://justjoin.it/job-offer/leverx-node-js-developer-wroclaw-javascript",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "TypeScript",
+      "Node.js",
+      "JavaScript",
+      "SAP CAP/BTP"
+    ],
+    "addedAt": "4d ago"
+  },
+  {
+    "title": "Frontend Developer",
+    "description": "About the Position:This role involves working on challenging projects across multiple initiatives. You will collaborate with key stakeholders, UX designers, and development teams to gather requirements and deliver high-quality solutions. This position offers opportunities to learn new technologies, continuously enhance your skill set, and work on cutting-edge products. You will tackle technical challenges with innovative solutions that align with a long-term vision.Key Responsibilities:• Build and execute complex projects across various initiatives.• Collaborate with stakeholders, UX designers, and other teams to gather requirements and deliver solutions.• Continuously learn and adopt new technologies to enhance both your skills and the products you develop.• Solve technical challenges effectively, focusing on long-term solutions.Requirements:• 5+ years of hands-on experience with modern technologies for building rich web applications.• Strong expertise in front-end technologies, including React (mandatory), Angular, and TypeScript. • Experience with clean code principles and testing methodologies.• Excellent interpersonal, communication, and organizational skills.• Ability to manage multiple projects in a fast-paced, collaborative environment.• Self-motivated with strong analytical skills, innovation, and intellectual curiosity.Nice to Have:• Bachelor’s degree in Computer Science.• Experience with agile SDLC, including research, design, and engineering.• Knowledge of micro frontends and reactive programming frameworks like RxJS.• Familiarity with front-end build tools and testing libraries, such as Webpack, Jest, and Cypress.• Experience with server-side rendering (SSR) and CSS-in-JS.Main tech-stack:React, JavaScript, TypeScriptRest of tech-stack:Jest, Cypress, Redux, Node.js, CSS-in-JS, SSR",
+    "company": "Harvey Nash Technology",
+    "offerURL": "https://justjoin.it/job-offer/harvey-nash-technology-frontend-developer-warszawa-javascript",
+    "salaryFrom": 23500,
+    "salaryTo": 33500,
+    "currency": "PLN",
+    "technologies": [
+      "JavaScript",
+      "React",
+      "TypeScript",
+      "Jest",
+      "Cypress",
+      "Redux",
+      "Node.js",
+      "CSS",
+      "SSRS",
+      "React hooks"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Full-Stack Developer",
+    "description": "If developing full-stack applications is your bread and butter, join Pareto Publishing, where we develop innovative e-mail marketing solutions for our clients!What you will be doing:\nDevelop and maintain full-stack applications using PHP, SQL, HTML, CSS, and JavaScript 🛠️\nDesign and manage relational databases for business and client systems 🗄️\nIntegrate new features into our existing PHP codebase 🔄\nOptimize PHP services for performance ⚡\nImplement security best practices 🔒\nRefactor systems for scalability and automation 📈\nStay updated with the latest financial tech trends 🌐\nRequirements:\nProficient in PHP, SQL, HTML, CSS, and JavaScript 💹\nExperience with CRM platforms and email marketing tools 📧\nFamiliarity with Zapier and AWS databases ☁️\nPossibility to work on your own device 💻\nProficient with Jira and Slack 📋\nExcellent English skills (we have an international team) 🗣️\nAbility to work from our office space in Warsaw 🇵🇱\nWhat you’ll get:\nStable on-site position: Work from our modern office opposite the Warsaw Spire 🏢\nCompetitive salary with a bonus package: Attractive compensation with bonuses such as PTO, performance bonuses, and more 💰\nBig growth opportunities: Continuous learning and professional development with the potential to advance to CTO 🚀\nProfessional development: Budget for courses, certifications, and conferences 🎓\nJust apply and well, let’s get to know each other to potentially make some nice things happen together! 🙂",
+    "company": "Pareto Publishing Ltd",
+    "offerURL": "https://justjoin.it/job-offer/pareto-publishing-ltd-full-stack-developer-warszawa-php",
+    "salaryFrom": 7000,
+    "salaryTo": 12000,
+    "currency": "PLN",
+    "technologies": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "SQL"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "React Developer",
+    "description": "Employer: International software house Location: Cracow, Poland Rate: up to 31 EUR per hour Cooperation model: B2BStart date: ASAPRecruitment process: 2-3 online interviewsTechnology stack: ReactJS, JavascriptOur Client is a software house which is active one the market for more then 10 years and specializes in mobile marketing. The platform that you will develop allows users to make good choices and understand the ROI (return on investment) of their advertising campaigns - where their best users are coming from, how to retain them and how to provide them better value.  Your role is:-> To develop Client's products and features, from design to implementation;-> To collaborate with other specialists and team members to deliver best possible products;-> To take part in designing and implementing modern UI for various data products;-> To improving the client's product through your own continuous development in your area of ​​expertise. Your skills and experiences:-> 3+ years of experience in web development;-> At least 2 years of experience with ReactJS;-> Excelent Javascript skills;-> A problem-solving and positive attitude, an eagerness to learn, and a willingness to take on new challenges;-> Being a great team player; -> Very good command of English (at least B2).   Nice to have:+ Backend experience;+ Experience in developing SaaS products & platforms;+ B.Sc. in computer science or similar.  Our client offers:+  Learning sessions, workshops, hackathons, meetups, pair programming and open-source contributions;+ Great opportunity for personal development in a stable and friendly large multinational company;+ Flexible working hours;+ Company events;+ Career growth and additional education. If interested, please apply safely through this portal (application rules are in accordance with GDPR). Employment agency Nr 17138.",
+    "company": "Winged IT",
+    "offerURL": "https://justjoin.it/job-offer/winged-it-react-developer-krakow-javascript",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "ReactJS",
+      "JavaScript"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Senior Fullstack Developer",
+    "description": "Wynagrodzenie: 1000 - 1250 PLN/MD na B2BModel pracy: elastyczna hybryda (kilka dni w miesiącu w biurze we Wrocławiu, z możliwością pracy zdalnej przez pozostały czas) Dlaczego warto wybrać tę ofertę?\nDołącz do zespołu, który pracuje z najnowszymi rozwiązaniami IT, umożliwiając rozwój kariery i zdobywanie cennych doświadczeń\nZyskaj możliwość pracy nad innowacyjnymi projektami, które mają realny wpływ na sektor energetyczny i gospodarkę\n\n\nSpołeczność Jit umili Ci czas podczas cyklicznych spotkań integracyjnych\n\nZyskasz możliwość uczestniczenia w Jit Communities i szkoleniach, aby dalej rozwijać swoje umiejętności\n ProjektDołączając do projektu będziesz miał możliwość rozwijania swoich kompetencji, korzystając z narzędzi wspierających automatyzację, integrację oraz zarządzanie systemami. W ramach projektu będziesz pracować nad kompleksowymi rozwiązaniami, które integrują zaawansowane technologie frontendowe i backendowe, umożliwiając tworzenie skalowalnych i wydajnych aplikacji. Twoja praca obejmie zarówno implementację nowych funkcji, jak i optymalizację istniejących systemów, z naciskiem na jakość kodu, efektywność procesów oraz współpracę z zespołem specjalistów. Oferujemy elastyczne warunki pracy z możliwością pracy zdalnej, a także okazjonalne wizyty w siedzibie firmy we Wrocławiu, aby wspierać integrację zespołu i współpracę w kluczowych momentach projektu. Wymagane kompetencje\nMinimum 6 lat doświadczenia w programowaniu z wykorzystaniem zaawansowanego zestawu technologii frontendowych i backendowych\n\nZnajomość Oracle PL/SQL w zakresie projektowania i zarządzania złożonymi bazami danych\nUmiejętność budowania skalowalnych i wydajnych aplikacji serwerowych\nDoświadczenie w przygotowywaniu dokumentacji technicznej i projektowej\nUmiejętność efektywnej współpracy w zespole w dynamicznym środowisku\nZnajomość REST API, JSON oraz narzędzi takich jak Git, Jenkins, Nexus\n\nUmiejętność tworzenia testów jednostkowych i integracyjnych\nZnajomość podstawowych wzorców projektowych\n Technologie z jakimi będziesz pracować\nAngular 2+\nHTML5\nJavaScript (ES2015)\nTypeScript\nCSS\nC# .NET\nOracle PL/SQL\nREST API\nJSON\n Narzędzia z jakimi będziesz pracować\nGit\nJenkins\nNexus\nZnajomość poniższych narzędzi będzie mile widziana:\nDocker\nKubernetes lub Nomad\nApache Kafka\nRedis\n Klient – dlaczego warto wybrać akurat tego klienta z portfolio JIT?Nasz klient specjalizuje się w rozwijaniu innowacyjnych rozwiązań technologicznych w sektorze energetycznym i działa na terenie całej Polski od ponad 12 lat. Klient wspiera krajowego operatora systemu przesyłowego poprzez budowę i modernizację systemów informatycznych oraz prowadzenie prac badawczo-rozwojowych. Firma wdraża także zaawansowaną automatyzację procesów biznesowych, co pozwala na zwiększenie efektywności działania. Głównym założeniem naszego klienta jest zapewnienie efektywnej i niezawodnej pracy systemu elektroenergetycznego, wspierając jednocześnie rozwój odnawialnych źródeł energii. O Jit TeamThe Human factor of IT – to nie tylko slogan, to filozofia. Fundamentem Jit Team są ludzie, dlatego to właśnie Was traktujemy priorytetowo. Zatrudniamy ponad 500 doświadczonych ekspertów. Tworzymy wysoko specjalizowane zespoły dla klientów z całego świata. Członkom zespołu oferujemy rozwojowe projekty, szeroki zakres benefitów oraz autorski program rozwoju zawodowego.Za naszą maksymą stoją, także działania charytatywne i edukacyjne. Wspieramy uczniów i studentów, przekazując sprzęt do nauki. Oferujemy staże ułatwiające rozpoczęcie kariery w IT. Wspieramy ratowników wodnych oraz szpitale, dostarczając potrzebne wyposażenie. Jesteśmy Polską firmą i dzielimy się tym, co osiągnęliśmy przez 14 lat działalności. Wspierając rodzime inicjatywy, dbamy o obieg dobrej energii.",
+    "company": "Jit Team",
+    "offerURL": "https://justjoin.it/job-offer/jit-team-senior-fullstack-developer-wroclaw-java-7f12d101",
+    "salaryFrom": 20000,
+    "salaryTo": 26250,
+    "currency": "PLN",
+    "technologies": [
+      "Angular",
+      ".Net",
+      "JavaScript",
+      "PL/SQL",
+      "Oracle",
+      "Docker",
+      "Kafka"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": ".Net Developer",
+    "description": "In our work environment, communication, friendly relationships and mutual support play a crucial role in our projects being successful and our customers being satisfied. If you are a team player, you like collaborating with others and you feel that the work floor is also a place to set up long-lasting friendly relationships with other colleagues, then Aspire is the right place for you.  Personal growth of all our colleagues is a part of our culture. We provide a lot of opportunities to gain new knowledge and experience including trainings,workshops, conferences, knowledge sharing meetings and peer reviews. We are a people-centric company and believe that if our people grow, we grow with them. You will work on developing a UK insurance trading platform which supports all aspects of digital distribution and administration for insurers. You will join one of our .Net teams that works in an Agile way (Scrum). If you are enthusiastic and dedicated team player that is up for a new challenge in a great team and an exciting industry don't hesitate to apply for this job!What we offer: Want to know more about our benefits? Click here.Want to know more about our Power Club? Click here.Want to know more about our League of Geeks platform? Click here.Your role in the team will include\nDesign, development and testing of new features in the applications\nResponsibility for regular communication with others involved in the development process\nImplement, test, and bug-fix functionality\nResponsibility for design and implementation of software projects using C#\nDesign, build, and maintain efficient and reliable C# code\nWe're looking for you if you have  \nGood knowledge of C# (2 years and more).\nAngular experience.\nExperience in working with MS SQL.\nExperience in working with technologies: ASP.NET, JS / TS, HTML / CSS.\nExperiences in object-oriented programming.\nAt least two years of experience in a similar position.\nGood command of English (minimum level B2).\nYou should choose Aspire because\nwe understand that introducing time pressure and stress is NOT the way to go,\nwe believe friendly atmosphere, flat company structure and making sure work is fun is what is key to success,\nwe love sports! See our Power Club,\nwe provide you with continuous feedback on the things you do right and the things you could potentially improve.\nOur colleague Joachim will guide you from the moment you apply and will support you throughout the whole recruitment process. If you have any questions before you decide to apply feel free to check our FAQ For Candidates or simply reach out to Joachim by email: joachim.frejnagel@aspiresys.comWe are also available for you on Messenger for any questions, doubts or queries that you might have ( you can communicate in Polish or English).We really hope you become our new colleague soon and we will have a great time together!",
+    "company": "Aspire Systems Poland",
+    "offerURL": "https://justjoin.it/job-offer/aspire-systems-poland--net-developer-gdansk-net-f5ea07b1",
+    "salaryFrom": 13000,
+    "salaryTo": 16000,
+    "currency": "PLN",
+    "technologies": [
+      "C#",
+      "ASP.NET",
+      "HTML",
+      "MS SQL",
+      "JavaScript",
+      "Angular"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Fullstack Developer (TypeScript & JavaScript)",
+    "description": "Jesteśmy agencją rekrutacyjną, zajmującą się wyszukiwaniem i pozyskiwaniem najlepszych talentów ✨ dla naszych klientów. Pomagamy start-upom, software house’om i przedsiębiorstwom w skalowaniu i transformacji poprzez nawiązywanie współpracy z ambitnymi inżynierami posiadającymi prawdziwą pasję do technologii.Obecnie poszukujemy Fullstack Developera do startupu rozwijającego aplikację mobilną, która integruje plan żywieniowy oraz ćwiczenia, oferując kompleksowe wsparcie na każdym etapie procesu odchudzania i budowania zdrowych nawyków.Jako Fullstack Developer będziesz odpowiedzialny za rozwój i utrzymanie platformy technologicznej. Będziesz współpracować z zespołem programistów, testerów, projektantów UI/UX oraz ekspertów w dziedzinie dietetyki, aby tworzyć i doskonalić innowacyjne rozwiązania dla naszych klientów. Twój zakres odpowiedzialności obejmować będzie back-end oraz front-end aplikacji w proporcji backend/frontend ok. 70%-30%, integrację z bazami danych, serwisami zewnętrznymi i narzędziami analitycznymi.🔷Obowiązki:\nTworzenie, rozwój i utrzymanie aplikacji typu SaaS oraz aplikacji mobilnej\n\nRozwój backendu aplikacji (ok. 70-80% czasu) aplikacji w Javascript (NodeJS)\nRozwój frontendu aplikacji (ok. 20-30% czasu) aplikacji w TypeScript (React i React Native)\nImplementacja nowych oraz optymalizacja istniejących modułów i serwisów w tym aktualizacje frameworków, struktury projektu i skalowalności aplikacji.\nTworzenie testów automatycznych (unit i integracyjne) w Jest\nWspółpraca z analitykami oraz dedykowanym zespołem QA przy implementacji i testowaniu rozwiązań.\n🎯Wymagania:\nMin. 3+ lat doświadczenia komercyjnego jako Backend/Fullstack developer w języku Javascript/TypeScript\nDoświadczenie w rozwijaniu aplikacji w NodeJS i React lub React Native\n\nDoświadczenie w zarządzaniu danymi w bazach relacyjnych (PostgreSQL, MariaDB) i nierelacyjnych (Redis, MongoDB, RabbitMQ)\n\n\nBiegła / ojczysta znajomość języka polskiego, umożliwiająca codzienną pracę w polskojęzycznym zespole\nNice to have: \nZnajomość PHP i WordPress (dla rozwoju integracji) oraz Next.JS\nZdolność do efektywnej współpracy z zespołem oraz komunikacji w zespole 100% zdalnym\nProaktywne podejście do komunikacji, rozwiązywania problemów oraz dzielenia się wiedzą.\nWykształcenie wyższe techniczne\nDoświadczenie w pracy w środowisku startupowym\n⭐ Co oferujemy:\nAtrakcyjne wynagrodzenie w widełkach 12000-22000 B2B, w zależności od doświadczenia\n\nW 100% pracę zdalną, z elastycznym podejściem\n21 dni płatnego urlopu\nMultisport/Medicover\nSprzęt służbowy lub dopłata za pracę na własnym sprzęcie\nAplikuj teraz! Dołącz do zespołu Relout Team już dziś!📢",
+    "company": "Relout",
+    "offerURL": "https://justjoin.it/job-offer/relout-fullstack-developer-typescript-javascript--warszawa-javascript",
+    "salaryFrom": 12000,
+    "salaryTo": 22000,
+    "currency": "PLN",
+    "technologies": [
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "React",
+      "React Native",
+      "WordPress",
       "PHP"
     ],
     "addedAt": "New"
   },
   {
-    "title": "Software Maintenance Engineer",
-    "description": "Join a forward-thinking team shaping the future of rendering technology with SKY ENGINE AI, a pioneering Artificial Intelligence company, founded in the UK with a global presence. We are passionate about building world-class rendering libraries and delivering high-performance software solutions in CGI, AI, and computer vision. SKY ENGINE AI is a Synthetic Data Cloud for deep learning in vision AI – a cutting-edge developer platform for data scientists and computer vision engineers.As a Software Maintenance Engineer, you will ensure the highest code quality of our rendering engine and play a key role in the continuous improvement of our software. This is your chance to join an exciting AI venture at the ground floor and tackle new challenges in Vision AI every day. If you're meticulous, detail-oriented, and dedicated to quality, this role is perfect for you!Key Responsibilities:\nEnhance code quality and maintain the core functionality of the company’s rendering engine.\nRefactor and optimize existing codebases in C++ and Python to improve performance, readability, and maintainability.\nDesign and automate tests using Pytest and other tools to ensure robust and error-free software.\nImprove software documentation, ensuring it remains clear, precise, and comprehensive.\nCollaborate with a multidisciplinary team of Developers, Product Owners, and Administrators working in the fields of CGI, Data Science, AI, and Computer Vision.\nParticipate in CI/CD processes, focusing on maintaining and improving the pipeline’s efficiency.\n\nMain daily task: Implementing code refactoring, new feature development, test automation, and quality control as part of the next release increment.\nRequired qualifications:\n\n3+ years of experience in C++ and Python programming.\nFamiliarity with Sphinx for documentation and Pytest for test automation.\nProven experience in QA and ensuring code quality in large-scale projects.\nSolid understanding of CI/CD pipelines and automation practices.\nStrong knowledge of data structures and design patterns at both high and low levels.\nAbility to collaborate effectively in a team-oriented setting.\nExperience in GIT version control and SCRUM project management.\nDemonstrated experience working on commercial projects and maintaining complex codebases.\nNice to have:\nExperience with Blender, Houdini, and related scripting environments.\nA detail-oriented approach with a drive for perfection.\nProficiency in English at C1 level.\nExperience in the gaming or CG industry.\nFamiliarity with automation pipelines and process improvement.\nWork Methodology:\nAgile SCRUM\nContinuous delivery – GitLab\nGit/Bitbucket/JIRA/Confluence\nOperating System – Linux\nProgramming IDE: PyCharm/CLion\nOur Office & Benefits:\nSport subscription\nHealth insurance\nTraining budget\nModern office & young team\nBonus policy\nIf you're passionate about rendering and ready for a new challenge, send your CV and cover letter to: career@skyengine.aiThis role is ideal for software engineers passionate about QA, code maintenance, and continuous improvement, who thrive in dynamic environments where attention to detail and high standards are rewarded.",
-    "company": "Sky Engine Sp. z o. o.",
-    "offerURL": "https://justjoin.it/job-offer/sky-engine-sp-z-o-o--software-maintenance-engineer-warszawa-python",
-    "salaryFrom": 18000,
-    "salaryTo": 20000,
-    "currency": "PLN",
-    "technologies": [
-      "C++",
-      "Python"
-    ],
-    "addedAt": "New"
-  },
-  {
-    "title": "Rendering Engineer",
-    "description": "SKY ENGINE AI, an Artificial Intelligence company founded in the UK with international presence, helps enterprises transform into greater AI companies. SKY ENGINE AI is a Synthetic Data Cloud for deep learning in vision AI – a developer platform for data scientists and computer vision engineers. This is a chance for you to get in on the ground floor of an exciting AI venture. We are exploring many new challenges in Vision AI every day. We are currently seeking a Mid-Level Rendering Engineer to support our Rendering Team.Key Responsibilities:\nDeveloping and maintaining advanced rendering-related libraries.\nResearching and implementing mathematical models for sensors, surfaces, lighting, and other physical phenomena.\nDesigning and conducting experiments to validate the accuracy and quality of simulations.\nCollaborating with cross-functional teams of developers, administrators, product owners, and experts in CGI, data science, AI, and computer vision.\nContributing to the full development cycle, from conducting research on simulation methods to evaluating and refining existing solutions in our Sky Engine rendering library.\nDocumenting technical designs, experiments, and improvements made throughout the project life cycle.\nRequired qualifications:\n\n3+ years of programming experience in C++ and Python.\nProven track record of problem-solving skills in complex environments.\nAbility to collaborate effectively in a team-oriented setting.\nProfessional experience in computer graphics (CG), rendering, 3D measurements, or physical simulation.\nFamiliarity with GIT version control and working in SCRUM environments.\nHands-on experience in commercial projects involving rendering or simulation.\nProven ability to work within multidisciplinary pipelines and handle complex workflows.\nEnglish B2 level or higher.\nExperience with libraries: numpy, scipy, opencv.\nNice to have:\nExperience with Blender, Houdini for CG or VFX production.\nFamiliarity with VFX or CG pipelines and data processing flows.\nA deep passion for rendering, VFX, and computer graphics, constantly staying updated with industry trends and developments.\nWork Methodology:\nAgile SCRUM\nContinuous delivery – GitLab\nGit/Bitbucket/JIRA/Confluence\nOperating System – Linux\nProgramming IDE: PyCharm/CLion\nOur Office & Benefits:\nSport subscription\nHealth insurance\nTraining budget\nModern office & young team\nBonus policy\nIf you're passionate about rendering and ready for a new challenge, send your CV and coverletter to: career@skyengine.ai",
-    "company": "Sky Engine Sp. z o. o.",
-    "offerURL": "https://justjoin.it/job-offer/sky-engine-sp-z-o-o--rendering-engineer-warszawa-python",
+    "title": "Fullstack Developer (.NET+JavaScript)",
+    "description": "About the roleWe are seeking a Senior Fullstack Developer with a strong focus on cloud architecture to join our dynamic team. In this role, you will lead the development and optimization of our client's cloud-based compliance platform, ensuring scalability, security, and seamless integration with regulatory standards. This is an opportunity to contribute to cutting-edge technologies in the mobility sector, shaping the future of autonomous and highly automated systems.About ProjectOur client is a European technology leader revolutionizing compliance platforms for mobility. They support major players in the automotive, aviation, and robotics industries to design, develop, and deploy highly automated and autonomous mobility systems efficiently.RequirementsEssential:\n6+ years of experience as a Fullstack Developer with advanced skills in frontend and backend development, ideally with C# and Javascript knowledge.\n2+ years of hands-on experience with cloud platforms like Azure, AWS, or Google Cloud Platform.\nProficiency in JavaScript, including frameworks and libraries such as React and Node.js.\nStrong understanding of database systems, including SQL and data modeling.\nExperience working in Agile development environments.\nExcellent communication skills and a collaborative mindset.\nBusiness-level fluency in English\nPreferred:\nPrevious experience in startups or fast-paced environments.\nFamiliarity with the mobility industry and autonomous driving technologies.\nKnowledge of NestJS or similar backend frameworks.\nResponsibilities\nDesign and implement scalable and secure software solutions for both frontend and backend systems.\nEnhance and maintain the cloud infrastructure using platforms like Azure, AWS, or Google Cloud.\nEnsure compliance with regulatory standards and industry-specific requirements.\nOptimize database performance and implement robust data management solutions.\nCollaborate with cross-functional teams to gather requirements, prioritize tasks, and deliver business-driven solutions.\nStay updated on emerging technologies and industry trends to continuously innovate and improve the platform.\nMonitor and troubleshoot platform issues, ensuring minimal downtime and quick resolutions.\nSupport ongoing improvement initiatives, focusing on user experience, safety, security, and development efficiency.",
+    "company": "co.brick",
+    "offerURL": "https://justjoin.it/job-offer/co-brick-fullstack-developer-net-javascript--gliwice-net",
     "salaryFrom": 20000,
-    "salaryTo": 25000,
+    "salaryTo": 24000,
     "currency": "PLN",
     "technologies": [
-      "C++",
-      "Python",
-      "Rendering"
+      ".Net",
+      "JavaScript",
+      "Azure"
     ],
     "addedAt": "New"
   },
   {
-    "title": "Site Reliability Engineer",
-    "description": "Tworzymy XTB – globalną firmę inwestycyjną, oferującą innowacyjne rozwiązania technologiczne, które pozwalają naszym klientom skutecznie zarządzać swoimi finansami na wiele sposobów. Wszystko to w jednej intuicyjnej aplikacji XTB, z której korzysta już ponad milion użytkowników na całym świecie!Obowiązki:\nKonfiguracja, zarządzanie i utrzymanie narzędzi do monitorowania, alertowania oraz diagnozowania awarii,\nUdział w zarządzaniu incydentami oraz analizie problemów poawaryjnych (w tym pełnienie roli Incydent Managera w systemie dyżurowym),\nZapewnienie stabilności i niezawodności systemów produkcyjnych,\nMonitorowanie, konfiguracja alertowania, analiza i optymalizacja wydajności aplikacji i infrastruktury,\nWspółpraca z zespołami produktowymi w celu poprawy dostępności usług,\nRozwiązywanie problemów związanych z wydajnością i dostępnością systemów,\nPisanie własnych narzędzi do integracji systemów. \nWymagania:\n2-5 lat doświadczenia w roli SRE, DevOps lub pokrewnym stanowisku,\nZnajomość narzędzi monitorowania i zarządzania incydentami (np. Prometheus, Grafana, ELK, Opsgenie/Pagerduty),\nZnajomość technologii do zarządzania infrastrukturą i konfiguracją: Ansible, Terraform, Helm,\nZrozumienie koncepcji CI/CD oraz automatyzacji wdrożeń (Gitlab),\nZnajomość języków skryptowych (Python, Go),\nDoświadczenie w zarządzaniu infrastrukturą opartą na kontenerach (Docker, Kubernetes)\nDoświadczenie w zarządzaniu infrastrukturą on-prem,\nUmiejętność rozwiązywania problemów i analityczne podejście do zadań,\nUmiejętność samodzielnego rozwiązywania zagadnień,\nWysoka kultura osobista i umiejętność komunikacji.\nMile widziane:\nZnajomość praktyk ITIL w zakresie zarządzania incydentami i problemami (JSM),\nDoświadczenie pracy na stanowisku Software Engineer\nChcemy Ci zaoferować: \nRealny wpływ na rozwój firmy i produktu\nPracę w doświadczonym zespole, który chętnie dzieli się wiedzą \nJasną wizję rozwoju dzięki regularnym feedbackom i klarownym ścieżkom karier \nBudżet szkoleniowy na interesujące Cię kursy i konferencje \nDodatkowy dzień wolny z okazji Twoich urodzin \nDodatkowy dzień wolny dla rodziców \nSprzęt dopasowany do Twoich potrzeb \nPrywatną opiekę medyczną i ubezpieczenie grupowe\nDostęp do platformy e-learningowa do nauki języka angielskiego oraz platformy benefitowej \nDostęp do platformy wellbeingowej i możliwość skorzystania z warsztatów oraz prywatnych sesji terapeutycznych \nPracę zdalną, z biura w Warszawie lub z coworku w Twoim mieście\nRegularne spotkania integracyjne \nO Dziale Produktu i Technologii Dział Produktu i Technologii to zespół blisko 500 ekspertów i ekspertek. Tworzymy zaawansowane rozwiązania technologiczne, z których korzysta ponad milion użytkowników na całym świecie. Aplikacja XTB ma już ponad 5 milionów pobrań oraz ocenę 4,7 w App Store.  Na co stawiamy w naszej codziennej pracy? \n\nInnowacyjność - Odważnie wprowadzamy nowe rozwiązania, które przyczyniają się do zadowolenia klientów na całym świecie i sukcesu naszej aplikacji.\n\nSprawczość - Rozumiemy, że nasza praca ma wpływ na innych, dlatego każdy z nas bierze pełną odpowiedzialność za swoje zadania. Nie boimy się zadawać pytań ani prosić o pomoc, gdy napotkamy trudności.\n\nDeterminacja - Stawiamy sobie ambitne cele i konsekwentnie dążymy do ich realizacji i osiągnięcia jak najlepszych rezultatów. \n\nWspółpraca - Wierzymy, że najlepsze pomysły powstają dzięki pracy zespołowej. Regularnie organizujemy warsztaty, które dają nam przestrzeń do wspólnego omawiania wyzwań, przed którymi stoimy, oraz wymiany cennych doświadczeń i wiedzy.\n\nElastyczność - Większość z nas pracuje zdalnie, ale mamy także biuro w Warszawie (nasze HQ) oraz coworki w największych polskich miastach (Kraków, Wrocław, Poznań, Gdańsk), dzięki czemu możemy wybrać model pracy, który najlepiej nam odpowiada.\nRozwijamy super aplikację inwestycyjną, która pozwala naszym klientom efektywne zarządzać swoimi finansami. Dołącz do nas i razem kształtujmy przyszłość finansów!",
-    "company": "XTB",
-    "offerURL": "https://justjoin.it/job-offer/xtb-site-reliability-engineer-warszawa-other",
-    "salaryFrom": 21000,
-    "salaryTo": 27000,
+    "title": "Senior Full-Stack Developer (Python + JavaScript)",
+    "description": "Hi there! \n\nWe are STX Next, a global IT consulting company specializing in customer-focused software services. Join a group of 500 professionals dedicated to helping customers build outstanding products. Leveraging the latest advancements in the field, and a passion for innovation, we're shaping the future of technology one project at a time.\n\nAre you the NEXT one? \n\n\n\nType of contract\nA B2B contract for your flexibility and competitive compensation package\n\n\n\nLocation\nA remote work model encouraging work-life balance.\n\nSalary\nSenior up to 20 100zł net+VATJob description\nWe are looking for a skilled Python developer with hands-on experience in Django. We also require basic knowledge of frontend technologies (Vue.js or React) and a willingness to learn or deepen expertise in Vue.js. The ideal candidate should have a strong understanding of web development principles and the ability to design, develop, and maintain complex web applications.Responsibilities\n\nDesign, develop, and maintain applications using Python and JavaScript technologies.\nWrite clean, maintainable, and efficient code.\nTroubleshoot and debug applications.\nImplement security and data protection measures.\nCollaborate with team members to drive continuous improvement.\nStay up-to-date with new technology trends.\nDesign, implement, and maintain automated builds and deployments.\nShare knowledge about new and relevant technologies with the development team.\nDevelop features (data access, business logic, and UI), fix bugs, and write unit tests.\nPerform testing and create documentation as needed to support team goals.\nAssist with resolving production issues.\nConduct code reviews for other team members.\nRequirements\nMust Have:\n\nA minimum of 5 years of professional experience in web application development (Python 2.x and/or 3.x) using at least one of the following frameworks: Django, Flask, or FastAPI.\nExperience in designing web application architectures.\nAbility to lead application development from configuring the development environment to deployment in the cloud (AWS, Azure, or GCP).\nCapability to provide training and support to less experienced team members.\nProven use of best practices, such as CI/CD, TDD, code reviews, design patterns, and SOLID principles.\nFamiliarity with current industry standards and technologies.\nStrong understanding of relational databases.\nExperience with Git and version control systems.\nExcellent unit testing and debugging skills.\nProficiency in English and Polish (B2/C1 level).\nExperience with Agile development methodologies.\nA collaborative and team-oriented mindset.\n\n \nNice to Have:\n\nHands-on experience with containerized applications\nElastic\nPostgreSQL\nGraphQL\nRedis\nKafka\nBenefits\n\n\n\n\nWork-life Balance\n\nWe are open to discussing individual needs. Set up working hours and limited remote work scheduled with your team and manager, in a way that works for both sides.\n\n\n\n\nReimbursed private medical care (Medicover) and Multisport\n\nWe care about the health and well-being of our colleagues. Choose a sports card and dedicated medical care for yourself and your relatives.\n\n\n\n\nLeader’s support\n\nWork with true enthusiasts and professionals who will support you along the way. You can count on leaders and experts who are willing to share their knowledge so that you too can join their ranks someday.\n\n\n\n\nTechnology focus\n\nPython and JavaScript are not our only strengths, we are also very good at React Native, IoT, Machine Learning, .Net, DevOps and Blockchain.\n\n\n\n\nGrowth review\n\nJunior, Regular or Senior? Every year we have a chance to discuss acquired skills and prepare a development plan for upcoming months.\n\n\n\n\nEvents\n\nAttend exciting internal webinars, celebrate special days with us, and join us at conferences and meetups as a listener or speaker!\n\n\n\n\nWorkation\n\nTeam trips where you have a chance as a team not only to work together, but also integrate f2f.",
+    "company": "STX Next sp. z o.o.",
+    "offerURL": "https://justjoin.it/job-offer/stx-next-sp-z-o-o--senior-full-stack-developer-python-javascript--poznan-python",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "Vue.js",
+      "React",
+      "Work-life Balance",
+      "Reimbursed private medical care (Medicover) and Multisport",
+      "Leader’s support",
+      "Technology focus",
+      "Growth review",
+      "Events",
+      "Workation"
+    ],
+    "addedAt": "4d ago"
+  },
+  {
+    "title": "Game Developer",
+    "description": "As a Senior Game Developer, you’ll be at the heart of our game development process, driving projects from initial concept to final release. You’ll work alongside skilled teams across Art, Design, and Quality Assurance, ensuring a seamless production process and the creation of engaging casino games. Key responsibilities include:\nLeading end-to-end development of game projects.\nCollaborating with multidisciplinary teams to design, implement, and refine game features.\nImproving our in-house tools and framework to enhance production efficiency.\nRequirements:\nAt least 4 years of experience with JavaScript or TypeScript.\nBackground in game development, ideally within the iGaming industry.\nProficiency in Pixi.js or similar JavaScript/TypeScript 2D engines.\nExperience with skeletal animation libraries like Spine.\nExpertise in writing clean, organized, and scalable code.\nSkilled in Git for version control and fluent English communication.\nAdditional Assets:\nExperience with tools like GreenSock (gsap), Howler.js, or animation software such as Spine.\nFamiliarity with frontend libraries (React, Vue.js).\nKnowledge of CI tools like GitHub Actions.\nUnderstanding of Node.js development.",
+    "company": "Link Group",
+    "offerURL": "https://justjoin.it/job-offer/link-group-game-developer-krakow-game",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "JavaScript",
+      "game"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "ServiceNow Developer",
+    "description": "We are seeking a skilled Mid-Level ServiceNow Developer to join our dynamic IT team.The ideal candidate brings a robust knowledge of JavaScript, web technologies, and platform security, with a strong commitment to developing high-quality ServiceNow applications. As a key contributor, you'll be part of a collaborative, agile Scrum team, focused on delivering outstanding solutions and continuously enhancing your technical skills within the ServiceNow ecosystem.Responsibilities\nEnsure ServiceNow applications are developed and configured adhering to security best practices\nCollaborate with senior developers and stakeholders to design and implement solutions that align with business requirements\nOptimize and maintain existing ServiceNow solutions\nEngage actively in daily stand-ups, sprint planning, and other Scrum activities\nElevate your technical proficiency through continuous learning of the ServiceNow platform’s features and capabilities\nRequirements\nMust have 3-5 years of experience in ServiceNow development\nProficiency in JavaScript, HTML, CSS\nBasic understanding of platform security measures against common vulnerabilities\nStrong interpersonal communication skills and proven ability to work collaboratively\nExperience in agile methodology, with flexibility to adapt and a keen interest in continuous learning\nNice to haveFamiliarity with ServiceNow Security Incident ResponseWe offer\nWe gather like-minded people:\nEngineering community of industry professionals\nFriendly team and enjoyable working environment\nFlexible schedule and opportunity to work remotely within Poland\nChance to work abroad for up to 60 days annually\nRelocation within our 50+ offices\nWe provide growth opportunities:\nOutstanding career roadmap\nLeadership development, career advising, soft skills, and well-being programs\nCertification (GCP, Azure, AWS)\nUnlimited access to LinkedIn Learning, Get Abstract, O’Reilly, Cloud Guru\nLanguage classes in English and Polish for foreigners\nWe cover it all:\nStable income (Employment Contract or B2B)\nParticipation in the Employee Stock Purchase Plan\nBenefits package (health insurance, multisport, shopping vouchers)\nStrategically located offices featuring entertainment and relaxation zones, table tennis and football, free snacks, fantastic coffee, and more\nReferral bonuses\nCorporate, social and well-being events\nPlease, note:\nThe set of bonuses might vary based on the role you apply for – specifics will be discussed with our recruiter during the general interview\nWe will reach out to selected candidates exclusively\nEPAM is a leading global provider of digital platform engineering and development services. We are committed to having a positive impact on our customers, our employees, and our communities. We embrace a dynamic and inclusive culture. Here you will collaborate with multi-national teams, contribute to a myriad of innovative projects that deliver the most creative and cutting-edge solutions, and have an opportunity to continuously learn and grow. No matter where you are located, you will join a dedicated, creative, and diverse community that will help you discover your fullest potential.",
+    "company": "EPAM Systems",
+    "offerURL": "https://justjoin.it/job-offer/epam-systems-servicenow-developer-krakow-other",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "ServiceNow",
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "React Developer (Junior or Regular)",
+    "description": "Welcome to Kalamba Games!Join us as a React Developer (JavaScript) and work closely with our team of front-end and back-end developers, game artists, math designers, testers and product managers.Our team has a diverse range of backgrounds and is gathered from multiple top firms such as: Cisco, Oracle, Electrolux, WilliamHill, Bettson, Bet365, Heineken and many more.We aim for our stack to be the best-performing in the industry across the key pillars of Game Development, Remote Games Server Platform, QA and Art.Front End stack: HTML5, JavaScript, React, Webpack, Redux, webGL, Babel, PixiJSResponsibilities:\nCreating Front-End for games using high-quality code in JavaScript/HTML5\nAdding new and improving existing features in our portfolio\nEnsuring proper functionality and performance of our games\nWorking with development team to create project delivery schedules\nWork individually as well as collaborate with the team to design, develop and test high quality games\nHelp writing automated tests\n Required Qualifications:\n2+ years of professional experience using JavaScript\nExperience with React (2+ year) is a must\nFamiliarity with React workflows like Redux\nAbility to use Version Control Systems (GIT)\nStrong ability to write clean code and reusable components\nNice to have\nGitHub profile to see some contributions\nPixiJs\nTest engines\nBasic understanding of Canvas API and WebGL\nFamiliarity with Babel/Webpack\nReact-PixiJS bridge\nGood English – both written and spoken\nExperience in games or casino games industry\nGood communication-and problem-solving skills\nStrong teamwork spirit\nAs a Kalambian working out of our Krakow Studio you will get the following benefits:\nContract of Employment or B2B\n26 days of vacation regardless of the seniority\nFor each year at Kalamba Games you will get 1 additional paid time off to your vacation pool\nPrivate healthcare\nSubsidized Sport Card / MultiSport\nFlexible working hours and remote work options\nGame room and fully equipped kitchen with snacks and more ;)\nKraków / hybrid work\nAt Kalamba, we know that small things can make a big difference. We want to make sure that every Kalambian has a sense of wellbeing and feels supported so that both work time and leisure time is all quality time.We aim to be the greatest in what we build and what we do - every day. Whether we’re being agile by meeting changing needs with our games, disruptive by developing some of the industry’s first AI tools or having fun enjoying a partner event, we always want it to be the best that it can be, and for you to always have the opportunity to shine.Kalambians thrive in a work culture that includes accountability, a commitment to career development, flexibility and – perhaps most importantly - time to have fun.If that sounds like you, then let’s get the ball rolling for you to come and help us build the future of gaming!",
+    "company": "Kalamba Games Sp. z o.o.",
+    "offerURL": "https://justjoin.it/job-offer/kalamba-games-sp-z-o-o--react-developer-junior-or-regular--krakow-javascript-6691bfff",
+    "salaryFrom": 8000,
+    "salaryTo": 12000,
     "currency": "PLN",
     "technologies": [
-      "SRE",
-      "Prometheus",
-      "Grafana",
-      "ELK",
-      "OpsGenie",
-      "Ansible",
-      "Terraform",
-      "Helm",
+      "Babel",
+      "PixiJS",
+      "Redux",
+      "React",
+      "JavaScript",
+      "WebGL",
+      "Webpack"
+    ],
+    "addedAt": "18d ago"
+  },
+  {
+    "title": "Senior Node.js Developer",
+    "description": "We are looking for a Senior Node.js Developer to be a part of the DEVTALENTS team and contribute to the development of truly amazing solutions for businesses all over the world.Joining DEVTALENTS can be a life-changing decision for you, with endless benefits along the way. We provide top projects for which recruitment is not possible externally because of our wide range of partners. We value open and transparent communication, leveraging tools like Slack and generative AI to enhance collaboration and efficiency. We support continuous growth, encouraging you to step beyond your comfort zone and develop technically and personally. We are looking for an experienced Senior Node.js Developer to join our team and provide technical leadership and mentorship.Your responsibilities\nBuild microservice-based Node.js (JavaScript/TypeScript) applications focusing on performance and reliability.\nLeverage AWS (Lambda, DynamoDB, S3) for efficient deployments and cost optimization.\nMaintain NoSQL (MongoDB/Firebase) and SQL databases with high-performance queries.\nAutomate testing, workflows, and deployments for timely releases.\nWrite clean, testable code using frameworks like Jest or Mocha; tackle performance bottlenecks proactively.\nContribute to event-driven, scalable designs and best practices.\nSecurely connect external APIs (payment, social) to ensure seamless, scalable services.\nWork closely with cross-functional teams, communicating effectively in English.\nOur requirements\nProficiency in JavaScript/TypeScript for backend development.\nExtensive hands-on Node.js experience. Familiarity with Express or NestJS is a plus.\nComfortable with package managers (npm or yarn) and build tools (Webpack, Babel).\nProven experience with NoSQL databases (MongoDB, Firebase) and handling SQL databases in Node.js applications.\nStrong knowledge of AWS services (Lambda, DynamoDB, S3, etc.) and serverless architecture. GCP or Azure familiarity is a bonus.\nSkilled at implementing automated workflows, testing, and deployment processes for production systems.\nSolid experience in writing testable, maintainable code using tools like Jest or Mocha. Adept at identifying and fixing performance issues.\nUnderstanding of deployment methodologies such as continuous delivery, along with best practices for smooth production rollouts.\nExperience containerizing Node.js applications, optimizing development and deployment lifecycles.\nAbility to design scalable, maintainable systems, participate in architecture discussions, and implement event-driven approaches where needed.\nStrong English proficiency (spoken and written) to coordinate effectively across diverse, cross-functional teams.\nA degree in Computer Science, Information Technology, or a related field is preferred.\nWho You Are\nA detail-oriented, solution-driven engineer with a passion for building efficient, scalable backend systems.\nEager to contribute ideas, debate architectural choices, and own the end-to-end development lifecycle.\nComfortable operating in a fast-paced, agile environment where accountability and collaboration are paramount.\nExcited to learn and share knowledge with team members, fostering a supportive and innovative culture.",
+    "company": "DEVTALENTS Sp. z o.o.",
+    "offerURL": "https://justjoin.it/job-offer/devtalents-sp-z-o-o--senior-node-js-developer-warszawa-javascript",
+    "salaryFrom": 25000,
+    "salaryTo": 32000,
+    "currency": "PLN",
+    "technologies": [
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "AWS",
+      "NoSQL",
+      "Express.js",
+      "Nest.js"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Senior Fullstack Developer (Typescript, React, Javascript)",
+    "description": "As a fullstack developer in the Copilot team, you are largely responsible for the development of a brand new frontend application in the field of “real-time communication”. You will develop user interfaces in React, which react in real time to events on our communication platform. Furthermore, you will work on the conception and development of the required backend infrastructure such as server-side state for React, websockets for real-time communication, connection and use of a Kafka message broker as well as interfaces to the existing PHP8 backend.The following tasks await you, among others:- Planning/analysis of development requirements, conception of technical solutions.- Development and further development as well as testing of frontend apps (React).- Conception and development of a server-side state solution (React).- Development and further development of frontend SDKs (TypeScript).- Working with CI/CD pipelines (Docker+Gitlab).- Development and maintenance of backend infrastructure (Websockets, Kafka, Docker, Traefik, HAProxy, etc.).- Analysis, troubleshooting and support for frontend and backend applications.Your profile:- You have at least 5 years of practical work experience as a fullstack developer in an agile working environment.- Excellent knowledge of frontend development, React and Typescript.- Excellent knowledge of working with JSON data structures and REST interfaces.- Sound knowledge of Linux administration (Apache, MySQL, BASH script, Docker, etc.)- Sound knowledge of CI/CD pipelines (Gitlab+Docker)- You value collaboration and knowledge transfer- Good language skills in German and EnglishNICE-TO-HAVE:- Development and further development of backend applications (PHP8, MySQL8).- Knowledge of backend development with PHP8 and MySQL8- HTML5/Bootstrap/jQuery knowledge- MaterialUI (React) knowledgeThis is what you can expect as a part of VIER:\nWe offer continuous further development/training - tailored to your needs!\nFlexible working hours contribute to your work-life balance.\nWe work in a hybrid working model (Wednesdays and Thursdays are office days).\nWe have a team coordinator onsite in Poland.\nSounds like a great match? Then apply to us! We look forward to receiving your application.We would like to see you at the office in Poznań!",
+    "company": "VIER",
+    "offerURL": "https://justjoin.it/job-offer/vier-senior-fullstack-developer-poznan-javascript",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "TypeScript",
+      "React",
+      "JavaScript",
       "CI/CD",
-      "Python"
+      "Docker",
+      "Kafka",
+      "NodeJS",
+      "MaterialUI",
+      "DevOps"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Frontend Developer",
+    "description": "Forma współpracy: kontrakt B2BTryb: zdalnie + raz w miesiącu spotkanie zespołu w Warszawie; gotowość na wdrożenie w sobotę raz na dwa miesiące.Poszukujemy osoby na stanowisko Frontend Developer, która posiada min. 4 lata komercyjnego doświadczenia.Wiodące technologie i rozwiązania: Angular, JavaScript, HTML5, CSS, SQL, PostgreSQL, GIT, REST i SOAPProjekt dotyczy rozwoju funkcjonalności aplikacji, które stanowią pakiet dodatkowych świadczeń, dołączany do różnych rodzajów produktów ubezpieczeniowych.W naszej firmie będziesz mógł/mogła liczyć na:\nPracę w organizacji z ugruntowaną pozycją rynkową\nProjekty, w których będziesz miał/miała wpływ na ich rozwój\nWspółpracę z ciekawymi klientami biznesowymi z różnych branż (m.in.: finanse, bankowość, ubezpieczenia, healthcare, robotyzacja, energetyka, media),\nPermanentny mentoring zarówno techniczny jak i biznesowo-menedżerski, np. podczas naszych cyklicznych szkoleń (m.in. Git, Gitflow, Angular, Docker), czy wew. programów rozwojowych (Primaris x TechTalks, Primaris Leadership Academy) oraz zewnętrznych kursów.\nJuż na etapie on-boardingu zapewniamy dostęp do naszych wewnętrznych szkoleń, cyklicznych spotkań, które serializujemy na Confluence oraz platformy e-learning\nŚwietną atmosferę pracy, wśród zaangażowanych ludzi z pasją w płaskiej strukturze z prostymi procesami\nKompleksowy pakiet benefitów skrojonych na miarę - prywatna opieka medyczna dla Ciebie oraz dla Twojej rodziny, Multisport dla Ciebie i os. towarzyszącej - Ty decydujesz, co wybierasz!\n Cały proces rekrutacyjny oraz onboarding prowadzony jest zdalnie.Proces rekrutacyjny składa się z:\nrozmowy telefonicznej z osobą z działu Rekrutacji & HR (do 30 min)\nzdalnej video rozmowy o charakterze techniczno-biznesowym (60-90 min)\nzdalnego video spotkania z Product Ownerem projektu\nfinalnej decyzji dotyczącej oferty\n Primaris Services to ponad 250 ekspertów na pokładzie i 14 lat doświadczenia w branży IT na rynku polskim oraz zagranicznym.Realizujemy ambitne projekty o wysokiej złożoności z różnych obszarów - m.in.bankowości, ubezpieczeń, funduszy inwestycyjnych czy branży logistycznej (mamy ponad 40 aktywnych klientów!). Rośniemy w siłę oraz ciągle poszerzamy portfolio zarówno naszych usług jak i klientów.Zakres naszej działalności obejmuje budowę systemów od zera, ich rozwój oraz utrzymanie, wdrożenia produktowe, alokacje całych Zespołów, a także pojedynczych Ekspertów w strukturach Klienta.Ponadto od kilku lat działamy bardzo intensywnie jako złoty Partner firmy UiPath (obszar Robotic Process Automation) budując roboty i sprzedając licencje u naszych Klientów.Co miesiąc dołącza do nas 7 nowych osób! Wierzymy, że zgrany zespół i ludzie z pasją to klucz do naszego wspólnego sukcesu! Właśnie dlatego ciągle poszukujemy nowych, zdolnych osób, które zasilą nasze szeregi.",
+    "company": "Primaris",
+    "offerURL": "https://justjoin.it/job-offer/primaris-frontend-developer-warszawa-javascript",
+    "salaryFrom": 15120,
+    "salaryTo": 16800,
+    "currency": "PLN",
+    "technologies": [
+      "Angular",
+      "JavaScript",
+      "HTML5",
+      "CSS",
+      "SQL"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "WordPress Developer",
+    "description": "Xfive is looking for a talented WordPress Developer to join our crew.On-site, Remote, HybridKrakow, Małopolskie, Poland$25 - $35Job Summary We’re looking for a mid/senior-level WordPress Developer who’s ready to go beyond just writing code. In this role, you’ll have a chance to collaborate directly with clients, offer solutions, conduct audits, and improve website performance. This is a vibrant role for someone who enjoys coding, problem-solving, and building strong client relationships.  What do we offer We’re all about building a team where you can thrive and do your best work. Here’s what you’ll love about working with us:\n\nFreelance opportunity: Enjoy the freedom of working on a freelance contract; earn between 25 and 35 USD per hour, depending on your experience and expertise.\n\nRoom to grow: We’ll support you in learning new skills, and advancing in your career.\n\nMake an impact: Your ideas and work will directly influence the company’s direction and help drive meaningful change.\n\nDiverse projects: Tackle interesting work from startups, agencies, and companies in the US, UK, and Australia.\n\nWork your way: You can choose to work from the comfort of your home, favorite coffee shop or our Cracow office (with a nice parking space).\n\nSet your schedule: Work hours that suit you best, as long as there’s some overlap with the team and client. \n\nTransparency: We’re open and honest about the company’s decisions, direction, and overall condition, so you’ll always know where things stand.\n\nWe’ve got your back: Our team is always there to help each other out. Whether it’s solving a tricky problem or brainstorming ideas, you’ll never feel stuck and left alone.\n\nGreat vibes: Work with open-minded, fun, and collaborative people who know how to keep things light.\n\nStay connected: Enjoy social events that bring everyone together- both online and in-person.\nJob requirements\nAbility to deliver projects on time and at a high-quality level.\n\nAt least 5 years of hands-on experience as a WordPress Developer. \nGood verbal and written communication skills in English (at least B2 level) and ability to communicate directly with clients during online meetings.\nAvailability for at least 20 hours per week to contribute to our projects.\nStrong programming skills and understanding of general principles (DRY, abstraction, KISS, code refactoring, optimization, security, best practices, etc.).\nExpert knowledge of WordPress and Codex.\nAbility to write WordPress themes and plugins from scratch.\nVery good knowledge of WordPress customization.\nExperience with ReactJs / NextJs and Headless WordPress is a plus.\nVery good knowledge of the Advanced Custom Fields plugin.\nGood knowledge of WooCommerce. \nAbility to create custom Gutenberg blocks\nExperience with WordPress Full Site Editing is a plus\nWriting efficient and reusable code.\nPerfect knowledge of PHP and OOP principles.\nExperience with PHP Frameworks like Symfony or Laravel is a plus\nExcellent knowledge of JavaScript (incl. ES6+).\nPerfect knowledge of modern front-end development: HTML5, CSS3, Responsive Web Design, Performance Optimization, Accessibility.\nGood knowledge of CSS preprocessors: SCSS is preferred.\nExperience with libraries and frameworks like Bootstrap or Tailwind is a plus.\nExperience with CSS / Javascript animations is a plus\nGood knowledge of Git version control system and deployment workflows.\nAbility to work with the command line.\nPixel precision and a basic aesthetic sense.\nAbility to debug complex issues and suggest/implement solutions.",
+    "company": "Xfive",
+    "offerURL": "https://justjoin.it/job-offer/xfive-wordpress-developer-wroclaw-php",
+    "salaryFrom": 0,
+    "salaryTo": 0,
+    "currency": "",
+    "technologies": [
+      "WordPress",
+      "PHP",
+      "HTML",
+      "React",
+      "JavaScript",
+      "Git"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Full Stack Developer",
+    "description": "We are seeking a highly skilled Full Stack Developer to join our dynamic team and contribute to the development of innovative software solutions. The ideal candidate will have a strong foundation in both frontend and backend development, with a solid understanding of various programming languages and frameworks. This role will involve working with a wide range of technologies, including JavaScript, Java, Node.js, React.js, SQL, Spring, Angular, AWS, Django, Python, and Azure.Responsibilities:\nDesign, develop, and maintain high-quality full stack applications, adhering to best practices and coding standards.\nCollaborate with cross-functional teams to understand business requirements and translate them into technical solutions.\nDevelop and maintain frontend interfaces using modern JavaScript frameworks like React.js or Angular.\nDevelop and maintain backend services using Node.js, Java, or Python.\nWork with SQL databases to design, create, and optimize data structures.\nLeverage cloud platforms like AWS or Azure for deployment and management of applications.\nContribute to the development and maintenance of RESTful APIs.\nParticipate in Agile development methodologies, such as Scrum or Kanban.\nTroubleshoot and resolve technical issues efficiently.\nStay up-to-date with the latest web development technologies and industry trends.\nRequired Skills:\nStrong proficiency in JavaScript and at least one backend programming language (e.g. Java, Node.js, Python).\nExperience with frontend frameworks like React.js or Angular.\nExperience with backend frameworks like Node.js, Spring, or Django.\nProficiency in SQL and experience working with relational databases.\nFamiliarity with cloud platforms like AWS or Azure.\nKnowledge of RESTful API design and development.\nExperience with Agile development methodologies.\nExcellent problem-solving and analytical skills.\nBenefits:\nCompetitive day rate.\nLong-term contract opportunity.\nOpportunity to work on challenging and innovative projects.\nCollaborative and supportive work environment.\nProfessional development opportunities.\nIf you are a talented Full Stack Developer with a passion for creating exceptional software, we encourage you to apply.",
+    "company": "Kevin Edward",
+    "offerURL": "https://justjoin.it/job-offer/kevin-edward-full-stack-developer-bruksela-javascript-c3c1683a",
+    "salaryFrom": 31633,
+    "salaryTo": 40069,
+    "currency": "PLN",
+    "technologies": [
+      "Node.js",
+      "React",
+      "Java",
+      "JavaScript",
+      "Spring",
+      "Angular",
+      "Django",
+      "Azure",
+      "Python",
+      "AWS"
+    ],
+    "addedAt": "New"
+  },
+  {
+    "title": "Senior NodeJS Developer (NestJS)",
+    "description": "❗❕ ! OFFICE WORK ONLY - RZESZÓW ! ❗❕ Hello candidates! We are a software house based in Rzeszow, and our clients are startups from around the world, mainly from western Europe, USA, and Asia. We're focusing entirely on JavaScript and creating mobile and web apps using ReactJS, React Native, TypeScript, NodeJS, and SQL/NoSQL databases. Our code style and quality were appreciated and featured by startups from Kobe, Singapore, and New York. You will be working with a team of backend developers to deliver scalable solutions. In addition, each pull request goes through a detailed code review, and we're conducting in-house training to develop your skills. We're not working with legacy codebases, and each project is set up with continuous integration, automatization, and cloud solution like AWS. We have skilled developers and mentors who can boost your knowledge and career!Technical requirements:\nJavaScript\nTypeScript\nNodeJS\nNestJS\nGraphQL\nMongoDB\nMySQL\nMSSQL\nNice to have:\nDocker\nKubernetes\nArgoCD\nGitHub Actions\nResponsibilities:\nDeveloping new functionalities with TypeScript and NestJS\nParticipating in daily standups, estimations, and contacting the client\nWriting unit tests and performing code reviews for other team members\nProposing architecture for the new projects\nBenefits:\nMultisport\nInternational projects\nTraining budget\nFlat structure\nMentoring program\nEnglish lessons",
+    "company": "Codemask",
+    "offerURL": "https://justjoin.it/job-offer/codemask-senior-nodejs-developer-nestjs",
+    "salaryFrom": 18000,
+    "salaryTo": 29000,
+    "currency": "PLN",
+    "technologies": [
+      "Node.js",
+      "JavaScript",
+      "Nest.js",
+      "TypeScript"
     ],
     "addedAt": "New"
   }

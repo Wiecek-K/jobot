@@ -1,17 +1,17 @@
 import { JobOffer } from '../../types/types'
 import {
   BrowserManager,
-  AbstractPageScrapper,
+  AbstractPageScraper,
   ScraperUtils,
-  ScrapperOptions,
+  ScraperOptions,
   JobOfferBuilder,
-} from './scrapper'
+} from './scraper'
 
-export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
+export class JustJoinItScraper extends AbstractPageScraper<JobOffer> {
   private readonly baseUrl = 'https://justjoin.it'
-  private options: ScrapperOptions
+  private options: ScraperOptions
 
-  constructor(browserManager: BrowserManager, options: ScrapperOptions) {
+  constructor(browserManager: BrowserManager, options: ScraperOptions) {
     super(browserManager)
     this.options = options
   }
@@ -30,10 +30,10 @@ export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
         await page.goto(
           `${this.baseUrl}/job-offers/all-locations?keyword=${encodeURIComponent(this.options.searchValue)}`,
           {
-            timeout: 70000,
+            timeout: 120000,
           }
         )
-        await page.waitForSelector(offerElementSelector, { timeout: 70000 })
+        await page.waitForSelector(offerElementSelector, { timeout: 120000 })
 
         while (collectedData.length < maxRecords) {
           const newItems = await page.evaluate((offerSelector) => {
@@ -127,7 +127,7 @@ export class JustJoinItScrapper extends AbstractPageScrapper<JobOffer> {
         const fullLink = new URL(link, this.baseUrl).href
         await page.goto(fullLink, {
           waitUntil: 'domcontentloaded',
-          timeout: 60000,
+          timeout: 120000,
         })
 
         const salary = await ScraperUtils.scrapeField(page, '.css-1pavfqb')

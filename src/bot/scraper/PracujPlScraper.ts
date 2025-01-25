@@ -2,18 +2,18 @@ import { log } from 'console'
 import { JobOffer } from '../../types/types'
 import {
   BrowserManager,
-  AbstractPageScrapper,
+  AbstractPageScraper,
   ScraperUtils,
-  ScrapperOptions,
+  ScraperOptions,
   JobOfferBuilder,
-} from './scrapper'
+} from './scraper'
 import { Page } from 'puppeteer'
 
-export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
+export class PracujPlScraper extends AbstractPageScraper<JobOffer> {
   private readonly baseUrl = 'https://it.pracuj.pl/praca/'
-  private options: ScrapperOptions
+  private options: ScraperOptions
 
-  constructor(browserManager: BrowserManager, options: ScrapperOptions) {
+  constructor(browserManager: BrowserManager, options: ScraperOptions) {
     super(browserManager)
     this.options = options
   }
@@ -85,10 +85,10 @@ export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
 
     try {
       await this.withPage({ width: 700, height: 600 }, async (page) => {
-        await page.goto(url, { timeout: 60000 })
+        await page.goto(url, { timeout: 120000 })
 
         while (collectedData.length < maxRecords) {
-          await page.waitForSelector(offerElementSelector, { timeout: 60000 })
+          await page.waitForSelector(offerElementSelector, { timeout: 120000 })
 
           const offersData = await page.$$eval(
             `${listElementSelector} ${offerElementSelector}`,
@@ -147,8 +147,11 @@ export class PracujPlScrapper extends AbstractPageScrapper<JobOffer> {
   ): Promise<Omit<JobOffer, 'addedAt'> | null> {
     try {
       return await this.withPage({ width: 700, height: 1200 }, async (page) => {
-        await page.goto(link, { waitUntil: 'domcontentloaded', timeout: 60000 })
-        await page.waitForSelector('h1', { timeout: 60000 })
+        await page.goto(link, {
+          waitUntil: 'domcontentloaded',
+          timeout: 120000,
+        })
+        await page.waitForSelector('h1', { timeout: 120000 })
 
         const salary = await ScraperUtils.scrapeField(
           page,

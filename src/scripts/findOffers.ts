@@ -1,8 +1,8 @@
-import { JustJoinItScrapper } from '../bot/scrapper/JustJoinItScrapper'
-import { BrowserManager } from '../bot/scrapper/scrapper'
+import { JustJoinItScraper } from '../bot/scraper/JustJoinItScraper'
+import { BrowserManager } from '../bot/scraper/scraper'
 import yargs from 'yargs'
 import { hideBin } from 'yargs/helpers'
-import { PracujPlScrapper } from '../bot/scrapper/PracujPlScrapper'
+import { PracujPlScraper } from '../bot/scraper/PracujPlScraper'
 import { saveOffersToJson } from './saveOffersToJson'
 import { saveOffersToCSV } from './saveOffersToCSV'
 
@@ -28,16 +28,16 @@ const args = yargs(hideBin(process.argv))
   .help().argv
 
 const findOffers = async () => {
-  console.log('Scrapping...')
+  console.log('Scraping...')
 
   const justJoinItBrowserManager = new BrowserManager(args.maxTabs)
   const pracujPlBrowserManager = new BrowserManager(args.maxTabs)
 
-  const scrappers = [
+  const scrapers = [
     {
       name: 'JustJoinIt',
       browserManager: justJoinItBrowserManager,
-      scrapper: new JustJoinItScrapper(justJoinItBrowserManager, {
+      scraper: new JustJoinItScraper(justJoinItBrowserManager, {
         searchValue: args.search,
         maxRecords: args.limit,
       }),
@@ -45,29 +45,26 @@ const findOffers = async () => {
     {
       name: 'PracujPl',
       browserManager: pracujPlBrowserManager,
-      scrapper: new PracujPlScrapper(pracujPlBrowserManager, {
+      scraper: new PracujPlScraper(pracujPlBrowserManager, {
         searchValue: args.search,
         maxRecords: args.limit,
       }),
     },
   ]
 
-  const runScrapers = async () => {
-    scrappers.forEach(async ({ browserManager, name, scrapper }) => {
-      try {
-        await browserManager.init()
-        const offersData = await scrapper.scrape()
-        await saveOffersToJson(offersData, name)
-        await saveOffersToCSV(offersData, name)
-      } catch (error) {
-        console.error('Fatal error during scraping:', error)
-      } finally {
-        await browserManager.close()
-      }
-    })
+  for (const { browserManager, scraper, name } of scrapers) {
+    try {
+      console.log(`Starting scraper: ${name}`)
+      await browserManager.init()
+      const offersData = await scraper.scrape()
+      await saveOffersToJson(offersData, name)
+      await saveOffersToCSV(offersData, name)
+    } catch (error) {
+      console.error(`Error during scraping for ${name}:`, error)
+    } finally {
+      await browserManager.close()
+    }
   }
-
-  runScrapers()
 }
 
 findOffers()
