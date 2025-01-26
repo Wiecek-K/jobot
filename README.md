@@ -19,7 +19,10 @@ The live application is available at: [Job Scraping App](https://jobot-productio
    ```bash
    npx puppeteer browsers install chrome
    ```
-3. **Environment Variable**: The `NODE_ENV` environment variable should be set to `production`.
+3. **Environment Variable**:
+
+- `SEARCH_VALUE` You can set the query to be scraped in environment variables for cron jobs and make it available at the endpoint `/scrap-results/:service-name`
+
 4. **Node.js Version**: Use Node.js version 18 or later.
 
 ## API Endpoints

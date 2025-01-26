@@ -81,10 +81,12 @@ app.get('/offers/:searchValue', async (req: Request, res: Response) => {
 })
 
 schedule.scheduleJob('0 9 * * 1-5', () => {
-  console.log('Running scheduled job: run-cron-job')
+  console.log(
+    `Running scheduled job: Scrap data for ${process.env.SEARCH_VALUE}`
+  )
 
   exec(
-    'pnpm scrap:offers:prod -s "Javascript Developer" -l 40 -t 1',
+    `pnpm scrap:offers:prod -s ${process.env.SEARCH_VALUE || 'Javascript Developer'} -l 40 -t 1`,
     (error, stdout, stderr) => {
       if (error) {
         console.error(`Error executing script: ${error.message}`)
