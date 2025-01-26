@@ -6,6 +6,10 @@ import fs from 'fs'
 import path from 'path'
 import NodeCache from 'node-cache'
 import { ScrapedOffers } from './types/types'
+import util from 'util'
+import dotenv from 'dotenv'
+
+dotenv.config()
 
 const app = express()
 const PORT = process.env.PORT || 4200
@@ -76,28 +80,8 @@ app.get('/offers/:searchValue', async (req: Request, res: Response) => {
   }
 })
 
-if (process.env.NODE_ENV === 'production') {
-  console.log('Running in production mode')
-  console.log('Initial data scraping is starting.')
-
-  schedule.scheduleJob('0 9 * * 1-5', () => {
-    console.log('Running scheduled job: run-cron-job')
-
-    exec(
-      'pnpm scrap:offers:prod -s "Javascript Developer" -l 40 -t 1',
-      (error, stdout, stderr) => {
-        if (error) {
-          console.error(`Error executing script: ${error.message}`)
-          return
-        }
-        if (stderr) {
-          console.error(`Script error output: ${stderr}`)
-          return
-        }
-        console.log(`Script output: ${stdout}`)
-      }
-    )
-  })
+schedule.scheduleJob('0 9 * * 1-5', () => {
+  console.log('Running scheduled job: run-cron-job')
 
   exec(
     'pnpm scrap:offers:prod -s "Javascript Developer" -l 40 -t 1',
@@ -113,7 +97,7 @@ if (process.env.NODE_ENV === 'production') {
       console.log(`Script output: ${stdout}`)
     }
   )
-}
+})
 
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}/`)

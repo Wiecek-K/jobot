@@ -53,7 +53,7 @@ export class BrowserManager {
 
   public async init(): Promise<void> {
     this.browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       args: [
         '--disable-dev-shm-usage',
         '--no-sandbox',
